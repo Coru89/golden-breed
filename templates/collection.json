@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 52,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "163944753611453958": {
+      "type": "image-banner-2",
+      "blocks": {
+        "3b509622-7b57-4601-84be-b4b5a749cba1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "shopify:\/\/collections\/accessories",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "3b509622-7b57-4601-84be-b4b5a749cba1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/accessories_181eba77-fd8b-46fb-af8a-9ee3fc237f1c.jpg",
+        "title-1": "",
+        "button-text-1": "Shop Now",
+        "link-1": "shopify:\/\/collections\/beach-lifestyle",
+        "image_2": "shopify:\/\/shop_images\/gns.jpg",
+        "title-2": "",
+        "button-text-2": "Shop Now",
+        "link-2": "shopify:\/\/collections\/gordon-smith",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "163944753611453958"
+  ]
+}

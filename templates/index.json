@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "1638938164a6624bf9": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "16631201915756bdaa": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16631201913f02f5f7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "medium"
+          }
+        },
+        "16631201913f02f5f7-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16631201913f02f5f7-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/hoodies-sweats",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16631201913f02f5f7-0",
+        "16631201913f02f5f7-1",
+        "16631201913f02f5f7-2"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16389277978b203bd3": {
+      "type": "image-banner-2",
+      "blocks": {
+        "16389277979e6dee71-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Men's",
+            "button_link_1": "shopify:\/\/pages\/golden-breed-mens",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16389277979e6dee71-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GB-HOME-MENS-30092022.jpg",
+        "title-1": "Men's",
+        "button-text-1": "SHOP MEN'S",
+        "link-1": "shopify:\/\/collections\/mens",
+        "image_2": "shopify:\/\/shop_images\/GB-HOME-WOMENS-30092022.jpg",
+        "title-2": "Women's",
+        "button-text-2": "SHOP WOMEN'S",
+        "link-2": "shopify:\/\/collections\/women",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/favi.png?v=1613721392\" style=\"width:50px;\"><br>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GOLDEN BREED | SINCE 1969<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163893815304badf40": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Men's Surfwear - New Arrivals",
+        "collection": "men-new-arrivals",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "163894817194625549": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Womens Surfwear - New Arrivals",
+        "collection": "womens-surfwear-new-arrivals",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "1638926734988978b1": {
+      "type": "multicolumn",
+      "blocks": {
+        "1638926734a0464791-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hoodies_6d20e5c5-0116-48ce-b293-af011efeba47.jpg",
+            "title": "Men's Hoodies",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/mens-hoodies-sweats"
+          }
+        },
+        "1638926734a0464791-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tshirt.jpg",
+            "title": "Men's Tees",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/mens-vintage-surf-tees"
+          }
+        },
+        "0c77e3a7-066a-4f9a-8b03-12cea990eeea": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens-shirts.jpg",
+            "title": "Men's Shirts",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/golden-breed-hawaiian-shirts"
+          }
+        }
+      },
+      "block_order": [
+        "1638926734a0464791-0",
+        "1638926734a0464791-1",
+        "0c77e3a7-066a-4f9a-8b03-12cea990eeea"
+      ],
+      "settings": {
+        "title": "Discover",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "16389384641b4e0b94": {
+      "type": "multicolumn",
+      "blocks": {
+        "1638938464e1544931-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/accessories2.jpg",
+            "title": "Accessories",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/hats-caps"
+          }
+        },
+        "1638938464e1544931-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/g-n-s.jpg",
+            "title": "Gordon & Smith",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/gordon-smith"
+          }
+        },
+        "1638938464e1544931-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-stores.jpg",
+            "title": "Visit Us In-Store",
+            "text": "",
+            "link_label": "View Locations",
+            "link": "shopify:\/\/pages\/gb-stores"
+          }
+        }
+      },
+      "block_order": [
+        "1638938464e1544931-2",
+        "1638938464e1544931-0",
+        "1638938464e1544931-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1638938467e517f824": {
+      "type": "image-banner",
+      "blocks": {
+        "16389384679aa51710-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/logo_96cb2768-8a26-43e6-b0dd-ee8855ef1c20_170x@2x.png?v=1638923181\" style=\"width:200px;\"><br><span style=\"color:#1c5b7a;\">Since 1969.<\/span>",
+            "heading_size": "medium"
+          }
+        },
+        "16389384679aa51710-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn More",
+            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16389384679aa51710-0",
+        "16389384679aa51710-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero-full-3.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "1f757a6d-a939-4d93-9f35-fe7594376945": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16024398102707__1f757a6d-a939-4d93-9f35-fe7594376945-1671403350c147afba-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test",
+            "heading_size": "medium"
+          }
+        },
+        "template--16024398102707__1f757a6d-a939-4d93-9f35-fe7594376945-1671403350c147afba-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--16024398102707__1f757a6d-a939-4d93-9f35-fe7594376945-1671403350c147afba-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16024398102707__1f757a6d-a939-4d93-9f35-fe7594376945-1671403350c147afba-0",
+        "template--16024398102707__1f757a6d-a939-4d93-9f35-fe7594376945-1671403350c147afba-1",
+        "template--16024398102707__1f757a6d-a939-4d93-9f35-fe7594376945-1671403350c147afba-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2020-d_b0c0df7a-e963-4195-939c-9743e1b590a2.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "1638938164a6624bf9",
+    "16631201915756bdaa",
+    "16389277978b203bd3",
+    "rich_text",
+    "163893815304badf40",
+    "163894817194625549",
+    "1638926734988978b1",
+    "16389384641b4e0b94",
+    "1638938467e517f824",
+    "1f757a6d-a939-4d93-9f35-fe7594376945"
+  ]
+}

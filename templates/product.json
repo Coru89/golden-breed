@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "7180d271-94d9-4997-b68f-c53c1b1a059f": {
+          "type": "size_chart_gb",
+          "settings": {
+            "heading": "Size Chart",
+            "content": "{% for title in product.title %} {% if title contains 'Archie' %}<B><h3>MEN'S SIZING<\/h3><\/B><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/4YSkAvTA.png?v=1647411337\"><br><br>\n<b><h3>WOMEN'S SIZING<\/h3><\/b>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/fv01is6w.png?v=1647411808\">\n{% endif %} {% endfor %} \n{% for tag in product.tags %} \n{% if tag != 'Mens' %}\n{% if tag == 'MensTops' %}\n<h2><b>Men's Tees, Shirts & Sweaters<\/b><\/h2>\n<p>Garment sizes vary based off below body measurements<\/p>\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td><strong>Size<\/strong><\/td>\n<td><strong>Chest<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>XXS<\/strong><\/td>\n<td>80-82.5cm<\/td>\n<\/tr>\n<tr>\n<td><strong>XS<\/strong><\/td>\n<td>85-87.5cm<\/td>\n<\/tr>\n<tr>\n<td><strong>S<\/strong><\/td>\n<td>90-92.5cm<\/td>\n<\/tr>\n<tr>\n<td><strong>M<\/strong><\/td>\n<td>95-97.5cm<\/td>\n<\/tr>\n<tr>\n<td><strong>L<\/strong><\/td>\n<td>100-102.5cm<\/td>\n<\/tr>\n<tr>\n<td><strong>XL<\/strong><\/td>\n<td>105-107.5cm<\/td>\n<\/tr>\n<tr>\n<td><strong>XXL<\/strong><\/td>\n<td>110-102.5cm<\/td>\n<\/tr>\n<tr>\n<td><strong>3XL<\/strong><\/td>\n<td>115-117.5cm<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n{% endif %}\n{% if tag contains 'MensBottoms' %}\n<h2><b><\/b><\/h2>\n<p> <\/p>\n<h2><b>Men's Bottoms<\/b><\/h2>\n<p>Garment sizes vary based off below body measurements<\/p>\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td><strong>Size<\/strong><\/td>\n<td><strong>Waist<\/strong><\/td>\n<td><strong>Hips<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>XXS \/ 28<\/strong><\/td>\n<td>71cm<\/td>\n<td>85cm<\/td>\n<\/tr>\n<tr>\n<td><strong>XS \/ 30<\/strong><\/td>\n<td>76cm<\/td>\n<td>90cm<\/td>\n<\/tr>\n<tr>\n<td><strong>S \/ 32<\/strong><\/td>\n<td>81cm<\/td>\n<td>95cm<\/td>\n<\/tr>\n<tr>\n<td><strong>M \/ 34<\/strong><\/td>\n<td>86cm<\/td>\n<td>100cm<\/td>\n<\/tr>\n<tr>\n<td><strong>L \/ 36<\/strong><\/td>\n<td>91cm<\/td>\n<td>105cm<\/td>\n<\/tr>\n<tr>\n<td><strong>XL \/ 38<\/strong><\/td>\n<td>96cm<\/td>\n<td>110cm<\/td>\n<\/tr>\n<tr>\n<td><strong>XXL \/ 40<\/strong><\/td>\n<td>101cm<\/td>\n<td>115cm<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n{% elsif tag contains 'ElShorto' %}\n<h2><b>El Shorto Size Chart<\/b><\/h2>\n<p>Garment Measurements in cm<\/p>\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td><b>SIZE<\/b><\/td>\n<td><b>S<\/b><\/td>\n<td><b>M<\/b><\/td>\n<td><b>L<\/b><\/td>\n<td><b>XL<\/b><\/td>\n<td><b>XXL<\/b><\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 WAIST (not stretched)<\/b><\/td>\n<td>35<\/td>\n<td>37.5<\/td>\n<td>40<\/td>\n<td>42.5<\/td>\n<td>45<\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 WAIST (stretched)<\/b><\/td>\n<td>50<\/td>\n<td>52.5<\/td>\n<td>55<\/td>\n<td>57.5<\/td>\n<td>60<\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 HIP (20cm down from waist)<\/b><\/td>\n<td>57.5<\/td>\n<td>60<\/td>\n<td>62.5<\/td>\n<td>65<\/td>\n<td>67.5<\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 LEG OPENING<\/b><\/td>\n<td>31<\/td>\n<td>32<\/td>\n<td>33<\/td>\n<td>34<\/td>\n<td>35<\/td>\n<\/tr>\n<tr>\n<td><b>FRONT RISE LENGTH<\/b><\/td>\n<td>28<\/td>\n<td>29<\/td>\n<td>30<\/td>\n<td>31<\/td>\n<td>32<\/td>\n<\/tr>\n<tr>\n<td><b>BACK RISE LENGTH<\/b><\/td>\n<td>38<\/td>\n<td>39<\/td>\n<td>40<\/td>\n<td>41<\/td>\n<td>42<\/td>\n<\/tr>\n<tr>\n<td><b>INSIDE LEG LENGTH<\/b><\/td>\n<td>18.5<\/td>\n<td>18.5<\/td>\n<td>18.5<\/td>\n<td>18.5<\/td>\n<td>18.5<\/td>\n<\/tr>\n<tr>\n<td><b>OUTER LEG LENGTH<\/b><\/td>\n<td>51.5<\/td>\n<td>52.5<\/td>\n<td>53.5<\/td>\n<td>54.5<\/td>\n<td>55.5<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br \/> Please note measurements may vary 2cm give or take to allow for manufacturing. We recommend you compare the below to one of your existing garment before purchasing. Lay garment flat when measuring. <br \/> <br \/> {% elsif tag contains 'ElSolito' %}\n<h2><b>El Solito Size Chart<\/b><\/h2>\n<p>Garment Measurements in cm<\/p>\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td><b>SIZE<\/b><\/td>\n<td><b>S<\/b><\/td>\n<td><b>M<\/b><\/td>\n<td><b>L<\/b><\/td>\n<td><b>XL<\/b><\/td>\n<td><b>XXL<\/b><\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 WAIST (not stretched)<\/b><\/td>\n<td>34.5<\/td>\n<td>36<\/td>\n<td>38.5<\/td>\n<td>41<\/td>\n<td>43.5<\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 WAIST (stretched)<\/b><\/td>\n<td>45<\/td>\n<td>50<\/td>\n<td>52.5<\/td>\n<td>55<\/td>\n<td>57.5<\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 HIP (20cm down from waist)<\/b><\/td>\n<td>55<\/td>\n<td>57.5<\/td>\n<td>60<\/td>\n<td>62.5<\/td>\n<td>65<\/td>\n<\/tr>\n<tr>\n<td><b>1\/2 LEG OPENING<\/b><\/td>\n<td>31<\/td>\n<td>32<\/td>\n<td>33<\/td>\n<td>34<\/td>\n<td>35<\/td>\n<\/tr>\n<tr>\n<td><b>FRONT RISE LENGTH<\/b><\/td>\n<td>28<\/td>\n<td>29<\/td>\n<td>30<\/td>\n<td>31<\/td>\n<td>32<\/td>\n<\/tr>\n<tr>\n<td><b>BACK RISE LENGTH<\/b><\/td>\n<td>38<\/td>\n<td>39<\/td>\n<td>40<\/td>\n<td>41<\/td>\n<td>42<\/td>\n<\/tr>\n<tr>\n<td><b>INSIDE LEG LENGTH<\/b><\/td>\n<td>28<\/td>\n<td>28<\/td>\n<td>28<\/td>\n<td>28<\/td>\n<td>28<\/td>\n<\/tr>\n<tr>\n<td><b>OUTER LEG LENGTH<\/b><\/td>\n<td>61<\/td>\n<td>62<\/td>\n<td>63<\/td>\n<td>64<\/td>\n<td>65<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br \/> Please note measurements may vary 2cm give or take to allow for manufacturing. We recommend you compare the below to one of your existing garment before purchasing. Lay garment flat when measuring. <br \/> <br \/> {% endif %} {% endif %} {% endfor %} \n\n{% for title in product.title %} {% if title contains 'Bucket Hat' %}\n<h2><b>Bucket Hats<\/b><\/h2>\n<p>Measurements in cm<\/p>\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td><strong>Size<\/strong><\/td>\n<td><strong>Head Circumference<\/strong><\/td>\n\n\n<\/tr>\n<tr>\n<td><strong>S\/M<\/strong><\/td>\n<td>59cm<\/td>\n\n<\/tr>\n<tr>\n<td><strong>L\/XL<\/strong><\/td>\n<td>61cm<\/td>\n\n<\/tr>\n\n\n<\/tbody>\n<\/table>\n<p><br><\/p>\n{% endif %} {% endfor %}\n\n\n{% for tag in product.tags %} {% if tag contains 'wsizechart' %}\n<h2><b>Women's<\/b><\/h2>\n<p>Garment Measurements in cm<\/p>\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td><strong>Size<\/strong><\/td>\n<td><strong>AUS<\/strong><\/td>\n<td><strong>USA<\/strong><\/td>\n<td><strong>UK<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>XS<\/strong><\/td>\n<td>6<\/td>\n<td>2<\/td>\n<td>6<\/td>\n<\/tr>\n<tr>\n<td><strong>S<\/strong><\/td>\n<td>8<\/td>\n<td>4<\/td>\n<td>8<\/td>\n<\/tr>\n<tr>\n<td><strong>M<\/strong><\/td>\n<td>10<\/td>\n<td>6<\/td>\n<td>10<\/td>\n<\/tr>\n<tr>\n<td><strong>L<\/strong><\/td>\n<td>12<\/td>\n<td>8<\/td>\n<td>12<\/td>\n<\/tr>\n<tr>\n<td><strong>XL<\/strong><\/td>\n<td>14<\/td>\n<td>10<\/td>\n<td>14<\/td>\n<\/tr>\n<tr>\n<td><strong>XXL<\/strong><\/td>\n<td>16<\/td>\n<td>12<\/td>\n<td>16<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p> <\/p>\n<table style=\"width: 100%;\">\n<tbody>\n<tr>\n<td><strong>Size<\/strong><\/td>\n<td><strong>BUST<\/strong><\/td>\n<td><strong>WAIST<\/strong><\/td>\n<td><strong>HIPS<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>XS<\/strong><\/td>\n<td>80-82<\/td>\n<td>61-63<\/td>\n<td>88-90<\/td>\n<\/tr>\n<tr>\n<td><strong>S<\/strong><\/td>\n<td>83-85<\/td>\n<td>64-66<\/td>\n<td>91-93<\/td>\n<\/tr>\n<tr>\n<td><strong>M<\/strong><\/td>\n<td>88-90<\/td>\n<td>69-71<\/td>\n<td>96-98<\/td>\n<\/tr>\n<tr>\n<td><strong>L<\/strong><\/td>\n<td>93-95<\/td>\n<td>74-76<\/td>\n<td>101-102<\/td>\n<\/tr>\n<tr>\n<td><strong>XL<\/strong><\/td>\n<td>98-100<\/td>\n<td>79-81<\/td>\n<td>105-107<\/td>\n<\/tr>\n<tr>\n<td><strong>XXL<\/strong><\/td>\n<td>103-105<\/td>\n<td>84-86<\/td>\n<td>110-112<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n{% endif %} {% endfor %}",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "6d0e4be2-c802-43d9-97a0-99cc8d22c0dc": {
+          "type": "text",
+          "settings": {
+            "text": "THE DETAILS",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "9b5aa3b3-5826-4376-8f23-43f084cc5e99": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "content": "<p><span style=\"font-weight:600;\"><u>Shipping with Australia<\/u><\/span><br><br>Free Standard Delivery On Orders Over $75.<br><br>$10.00 for Standard Delivery on orders under $75.<br><br>$15.00 for Express Post Delivery on all orders.<br><br><u>International Delivery<\/u><br><br>For Delivery to NZ, Europe, Canada & United States<br>$25.00 Flat Rate including Tracking.<br><br><u>Returns & Exchanges<\/u><br><br>We accept returns for unworn products with tags and original proof of purchase.<br><br>Customers are responsible for any costs incurred to return the products.<br><br>For more info on please visit our Returns & Exchanges page : <a href=\"https:\/\/goldenbreed.com.au\/pages\/product-returns\" style=\"margin-left:10px;\">RETURNS & EXCHANGES →<\/a><br><br>Please note all products on sale or face coverings are final sale and not accepted for returns or exchanges.<br><br><\/p>",
+            "page": "",
+            "icon": "truck"
+          }
+        },
+        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Contact Us",
+            "content": "<p>For any enquiries please email <strong>info@goldenbreed.com.au<\/strong><\/p><p> or use our <a href=\"\/pages\/contact-us\">contact page here.<\/a><\/p>",
+            "page": "",
+            "icon": "chat_bubble"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "7180d271-94d9-4997-b68f-c53c1b1a059f",
+        "6d0e4be2-c802-43d9-97a0-99cc8d22c0dc",
+        "description",
+        "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
+        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}
