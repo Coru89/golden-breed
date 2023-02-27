@@ -60,4 +60,15 @@
       margin-bottom: 96px;
     }
   }
+
+  .placeholder + .shop-hero__wrapper {
+    .shop-hero__heading {
+      color: #1d5b78;
+
+      &::after {
+        background-color: #1d5b78;
+      }
+  
+    }
+  }
 }

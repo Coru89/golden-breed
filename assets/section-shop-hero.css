@@ -50,3 +50,7 @@
     @media screen and (min-width: 750px) {
       .shop-hero__heading {
         margin-bottom: 96px; } }
+  .shop-hero .placeholder + .shop-hero__wrapper .shop-hero__heading {
+    color: #1d5b78; }
+    .shop-hero .placeholder + .shop-hero__wrapper .shop-hero__heading::after {
+      background-color: #1d5b78; }
