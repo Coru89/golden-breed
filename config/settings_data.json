@@ -50,10 +50,22 @@
               "title": "",
               "subtitle": ""
             }
+          },
+          "ea3ff47e-383f-4913-b13a-a7fdb5ea181f": {
+            "type": "logo_image",
+            "settings": {
+              "menu_enable": true,
+              "image": "shopify:\/\/shop_images\/our-stores.jpg",
+              "mega_link": "1",
+              "link": "",
+              "title": "hello world",
+              "subtitle": ""
+            }
           }
         },
         "block_order": [
-          "36edd9c1-3a3c-4998-b007-3d55d8c72ae3"
+          "36edd9c1-3a3c-4998-b007-3d55d8c72ae3",
+          "ea3ff47e-383f-4913-b13a-a7fdb5ea181f"
         ],
         "settings": {
           "color_scheme": "background-1",
