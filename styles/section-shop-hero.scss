@@ -1,0 +1,63 @@
+.shop-hero {
+  height: 234px;
+  position: relative;
+  width: 100%;
+
+  @media screen and (min-width: 750px) {
+    background-position: unset;
+    height: 376px;
+  }
+
+  @media screen and (min-width: 1320px) {
+    background-position: unset;
+    height: 450px;
+  }
+
+  &__wrapper {
+    align-items: flex-end;
+    display: flex;
+    height: 100%;
+
+    @media screen and (min-width: 1320px) {
+      padding: 0 16rem;
+    }
+  }
+
+  &__media {
+    height: 234px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    @media screen and (min-width: 750px) {
+      height: 376px;
+    }
+
+    @media screen and (min-width: 1320px) {
+      height: 450px;
+    }
+  }
+
+  &__heading {
+    --color-foreground: rgb(255, 255, 255);
+    color: var(--color-foreground);
+    line-height: 1;
+    margin-bottom: 60px;
+    position: relative;
+
+    &::after {
+      background-color: var(--color-foreground);
+      bottom: 5px;
+      content: "";
+      display: block;
+      height: 1px;
+      left: 0;
+      width: 215px;
+    }
+
+    @media screen and (min-width: 750px) {
+      margin-bottom: 96px;
+    }
+  }
+}

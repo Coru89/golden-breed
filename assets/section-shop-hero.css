@@ -1,0 +1,52 @@
+.shop-hero {
+  height: 234px;
+  position: relative;
+  width: 100%; }
+  @media screen and (min-width: 750px) {
+    .shop-hero {
+      background-position: unset;
+      height: 376px; } }
+  @media screen and (min-width: 1320px) {
+    .shop-hero {
+      background-position: unset;
+      height: 450px; } }
+  .shop-hero__wrapper {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%; }
+    @media screen and (min-width: 1320px) {
+      .shop-hero__wrapper {
+        padding: 0 16rem; } }
+  .shop-hero__media {
+    height: 234px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
+    @media screen and (min-width: 750px) {
+      .shop-hero__media {
+        height: 376px; } }
+    @media screen and (min-width: 1320px) {
+      .shop-hero__media {
+        height: 450px; } }
+  .shop-hero__heading {
+    --color-foreground: rgb(255, 255, 255);
+    color: var(--color-foreground);
+    line-height: 1;
+    margin-bottom: 60px;
+    position: relative; }
+    .shop-hero__heading::after {
+      background-color: var(--color-foreground);
+      bottom: 5px;
+      content: "";
+      display: block;
+      height: 1px;
+      left: 0;
+      width: 215px; }
+    @media screen and (min-width: 750px) {
+      .shop-hero__heading {
+        margin-bottom: 96px; } }

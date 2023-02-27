@@ -13,7 +13,7 @@ gulp.task('sass', () => {
         .src('styles/*.scss') // comment out this line if not want to generate individual css files
         //.src('styles/custom-styles.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulpif('*.css', rename({ extname: '.min.css' }))) // comment out this line if not want to generate individual css files
+        .pipe(gulpif('*.css', rename({ extname: '.css' }))) // comment out this line if not want to generate individual css files
         .pipe(autoprefixer('last 4 version'))
         .pipe(gulp.dest('assets'))
 });
