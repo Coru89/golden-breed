@@ -1,6 +1,7 @@
 .shop-contact {
   background-color: #1A506F;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .shop-contact * {
     color: white; }
   .shop-contact__border {
@@ -12,9 +13,16 @@
     /* Set the box-sizing property to border-box to ensure the width and height of the element includes the border */
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    display: block !important; }
+    display: block !important;
+    position: relative;
+    z-index: 1; }
   .shop-contact__background {
+    position: absolute;
+    top: 0;
     width: 100%; }
+  .shop-contact__grid {
+    position: relative;
+    z-index: 1; }
   .shop-contact__map-wrapper {
     position: relative; }
     @media screen and (min-width: 990px) {
@@ -23,10 +31,25 @@
   @media screen and (min-width: 990px) {
     .shop-contact__content {
       padding: 6rem 7rem 7rem 3.5rem; } }
+  .shop-contact__logo {
+    margin-bottom: 3rem; }
   .shop-contact__heading {
-    font-size: 34px; }
+    font-size: 34px;
+    margin-bottom: 3rem; }
+  .shop-contact__group {
+    margin-bottom: 3rem; }
+    .shop-contact__group-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      max-width: 400px; }
   .shop-contact__label {
-    font-size: 24px; }
+    font-size: 20px;
+    padding: 16px 0 8px;
+    margin-bottom: 0; }
   .shop-contact #map {
     width: 100%;
     height: auto;

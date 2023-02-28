@@ -1,6 +1,7 @@
 .shop-contact {
   background-color: #1A506F; //replace with var
   position: relative;
+  overflow: hidden;
 
   * {
     color: white; //replace with var
@@ -29,10 +30,20 @@
     /* Set the box-sizing property to border-box to ensure the width and height of the element includes the border */
     box-sizing: border-box;
     display: block !important;
+    position: relative;
+    z-index: 1;
   }
 
+
   &__background {
+    position: absolute;
+    top: 0;
     width: 100%;
+  }
+  
+  &__grid {
+    position: relative;
+    z-index: 1;
   }
 
   &__map-wrapper {
@@ -48,12 +59,28 @@
     }
   }
 
+  &__logo {
+    margin-bottom: 3rem;
+  }
+
   &__heading {
     font-size: 34px;
+    margin-bottom: 3rem;
+  }
+
+  &__group {
+    margin-bottom: 3rem;
+    &-row {
+      display: flex;
+      justify-content: space-between;
+      max-width: 400px;
+    }
   }
 
   &__label {
-    font-size: 24px;
+    font-size: 20px;
+    padding: 16px 0 8px;
+    margin-bottom: 0;
   }
 
   #map {
@@ -68,13 +95,6 @@
     }
   
     iframe {
-      // -ms-zoom: scale(0.80);
-      // -moz-transform: scale(0.80);
-      // -moz-transform-origin: 0 0;
-      // -o-transform: scale(0.80);
-      // -o-transform-origin: scale(0.80);
-      // -webkit-transform: scale(0.80);
-      // -webkit-transform-origin: 0 0;
       border: 0;
       margin-top: -130px;
       

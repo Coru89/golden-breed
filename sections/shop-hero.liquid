@@ -15,7 +15,7 @@
           {%- if section.settings.image.width >= 3840 -%}{{ section.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
           {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w
         "
-        sizes="{% if section.settings.image_2 != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
+        sizes="100vw"
         src="{{ section.settings.image | img_url: '1500x' }}"
         loading="lazy"
         alt="{{ section.settings.image.alt | escape }}"
@@ -30,6 +30,7 @@
     <h1 class="shop-hero__heading main-page-title page-title h0">
       {{ section.settings.heading_title | escape }}
     </h1>
+    
   </div>
 </section>
 
