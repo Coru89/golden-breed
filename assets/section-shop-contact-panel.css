@@ -1,5 +1,8 @@
 .shop-contact {
+  background-color: #1A506F;
   position: relative; }
+  .shop-contact * {
+    color: white; }
   .shop-contact__border {
     border: 14px solid transparent;
     /* Use the border-image property to apply the border image */
@@ -10,3 +13,33 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: block !important; }
+  .shop-contact__background {
+    width: 100%; }
+  .shop-contact__map-wrapper {
+    position: relative; }
+    @media screen and (min-width: 990px) {
+      .shop-contact__map-wrapper {
+        padding: 6rem 3.5rem 7rem 7rem; } }
+  @media screen and (min-width: 990px) {
+    .shop-contact__content {
+      padding: 6rem 7rem 7rem 3.5rem; } }
+  .shop-contact__heading {
+    font-size: 34px; }
+  .shop-contact__label {
+    font-size: 24px; }
+  .shop-contact #map {
+    width: 100%;
+    height: auto;
+    max-height: 345px;
+    overflow: hidden; }
+    @media screen and (min-width: 1320px) {
+      .shop-contact #map {
+        max-height: 540px; } }
+    .shop-contact #map iframe {
+      border: 0;
+      margin-top: -130px; }
+      @media screen and (min-width: 1320px) {
+        .shop-contact #map iframe {
+          margin-bottom: 0;
+          margin-left: -15%;
+          margin-right: 1rem; } }

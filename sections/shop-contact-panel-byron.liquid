@@ -14,38 +14,78 @@
   <div class="shop-contact__border"></div>
   <div class="shop-contact__wrapper page-width">
     <div class="shop-contact__grid grid">
-      <div class="grid__item">
-        {{ section.settings.google_maps_embed }}
+      <div class="shop-contact__map-wrapper grid__item">
+        <div id="map">
+          {{ section.settings.google_maps_embed }}
+        </div>
       </div>
-      <div class="grid__item">
-        <h2>{{ section.settings.heading }}</h2>
+      <div class="shop-contact__content grid__item">
+        <h2 class="shop-contact__heading">{{ section.settings.heading }}</h2>
         <span class="shop-contact__description"></span>
         {% comment %} logo {% endcomment %}
 
         <div class="shop-contact__group">
-          <div>Visit us</div>
+          <h3 class="shop-contact__label">Visit us</h3>
           <div class="shop-contact__shop-name">{{ section.settings.shop_name }}</div>
           <div class="shop_cotact__address">{{ section.settings.address }}</div>
           <div class="shop-contact__hours">{{ section.settings.hours }}</div>
         </div>
 
         <div class="shop-contact__group">
-          <div>Phone</div>
+          <h3 class="shop-contact__label">Phone</h3>
           <div class="shop-contact__phone-number">{{ section.settings.phone }}</div>
         </div>
 
         <div class="shop-contact__group">
-          <div>WhatsApp</div>
+          <h3 class="shop-contact__label">WhatsApp</h3>
           <div class="shop-contact__whatsapp">{{ section.settings.whatsapp }}</div>
         </div>
 
         <div class="shop-contact__group">
-          <div>Email</div>
+          <h3 class="shop-contact__label">Email</h3>
           <div class="shop-contact__email">{{ section.settings.email }}</div>
         </div>
       </div>
     </div>
   </div>
+
+  {% assign image_path = 'contact-bg.png' %}
+  {% comment %} {% assign image_path = 'texture.png' | asset_img_url: '999x' %} {% endcomment %}
+  {% comment %} {{ 'texture.png' | asset_url | img_url: 'medium' | img_tag}} {% endcomment %}
+
+  {% assign image = image_path | img_url | image_tag %}
+  <script>console.log({{ image }});</script>
+
+  <img 
+    class="shop-contact__background"
+    src="{{ image_path | asset_url }}"
+    srcset="{{ image_path | asset_img_url: '375x'}} 375w, {{ image_path | asset_img_url: '750x' }} 750w, {{ image_path | asset_img_url: '1100x' }} 1100w, {{ image_path | asset_img_url: '1500x' }} 1500w, {{ image_path | asset_img_url: '1780x' }} 1780w, {{ image_path | asset_img_url: '2000x' }} 2000w, {{ image_path | asset_img_url: '3000x' }} 3000w, {{ image_path | asset_img_url: '3840x' }} 3840w"
+    sizes="(max-width: 375px) 375px, (max-width: 750px) 750px, (max-width: 1100px) 1100px, (max-width: 1500px) 1500px, (max-width: 1780px) 1780px, (max-width: 2000px) 2000px, (max-width: 3000px) 3000px, 3840px"
+    alt="Background Image"
+  >
+
+ {% comment %} <img
+    class="shop-contact__background"
+    srcset="
+      {%- if img.width >= 375 -%}{{ img | img_url: '375x' }} 375w,{%- endif -%}
+      {%- if img.width >= 750 -%}{{ img | img_url: '750x' }} 750w,{%- endif -%}
+      {%- if img.width >= 1100 -%}{{ img | img_url: '1100x' }} 1100w,{%- endif -%}
+      {%- if img.width >= 1500 -%}{{ img | img_url: '1500x' }} 1500w,{%- endif -%}
+      {%- if img.width >= 1780 -%}{{ img | img_url: '1780x' }} 1780w,{%- endif -%}
+      {%- if img.width >= 2000 -%}{{ img | img_url: '2000x' }} 2000w,{%- endif -%}
+      {%- if img.width >= 3000 -%}{{ img | img_url: '3000x' }} 3000w,{%- endif -%}
+      {%- if img.width >= 3840 -%}{{ img | img_url: '3840x' }} 3840w,{%- endif -%}
+      {{ img |img_url: 'master' }} {{ img.width }}w
+    "
+    sizes="100vw"
+    src="{{ img | img_url: '1500x' }}"
+    loading="lazy"
+    alt="{{ img.alt | escape }}"
+    {% comment %} height="{{ img.width | divided_by: img.aspect_ratio }}" {% endcomment %}
+  > {% endcomment %}
+
+  
+    
 </section>
 
 {% schema %}
