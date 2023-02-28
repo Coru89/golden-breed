@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "shop-hero",
+      "settings": {
+        "heading_title": "Hero Title",
+        "image": "shopify:\/\/shop_images\/byron-hero.png"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
