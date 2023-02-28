@@ -1,0 +1,7 @@
+.shop-contact {
+  position: relative; }
+  .shop-contact__border {
+    border: 14px solid transparent;
+    /* Use the border-image property to apply the border image */
+    -o-border-image: -o-repeating-linear-gradient(left, #929EA4 0, #929EA4 147px, #9FB1C6 147px, #9FB1C6 294px, #E78367 294px, #E78367 441px, #EBB967 441px, #EBB967 588px, #7DA9A3 588px, #7DA9A3) 14;
+       border-image: repeating-linear-gradient(to right, #929EA4 0, #929EA4 147px, #9FB1C6 147px, #9FB1C6 294px, #E78367 294px, #E78367 441px, #EBB967 441px, #EBB967 588px, #7DA9A3 588px, #7DA9A3) 14; }
