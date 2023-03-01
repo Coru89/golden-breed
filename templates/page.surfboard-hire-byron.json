@@ -50,18 +50,176 @@
         "address": "10 Lawson Street, Byron Bay NSW 2481",
         "hours": "",
         "phone": "02 6680 7944",
+        "phoneLink": "",
         "whatsapp": "02 6680 7944",
+        "whatsappLink": "",
         "email": "GBByronbay@goldenbreed.com.au",
         "driving_directions": "",
         "parking_information": "",
         "wheel_chair_accessibility_information": "",
         "pet_friendliness": ""
       }
+    },
+    "493ab732-928d-42ff-be99-fb0afa80e11a": {
+      "type": "tab-accordion",
+      "blocks": {
+        "ae82eb18-d8a5-4ba1-9f4c-e17c36b9b823": {
+          "type": "tabaccordion_section",
+          "settings": {
+            "tabaccordion_section_name": "Rent a Surfboard"
+          }
+        },
+        "d5eb7359-9491-4a42-a687-e4c95a0d83ab": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "Terms",
+            "column_2_data": "Price",
+            "header": true
+          }
+        },
+        "0a5595e1-8f54-4be9-81b1-cbaf76a3b698": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Hours",
+            "column_2_data": "25$",
+            "header": false
+          }
+        },
+        "dd8433d7-43bc-4edd-b439-82a319f9274f": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Hours",
+            "column_2_data": "40$",
+            "header": false
+          }
+        },
+        "755ec852-4103-4c73-98e7-a704ffc97c81": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Hours",
+            "column_2_data": "1$",
+            "header": false
+          }
+        },
+        "5870e094-095b-4db4-8891-e4a7b820f44b": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Hours",
+            "column_2_data": "22$",
+            "header": false
+          }
+        },
+        "966ab040-5bba-4ac2-9b99-14f819aca9bc": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "3 Hours",
+            "column_2_data": "70$",
+            "header": false
+          }
+        },
+        "144cdffa-870c-4be2-b4da-cd5ad44a7582": {
+          "type": "tabaccordion_section",
+          "settings": {
+            "tabaccordion_section_name": "Rent A Bodyboard"
+          }
+        },
+        "a7ac5f76-1a61-4cb7-b587-3a072da4d7da": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "Terms",
+            "column_2_data": "Price",
+            "header": true
+          }
+        },
+        "311fe5d9-5215-4890-ba29-80a04aadcfdc": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "rty",
+            "column_2_data": "er",
+            "header": false
+          }
+        },
+        "190d047b-e037-4cdc-9520-10958d4fbed7": {
+          "type": "tabaccordion_section",
+          "settings": {
+            "tabaccordion_section_name": "Stand up paddle boards"
+          }
+        },
+        "3cf2e180-b169-48f5-b80d-fee03e2182f8": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "Terms",
+            "column_2_data": "Price",
+            "header": true
+          }
+        },
+        "33ed2176-06c4-482a-998a-28a388db1eb4": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Hours",
+            "column_2_data": "25$",
+            "header": false
+          }
+        },
+        "7cc19b2f-a3a7-4708-816d-809cf249ace2": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Hours",
+            "column_2_data": "40$",
+            "header": false
+          }
+        },
+        "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9": {
+          "type": "tabaccordion_section",
+          "settings": {
+            "tabaccordion_section_name": "Bodyboard rates"
+          }
+        },
+        "ebfc088e-1ca1-4194-b821-228b5e0a4588": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "Terms",
+            "column_2_data": "Price",
+            "header": true
+          }
+        },
+        "c19d9b9f-48c9-4571-befd-50164b8dd408": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Hours",
+            "column_2_data": "25$",
+            "header": false
+          }
+        }
+      },
+      "block_order": [
+        "ae82eb18-d8a5-4ba1-9f4c-e17c36b9b823",
+        "d5eb7359-9491-4a42-a687-e4c95a0d83ab",
+        "0a5595e1-8f54-4be9-81b1-cbaf76a3b698",
+        "dd8433d7-43bc-4edd-b439-82a319f9274f",
+        "755ec852-4103-4c73-98e7-a704ffc97c81",
+        "5870e094-095b-4db4-8891-e4a7b820f44b",
+        "966ab040-5bba-4ac2-9b99-14f819aca9bc",
+        "144cdffa-870c-4be2-b4da-cd5ad44a7582",
+        "a7ac5f76-1a61-4cb7-b587-3a072da4d7da",
+        "311fe5d9-5215-4890-ba29-80a04aadcfdc",
+        "190d047b-e037-4cdc-9520-10958d4fbed7",
+        "3cf2e180-b169-48f5-b80d-fee03e2182f8",
+        "33ed2176-06c4-482a-998a-28a388db1eb4",
+        "7cc19b2f-a3a7-4708-816d-809cf249ace2",
+        "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9",
+        "ebfc088e-1ca1-4194-b821-228b5e0a4588",
+        "c19d9b9f-48c9-4571-befd-50164b8dd408"
+      ],
+      "settings": {
+        "heading": "Heading"
+      }
     }
   },
   "order": [
     "main",
     "8f9844bd-7884-4c0a-8743-76dc1d007425",
-    "628a5a26-f417-4b05-9668-6e397e3a5d08"
+    "628a5a26-f417-4b05-9668-6e397e3a5d08",
+    "493ab732-928d-42ff-be99-fb0afa80e11a"
   ]
 }
