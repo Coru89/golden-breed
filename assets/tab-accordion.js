@@ -1,8 +1,8 @@
+let accordionHeaders = document.querySelectorAll('.tab-accordion__item-header');
+const desktopContentEl = document.querySelector('.tab-accordion__content-desktop');
+
 // Get all the accordion headers
   if (window.innerWidth > 750) {
-    let accordionHeaders = document.querySelectorAll('.tab-accordion__item-header');
-    const desktopContentEl = document.querySelector('.tab-accordion__content-desktop');
-
     if (accordionHeaders[0] && accordionHeaders[0].nextElementSibling.innerHTML && desktopContentEl) {
       desktopContentEl.innerHTML = accordionHeaders[0].nextElementSibling.innerHTML;
       accordionHeaders[0].classList.add('active');
