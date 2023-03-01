@@ -1,0 +1,146 @@
+{{ 'section-tab-accordion.css' | asset_url | stylesheet_tag }}
+
+<section class="tab-accordion">
+  <div class="tab-accordion__inner">
+    <div class="tab-accordion__items">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'tabaccordion_section' -%}
+            {% if forloop.first %}
+            <div class="tab-accordion__item">
+               {% else %} 
+            </div></div><div class="tab-accordion__item">
+            {% endif %}
+            <div class="tab-accordion__item-header">{{ block.settings.tabaccordion_section_name }}</div>
+            {%- when 'table_row' -%}
+              {% if prevType == 'tabaccordion_section' %}
+                <div class="tab-accordion__content">
+              {% endif %}
+            <div class="tab-accordion__item-table-row">
+              <div class="tab-accordion__item-table-cell">
+                {{ block.settings.column_1_data }}
+              </div>
+              <div class="tab-accordion__item-table-cell">
+                {{ block.settings.column_2_data }}
+              </div>
+            </div>
+            {% if forloop.last %}
+            </div>
+            {% endif %}
+        {%- endcase -%}
+        {% assign prevType = block.type %}
+      {%- endfor -%}
+    </div>
+    
+  </div>     
+  
+  <div class="tab-accordion__content-desktop">placeholder</div>
+
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Accordion + Tabs",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Tab/Accordion Section",
+      "type": "tabaccordion_section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tabaccordion_section_name",
+          "label": "Tab/Accordion Section Name"
+        }
+      ]
+    },
+    {
+      "name": "Table Row",
+      "type": "table_row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "column_1_data",
+          "label": "Column 1 Data"
+        },
+        {
+          "type": "text",
+          "id": "column_2_data",
+          "label": "Column 2 Data"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Accordion + Tabs"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  // Get all the accordion headers
+const accordionHeaders = document.querySelectorAll('.tab-accordion__item-header');
+const desktopContentEl = document.querySelector('.tab-accordion__content-desktop');
+
+// Loop through the headers and add an event listener to each one
+accordionHeaders.forEach(header => {
+  header.addEventListener('click', (e) => {
+    // If the screen width is less than 768 pixels (mobile size), toggle the 'active' class on the clicked header and its content element
+    if (window.innerWidth < 768) {
+      header.classList.toggle('active');
+      const content = header.nextElementSibling;
+      content.classList.toggle('active');
+      {% comment %} if (content.classList.contains('active')) {
+        content.style.display = 'block';
+      } else {
+        content.style.display = 'none';
+      } {% endcomment %}
+    } else {
+      // If the screen width is equal to or greater than 768 pixels (desktop size), remove the 'active' class from all other headers and content elements and add it only to the clicked header and its content element
+      {% comment %} accordionHeaders.forEach(otherHeader => { {% endcomment %}
+        if (desktopContentEl && e.currentTarget) {
+          const content = e.currentTarget.nextElementSibling.innerHTML;
+          console.log(content);
+          desktopContentEl.innerHTML = content;
+        }
+        {% comment %} if (otherHeader !== header) {
+          console.log(e.currentTarget);
+
+          otherHeader.classList.remove('active');
+          const otherContent = otherHeader.nextElementSibling;
+          otherContent.classList.remove('active');
+          //otherContent.style.display = 'none';
+        }
+      });
+      header.classList.add('active');
+      const content = header.nextElementSibling;
+      content.classList.add('active'); {% endcomment %}
+      //content.style.display = 'block';
+    }
+  });
+});
+
+// Detect if the screen width changes and update the layout accordingly
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 768) {
+    // If the screen is desktop size, remove the 'active' classes from all the headers and content elements
+    accordionHeaders.forEach(header => {
+      header.classList.remove('active');
+      const content = header.nextElementSibling;
+      content.classList.remove('active');
+      //content.style.display = 'none';
+    });
+  }
+});
+  
+  </script>

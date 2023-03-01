@@ -1,0 +1,54 @@
+.tab-accordion__container {
+  position: relative; }
+
+/* Style for mobile screens */
+.tab-accordion__item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px; }
+
+.tab-accordion__item-header {
+  background-color: #eee;
+  padding: 10px;
+  cursor: pointer; }
+
+.tab-accordion__content {
+  padding: 10px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-out;
+  -o-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out; }
+
+.tab-accordion__content-desktop {
+  display: none; }
+  @media screen and (min-width: 750px) {
+    .tab-accordion__content-desktop {
+      display: block; } }
+
+/* Style for mobile screens - when active */
+.tab-accordion__item-header.active {
+  background-color: #ddd; }
+
+.tab-accordion__content.active {
+  display: block; }
+
+/* Style for desktop screens */
+@media screen and (min-width: 750px) {
+  .tab-accordion__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .tab-accordion__item {
+    border: none;
+    margin: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 33%;
+            flex: 1 1 33%; }
+  .tab-accordion__item-header {
+    background-color: transparent;
+    padding: 0;
+    cursor: default; }
+  .tab-accordion__content {
+    padding: 10px;
+    display: none; } }
