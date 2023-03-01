@@ -1,7 +1,7 @@
 .shop-contact {
   background-color: #1A506F; //replace with var
-  position: relative;
   overflow: hidden;
+  position: relative;
 
   * {
     color: white; //replace with var
@@ -42,38 +42,104 @@
   }
   
   &__grid {
+    flex-direction: column-reverse;
+    margin: 0;
     position: relative;
     z-index: 1;
-  }
 
-  &__map-wrapper {
-    position: relative;
-    @media screen and (min-width: 990px) {
-      padding: 6rem 3.5rem 7rem 7rem;
+    @media screen and (min-width: 750px) {
+      flex-direction: row;
     }
   }
 
   &__content {
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    
+    @media screen and (min-width: 750px) {
+      display: block;
+    }
+  }
+
+  .grid__item {
+    padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+
+    @media screen and (min-width: 750px) {
+      &:first-of-type {
+        padding: 5.5rem 0 5.5rem 0;
+      }
+
+      &:last-of-type {
+        padding-bottom: 5.5rem;
+      }
+    }
+
     @media screen and (min-width: 990px) {
-      padding: 6rem 7rem 7rem 3.5rem;
+      &:first-of-type {
+        padding: 5.5rem 3.5rem 5.5rem 5.5rem;
+      }
+
+      &:last-of-type {
+        padding: 5.5rem 5.5rem 5.5rem 3.5rem;
+      }
+    }
+  }
+
+  &__map-wrapper {
+    position: relative;
+
+    @media screen and (min-width: 750px) {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
   &__logo {
+    height: auto;
     margin-bottom: 3rem;
+    width: 170px;
+
+    @media screen and (min-width: 990px) {
+      height: 51px;
+      width: 215px;
+    }
   }
 
   &__heading {
-    font-size: 34px;
+    font-size: 28px;
     margin-bottom: 3rem;
+
+    @media screen and (min-width: 990px) {
+      font-size: 34px;
+    }
   }
 
   &__group {
     margin-bottom: 3rem;
+    text-align: center;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 750px) {
+      text-align: left;
+    }
+
     &-row {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       max-width: 400px;
+      width: 100%;
+
+      @media screen and (min-width: 750px) {
+        justify-content: space-between;
+      }
     }
   }
 
@@ -83,12 +149,27 @@
     margin-bottom: 0;
   }
 
+  &__link {
+    color: white !important; //replace with var
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   #map {
-    //max-width: 540px;
     width: 100%;
     height: auto;
     max-height: 345px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 750px) {
+      max-width: 100%;
+    }
 
     @media screen and (min-width: 1320px) {
       max-height: 540px;
@@ -96,7 +177,6 @@
   
     iframe {
       border: 0;
-      margin-top: -130px;
       
       @media screen and (min-width: 1320px) {
         margin-bottom: 0;

@@ -1,7 +1,7 @@
 .shop-contact {
   background-color: #1A506F;
-  position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   .shop-contact * {
     color: white; }
   .shop-contact__border {
@@ -21,46 +21,118 @@
     top: 0;
     width: 100%; }
   .shop-contact__grid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 0;
     position: relative;
     z-index: 1; }
+    @media screen and (min-width: 750px) {
+      .shop-contact__grid {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+  .shop-contact__content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media screen and (min-width: 750px) {
+      .shop-contact__content {
+        display: block; } }
+  .shop-contact .grid__item {
+    padding: 4rem calc(4rem / var(--font-body-scale)) 5rem; }
+    .shop-contact .grid__item:last-of-type {
+      padding-bottom: 0; }
+    @media screen and (min-width: 750px) {
+      .shop-contact .grid__item:first-of-type {
+        padding: 5.5rem 0 5.5rem 0; }
+      .shop-contact .grid__item:last-of-type {
+        padding-bottom: 5.5rem; } }
+    @media screen and (min-width: 990px) {
+      .shop-contact .grid__item:first-of-type {
+        padding: 5.5rem 3.5rem 5.5rem 5.5rem; }
+      .shop-contact .grid__item:last-of-type {
+        padding: 5.5rem 5.5rem 5.5rem 3.5rem; } }
   .shop-contact__map-wrapper {
     position: relative; }
-    @media screen and (min-width: 990px) {
+    @media screen and (min-width: 750px) {
       .shop-contact__map-wrapper {
-        padding: 6rem 3.5rem 7rem 7rem; } }
-  @media screen and (min-width: 990px) {
-    .shop-contact__content {
-      padding: 6rem 7rem 7rem 3.5rem; } }
+        padding-left: 0;
+        padding-right: 0; } }
   .shop-contact__logo {
-    margin-bottom: 3rem; }
+    height: auto;
+    margin-bottom: 3rem;
+    width: 170px; }
+    @media screen and (min-width: 990px) {
+      .shop-contact__logo {
+        height: 51px;
+        width: 215px; } }
   .shop-contact__heading {
-    font-size: 34px;
+    font-size: 28px;
     margin-bottom: 3rem; }
+    @media screen and (min-width: 990px) {
+      .shop-contact__heading {
+        font-size: 34px; } }
   .shop-contact__group {
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    text-align: center; }
+    .shop-contact__group:last-of-type {
+      margin-bottom: 0; }
+    @media screen and (min-width: 750px) {
+      .shop-contact__group {
+        text-align: left; } }
     .shop-contact__group-row {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      max-width: 400px; }
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      max-width: 400px;
+      width: 100%; }
+      @media screen and (min-width: 750px) {
+        .shop-contact__group-row {
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between; } }
   .shop-contact__label {
     font-size: 20px;
     padding: 16px 0 8px;
     margin-bottom: 0; }
+  .shop-contact__link {
+    color: white !important;
+    text-decoration: none; }
+    .shop-contact__link:hover {
+      text-decoration: underline; }
   .shop-contact #map {
     width: 100%;
     height: auto;
     max-height: 345px;
-    overflow: hidden; }
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media screen and (min-width: 750px) {
+      .shop-contact #map {
+        max-width: 100%; } }
     @media screen and (min-width: 1320px) {
       .shop-contact #map {
         max-height: 540px; } }
     .shop-contact #map iframe {
-      border: 0;
-      margin-top: -130px; }
+      border: 0; }
       @media screen and (min-width: 1320px) {
         .shop-contact #map iframe {
           margin-bottom: 0;

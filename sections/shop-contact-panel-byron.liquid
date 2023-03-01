@@ -2,32 +2,25 @@
 
 {% comment %}
   {{ section.settings.driving_directions }}
-
   {{ section.settings.parking_information }}
-
   {{ section.settings.wheel_chair_accessibility_information }}
-
   {{ section.settings.pet_friendliness }}
 {% endcomment %}
 
 <section class="shop-contact">
   <div class="shop-contact__border"></div>
   {% assign image_path = 'contact-bg.png' %}
-  {% comment %} {% assign image_path = 'texture.png' | asset_img_url: '999x' %} {% endcomment %}
-  {% comment %} {{ 'texture.png' | asset_url | img_url: 'medium' | img_tag}} {% endcomment %}
-
-
   <div class="shop-contact__wrapper page-width">
-    <div class="shop-contact__grid grid">
-      <div class="shop-contact__map-wrapper grid__item">
+    <div class="shop-contact__grid grid grid--gapless grid--1-col grid--2-col-tablet">
+      <div class="grid__item shop-contact__map-wrapper">
         <div id="map">
           {{ section.settings.google_maps_embed }}
         </div>
       </div>
-      <div class="shop-contact__content grid__item">
+      <div class="grid__item shop-contact__content">
         <h2 class="shop-contact__heading">{{ section.settings.heading }}</h2>
         <span class="shop-contact__description"></span>
-        <img class="shop-contact__logo" src="{{ 'logo-golden-breed.png' | asset_url }}"/>
+        <img class="shop-contact__logo" src="{{ 'logo-golden-breed.png' | asset_url }}" width="215" height="51" loading="lazy"/>
 
         <div class="shop-contact__group">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,33 +34,39 @@
         </div>
 
         <div class="shop-contact__group-row">
-          <div class="shop-contact__group">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M22.6667 27.9998C20.4617 27.9978 18.2911 27.4528 16.3467 26.4131L15.7467 26.0798C11.601 23.8508 8.20225 20.452 5.97333 16.3064L5.64 15.7064C4.57309 13.751 4.00951 11.5607 4 9.33308V8.43975C3.99944 7.72903 4.28261 7.04748 4.78667 6.54641L7.04 4.29308C7.25884 4.07255 7.56775 3.96625 7.87595 4.00543C8.18415 4.0446 8.45664 4.22481 8.61333 4.49308L11.6133 9.63975C11.9167 10.1636 11.8291 10.8261 11.4 11.2531L8.88 13.7731C8.67072 13.98 8.62196 14.2998 8.76 14.5598L9.22667 15.4398C10.9027 18.5443 13.4524 21.0894 16.56 22.7598L17.44 23.2398C17.7 23.3778 18.0197 23.329 18.2267 23.1198L20.7467 20.5998C21.1736 20.1707 21.8361 20.0831 22.36 20.3864L27.5067 23.3864C27.7749 23.5431 27.9552 23.8156 27.9943 24.1238C28.0335 24.432 27.9272 24.741 27.7067 24.9598L25.4533 27.2131C24.9523 27.7171 24.2707 28.0003 23.56 27.9998H22.6667Z" fill="white"/>
-              </svg>
-              
-            <h3 class="shop-contact__label">Phone</h3>
-            <div class="shop-contact__phone-number">{{ section.settings.phone }}</div>
-          </div>
-  
-          <div class="shop-contact__group">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16.0504 4H16.044C9.4014 4 4 9.38674 4 16C4 18.6232 4.84913 21.0591 6.29367 23.0334L4.79239 27.49L9.42308 26.0174C11.3279 27.2739 13.6005 28 16.0504 28C22.6929 28 28.0943 22.612 28.0943 16C28.0943 9.38801 22.6929 4 16.0504 4ZM23.0601 20.9507C22.7694 21.768 21.6156 22.445 20.6963 22.6432C20.0665 22.7765 19.2442 22.8829 16.4768 21.7405C12.9363 20.2807 10.6566 16.6993 10.4788 16.4666C10.3085 16.2346 9.04824 14.5708 9.04824 12.8496C9.04824 11.129 9.92605 10.2907 10.2799 9.93115C10.5699 9.63536 11.0506 9.50085 11.5115 9.50085C11.6606 9.50085 11.7945 9.5085 11.915 9.51424C12.2688 9.52954 12.446 9.54994 12.68 10.1065C12.9707 10.8032 13.6783 12.5244 13.7624 12.7017C13.8485 12.8789 13.9339 13.1179 13.8134 13.3506C13.7006 13.5903 13.6011 13.6968 13.4233 13.9008C13.2454 14.1048 13.0765 14.2609 12.8993 14.4796C12.7367 14.6702 12.5525 14.8736 12.7578 15.2261C12.9624 15.571 13.67 16.7204 14.7123 17.6441C16.0574 18.8355 17.1475 19.2167 17.5376 19.3787C17.8283 19.4985 18.1745 19.4698 18.3867 19.2454C18.6564 18.956 18.9892 18.4766 19.3283 18.0042C19.5693 17.6657 19.8734 17.6237 20.1927 17.7435C20.5178 17.8557 22.2391 18.7029 22.5935 18.8782C22.9473 19.0555 23.1806 19.139 23.2667 19.2875C23.3508 19.4348 23.3508 20.1322 23.0601 20.9507Z" fill="white"/>
-              </svg>
-              
-            <h3 class="shop-contact__label">WhatsApp</h3>
-            <div class="shop-contact__whatsapp">{{ section.settings.whatsapp }}</div>
-          </div>
+
+          {% if section.settings.phoneLink != empty and section.settings.phone != empty %}
+            <div class="shop-contact__group">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.6667 27.9998C20.4617 27.9978 18.2911 27.4528 16.3467 26.4131L15.7467 26.0798C11.601 23.8508 8.20225 20.452 5.97333 16.3064L5.64 15.7064C4.57309 13.751 4.00951 11.5607 4 9.33308V8.43975C3.99944 7.72903 4.28261 7.04748 4.78667 6.54641L7.04 4.29308C7.25884 4.07255 7.56775 3.96625 7.87595 4.00543C8.18415 4.0446 8.45664 4.22481 8.61333 4.49308L11.6133 9.63975C11.9167 10.1636 11.8291 10.8261 11.4 11.2531L8.88 13.7731C8.67072 13.98 8.62196 14.2998 8.76 14.5598L9.22667 15.4398C10.9027 18.5443 13.4524 21.0894 16.56 22.7598L17.44 23.2398C17.7 23.3778 18.0197 23.329 18.2267 23.1198L20.7467 20.5998C21.1736 20.1707 21.8361 20.0831 22.36 20.3864L27.5067 23.3864C27.7749 23.5431 27.9552 23.8156 27.9943 24.1238C28.0335 24.432 27.9272 24.741 27.7067 24.9598L25.4533 27.2131C24.9523 27.7171 24.2707 28.0003 23.56 27.9998H22.6667Z" fill="white"/>
+                </svg>
+                
+              <h3 class="shop-contact__label">Phone</h3>
+              <a class="shop-contact__phone-number shop-contact__link" href="{{ section.settings.phoneLink }}">{{ section.settings.phone }}</a>
+            </div>
+        {% endif %}
+        {% if section.settings.whatsappLink != empty and section.settings.whatsapp != empty %}
+            <div class="shop-contact__group">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.0504 4H16.044C9.4014 4 4 9.38674 4 16C4 18.6232 4.84913 21.0591 6.29367 23.0334L4.79239 27.49L9.42308 26.0174C11.3279 27.2739 13.6005 28 16.0504 28C22.6929 28 28.0943 22.612 28.0943 16C28.0943 9.38801 22.6929 4 16.0504 4ZM23.0601 20.9507C22.7694 21.768 21.6156 22.445 20.6963 22.6432C20.0665 22.7765 19.2442 22.8829 16.4768 21.7405C12.9363 20.2807 10.6566 16.6993 10.4788 16.4666C10.3085 16.2346 9.04824 14.5708 9.04824 12.8496C9.04824 11.129 9.92605 10.2907 10.2799 9.93115C10.5699 9.63536 11.0506 9.50085 11.5115 9.50085C11.6606 9.50085 11.7945 9.5085 11.915 9.51424C12.2688 9.52954 12.446 9.54994 12.68 10.1065C12.9707 10.8032 13.6783 12.5244 13.7624 12.7017C13.8485 12.8789 13.9339 13.1179 13.8134 13.3506C13.7006 13.5903 13.6011 13.6968 13.4233 13.9008C13.2454 14.1048 13.0765 14.2609 12.8993 14.4796C12.7367 14.6702 12.5525 14.8736 12.7578 15.2261C12.9624 15.571 13.67 16.7204 14.7123 17.6441C16.0574 18.8355 17.1475 19.2167 17.5376 19.3787C17.8283 19.4985 18.1745 19.4698 18.3867 19.2454C18.6564 18.956 18.9892 18.4766 19.3283 18.0042C19.5693 17.6657 19.8734 17.6237 20.1927 17.7435C20.5178 17.8557 22.2391 18.7029 22.5935 18.8782C22.9473 19.0555 23.1806 19.139 23.2667 19.2875C23.3508 19.4348 23.3508 20.1322 23.0601 20.9507Z" fill="white"/>
+                </svg>
+                
+              <h3 class="shop-contact__label">WhatsApp</h3>
+              <a class="shop-contact__whatsapp shop-contact__link" href="{{ section.settings.whatsappLink }}">{{ section.settings.whatsapp }}</a>
+            </div>
+        {% endif %}
         </div>
 
+        {% if section.settings.email != empty %}
         <div class="shop-contact__group">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M5.33329 5.33337H26.6666C28.1394 5.33337 29.3333 6.52728 29.3333 8.00004V24C29.3333 25.4728 28.1394 26.6667 26.6666 26.6667H5.33329C3.86053 26.6667 2.66663 25.4728 2.66663 24V8.00004C2.66663 6.52728 3.86053 5.33337 5.33329 5.33337ZM18.2 20.6L26.6666 14.6667V11.8667L16.8666 18.7334C16.3454 19.0951 15.6545 19.0951 15.1333 18.7334L5.33329 11.8667V14.6667L13.8 20.6C15.1213 21.5236 16.8786 21.5236 18.2 20.6Z" fill="white"/>
             </svg>
             
           <h3 class="shop-contact__label">Email</h3>
-          <div class="shop-contact__email">{{ section.settings.email }}</div>
+          <a class="shop-contact__email shop-contact__link" href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a>
         </div>
+      {% endif %}
       </div>
     </div>
   </div>
@@ -120,14 +119,26 @@
     {
       "type": "text",
       "id": "phone",
-      "label": "Phone",
+      "label": "Phone Dispay",
       "placeholder": "02 6680 7944"
     },
     {
       "type": "text",
+      "id": "phoneLink",
+      "label": "Phone Link",
+      "placeholder": "tel:+610266807944"
+    },
+    {
+      "type": "text",
       "id": "whatsapp",
-      "label": "WhatsApp",
+      "label": "WhatsApp Display",
       "placeholder": "02 6680 7944"
+    },
+    {
+      "type": "text",
+      "id": "whatsappLink",
+      "label": "WhatsApp Link",
+      "placeholder": "https://wa.me/"
     },
     {
       "type": "text",
