@@ -60,6 +60,56 @@
         "pet_friendliness": ""
       }
     },
+    "0484449b-6a50-4b3b-9ee6-6556451c5dae": {
+      "type": "surf-select",
+      "settings": {
+        "heading": "Which Surfboard Should You Hire?",
+        "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
+      }
+    },
+    "82362faa-10a0-452a-9230-cf28f41a1396": {
+      "type": "shop-image-text-double",
+      "blocks": {
+        "template--16138112532659__82362faa-10a0-452a-9230-cf28f41a1396-1677741229fc3fded4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Surfshop Image with Text"
+          }
+        },
+        "template--16138112532659__82362faa-10a0-452a-9230-cf28f41a1396-1677741229fc3fded4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--16138112532659__82362faa-10a0-452a-9230-cf28f41a1396-1677741229fc3fded4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16138112532659__82362faa-10a0-452a-9230-cf28f41a1396-1677741229fc3fded4-0",
+        "template--16138112532659__82362faa-10a0-452a-9230-cf28f41a1396-1677741229fc3fded4-1",
+        "template--16138112532659__82362faa-10a0-452a-9230-cf28f41a1396-1677741229fc3fded4-2"
+      ],
+      "settings": {
+        "variation": "1",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "be878ebf-ea2f-4b42-bcd7-65a23267b69c": {
+      "type": "image-grid",
+      "settings": {
+        "heading": "",
+        "summary": "",
+        "variation": "1"
+      }
+    },
     "493ab732-928d-42ff-be99-fb0afa80e11a": {
       "type": "tab-accordion",
       "blocks": {
@@ -215,6 +265,11 @@
         "heading": "Heading"
       }
     },
+    "25c46024-1bb7-4607-8d0d-54e868c531f4": {
+      "type": "testimonials",
+      "settings": {
+      }
+    },
     "7a575310-7f34-4910-8427-5e7100bbbae5": {
       "type": "accordion",
       "settings": {
@@ -222,19 +277,23 @@
         "sub_heading": "Our commonly asked questions..."
       }
     },
-    "0484449b-6a50-4b3b-9ee6-6556451c5dae": {
-      "type": "surf-select",
-      "settings": {
-        "heading": "Which Surfboard Should You Hire?",
-        "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
-      }
-    },
-    "be878ebf-ea2f-4b42-bcd7-65a23267b69c": {
-      "type": "image-grid",
+    "554dd024-c9a3-46c0-b76c-4665b0cc603d": {
+      "type": "shop-contact-panel-byron",
       "settings": {
         "heading": "",
-        "summary": "",
-        "variation": "1"
+        "google_maps_embed": "",
+        "shop_name": "",
+        "address": "",
+        "hours": "",
+        "phone": "",
+        "phoneLink": "",
+        "whatsapp": "",
+        "whatsappLink": "",
+        "email": "",
+        "driving_directions": "",
+        "parking_information": "",
+        "wheel_chair_accessibility_information": "",
+        "pet_friendliness": ""
       }
     }
   },
@@ -242,9 +301,12 @@
     "main",
     "8f9844bd-7884-4c0a-8743-76dc1d007425",
     "628a5a26-f417-4b05-9668-6e397e3a5d08",
-    "493ab732-928d-42ff-be99-fb0afa80e11a",
-    "7a575310-7f34-4910-8427-5e7100bbbae5",
     "0484449b-6a50-4b3b-9ee6-6556451c5dae",
-    "be878ebf-ea2f-4b42-bcd7-65a23267b69c"
+    "82362faa-10a0-452a-9230-cf28f41a1396",
+    "be878ebf-ea2f-4b42-bcd7-65a23267b69c",
+    "493ab732-928d-42ff-be99-fb0afa80e11a",
+    "25c46024-1bb7-4607-8d0d-54e868c531f4",
+    "7a575310-7f34-4910-8427-5e7100bbbae5",
+    "554dd024-c9a3-46c0-b76c-4665b0cc603d"
   ]
 }
