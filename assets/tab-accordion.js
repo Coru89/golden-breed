@@ -1,7 +1,7 @@
 // Get all the accordion headers
   let accordionHeaders = document.querySelectorAll('.tab-accordion__item-header');
   const desktopContentEl = document.querySelector('.tab-accordion__content-desktop');
-  
+
   if (window.innerWidth > 750) {
     if (accordionHeaders[0] && accordionHeaders[0].nextElementSibling.innerHTML && desktopContentEl) {
       desktopContentEl.innerHTML = accordionHeaders[0].nextElementSibling.innerHTML;
@@ -18,7 +18,6 @@
         header.classList.toggle('active');
         const content = header.nextElementSibling;
         content.classList.toggle('active');
-
       } else {
           if (desktopContentEl && e.currentTarget) {
             accordionHeaders.forEach(header => {
@@ -52,7 +51,6 @@
   
     if (window.innerWidth >= 750) {
       if ((accordionHeaders[0] && desktopContentEl) && (containsActive == false || activeCount > 1)) {
-        console.log('here');
         accordionHeaders.forEach(header => {
           header.classList.remove('active');
           const contentEl = header.nextElementSibling;

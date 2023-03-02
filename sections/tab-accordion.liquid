@@ -1,11 +1,11 @@
 {{ 'section-tab-accordion.css' | asset_url | stylesheet_tag }}
-
 <script src="{{ 'tab-accordion.js' | asset_url }}" async></script>
 
-{% comment %} {{ 'tab-accordion.js' | asset_url | script_tag: async }} {% endcomment %}
-
 <section class="tab-accordion">
-  <div class="tab-accordion__inner page-width">
+  <div class="tab-accordion__inner page-width page-width--desktop">
+    <h2 class="tab-accordion__heading">
+      {{ section.settings.heading }}
+    </h2>
     <div class="tab-accordion__items">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -15,7 +15,12 @@
                {% else %} 
             </div></div><div class="tab-accordion__item">
             {% endif %}
-            <div class="tab-accordion__item-header">{{ block.settings.tabaccordion_section_name }}</div>
+            <div class="tab-accordion__item-header">
+              <span>{{ block.settings.tabaccordion_section_name }}</span>
+              <svg class="tab-accordion__item-header-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="white"/>
+              </svg>
+            </div>
             {%- when 'table_row' -%}
               {% if prevType == 'tabaccordion_section' %}
                 <div class="tab-accordion__content">
@@ -35,14 +40,9 @@
         {% assign prevType = block.type %}
       {%- endfor -%}
     </div>
-    
   </div>     
-  
-  <div class="tab-accordion__content-desktop">placeholder</div>
-
+  <div class="tab-accordion__content-desktop"></div>
 </section>
-
-
 
 {% schema %}
 {
@@ -96,113 +96,3 @@
   ]
 }
 {% endschema %}
-
-{% comment %} <script>
-
-  // Get all the accordion headers
-let accordionHeaders = document.querySelectorAll('.tab-accordion__item-header');
-const desktopContentEl = document.querySelector('.tab-accordion__content-desktop');
-if (window.innerWidth > 750) {
-  if (accordionHeaders[0] && accordionHeaders[0].nextElementSibling.innerHTML && desktopContentEl) {
-    desktopContentEl.innerHTML = accordionHeaders[0].nextElementSibling.innerHTML;
-    accordionHeaders[0].classList.add('active');
-    accordionHeaders[0].nextElementSibling.classList.add('active');
-  }
-}
-
-
-{% comment %} const firstTabCOntent = accordionHeaders[0].nextElementSibling.innerHTML; {% endcomment %}
-
-
-// Loop through the headers and add an event listener to each one
-accordionHeaders.forEach(header => {
-  header.addEventListener('click', (e) => {
-    // If the screen width is less than 750 pixels (mobile size), toggle the 'active' class on the clicked header and its content element
-    if (window.innerWidth < 750) {
-      header.classList.toggle('active');
-      const content = header.nextElementSibling;
-      content.classList.toggle('active');
-      {% comment %} if (content.classList.contains('active')) {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      } else {
-        content.style.maxHeight = null;
-      } {% endcomment %}
-
-    } else {
-        if (desktopContentEl && e.currentTarget) {
-          accordionHeaders.forEach(header => {
-            header.classList.remove('active');
-            const contentEl = header.nextElementSibling;
-            contentEl.classList.remove('active');
-          });
-          const content = header.nextElementSibling;
-          content.classList.toggle('active');
-          header.classList.toggle('active');
-          desktopContentEl.innerHTML = e.currentTarget.nextElementSibling.innerHTML;
-
-        }
-    }
-  });
-});
-
-// Detect if the screen width changes and update the layout accordingly
- {% comment %} window.addEventListener('resize', () => {
-  accordionHeaders = document.querySelectorAll('.tab-accordion__item-header');
-
-  let containsActive = false;
-  let activeCount = 0; // create a variable to store the count of elements with the "active" class
-  
-  for (let i = 0; i < accordionHeaders.length; i++) {
-    if (accordionHeaders[i].classList.contains("active")) {
-      containsActive = true;
-      activeCount++; // increment the active count if the current element has the "active" class
-    }
-  }
-
-  if (window.innerWidth >= 750) {
-    if ((accordionHeaders[0] && desktopContentEl) && (containsActive == false || activeCount > 1)) {
-      console.log('here');
-      accordionHeaders.forEach(header => {
-        header.classList.remove('active');
-        const contentEl = header.nextElementSibling;
-        contentEl.classList.remove('active');
-      });
-      desktopContentEl.innerHTML = accordionHeaders[0].nextElementSibling.innerHTML;
-      accordionHeaders[0].classList.add('active');
-      accordionHeaders[0].nextElementSibling.classList.add('active');
-    } 
-  }
-}); {% endcomment %}
-
-// Define the function to be called on resize, wrapped in a throttle function
-const handleResize = throttle(() => {
-  const accordionHeaders = document.querySelectorAll('.tab-accordion__item-header');
-  let containsActive = false;
-  let activeCount = 0; // create a variable to store the count of elements with the "active" class
-
-  for (let i = 0; i < accordionHeaders.length; i++) {
-    if (accordionHeaders[i].classList.contains("active")) {
-      containsActive = true;
-      activeCount++; // increment the active count if the current element has the "active" class
-    }
-  }
-
-  if (window.innerWidth >= 750) {
-    if ((accordionHeaders[0] && desktopContentEl) && (containsActive == false || activeCount > 1)) {
-      console.log('here');
-      accordionHeaders.forEach(header => {
-        header.classList.remove('active');
-        const contentEl = header.nextElementSibling;
-        contentEl.classList.remove('active');
-      });
-      desktopContentEl.innerHTML = accordionHeaders[0].nextElementSibling.innerHTML;
-      accordionHeaders[0].classList.add('active');
-      accordionHeaders[0].nextElementSibling.classList.add('active');
-    } 
-  }
-}, 250); // set the throttle time interval to 250 milliseconds
-
-// Add the throttled resize event listener to the window object
-window.addEventListener('resize', handleResize);
-  
-  </script> {% endcomment %}
