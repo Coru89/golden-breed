@@ -275,10 +275,28 @@
             "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
             "background_image": "shopify:\/\/shop_images\/byron-hero.png"
           }
+        },
+        "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Name Here",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "background_image": "shopify:\/\/shop_images\/noosa-hero.png"
+          }
+        },
+        "5d39b0f6-e3d3-43b0-8635-5323f195bf58": {
+          "type": "testimonial",
+          "settings": {
+            "name": "name",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "background_image": "shopify:\/\/shop_images\/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
+          }
         }
       },
       "block_order": [
-        "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d"
+        "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d",
+        "284c5a80-cb2c-4da8-86e3-08e24283e8de",
+        "5d39b0f6-e3d3-43b0-8635-5323f195bf58"
       ],
       "settings": {
       }

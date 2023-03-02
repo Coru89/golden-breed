@@ -19,25 +19,42 @@
 <section class="testimonials">
   <div class="glide">
     <div class="glide__track" data-glide-el="track">
-      <ul class="glide__slides">
+      <ul class="testimonials__slides glide__slides">
         {%- for block in section.blocks -%}
           {%- assign background_image = block.settings.background_image -%}
-          <div class="glide__slide">
+          <div class="testimonials__slide glide__slide">
             {%- case block.type -%}
               {%- when 'testimonial' -%}
-                <div class="testimonials__name">
-                  {{ block.settings.name }}
+                <div class="testimonials__content">
+                  <div class="testimonials__name">
+                    {{ block.settings.name }}
+                  </div>
+                  <div class="testimonials__quote">
+                    {{ block.settings.quote }}
+                  </div>
                 </div>
 
-                <div class="testimonials__quote">
-                  {{ block.settings.quote }}
+                <div class="testimonials__image-container">
+                  <div class="testimonials__image-overlay"></div>
+                  {{ background_image | image_url: width: background_image.width | image_tag: class: 'testimonials__image', loading: 'lazy' }}
                 </div>
-
-                {{ background_image | image_url: width: background_image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
             {%- endcase -%}
           </div>
         {%- endfor -%}
       </ul>
+    </div>
+    <div class="testimonials__arrows glide__arrows" data-glide-el="controls">
+      <button class="testimonials__arrow testimonials__arrow--left glide__arrow glide__arrow--left" data-glide-dir="<">
+        <svg width="19" height="36" viewBox="0 0 19 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.75 34.875L0.875 18L17.75 1.125" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          
+      </button>
+      <button class="testimonials__arrow testimonials__arrow--right glide__arrow glide__arrow--right" data-glide-dir=">">
+        <svg width="19" height="36" viewBox="0 0 19 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.25 1.125L18.125 18L1.25 34.875" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>        
+      </button>
     </div>
   </div>
 </section>
@@ -83,23 +100,30 @@
 
   var glide = new Glide('.glide', {
     type: 'carousel',
+    autoplay: 10000,
+    gap: 30,
+    perView: 1,
     peek: {
-      before: 120,
-      after: 120
+      before: 180,
+      after: 180
     },
     breakpoints: {
-      800: {
-        perView: 1
-      }
+      750: {
+        gap: 100
+      },
+      peek: {
+        before: 0,
+        after: 0
+      },
     }
-  })
+  }).mount();
 
   {% comment %} Breakpoints.match({
     600: { perView: 1 },
     1200: { perView: 3 }
   }) {% endcomment %}
 
-  glide.mount({Breakpoints});
+  {% comment %} glide.mount({Breakpoints}); {% endcomment %}
 </script>
 
 {% comment %} <script type="module">
