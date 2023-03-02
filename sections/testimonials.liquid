@@ -1,69 +1,113 @@
 {{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
+{% comment %}
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+{% endcomment %}
 
-{%- for block in section.blocks -%}
-    {%- case block.type -%}
-  
-      {%- when 'testimonial' -%}
-        {%- ########################################################################## 
-        # Label: Name
-        # Returns: a string or an empty object(if nothing has been entered)
-        # Filters: https://shopify.dev/api/liquid/objects#string 
-        ########################################################################## -%}
-        {{ block.settings.name }} 
-  
-        {%- ########################################################################## 
-        # Label: Quote
-        # Returns: a string or an empty object(if nothing has been entered)
-        # Filters: https://shopify.dev/api/liquid/objects#string 
-        ########################################################################## -%}
-        {{ block.settings.quote }} 
-  
-        {%- ########################################################################## 
-        # Label: Background Image
-        # Returns: an image object or nil(if no selection has been made)
-        # Image Properties: https://shopify.dev/api/liquid/objects#image
-        # Image Filters: https://shopify.dev/api/liquid/filters#image_tag, https://shopify.dev/api/liquid/filters#image_url
-        ########################################################################## -%}
-        {%- assign background_image = block.settings.background_image -%}
-        {{ background_image | image_url: width: background_image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
-  
-    {%- endcase -%}
-  {%- endfor -%}
-  
-  {% schema %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js" integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+{% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> {% endcomment %}
+
+{% comment %}
+  {%- assign background_image = block.settings.background_image -%}
+  {{ background_image | image_url: width: background_image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
+  {{ block.settings.quote }}
+  {{ block.settings.name }}
+{% endcomment %}
+
+<section class="testimonials">
+  <div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        {%- for block in section.blocks -%}
+          {%- assign background_image = block.settings.background_image -%}
+          <div class="glide__slide">
+            {%- case block.type -%}
+              {%- when 'testimonial' -%}
+                <div class="testimonials__name">
+                  {{ block.settings.name }}
+                </div>
+
+                <div class="testimonials__quote">
+                  {{ block.settings.quote }}
+                </div>
+
+                {{ background_image | image_url: width: background_image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
+            {%- endcase -%}
+          </div>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "settings": [],
+  "blocks": [
     {
-    "name": "Testimonials",
-    "settings": [],
-    "blocks": [
-      {
-        "name": "Testimonial",
-        "type": "testimonial",
-        "settings": [
-          {
-            "type": "text",
-            "id": "name",
-            "label": "Name",
-            "placeholder": "Name Surname"
-          },
-          {
-            "type": "textarea",
-            "id": "quote",
-            "label": "Quote",
-            "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
-          },
-          {
-            "type": "image_picker",
-            "id": "background_image",
-            "label": "Background Image"
-          }
-        ]
+      "name": "Testimonial",
+      "type": "testimonial",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name",
+          "placeholder": "Name Surname"
+        },
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "Quote",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+        },
+        {
+          "type": "image_picker",
+          "id": "background_image",
+          "label": "Background Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+
+  var glide = new Glide('.glide', {
+    type: 'carousel',
+    peek: {
+      before: 120,
+      after: 120
+    },
+    breakpoints: {
+      800: {
+        perView: 1
       }
-    ],
-    "presets": [
-      {
-        "name": "Testimonials"
-      }
-    ]
-  }  
-  {% endschema %}
-  
+    }
+  })
+
+  {% comment %} Breakpoints.match({
+    600: { perView: 1 },
+    1200: { perView: 3 }
+  }) {% endcomment %}
+
+  glide.mount({Breakpoints});
+</script>
+
+{% comment %} <script type="module">
+  document.addEventListener('DOMContentLoaded', function () {
+    var slider = tns({
+      container: '.testimonials',
+      items: 2,
+      arrowKeys: true,
+    });
+  });
+</script> {% endcomment %}
