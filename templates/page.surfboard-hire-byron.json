@@ -267,6 +267,19 @@
     },
     "25c46024-1bb7-4607-8d0d-54e868c531f4": {
       "type": "testimonials",
+      "blocks": {
+        "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d": {
+          "type": "testimonial",
+          "settings": {
+            "name": "",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "background_image": "shopify:\/\/shop_images\/byron-hero.png"
+          }
+        }
+      },
+      "block_order": [
+        "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d"
+      ],
       "settings": {
       }
     },
