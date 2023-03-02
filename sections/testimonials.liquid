@@ -1,0 +1,69 @@
+{{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
+
+{%- for block in section.blocks -%}
+    {%- case block.type -%}
+  
+      {%- when 'testimonial' -%}
+        {%- ########################################################################## 
+        # Label: Name
+        # Returns: a string or an empty object(if nothing has been entered)
+        # Filters: https://shopify.dev/api/liquid/objects#string 
+        ########################################################################## -%}
+        {{ block.settings.name }} 
+  
+        {%- ########################################################################## 
+        # Label: Quote
+        # Returns: a string or an empty object(if nothing has been entered)
+        # Filters: https://shopify.dev/api/liquid/objects#string 
+        ########################################################################## -%}
+        {{ block.settings.quote }} 
+  
+        {%- ########################################################################## 
+        # Label: Background Image
+        # Returns: an image object or nil(if no selection has been made)
+        # Image Properties: https://shopify.dev/api/liquid/objects#image
+        # Image Filters: https://shopify.dev/api/liquid/filters#image_tag, https://shopify.dev/api/liquid/filters#image_url
+        ########################################################################## -%}
+        {%- assign background_image = block.settings.background_image -%}
+        {{ background_image | image_url: width: background_image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
+  
+    {%- endcase -%}
+  {%- endfor -%}
+  
+  {% schema %}
+    {
+    "name": "Code In Shopify Section",
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Testimonial",
+        "type": "testimonial",
+        "settings": [
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name",
+            "placeholder": "Name Surname"
+          },
+          {
+            "type": "textarea",
+            "id": "quote",
+            "label": "Quote",
+            "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+          },
+          {
+            "type": "image_picker",
+            "id": "background_image",
+            "label": "Background Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Code In Shopify Section"
+      }
+    ]
+  }  
+  {% endschema %}
+  
