@@ -303,6 +303,50 @@
     },
     "7a575310-7f34-4910-8427-5e7100bbbae5": {
       "type": "accordion",
+      "blocks": {
+        "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Hello World",
+            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+          }
+        },
+        "cffc097b-c126-4ff2-845d-7dd4374810fc": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Hello World",
+            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+          }
+        },
+        "83ea7dec-fc49-48fd-8cd0-4f64ac355056": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Accordion Item",
+            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+          }
+        },
+        "e7acff88-229c-4dc5-827d-e0b73e9654c3": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Item Label",
+            "accordion_content": "Veritatis\nobcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam\nnihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,\ntenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,\nquia. Quo neque error repudiandae fuga?"
+          }
+        },
+        "f416df8a-b269-4b69-ac34-b95773dc6d9e": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Another Item Title",
+            "accordion_content": "Veritatis\nobcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam\nnihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,\ntenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,\nquia. Quo neque error repudiandae fuga?"
+          }
+        }
+      },
+      "block_order": [
+        "dba7340e-c2ba-4f41-8326-01ad6fad0885",
+        "cffc097b-c126-4ff2-845d-7dd4374810fc",
+        "83ea7dec-fc49-48fd-8cd0-4f64ac355056",
+        "e7acff88-229c-4dc5-827d-e0b73e9654c3",
+        "f416df8a-b269-4b69-ac34-b95773dc6d9e"
+      ],
       "settings": {
         "heading": "FAQs",
         "sub_heading": "Our commonly asked questions..."

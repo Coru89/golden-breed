@@ -1,0 +1,141 @@
+.accordion {
+    &__inner {
+      align-items: center;
+      color: #265979;
+      display: flex;
+      flex-direction: column;
+      font-family: Special Elite, Monospace;
+      padding: 6rem 0;
+  
+      @media screen and (min-width: 750px) {
+        padding: 10rem 5rem;
+      }
+    }
+  
+    &__heading {
+      font-size: 28px;
+      margin-bottom: 32px;
+  
+      @media screen and (min-width: 990px) {
+        font-size: 34px;
+      }
+    }
+  
+    &__items {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  
+      @media screen and (min-width: 750px) {
+        align-items: center;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        width: unset;
+      }
+    }
+  
+    &__item {
+      text-align: center;
+  
+      @media screen and (min-width: 750px) {
+        border: none;
+        margin: 0;
+  
+        &:not(:last-of-type) {
+          .tab-accordion__item-header {
+            margin-right: 2px;
+          }
+        }
+      }
+  
+      &-header {
+        border-bottom: 1px solid #e5eaf0;
+        border-top: 1px solid #e5eaf0;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 1;
+        padding: 22px 16px 20px;
+        text-transform: uppercase;
+  
+        @media screen and (min-width: 750px) {
+          border: 0;
+          padding: 19px 48px 15px;
+        }
+  
+        &-icon {
+          float: right;
+          position: relative;
+          top: -8px;
+        }
+  
+        &.active {
+          @media screen and (min-width: 750px) {
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 24px 48px 20px;
+          }
+  
+          .tab-accordion__item-header-icon {
+            transform: rotate(180deg);
+          }
+        }
+      }
+  
+      &-table {
+        &-row {
+          display: flex;
+          padding: 18px 12px;
+          justify-content: space-between;
+  
+          &:nth-of-type(even) {
+            background-color: #deeaf0;
+          }
+  
+          &--header {
+            font-size: 18px;
+          }
+        }
+  
+        &-cell {
+          &:first-of-type {
+            width: 70%;
+          }
+  
+          &:last-of-type {
+            width: 30%;
+          }
+        }
+      }
+    }
+  
+    &__content {
+      display: none;
+      overflow: hidden;
+      padding: 10px;
+      transition: max-height 0.3s ease-out;
+  
+      @media screen and (min-width: 750px) {
+        padding: 10px;
+      }
+  
+      &.active {
+        display: block;
+  
+        @media screen and (min-width: 750px) {
+          display: none;
+        }
+      }
+  
+      &-desktop {
+        display: none;
+  
+        @media screen and (min-width: 750px) {
+          display: block;
+          margin-top: 6px;
+          max-width: 714px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  
