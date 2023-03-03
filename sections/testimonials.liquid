@@ -1,20 +1,8 @@
 {{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
-{% comment %}
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-{% endcomment %}
+<script src="{{ 'section-testimonials.js' | asset_url }}" async></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js" integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-{% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> {% endcomment %}
-
-{% comment %}
-  {%- assign background_image = block.settings.background_image -%}
-  {{ background_image | image_url: width: background_image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
-  {{ block.settings.quote }}
-  {{ block.settings.name }}
-{% endcomment %}
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js" integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 <section class="testimonials">
   <div class="glide">
@@ -26,17 +14,25 @@
             {%- case block.type -%}
               {%- when 'testimonial' -%}
                 <div class="testimonials__content">
-                  <div class="testimonials__name">
-                    {{ block.settings.name }}
-                  </div>
+                  <svg class="testimonials__quote-icon" width="54" height="54" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.497 38.571a6.7 6.7 0 1 0 0-13.398 6.7 6.7 0 0 0 0 13.398Z" fill="#fff"/><path d="M15.496 39.79c-4.365 0-7.917-3.553-7.917-7.918 0-4.366 3.552-7.917 7.917-7.917 4.366 0 7.918 3.551 7.918 7.917 0 4.365-3.552 7.917-7.918 7.917Zm0-13.4a5.488 5.488 0 0 0-5.48 5.482 5.488 5.488 0 0 0 5.48 5.481 5.488 5.488 0 0 0 5.482-5.481 5.488 5.488 0 0 0-5.482-5.481Zm20.707 12.181a6.7 6.7 0 1 0 0-13.398 6.7 6.7 0 0 0 0 13.398Z" fill="#fff"/><path d="M36.203 39.79c-4.366 0-7.917-3.553-7.917-7.918 0-4.366 3.551-7.917 7.917-7.917 4.365 0 7.917 3.551 7.917 7.917 0 4.365-3.552 7.917-7.917 7.917Zm0-13.4a5.488 5.488 0 0 0-5.481 5.482 5.488 5.488 0 0 0 5.48 5.481 5.488 5.488 0 0 0 5.482-5.481 5.488 5.488 0 0 0-5.481-5.481ZM8.797 32.481a1.217 1.217 0 0 1-1.218-1.218c0-9.403 7.65-17.053 17.053-17.053a1.217 1.217 0 1 1 0 2.436c-8.06 0-14.617 6.557-14.617 14.617 0 .674-.544 1.218-1.218 1.218Z" fill="#fff"/><path d="M29.504 32.481a1.217 1.217 0 0 1-1.218-1.218c0-9.403 7.649-17.053 17.052-17.053a1.217 1.217 0 1 1 0 2.436c-8.06 0-14.616 6.557-14.616 14.617 0 .674-.545 1.218-1.218 1.218Z" fill="#fff"/></svg>
                   <div class="testimonials__quote">
                     {{ block.settings.quote }}
+                  </div>
+                  <svg width="128" height="66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#a)"><path d="M55.5 16c0-1.585.437-3.07 1.196-4.342V6.264H51.3A15.88 15.88 0 0 0 48 16a15.88 15.88 0 0 0 3.301 9.737h5.395v-5.394A8.447 8.447 0 0 1 55.5 16Z" fill="#FBBD00"/><path d="m64 24.5-3.75 3.75L64 32a15.88 15.88 0 0 0 9.737-3.301V23.31h-5.389A8.5 8.5 0 0 1 64 24.5Z" fill="#0F9D58"/><path d="M56.696 20.342 51.3 25.737c.424.55.886 1.077 1.385 1.577A15.895 15.895 0 0 0 64 32v-7.5a8.503 8.503 0 0 1-7.304-4.158Z" fill="#31AA52"/><path d="M80 16c0-.974-.088-1.949-.262-2.899l-.14-.769H64v7.5h7.59a8.462 8.462 0 0 1-3.242 3.478l5.389 5.388a16.25 16.25 0 0 0 1.577-1.384A15.895 15.895 0 0 0 80 16Z" fill="#3C79E6"/><path d="m70.01 9.99.663.662 5.304-5.303-.663-.663A15.895 15.895 0 0 0 64 0l-3.75 3.75L64 7.5c2.27 0 4.405.884 6.01 2.49Z" fill="#CF2D48"/><path d="M64 7.5V0a15.896 15.896 0 0 0-11.314 4.686c-.5.5-.96 1.027-1.385 1.577l5.395 5.395A8.504 8.504 0 0 1 64 7.5Z" fill="#EB4132"/></g><path d="m10.041 47.51.23-.444-.23.444c.02.01.041.03.056.06l2.164 4.596a1.73 1.73 0 0 0 1.3.983l4.84.737c.044.007.111.064.097.164a.153.153 0 0 1-.04.086l-3.503 3.578a1.821 1.821 0 0 0-.488 1.566l.827 5.05c.016.1-.05.16-.095.169a.087.087 0 0 1-.059-.01l-4.33-2.386a1.675 1.675 0 0 0-1.621 0l-4.33 2.385a.085.085 0 0 1-.07.008.118.118 0 0 1-.068-.063.168.168 0 0 1-.015-.102l.827-5.051a1.821 1.821 0 0 0-.488-1.566l-3.503-3.578a.164.164 0 0 1-.002-.216l-.366-.34.366.34c.019-.02.04-.03.06-.034l4.84-.737a1.73 1.73 0 0 0 1.299-.983l2.164-4.595a.12.12 0 0 1 .068-.066.085.085 0 0 1 .07.005ZM37.041 47.51l.23-.444-.23.444c.02.01.041.03.056.06l2.164 4.596a1.73 1.73 0 0 0 1.3.983l4.84.737c.043.007.111.064.097.164a.153.153 0 0 1-.04.086l-3.503 3.578a1.821 1.821 0 0 0-.488 1.566l.827 5.05c.016.1-.05.16-.095.169a.087.087 0 0 1-.059-.01l-4.33-2.386a1.675 1.675 0 0 0-1.621 0l-4.33 2.385a.085.085 0 0 1-.07.008.118.118 0 0 1-.068-.063c-.015-.03-.02-.066-.015-.102l.827-5.051a1.821 1.821 0 0 0-.488-1.566l-3.503-3.578a.164.164 0 0 1-.002-.216l-.366-.34.366.34c.019-.02.04-.03.06-.034l4.84-.737a1.73 1.73 0 0 0 1.299-.983l2.164-4.595a.12.12 0 0 1 .068-.066.085.085 0 0 1 .07.005ZM64.041 47.51l.23-.444-.23.444c.02.01.041.03.056.06l2.164 4.596a1.73 1.73 0 0 0 1.3.983l4.84.737c.044.007.111.064.097.164a.153.153 0 0 1-.04.086l-3.503 3.578a1.821 1.821 0 0 0-.488 1.566l.827 5.05c.016.1-.05.16-.095.169a.087.087 0 0 1-.059-.01l-4.33-2.386a1.675 1.675 0 0 0-1.621 0l-4.33 2.385a.085.085 0 0 1-.07.008.118.118 0 0 1-.068-.063.168.168 0 0 1-.015-.102l.827-5.051a1.821 1.821 0 0 0-.488-1.566l-3.503-3.578a.164.164 0 0 1-.002-.216l-.366-.34.366.34c.019-.02.04-.03.06-.034l4.84-.737a1.73 1.73 0 0 0 1.299-.983l2.164-4.595a.12.12 0 0 1 .068-.066.085.085 0 0 1 .07.005ZM91.041 47.51l.23-.444-.23.444c.02.01.041.03.056.06l2.164 4.596a1.73 1.73 0 0 0 1.3.983l4.84.737c.044.007.111.064.097.164a.153.153 0 0 1-.04.086l-3.503 3.578a1.821 1.821 0 0 0-.488 1.566l.827 5.05c.016.1-.05.16-.095.169a.087.087 0 0 1-.059-.01l-4.33-2.386a1.675 1.675 0 0 0-1.621 0l-4.33 2.385a.085.085 0 0 1-.07.008.118.118 0 0 1-.068-.063.168.168 0 0 1-.015-.102l.827-5.051a1.821 1.821 0 0 0-.488-1.566l-3.503-3.578a.164.164 0 0 1-.002-.216l-.366-.34.366.34c.019-.02.04-.03.06-.034l4.84-.737a1.73 1.73 0 0 0 1.299-.983l2.164-4.595a.12.12 0 0 1 .068-.066.085.085 0 0 1 .07.005ZM118.041 47.51l.23-.444-.23.444c.02.01.041.03.056.06l2.164 4.596a1.73 1.73 0 0 0 1.299.983l4.841.737c.043.007.111.064.097.164a.157.157 0 0 1-.04.086l-3.503 3.578a1.82 1.82 0 0 0-.488 1.566l.827 5.05c.016.1-.05.16-.095.169a.088.088 0 0 1-.059-.01l-4.329-2.386a1.675 1.675 0 0 0-1.622 0l-4.329 2.385a.086.086 0 0 1-.071.008.12.12 0 0 1-.068-.063.167.167 0 0 1-.015-.102l.827-5.051a1.824 1.824 0 0 0-.488-1.566l-3.503-3.578a.163.163 0 0 1-.002-.216l-.366-.34.366.34a.104.104 0 0 1 .059-.034l4.841-.737a1.73 1.73 0 0 0 1.299-.983l2.164-4.595a.122.122 0 0 1 .068-.066.084.084 0 0 1 .07.005Z" fill="#F69E1E" stroke="#F69E1E"/><defs><clipPath id="a"><path fill="#fff" d="M48 0h32v32H48z"/></clipPath></defs>
+                  </svg>
+                  <div class="testimonials__name">
+                    {{ block.settings.name }}
                   </div>
                 </div>
 
                 <div class="testimonials__image-container">
                   <div class="testimonials__image-overlay"></div>
-                  {{ background_image | image_url: width: background_image.width | image_tag: class: 'testimonials__image', loading: 'lazy' }}
+                  {{
+                    background_image
+                    | image_url: width: background_image.width
+                    | image_tag: class: 'testimonials__image', loading: 'lazy'
+                  }}
                 </div>
             {%- endcase -%}
           </div>
@@ -47,13 +43,15 @@
       <button class="testimonials__arrow testimonials__arrow--left glide__arrow glide__arrow--left" data-glide-dir="<">
         <svg width="19" height="36" viewBox="0 0 19 36" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M17.75 34.875L0.875 18L17.75 1.125" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          
+        </svg>
       </button>
-      <button class="testimonials__arrow testimonials__arrow--right glide__arrow glide__arrow--right" data-glide-dir=">">
+      <button
+        class="testimonials__arrow testimonials__arrow--right glide__arrow glide__arrow--right"
+        data-glide-dir=">"
+      >
         <svg width="19" height="36" viewBox="0 0 19 36" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1.25 1.125L18.125 18L1.25 34.875" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>        
+        </svg>
       </button>
     </div>
   </div>
@@ -97,41 +95,5 @@
 {% endschema %}
 
 <script>
-
-  var glide = new Glide('.glide', {
-    type: 'carousel',
-    autoplay: 10000,
-    gap: 30,
-    perView: 1,
-    peek: {
-      before: 180,
-      after: 180
-    },
-    breakpoints: {
-      750: {
-        gap: 100
-      },
-      peek: {
-        before: 0,
-        after: 0
-      },
-    }
-  }).mount();
-
-  {% comment %} Breakpoints.match({
-    600: { perView: 1 },
-    1200: { perView: 3 }
-  }) {% endcomment %}
-
-  {% comment %} glide.mount({Breakpoints}); {% endcomment %}
+  
 </script>
-
-{% comment %} <script type="module">
-  document.addEventListener('DOMContentLoaded', function () {
-    var slider = tns({
-      container: '.testimonials',
-      items: 2,
-      arrowKeys: true,
-    });
-  });
-</script> {% endcomment %}
