@@ -53,18 +53,23 @@
     }
 
     &--withText {
-        display: block;
+      display: block;
 
-        @media screen and (min-width: 750px) {
-            display: flex;
+      @media screen and (min-width: 750px) {
+        display: flex;
 
-            .image-grid-with-text__content,
-            .image-grid-with-text__media {
-                width: 50%;
-                margin: auto;
-            }
+        .image-grid-with-text__content,
+        .image-grid-with-text__media {
+          width: 50%;
+        }
 
+        .image-grid-with-text__content {
+          margin-right: 1.5rem;
+        }
 
+        .image-grid-with-text__media {
+          margin: auto 0 auto 1.5rem;
+        }
       }
 
       @media screen and (min-width: 990px) {
@@ -72,12 +77,11 @@
 
         .image-grid-with-text__content,
         .image-grid-with-text__media {
-            width: 100%;
+          width: 100%;
+          margin: 0;
         }
       }
     }
-
-
 
     @media screen and (min-width: 990px) {
       width: 50%;
@@ -108,6 +112,14 @@
   &__heading {
     color: #fff;
     margin-bottom: 16px;
+
+    @media screen and (min-width: 750px) {
+      width: 200%;
+    }
+
+    @media screen and (min-width: 990px) {
+      width: unset;
+    }
   }
 
   &__media {
@@ -121,8 +133,8 @@
 
     &--placeholder {
       background-color: rgba(var(--color-foreground), 0.04);
-      position: relative;
       overflow: hidden;
+      position: relative;
     }
 
     &--placeholder.image-grid-with-text__media--adapt {
@@ -136,13 +148,13 @@
     }
 
     &--placeholder > svg {
-      position: absolute;
+      fill: currentColor;
       left: 50%;
       max-width: 80rem;
+      position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
-      fill: currentColor;
     }
   }
 
