@@ -5,7 +5,7 @@
       display: flex;
       flex-direction: column;
       font-family: Special Elite, Monospace;
-      padding: 6rem 0;
+      padding: 6rem 1.5rem;
   
       @media screen and (min-width: 750px) {
         padding: 10rem 5rem;
@@ -20,48 +20,56 @@
         font-size: 34px;
       }
     }
+
+    &__sub-heading {
+      margin-bottom: 38px;
+  
+      @media screen and (min-width: 990px) {
+        margin-bottom: 6rem;
+      }
+    }
   
     &__items {
-      display: flex;
-      flex-direction: column;
+      display: block;
       width: 100%;
   
       @media screen and (min-width: 750px) {
-        align-items: center;
         display: grid;
         flex-wrap: wrap;
+        gap: 7rem;
         grid-template-columns: repeat(2, 1fr);
-        width: unset;
+      }
+    }
+
+    &__column {
+      &:last-of-type {
+        .accordion__item:first-of-type {
+          border-top: 0;
+        }
+      }
+      @media screen and (min-width: 750px) {
+        &:last-of-type {
+          .accordion__item:first-of-type {
+            border-top: 1px solid #ACC3CD;
+          }
+        }
       }
     }
   
     &__item {
+      border-bottom: 1px solid #ACC3CD;
       text-align: center;
-  
-      @media screen and (min-width: 750px) {
-        border: none;
-        margin: 0;
-  
-        &:not(:last-of-type) {
-          .tab-accordion__item-header {
-            margin-right: 2px;
-          }
-        }
+
+      &:first-of-type {
+        border-top: 1px solid #ACC3CD;
       }
   
       &-header {
-        border-bottom: 1px solid #e5eaf0;
-        border-top: 1px solid #e5eaf0;
         cursor: pointer;
         font-size: 18px;
         line-height: 1;
         padding: 22px 16px 20px;
         text-transform: uppercase;
-  
-        @media screen and (min-width: 750px) {
-          border: 0;
-          padding: 19px 48px 15px;
-        }
   
         &-icon {
           float: right;
@@ -69,40 +77,9 @@
           top: -8px;
         }
   
-        &.active {
-          @media screen and (min-width: 750px) {
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-            padding: 24px 48px 20px;
-          }
-  
-          .tab-accordion__item-header-icon {
+        &.active {  
+          .accordion__item-header-icon {
             transform: rotate(180deg);
-          }
-        }
-      }
-  
-      &-table {
-        &-row {
-          display: flex;
-          padding: 18px 12px;
-          justify-content: space-between;
-  
-          &:nth-of-type(even) {
-            background-color: #deeaf0;
-          }
-  
-          &--header {
-            font-size: 18px;
-          }
-        }
-  
-        &-cell {
-          &:first-of-type {
-            width: 70%;
-          }
-  
-          &:last-of-type {
-            width: 30%;
           }
         }
       }
@@ -120,21 +97,6 @@
   
       &.active {
         display: block;
-  
-        @media screen and (min-width: 750px) {
-          display: none;
-        }
-      }
-  
-      &-desktop {
-        display: none;
-  
-        @media screen and (min-width: 750px) {
-          display: block;
-          margin-top: 6px;
-          max-width: 714px;
-          width: 100%;
-        }
       }
     }
   }
