@@ -36,6 +36,7 @@
         "template--16138112532659__8f9844bd-7884-4c0a-8743-76dc1d007425-167756375859d63ea5-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/img-overlayed.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -105,9 +106,11 @@
     "be878ebf-ea2f-4b42-bcd7-65a23267b69c": {
       "type": "image-grid",
       "settings": {
-        "heading": "",
-        "summary": "",
-        "variation": "1"
+        "heading": "Medium length section heading goes here",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. \nSed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et.",
+        "main_image": "shopify:\/\/shop_images\/byron-bay-shop.png",
+        "image_grid": "shopify:\/\/shop_images\/img-gallery.png",
+        "layout": "text_first"
       }
     },
     "493ab732-928d-42ff-be99-fb0afa80e11a": {

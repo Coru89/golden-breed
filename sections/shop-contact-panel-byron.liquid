@@ -9,7 +9,6 @@
 
 <section class="shop-contact">
   <div class="shop-contact__border"></div>
-  {% assign image_path = 'contact-bg.png' %}
   <div class="shop-contact__wrapper page-width">
     <div class="shop-contact__grid grid grid--gapless grid--1-col grid--2-col-tablet">
       <div class="grid__item shop-contact__map-wrapper">
@@ -72,17 +71,6 @@
       </div>
     </div>
   </div>
-  {% assign image = image_path | img_url | image_tag %}
-  <script>console.log({{ image }});</script>
-
-  <img
-    class="shop-contact__background"
-    srcset="{{ image_path | asset_img_url: '375x'}} 375w, {{ image_path | asset_img_url: '750x' }} 750w, {{ image_path | asset_img_url: '1100x' }} 1100w, {{ image_path | asset_img_url: '1500x' }} 1500w, {{ image_path | asset_img_url: '1780x' }} 1780w ,{{ image_path | asset_img_url: '2200x' }} 2200w, {{ image_path | asset_img_url: '3000x' }} 3000w, {{ image_path | asset_img_url: '3840x' }} 3840w"
-    src="{{ image_path | asset_url }}"
-    sizes="(max-width: 375px) 375px, (max-width: 750px) 750px, (max-width: 1100px) 1100px, (max-width: 1500px) 1500px, (max-width: 1780px) 1780px, (max-width: 2200px) 2200px, (max-width: 3000px) 3000px, 3840px"
-    alt="Background Image"
-    loading="lazy"
-  >
   <div class="shop-contact__border"></div>
 </section>
 

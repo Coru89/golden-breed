@@ -16,10 +16,6 @@
     display: block !important;
     position: relative;
     z-index: 1; }
-  .shop-contact__background {
-    position: absolute;
-    top: 0;
-    width: 100%; }
   .shop-contact__grid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
