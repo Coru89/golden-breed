@@ -86,12 +86,15 @@
         padding-bottom: 7rem; } }
   .image-grid-with-text__heading {
     color: #fff;
+    font-size: 28px;
     margin-bottom: 16px; }
     @media screen and (min-width: 750px) {
       .image-grid-with-text__heading {
-        width: 200%; } }
+        width: calc(200% + 30px);
+        text-align: center; } }
     @media screen and (min-width: 990px) {
       .image-grid-with-text__heading {
+        font-size: 34px;
         width: unset; } }
   .image-grid-with-text__media {
     background-color: transparent;

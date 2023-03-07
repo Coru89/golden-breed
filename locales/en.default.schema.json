@@ -948,6 +948,93 @@
         "image": {
           "label": "Image"
         },
+        "image_mobile": {
+          "label": "Image for Mobile"
+        },
+        "height": {
+          "options__1": {
+            "label": "Adapt to image"
+          },
+          "options__2": {
+            "label": "Small"
+          },
+          "options__3": {
+            "label": "Large"
+          },
+          "label": "Image ratio"
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Background 1"
+          },
+          "options__2": {
+            "label": "Background 2"
+          },
+          "options__3": {
+            "label": "Inverse"
+          },
+          "options__4": {
+            "label": "Accent 1"
+          },
+          "options__5": {
+            "label": "Accent 2"
+          },
+          "label": "Color scheme"
+        },
+        "layout": {
+          "options__1": {
+            "label": "Image first"
+          },
+          "options__2": {
+            "label": "Text first"
+          },
+          "label": "Desktop layout",
+          "info": "Image first is the default mobile layout."
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "heading": {
+              "label": "Heading"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Description"
+            }
+          }
+        },
+        "button": {
+          "name": "Button",
+          "settings": {
+            "button_label": {
+              "label": "Button label",
+              "info": "Leave the label blank to hide the button."
+            },
+            "button_link": {
+              "label": "Button link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Image with text"
+      }
+    },
+    "shop-image-with-text": {
+      "name": "Image with text",
+      "settings": {
+        "image": {
+          "label": "Image"
+        },
+        "image_mobile": {
+          "label": "Image for Mobile"
+        },
         "height": {
           "options__1": {
             "label": "Adapt to image"
