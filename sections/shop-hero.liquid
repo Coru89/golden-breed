@@ -17,7 +17,7 @@
         "
         sizes="100vw"
         src="{{ section.settings.image | img_url: '1500x' }}"
-        loading="lazy"
+        loading="eager"
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
