@@ -75,6 +75,7 @@
           float: right;
           position: relative;
           top: -8px;
+          transition: transform 0.2s ease-out;
         }
   
         &.active {  

@@ -79,6 +79,7 @@
       line-height: 1;
       padding: 22px 16px 20px;
       text-transform: uppercase;
+      transition: box-shadow 0.2s ease-out;
 
       @media screen and (min-width: 750px) {
         border: 0;
@@ -89,6 +90,7 @@
         float: right;
         position: relative;
         top: -8px;
+        transition: transform 0.2s ease-out;
 
         @media screen and (min-width: 750px) {
           display: none;
@@ -138,7 +140,7 @@
     display: none;
     overflow: hidden;
     padding: 10px;
-    transition: max-height 0.3s ease-out;
+
 
     @media screen and (min-width: 750px) {
       padding: 10px;

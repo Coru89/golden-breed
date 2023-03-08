@@ -2,8 +2,7 @@
   position: relative; }
 
 .testimonials__image {
-  height: auto;
-  min-height: 500px;
+  height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%; }
@@ -31,8 +30,14 @@
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 50%;
+  width: 80%;
   z-index: 1; }
+  @media screen and (min-width: 750px) {
+    .testimonials__content {
+      width: 65%; } }
+  @media screen and (min-width: 990px) {
+    .testimonials__content {
+      width: 50%; } }
 
 .testimonials__quote {
   margin: 2rem 0; }
