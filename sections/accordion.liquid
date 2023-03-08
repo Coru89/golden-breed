@@ -77,6 +77,27 @@
   </div>
 </section>
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {%- for block in section.blocks -%}
+    {%- if block.settings.accordion_label != blank and block.settings.accordion_content != blank -%}
+    {
+      "@type": "Question",
+      "name": {{ block.settings.accordion_label | json }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ block.settings.accordion_content | json }}
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endif -%}
+    {%- endfor -%}
+    ]
+  }
+</script>
+
 {% schema %}
 {
   "name": "Accordion",
