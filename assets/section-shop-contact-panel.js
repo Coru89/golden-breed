@@ -23,7 +23,7 @@ if (
       overlayEl.classList.add('shop-contact__modal-overlay--active');
 
       if (!body) return;
-      body.style.overflow = 'hidden';
+      body.classList.add('shop-contact__modal--body-active');
 
       if (!stickyHeader) return;
       stickyHeader.style.display = 'none';
@@ -43,7 +43,7 @@ if (
       overlayEl.classList.remove('shop-contact__modal-overlay--active');
 
       if (!body) return;
-      body.style.overflow = 'auto';
+      body.classList.remove('shop-contact__modal--body-active');
 
       if (!stickyHeader) return;
       stickyHeader.classList.add('shopify-section-header-hidden');
