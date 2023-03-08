@@ -7,10 +7,6 @@
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%; }
-  @media screen and (min-width: 750px) {
-    .testimonials__image {
-      max-height: 420px;
-      min-height: unset; } }
   .testimonials__image-overlay {
     background-color: black;
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
@@ -74,6 +70,13 @@
           -ms-transform: translateY(-50%);
               transform: translateY(-50%); }
       .testimonials__arrow--left {
-        left: 4rem; }
+        left: 2rem; } }
+    @media screen and (min-width: 750px) and (min-width: 990px) {
+      .testimonials__arrow--left {
+        left: 4rem; } }
+  @media screen and (min-width: 750px) {
+      .testimonials__arrow--right {
+        right: 2rem; } }
+    @media screen and (min-width: 750px) and (min-width: 990px) {
       .testimonials__arrow--right {
         right: 4rem; } }

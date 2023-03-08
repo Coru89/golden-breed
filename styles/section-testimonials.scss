@@ -9,11 +9,6 @@
     object-fit: cover;
     width: 100%;
 
-    @media screen and (min-width: 750px) {
-      max-height: 420px;
-      min-height: unset;
-    }
-
     &-overlay {
       background-color: black;
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -78,11 +73,19 @@
       transform: translateY(-50%);
 
       &--left {
-        left: 4rem;
+        left: 2rem;
+
+        @media screen and (min-width: 990px) {
+          left: 4rem;
+        }
       }
 
       &--right {
-        right: 4rem;
+        right: 2rem;
+
+        @media screen and (min-width: 990px) {
+          right: 4rem;
+        }
       }
     }
   }

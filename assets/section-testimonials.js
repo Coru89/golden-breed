@@ -13,6 +13,12 @@ var glide = new Glide('.glide', {
         before: 0,
         after: 0
       }
+    },
+    990: {
+      peek: {
+        before: 130,
+        after: 130
+      }
     }
   }
 }).mount();
