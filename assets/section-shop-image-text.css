@@ -11,7 +11,17 @@
   margin-left: 0; }
 
 .shop-image-with-text__grid {
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
+  @media screen and (min-width: 750px) {
+    .shop-image-with-text__grid {
+      -webkit-box-orient: unset;
+      -webkit-box-direction: unset;
+          -ms-flex-direction: unset;
+              flex-direction: unset; } }
 
 @media screen and (min-width: 750px) {
   .shop-image-with-text__grid--reverse {
@@ -45,8 +55,7 @@
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 3rem; }
+          justify-content: center; }
   @media screen and (min-width: 1200px) {
     .shop-image-with-text__media-mobile {
       display: none; } }
@@ -106,9 +115,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%; }
+  height: 100%;
+  margin-bottom: 3rem; }
   @media screen and (min-width: 750px) {
     .shop-image-with-text__content {
+      margin-bottom: 0;
       margin-left: 1.5rem; } }
   @media screen and (min-width: 1200px) {
     .shop-image-with-text__content {
@@ -140,6 +151,19 @@
 
 .shop-image-with-text__content .shop-image-with-text__text + .button {
   margin-top: 3rem; }
+
+.shop-image-with-text__button {
+  background-color: #E78367;
+  color: #fff !important;
+  font-family: 'Special Elite', Monospace;
+  padding: 0.9rem 3rem 1.1rem;
+  text-decoration: none; }
+  @media screen and (min-width: 750px) {
+    .shop-image-with-text__button {
+      font-size: 18px; } }
+  .shop-image-with-text__button:hover, .shop-image-with-text__button:focus, .shop-image-with-text__button:active {
+    color: #fff;
+    text-decoration: underline; }
 
 .shop-image-with-text__heading {
   display: none;

@@ -9,7 +9,7 @@
     padding-bottom: 6rem;
     padding-top: 6rem;
     position: relative;
-    z-index: 1;
+    // z-index: 1;
 
     @media screen and (min-width: 990px) {
       padding-bottom: 8.5rem;
@@ -202,6 +202,5 @@
     box-sizing: border-box;
     display: block !important;
     position: relative;
-    z-index: 1;
   }
 }

@@ -7,8 +7,7 @@
     font-family: Special Elite, Monospace;
     padding-bottom: 6rem;
     padding-top: 6rem;
-    position: relative;
-    z-index: 1; }
+    position: relative; }
     @media screen and (min-width: 990px) {
       .image-grid-with-text__inner {
         padding-bottom: 8.5rem;
@@ -143,5 +142,4 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: block !important;
-    position: relative;
-    z-index: 1; }
+    position: relative; }
