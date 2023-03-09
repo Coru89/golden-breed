@@ -1,6 +1,7 @@
 .surf-select__inner {
-  padding: 5.5rem 5rem 0;
-  font-family: "Special Elite", Monospace; }
+  color: #265979;
+  font-family: "Special Elite", Monospace;
+  padding: 5.5rem 5rem 0; }
 
 .surf-select__heading {
   font-size: 28px;
