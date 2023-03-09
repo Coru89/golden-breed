@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-  var glide = new Glide('.glide', {
+  var glide = new Glide('.glide__testimonials', {
     type: 'carousel',
     autoplay: 10000,
     gap: 30,

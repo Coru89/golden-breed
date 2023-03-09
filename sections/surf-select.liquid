@@ -1,112 +1,111 @@
 {{ 'section-surf-select.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'glide.min.js' | asset_url }}" defer></script>
+<script src="{{ 'section-surf-select.js' | asset_url }}" defer></script>
 
-{%- ########################################################################## 
-    # Label: Heading
-    # Returns: a string or an empty object(if nothing has been entered)
-    # Filters: https://shopify.dev/api/liquid/objects#string 
-    ########################################################################## -%}
-    {{ section.settings.heading }} 
-    
-    {%- ########################################################################## 
-    # Label: Summary
-    # Returns: a string or an empty object(if nothing has been entered)
-    # Filters: https://shopify.dev/api/liquid/objects#string 
-    ########################################################################## -%}
-    {{ section.settings.summary }} 
-    
-    {%- for block in section.blocks -%}
-      {%- case block.type -%}
-    
-        {%- when 'surboard' -%}
-          {%- ########################################################################## 
-          # Label: Heading
-          # Returns: a string or an empty object(if nothing has been entered)
-          # Filters: https://shopify.dev/api/liquid/objects#string 
-          ########################################################################## -%}
-          {{ block.settings.heading }} 
-    
-          {%- ########################################################################## 
-          # Label: Board Description
-          # Returns: a string or an empty object(if nothing has been entered)
-          # Filters: https://shopify.dev/api/liquid/objects#string 
-          ########################################################################## -%}
-          {{ block.settings.board_description }} 
-    
-          {%- ########################################################################## 
-          # Label: Board Image
-          # Returns: an image object or nil(if no selection has been made)
-          # Image Properties: https://shopify.dev/api/liquid/objects#image
-          # Image Filters: https://shopify.dev/api/liquid/filters#image_tag, https://shopify.dev/api/liquid/filters#image_url
-          ########################################################################## -%}
-          {%- assign board_image = block.settings.board_image -%}
-          {{ board_image | image_url: width: board_image.width | image_tag: class: 'add_your_class_here', loading: 'lazy' }}
-    
-          {%- ########################################################################## 
-          # Label: Card Background Color
-          # Returns: a color object or blank(if no selection has been made)
-          # Color Properties: https://shopify.dev/api/liquid/objects#color
-          ########################################################################## -%}
-          {{ block.settings.card_background_color }} 
-    
-      {%- endcase -%}
-    {%- endfor -%}
-    
-    {% schema %}
-      {
-      "name": "Surfboard Selector",
+<section class="surf-select">
+  <div class="surf-select__inner page-width">
+    <h2 class="surf-select__heading">{{ section.settings.heading }}</h2>
+    <div class="surf-select__summary">{{ section.settings.summary }}</div>
+    <div class="glide glide__surf-select">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="surf-select__slides glide__slides">
+          {%- for block in section.blocks -%}
+            <div
+              class="surf-select__slide glide__slide"
+              style="background-color:{{ block.settings.card_background_color }};"
+            >
+              {%- case block.type -%}
+                {%- when 'surfboard' -%}
+                  <div class="surf-select__slide-content">
+                    {%- assign board_image = block.settings.board_image -%}
+                    {{
+                      board_image
+                      | image_url: width: board_image.width
+                      | image_tag: class: 'surf-select__slide-image', loading: 'lazy'
+                    }}
+                  </div>
+                  <div class="surf-select__slide-content-overlay">
+                    <h3 class="surf-select__slide-heading">
+                      {{ block.settings.heading }}
+                    </h3>
+                    <div class="surf-select__slide-description">
+                      {{ block.settings.board_description }}
+                    </div>
+                  </div>
+              {%- endcase -%}
+            </div>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="surf-select__arrows glide__arrows" data-glide-el="controls">
+        <button class="surf-select__arrow surf-select__arrow--left glide__arrow glide__arrow--left" data-glide-dir="<">
+          <svg width="74" height="20" fill="#265979" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.293 10.707a1 1 0 0 1 0-1.414l6.364-6.364A1 1 0 0 1 9.07 4.343L3.414 10l5.657 5.657a1 1 0 1 1-1.414 1.414l-6.364-6.364ZM72 11H2V9h70v2Z"/>
+          </svg>
+        </button>
+        <button
+          class="surf-select__arrow surf-select__arrow--right glide__arrow glide__arrow--right"
+          data-glide-dir=">"
+        >
+          <svg width="74" height="20" fill="#265979" xmlns="http://www.w3.org/2000/svg">
+            <path d="M72.707 10.707a1 1 0 0 0 0-1.414l-6.364-6.364a1 1 0 1 0-1.414 1.414L70.586 10l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM2 11h70V9H2v2Z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Surfboard Selector",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Which Surfboard Should You Hire?"
+    },
+    {
+      "type": "textarea",
+      "id": "summary",
+      "label": "Summary",
+      "default": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Surfboard",
+      "type": "surfboard",
       "settings": [
         {
           "type": "text",
           "id": "heading",
           "label": "Heading",
-          "default": "Which Surfboard Should You Hire?"
+          "placeholder": "Surfboard"
         },
         {
           "type": "textarea",
-          "id": "summary",
-          "label": "Summary",
-          "default": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
-        }
-      ],
-      "blocks": [
+          "id": "board_description",
+          "label": "Board Description"
+        },
         {
-          "name": "Surboard",
-          "type": "surboard",
-          "settings": [
-            {
-              "type": "text",
-              "id": "heading",
-              "label": "Heading",
-              "placeholder": "Surfboard"
-            },
-            {
-              "type": "textarea",
-              "id": "board_description",
-              "label": "Board Description"
-            },
-            {
-              "type": "image_picker",
-              "id": "board_image",
-              "label": "Board Image"
-            },
-            {
-              "type": "color",
-              "id": "card_background_color",
-              "label": "Card Background Color"
-            }
-          ]
-        }
-      ],
-      "presets": [
+          "type": "image_picker",
+          "id": "board_image",
+          "label": "Board Image"
+        },
         {
-          "name": "Surfboard Selector"
+          "type": "color",
+          "id": "card_background_color",
+          "label": "Card Background Color"
         }
       ]
-    }  
-    {% endschema %}
-    
-    {% stylesheet %}
-    {% endstylesheet %}
-    
-    {% javascript %}
-    {% endjavascript %}
+    }
+  ],
+  "presets": [
+    {
+      "name": "Surfboard Selector"
+    }
+  ]
+}
+{% endschema %}

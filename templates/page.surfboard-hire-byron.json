@@ -75,6 +75,60 @@
     },
     "0484449b-6a50-4b3b-9ee6-6556451c5dae": {
       "type": "surf-select",
+      "blocks": {
+        "d57d5d86-0949-4ab5-ae50-7d830b45740c": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "Standup Paddle Board",
+            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "board_image": "shopify:\/\/shop_images\/sup.svg",
+            "card_background_color": "#7da9a3"
+          }
+        },
+        "224020ac-c432-49b4-ab6a-ad344118b2f0": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "Longboard",
+            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "board_image": "shopify:\/\/shop_images\/Longboard.svg",
+            "card_background_color": "#ebb967"
+          }
+        },
+        "528ea41e-c7e6-4211-9a77-4c0fdb36a139": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "Shortboard",
+            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "board_image": "shopify:\/\/shop_images\/short.svg",
+            "card_background_color": "#e78367"
+          }
+        },
+        "87cac967-f5bc-4103-8ec1-7e1d32605aff": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "Foamy",
+            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "board_image": "shopify:\/\/shop_images\/foamy.svg",
+            "card_background_color": "#72a7c0"
+          }
+        },
+        "23462703-3219-4adb-9854-f6c73c968c40": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "Bodyboard",
+            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "board_image": "shopify:\/\/shop_images\/bodyboard.svg",
+            "card_background_color": "#9fb1c6"
+          }
+        }
+      },
+      "block_order": [
+        "d57d5d86-0949-4ab5-ae50-7d830b45740c",
+        "224020ac-c432-49b4-ab6a-ad344118b2f0",
+        "528ea41e-c7e6-4211-9a77-4c0fdb36a139",
+        "87cac967-f5bc-4103-8ec1-7e1d32605aff",
+        "23462703-3219-4adb-9854-f6c73c968c40"
+      ],
       "settings": {
         "heading": "Which Surfboard Should You Hire?",
         "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."

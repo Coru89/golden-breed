@@ -1,0 +1,105 @@
+.surf-select {
+  &__inner {
+    padding: 5.5rem 5rem 0;
+    font-family: "Special Elite", Monospace;
+  }
+
+  &__heading {
+    font-size: 28px;
+    margin-bottom: 32px;
+    text-align: center;
+
+    @media screen and (min-width: 750px) {
+      font-size: 34px;
+    }
+  }
+
+  &__summary {
+    margin: 0 auto 32px auto;
+    text-align: center;
+
+    @media screen and (min-width: 750px) {
+      max-width: 648px;
+    }
+  }
+
+  &__slide {
+    cursor: pointer;
+    height: auto !important;
+    position: relative;
+
+    &-heading {
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 3rem;
+    }
+
+    &-image {
+      display: block;
+      height: auto;
+      max-width: 100%;
+    }
+
+    &:hover {
+      .surf-select__slide-content-overlay {
+        display: block;
+      }
+    }
+
+    &-content {
+      align-self: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      padding: 2.5rem;
+
+      &-overlay {
+        background-color: inherit;
+        bottom: 0;
+        color: #fff;
+        display: none;
+        font-family: "Special Elite", Monospace;
+        font-size: 18px;
+        left: 0;
+        line-height: 1.3;
+        padding: 88px 32px;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+
+  &__arrows {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    display: none;
+
+    @media screen and (min-width: 750px) {
+      display: flex;
+    }
+  }
+
+  &__arrow {
+    @media screen and (min-width: 750px) {
+      background: none repeat scroll 0 0 transparent;
+      border-spacing: 0;
+      border: medium none;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.42rem;
+      list-style: none outside none;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+
+      &--right {
+        margin-left: 2rem;
+      }
+    }
+  }
+}

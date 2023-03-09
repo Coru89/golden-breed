@@ -1,10 +1,9 @@
-{{ 'glide.core.css' | asset_url | stylesheet_tag }}
 {{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'glide.min.js' | asset_url }}" defer></script>
 <script src="{{ 'section-testimonials.js' | asset_url }}" defer></script>
 
 <section class="testimonials">
-  <div class="glide">
+  <div class="glide glide__testimonials">
     <div class="glide__track" data-glide-el="track">
       <ul class="testimonials__slides glide__slides">
         {%- for block in section.blocks -%}
@@ -93,6 +92,3 @@
 }
 {% endschema %}
 
-<script>
-  
-</script>

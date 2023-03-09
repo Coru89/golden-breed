@@ -58,8 +58,8 @@
     position: relative; }
     @media screen and (min-width: 750px) {
       .shop-contact__map-wrapper {
-        padding-left: 0;
-        padding-right: 0; } }
+        padding-left: 0 !important;
+        padding-right: 0 !important; } }
   .shop-contact__logo {
     height: auto;
     margin-bottom: 3rem;
@@ -150,12 +150,13 @@
     font-size: inherit;
     font-style: inherit;
     font-weight: inherit;
+    height: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     line-height: inherit;
     padding: 2.5rem 2rem;
-    height: 100%;
+    text-transform: uppercase;
     width: 100%; }
     .shop-contact__button:hover, .shop-contact__button:focus, .shop-contact__button:active {
       background-color: #2f709440; }
@@ -170,7 +171,9 @@
       grid-template-columns: repeat(2, 1fr);
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
       @media screen and (min-width: 750px) {
         .shop-contact__button-row {
           grid-template-columns: repeat(4, 1fr); } }
