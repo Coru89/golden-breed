@@ -5,20 +5,12 @@
 
   &__image {
     height: 450px;
-    object-fit: cover;
+    position: relative;
     width: 100%;
+    z-index: -1;
 
-    &-overlay {
-      background-color: black;
+    &-container {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-      bottom: 0;
-      display: block !important;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 100%;
     }
   }
 

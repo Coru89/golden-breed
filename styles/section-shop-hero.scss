@@ -29,6 +29,8 @@
     position: absolute;
     right: 0;
     top: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+
 
     @media screen and (min-width: 750px) {
       height: 376px;
@@ -37,6 +39,10 @@
     @media screen and (min-width: 1320px) {
       height: 450px;
     }
+  }
+
+  &__image {
+    z-index: -1;
   }
 
   &__heading {

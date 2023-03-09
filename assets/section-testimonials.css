@@ -3,22 +3,13 @@
 
 .testimonials__image {
   height: 450px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%; }
-  .testimonials__image-overlay {
-    background-color: black;
+  position: relative;
+  width: 100%;
+  z-index: -1; }
+  .testimonials__image-container {
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
     background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    bottom: 0;
-    display: block !important;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%; }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); }
 
 .testimonials__content {
   color: #fff;

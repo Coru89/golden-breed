@@ -26,13 +26,18 @@
     left: 0;
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 0;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); }
     @media screen and (min-width: 750px) {
       .shop-hero__media {
         height: 376px; } }
     @media screen and (min-width: 1320px) {
       .shop-hero__media {
         height: 450px; } }
+  .shop-hero__image {
+    z-index: -1; }
   .shop-hero__heading {
     --color-foreground: rgb(255, 255, 255);
     color: var(--color-foreground);
