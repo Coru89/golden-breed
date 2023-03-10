@@ -3,7 +3,7 @@
     "main": {
       "type": "shop-hero",
       "settings": {
-        "heading_title": "Hero Title",
+        "heading_title": "Surfboard Hire Byron Bay",
         "image": "shopify:\/\/shop_images\/byron-hero.png"
       }
     },
@@ -51,7 +51,7 @@
       }
     },
     "628a5a26-f417-4b05-9668-6e397e3a5d08": {
-      "type": "shop-contact-panel-byron",
+      "type": "shop-contact-panel",
       "settings": {
         "heading": "Contact Us To Find Out More",
         "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"><\/iframe>",
@@ -422,7 +422,7 @@
       }
     },
     "554dd024-c9a3-46c0-b76c-4665b0cc603d": {
-      "type": "shop-contact-panel-byron",
+      "type": "shop-contact-panel",
       "settings": {
         "heading": "Contact Us To Find Out More",
         "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"><\/iframe>",
