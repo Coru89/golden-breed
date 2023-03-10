@@ -1,5 +1,6 @@
 .shop-contact {
   background-color: #1A506F;
+  font-family: 'Special Elite', Monospace;
   overflow: hidden;
   position: relative;
   /* Modal window */ }
@@ -74,8 +75,9 @@
     @media screen and (min-width: 990px) {
       .shop-contact__heading {
         font-size: 34px; } }
+  .shop-contact__description {
+    margin-bottom: 3rem; }
   .shop-contact__group {
-    font-family: 'Special Elite', Monospace;
     margin-bottom: 3rem;
     text-align: center; }
     .shop-contact__group:last-of-type {
@@ -90,6 +92,7 @@
       -webkit-box-pack: space-evenly;
           -ms-flex-pack: space-evenly;
               justify-content: space-evenly;
+      margin-bottom: 3rem;
       max-width: 400px;
       width: 100%; }
       @media screen and (min-width: 750px) {
