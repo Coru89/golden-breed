@@ -53,3 +53,20 @@ if (
   });
 }
 
+  // close mobile nav if user clicks outside of nav
+  document.onclick = (e) => {
+    const target = e.target;
+    if (target.classList.contains("shop-contact__modal-overlay--active")) {
+      target.classList.remove('shop-contact__modal-overlay--active');
+
+      const modalEl = document.querySelector('.shop-contact__modal--active');
+      modalEl.classList.remove("shop-contact__modal--active");
+
+      if (!body) return;
+      body.classList.remove("shop-contact__modal--body-active");
+
+      if (!stickyHeader) return;
+      stickyHeader.classList.add("shopify-section-header-hidden");
+      stickyHeader.removeAttribute("style");
+    }
+  };
