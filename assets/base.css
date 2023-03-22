@@ -2267,6 +2267,8 @@ details[open] > .header__icon--menu .icon-hamburger {
 .header__submenu.list-menu {
   padding: 2rem 0;
   font-weight:900;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 .header__submenu .header__submenu {
