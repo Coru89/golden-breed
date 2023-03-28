@@ -59,17 +59,12 @@
       </div>
     {%- endif -%}
   {%- endpaginate -%}
-    <div style="margin-top:30px; color:#21597a; font-size:14px;" class="page-width">
+
+      <div class="collection-desc desc-mobile">
+      {{ collection.description }}
+      </div>
       
-      <h2>{{ collection.title }}</h2>
-      {{ collection.description }}</div>
-</div>
-
-
-      
- 
-
-{% schema %}
+ {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
   "class": "spaced-section collection-grid-section",
