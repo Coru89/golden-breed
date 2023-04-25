@@ -1,23 +1,24 @@
 .shop-hero {
   height: 234px;
+  margin-bottom: 3rem;
   position: relative;
   width: 100%; }
-  @media screen and (min-width: 750px) {
-    .shop-hero {
-      background-position: unset;
-      height: 376px; } }
   @media screen and (min-width: 1320px) {
     .shop-hero {
       background-position: unset;
-      height: 450px; } }
+      height: 300px;
+      margin-bottom: 6rem; } }
   .shop-hero__wrapper {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 100%; }
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     @media screen and (min-width: 1320px) {
       .shop-hero__wrapper {
         padding: 0 16rem; } }
@@ -30,19 +31,15 @@
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)));
     background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); }
-    @media screen and (min-width: 750px) {
-      .shop-hero__media {
-        height: 376px; } }
     @media screen and (min-width: 1320px) {
       .shop-hero__media {
-        height: 450px; } }
+        height: 300px; } }
   .shop-hero__image {
     z-index: -1; }
   .shop-hero__heading {
     --color-foreground: rgb(255, 255, 255);
     color: var(--color-foreground);
     line-height: 1;
-    margin-bottom: 60px;
     position: relative; }
     .shop-hero__heading::after {
       background-color: var(--color-foreground);
@@ -52,9 +49,13 @@
       height: 1px;
       left: 0;
       width: 215px; }
-    @media screen and (min-width: 750px) {
-      .shop-hero__heading {
-        margin-bottom: 96px; } }
+  .shop-hero__alert {
+    background-color: #F2F1F0;
+    color: #265979;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    padding: 2px 0 2px 0;
+    text-align: center; }
   .shop-hero .placeholder + .shop-hero__wrapper .shop-hero__heading {
     color: #1d5b78; }
     .shop-hero .placeholder + .shop-hero__wrapper .shop-hero__heading::after {
