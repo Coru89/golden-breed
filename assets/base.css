@@ -240,8 +240,18 @@ html.no-js .no-js-hidden {
 }
 
 .spaced-section {
-  margin-top: 5rem;
+ margin-top: 5rem;
 }
+/* product + collection top margins under breadcrumb */
+#shopify-section-template--15333544657095__1677725562d6eac228 {margin-top:0px!important;}
+#shopify-section-template--15333545017543__1677725859488c5869 {margin-top:15px!important;}
+#shopify-section-template--15333545017543__main {margin-top:15px!important;}
+/* breadcrumbs */
+.breadcrumb__leaf {padding-left:5px;}
+.breadcrumb__sep {padding-left:10px;padding-right:10px;}
+
+.collection-hero__inner {margin-bottom:0px!important;}
+
 
 .spaced-section:last-child {
   margin-bottom: 5rem;
@@ -1157,7 +1167,9 @@ summary::-webkit-details-marker {
   object-position: center center;
   transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-
+@media screen and (max-width:768px) {
+.media > img  {object-position: center center;}
+}
 .media--square {
   padding-bottom: 100%;
 }
@@ -1209,12 +1221,13 @@ deferred-media {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  font: inherit;
-  padding: 0.9rem 3rem 1.1rem;
+  padding: 1rem 3rem 1.1rem;
   text-decoration: none;
   border:none;
   border-radius: 0;
-  background-color: #1d5b78;
+  /* blue background-color: #1d5b78; */
+  background-color:#E78367;  
+  /*background-color:#EBB967;*/
   box-shadow: none;
   color: #fff !important;
   min-width: 12rem;
@@ -1222,6 +1235,9 @@ deferred-media {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
+  font-family: Nunito Sans,sans-serif;
+  font-weight: 700;
+  font-size:16px;
 }
 
 .button:focus-visible {
@@ -1271,7 +1287,8 @@ deferred-media {
 .button:not([disabled]):hover,
 .shopify-challenge__button:hover,
 .customer button:hover {
-  box-shadow: 0 0 0 0.2rem rgba(var(--color-button), var(--alpha-button-border));
+  /*box-shadow: 0 0 0 0.2rem rgba(var(--color-button), var(--alpha-button-border));*/
+  box-shadow: 0 0 0 0.2rem #E78367;
 }
 
 /* Button - other */
@@ -2384,35 +2401,20 @@ text-decoration: line-through;
 color: #fff;
 text-decoration: line-through;
 }
+  
 
-/* button test */
-.banner__buttons a {font-size: 23px;
-    padding-top: 12px;
-    font-weight: 700;}
-    
-.button {position:relative;border:2px solid #FFFFFF;box-shadow: 0 0 0 0.3rem #C67986!important;border-radius:5px;background: linear-gradient(180deg, #F26C25 0%, #CC4B06 100%);}
-
-.button:hover:after {transform:scale(1.1);transition: transform .5s;}
-/*.button:after {
-    content: '';
-    background-image: url(https://energywell.co.nz/hat.png);
-    background-size: contain;
-    width: 50px;
-    background-repeat: no-repeat;
-    height: 50px;
-    position: absolute;
-    left: -23px;
-    rotate: -10deg;
-    top: -15px;}*/
-
-.button:hover {box-shadow: 0 0 0 0.5rem #E7631C!important;transition:.5s ease;}
-
-.header__submenu .header__menu-item:hover {color:#ABC3CD!important;}
-
-.announcement-bar__message {
-        padding-bottom: 7px;}
+/* product category descriptions */
+.collection-desc {margin-top:30px;
+                  color:#21597a;
+                  font-size:14px;}
+.desc-desktop {display:block;}
+.desc-mobile {display:none;}
 
 
+@media screen and (max-width: 990px) {
+  .desc-desktop {display:none;}
+.desc-mobile {display:block!important;padding:20px;}
+  }
 
 
 /* view more button fix */

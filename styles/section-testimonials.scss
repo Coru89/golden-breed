@@ -16,7 +16,7 @@
 
   &__content {
     color: #fff;
-    font-family: "Special Elite", Monospace;
+    font-family: 'Nunito Sans', sans-serif;
     left: 50%;
     position: absolute;
     text-align: center;
@@ -38,11 +38,12 @@
     margin: 2rem 0;
 
     @media screen and (min-width: 750px) {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
   &__name {
+    font-family: 'Nunito Sans', sans-serif;
     color: #a9a9a9;
     margin-top: 2rem;
   }

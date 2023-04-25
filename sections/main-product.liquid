@@ -669,11 +669,11 @@
 
   customElements.define('product-modal', ProductModal);
 {% endjavascript %}
-
+{% comment %}
 {% if product.media.size > 0 %}
   <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
 {% endif %}
-
+{% endcomment %}
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     function isIE() {

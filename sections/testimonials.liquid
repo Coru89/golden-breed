@@ -54,10 +54,75 @@
   </div>
 </section>
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "{{ section.blocks.size }}"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ section.settings.addressLocality }}",
+      "streetAddress": "{{ section.settings.streetAddress }}",
+      "addressCountry": "Australia"
+    },
+    "description": "A superb collection of fine gifts and clothing to accent your stay in Mexico Beach.",
+    "name": "{{ section.settings.shopName }}",
+    "telephone": "{{ section.settings.tel }}",
+    "review": [
+      {%- for block in section.blocks -%}
+        {%- if block.settings.quote != blank and block.settings.name != blank -%}
+          {
+            "@type": "Review",
+            "author": "{{ block.settings.name }}",
+            "description": "{{ block.settings.quote }}",
+            "reviewRating": {
+              "@type": "Rating",
+              "bestRating": "5",
+              "ratingValue": "5",
+              "worstRating": "1"
+            }
+          }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endif -%}
+      {%- endfor -%}
+        ]
+  }
+  </script>
+
 {% schema %}
+
 {
   "name": "Testimonials",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "shopName",
+      "label": "Shop Name",
+      "default": "Golden Breed",
+      "placeholder": "Golden Breed"
+    },
+    {
+      "type": "text",
+      "id": "addressLocality",
+      "label": "Address Locality",
+      "placeholder": "Noosa Heads"
+    },
+    {
+      "type": "text",
+      "id": "streetAddress",
+      "label": "Street Address",
+      "placeholder": "13 Noosa Drive, Noosa Heads QLD 4567"
+    },
+    {
+      "type": "text",
+      "id": "tel",
+      "label": "Shop Telephone",
+      "placeholder": "07 5357 6053"
+    }
+  ],
   "blocks": [
     {
       "name": "Testimonial",
@@ -90,4 +155,5 @@
   ]
 }
 {% endschema %}
+
 

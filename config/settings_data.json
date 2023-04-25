@@ -2,13 +2,13 @@
   "current": {
     "colors_solid_button_labels": "#fefdf6",
     "colors_accent_1": "#21597a",
-    "colors_accent_2": "#d66a6a",
+    "colors_accent_2": "#d48674",
     "colors_text": "#21597a",
     "colors_outline_button_labels": "#21597a",
     "colors_background_1": "#fefdf8",
     "colors_background_2": "#e9b88c",
     "type_header_font": "courier_new_n4",
-    "type_body_font": "courier_new_n4",
+    "type_body_font": "nunito_sans_n4",
     "social_facebook_link": "https:\/\/www.facebook.com\/goldenbreedsurf\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/goldenbreedsurf\/",
     "favicon": "shopify:\/\/shop_images\/favi.png",
@@ -72,20 +72,21 @@
             "type": "link_list",
             "settings": {
               "heading": "Information",
-              "menu": "footer-1"
+              "menu": "footer"
             }
           },
           "84069167-495e-4f45-83b4-9480dc989fe9": {
             "type": "link_list",
             "settings": {
               "heading": "Shop",
-              "menu": "main-menu-1"
+              "menu": "main-menu"
             }
           },
           "eee581e5-807e-4f21-a288-486a50a0faec": {
             "type": "image",
             "disabled": true,
             "settings": {
+              "image": "shopify:\/\/shop_images\/logo_96cb2768-8a26-43e6-b0dd-ee8855ef1c20.png",
               "image_width": 200,
               "alignment": "center"
             }
@@ -94,7 +95,7 @@
             "type": "text",
             "settings": {
               "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/logo_96cb2768-8a26-43e6-b0dd-ee8855ef1c20_170x@2x.png?v=1638923181\" style=\"width:200px; margin-bottom:10px; margin-top:-10px;\"><br>The Original Australian Surf Brand<br>Since 1969",
-              "subtext": "<p>Proudly 100% Australian Owned<\/p>\n<p><strong>Flinders <\/strong>- 34-36 Cook St, Flinders<\/p><p><b>Byron<\/b> - 10 Lawson St, Byron Bay<\/p>\n<p><b>Noosa<\/b> - Shop 1, 2 Hastings Street, Noosa Heads<\/p>\n<p><b>Email :<\/b> Info@GoldenBreed.com.au<br><b>Call :<\/b> 1300 882 914<\/p>"
+              "subtext": "<p>Proudly 100% Australian Owned<\/p>\n<p><strong>Flinders <\/strong>- <a href=\"https:\/\/www.google.com\/maps\/place\/Golden+Breed+Flinders\/@-38.4738601,145.0187856,15z\/data=!4m6!3m5!1s0x6ad5b8e579c0d605:0xaba6df8d3e6f49eb!8m2!3d-38.4738601!4d145.0187856!16s%2Fg%2F11gbk47wx2\" target=\"_blank\" rel=\"nofollow\">34-36 Cook St, Flinders<\/a><\/p><p><b>Byron<\/b> - <a href=\"https:\/\/www.google.com\/maps\/place\/Golden+Breed+Byron+Bay\/@-28.6427439,153.6137753,15z\/data=!4m6!3m5!1s0x6b90623a28d72431:0xb3eebd8653a10083!8m2!3d-28.6427439!4d153.6137753!16s%2Fg%2F11b6t2dvfh\" target=\"_blank\" rel=\"nofollow\">10 Lawson St, Byron Bay<\/a><\/p>\n<p><b>Noosa<\/b> - <a href=\"https:\/\/www.google.com\/maps\/place\/Golden+Breed+Noosa\/@-26.3883466,153.0917124,15z\/data=!4m6!3m5!1s0x6b93699de7e6fccf:0x2522cc554a2616d6!8m2!3d-26.3883466!4d153.0917124!16s%2Fg%2F1tjkfzld\" target=\"_blank\" rel=\"nofollow\">13 Noosa Dr, Noosa Heads<\/a> <\/p>\n<p><b>Email :<\/b> <a href=\"mailto:info@GoldenBreed.com.au\">info@GoldenBreed.com.au<\/a><br><b>Call :<\/b> <a href=\"tel:1300882914\">1300 882 914<\/a><\/p>"
             }
           }
         },
@@ -106,7 +107,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Get our latest offers & news in your inbox",
           "show_social": true,
           "enable_country_selector": false,
@@ -117,7 +118,16 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "u4enI4u1zX8WpEbpXb": {
+        "type": "shopify:\/\/apps\/drip-email-marketing-popup\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
+        "disabled": false,
+        "settings": {
+          "account_param": "2429568"
+        }
+      }
+    }
   },
   "presets": {
     "Default": {

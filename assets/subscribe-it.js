@@ -229,7 +229,69 @@ function deferBisProductPageButton (callback) {
                               </div>
                            </div>
                            <div id="fb-root"></div>
-                           <script> window.fbAsyncInit = function () { FB.init({ appId: '2440781236012932', autoLogAppEvents: false, xfbml: true, version: 'v4.0' }); afterFBInit(); }; (function () { var script = document.createElement('script'); script.src = document.location.protocol + '//connect.facebook.net/{{fb_cta_button_language}}/sdk.js'; script.async = true; document.getElementById('fb-root').appendChild(script); }()); function afterFBInit() { (function () { var variantsDropdown = document.getElementById("variants"); variantsDropdown.onchange = function () { reloadFBWidget(); }; }()); var reloadFBWidget = function () { var variantsDropdown = document.getElementById("variants"); var selectedIndex = variantsDropdown.selectedIndex; if (selectedIndex == null) { console.log('selected index is null.'); return; } var selectedVariantId = variantsDropdown.options[selectedIndex].value; var sendToMessengerElement = document.createElement("div"); sendToMessengerElement.setAttribute("cta_text", "{{fb_cta_button_text}}"); sendToMessengerElement.setAttribute("class", "fb-send-to-messenger"); sendToMessengerElement.setAttribute("messenger_app_id", "2440781236012932"); sendToMessengerElement.setAttribute("page_id", "{{fb_page_id}}"); sendToMessengerElement.setAttribute("data-ref", selectedVariantId + '_fbd_' + '{{shop_myshopify_domain}}' + '_fbd_' + '{{product.id}}'); sendToMessengerElement.setAttribute("size", "large"); sendToMessengerElement.setAttribute("color", 'blue'); var fbShareToMessengerSubContainer = document.getElementById('fb-share-to-messenger-sub-container'); fbShareToMessengerSubContainer.innerHTML = ''; fbShareToMessengerSubContainer.appendChild(sendToMessengerElement); FB.XFBML.parse(); }; reloadFBWidget(); } </script>
+                           <script>
+                            window.fbAsyncInit = function () {
+                              FB.init({ 
+                                appId: '2440781236012932',
+                                autoLogAppEvents: false,
+                                xfbml: true,
+                                version: 'v15.0'
+                              });
+                              afterFBInit();
+                            }; 
+                            
+                            (function () {
+                              var script = document.createElement("script");
+                              script.src =
+                                document.location.protocol +
+                                "//connect.facebook.net/{{fb_cta_button_language}}/sdk.js";
+                              script.async = true;
+                              document.getElementById("fb-root").appendChild(script);
+                            })();
+
+                            function afterFBInit() {
+                              (function () {
+                                var variantsDropdown = document.getElementById("variants");
+                                variantsDropdown.onchange = function () {
+                                  reloadFBWidget();
+                                };
+                              })();
+                              var reloadFBWidget = function () {
+                                var variantsDropdown = document.getElementById("variants");
+                                var selectedIndex = variantsDropdown.selectedIndex;
+                                if (selectedIndex == null) {
+                                  console.log("selected index is null.");
+                                  return;
+                                }
+                                var selectedVariantId = variantsDropdown.options[selectedIndex].value;
+                                var sendToMessengerElement = document.createElement("div");
+                                sendToMessengerElement.setAttribute("cta_text", "{{fb_cta_button_text}}");
+                                sendToMessengerElement.setAttribute("class", "fb-send-to-messenger");
+                                sendToMessengerElement.setAttribute("messenger_app_id", "2440781236012932");
+                                sendToMessengerElement.setAttribute("page_id", "{{fb_page_id}}");
+                                sendToMessengerElement.setAttribute(
+                                  "data-ref",
+                                  selectedVariantId +
+                                    "_fbd_" +
+                                    "{{shop_myshopify_domain}}" +
+                                    "_fbd_" +
+                                    "{{product.id}}"
+                                );
+                                sendToMessengerElement.setAttribute("size", "large");
+                                sendToMessengerElement.setAttribute("color", "blue");
+                                var fbShareToMessengerSubContainer = document.getElementById(
+                                  "fb-share-to-messenger-sub-container"
+                                );
+                                fbShareToMessengerSubContainer.innerHTML = "";
+                                fbShareToMessengerSubContainer.appendChild(sendToMessengerElement);
+                                FB.XFBML.parse();
+                              };
+                              reloadFBWidget();
+                            }
+
+                            </script>
+
+
                            {{/show_fb}}
 
                         </div>
@@ -954,7 +1016,7 @@ function deferBisProductPageButton (callback) {
               this.productHandle = this.settings.productHandle,
               this.product = this.settings.product,
               this.ajaxOpts = {
-                url: "https://" + t.app_hostname + "/prod"
+                url: "https://" + t.app_hostname + "/prod/api"
               }
           }
 
@@ -1944,7 +2006,7 @@ function deferBisProductPageButton (callback) {
         SI.Analytics = function () {
           function t() {
             this.key = "si_id",
-              this.endpoint = "//" + SI.Config.app_hostname + "/prod/conversions"
+              this.endpoint = "//" + SI.Config.conversions_hostname + "/prod/api"
           }
 
           t.prototype.init = function () {
@@ -2033,7 +2095,8 @@ function deferBisProductPageButton (callback) {
         .call(this);
 
     SI.Config = {
-      "app_hostname": "flztijqtda.execute-api.us-west-1.amazonaws.com",
+      "app_hostname": "xsy6rdr4zb.execute-api.us-west-1.amazonaws.com",
+      "conversions_hostname": "ifouxf840g.execute-api.us-west-1.amazonaws.com",
       "instock_qty_level": 1,
       "preorder_enabled": false,
       "require_inventory_management": true,

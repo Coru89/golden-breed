@@ -4,7 +4,7 @@
       color: #265979;
       display: flex;
       flex-direction: column;
-      font-family: Special Elite, Monospace;
+      font-family: 'Nunito Sans', sans-serif;
       padding: 6rem 1.5rem;
   
       @media screen and (min-width: 750px) {
@@ -42,31 +42,62 @@
     }
 
     &__column {
-      &:last-of-type {
-        .accordion__item:first-of-type {
-          border-top: 0;
+      &:first-of-type {
+        .accordion__item {
+        
+          &:first-of-type {
+            border-top: 1px solid #265979;
+          }
+
+          &:nth-of-type(1n) {
+            border-bottom: 1px solid #E78367;
+          }
+          &:nth-of-type(2n) {
+            border-bottom: 1px solid #EBB967;
+          }
+          &:nth-of-type(3n) {
+            border-bottom: 1px solid #7DA9A3;
+          }
+          &:nth-of-type(4n) {
+            border-bottom: 1px solid #9FB1C6;
+          }
+          &:nth-of-type(5n) {
+            border-bottom: 1px solid #265979;
+          }
         }
       }
-      @media screen and (min-width: 750px) {
-        &:last-of-type {
-          .accordion__item:first-of-type {
-            border-top: 1px solid #ACC3CD;
+
+      &:last-of-type {
+        .accordion__item {
+          &:first-of-type {
+            border-top: 1px solid #EBB967;
+          }
+          &:nth-of-type(1n) {
+            border-bottom: 1px solid #7DA9A3;
+          }
+          &:nth-of-type(2n) {
+            border-bottom: 1px solid #9FB1C6;
+          }
+          &:nth-of-type(3n) {
+            border-bottom: 1px solid #E78367;
+          }
+          &:nth-of-type(4n) {
+            border-bottom: 1px solid #265979;
+          }
+          &:nth-of-type(5n) {
+            border-bottom: 1px solid #EBB967;
           }
         }
       }
     }
   
     &__item {
-      border-bottom: 1px solid #ACC3CD;
       text-align: center;
 
-      &:first-of-type {
-        border-top: 1px solid #ACC3CD;
-      }
-  
       &-header {
         cursor: pointer;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: bold;
         line-height: 1;
         padding: 22px 16px 20px;
         text-transform: uppercase;

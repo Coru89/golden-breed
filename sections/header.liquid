@@ -13,7 +13,6 @@
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
-
 <style>
   header-drawer {
     justify-self: start;
@@ -645,20 +644,20 @@
             
   </header>
          
-
+        
    <div style="margin-top:-1px; border-top:4px solid #e9b88a;">
       <div style="border-top:4px solid #c67986;">
          <div style="border-top:4px solid #f2f3f6;">
               <div style="border-top:4px solid #abc3cd;"> 
    <div style="border-top:4px solid #6d8a9e;">
-          </div></div></div></div></div>
-          
+          </div></div></div></div></div>          
           
          
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
         
         <script>
   let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
+  console.log(items)
   items.forEach(item => {
     item.addEventListener("mouseover", () => {
       item.setAttribute("open", true);
@@ -797,7 +796,7 @@
     {
       "@context": "http://schema.org",
       "@type": "WebSite",
-      "name": "{{ shop.name | json }}",
+      "name": {{ shop.name | json }},
       "potentialAction": {
         "@type": "SearchAction",
         "target": "{{ potential_action_target }}",

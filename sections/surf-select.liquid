@@ -17,20 +17,20 @@
               {%- case block.type -%}
                 {%- when 'surfboard' -%}
                   <div class="surf-select__slide-content">
+                    <div class="surf-select__slide-content-overlay">
+                      <h3 class="surf-select__slide-heading">
+                        {{ block.settings.heading }}
+                      </h3>
+                      <div class="surf-select__slide-description">
+                        {{ block.settings.board_description }}
+                      </div>
+                    </div>
                     {%- assign board_image = block.settings.board_image -%}
                     {{
                       board_image
                       | image_url: width: board_image.width
                       | image_tag: class: 'surf-select__slide-image', loading: 'lazy'
                     }}
-                  </div>
-                  <div class="surf-select__slide-content-overlay">
-                    <h3 class="surf-select__slide-heading">
-                      {{ block.settings.heading }}
-                    </h3>
-                    <div class="surf-select__slide-description">
-                      {{ block.settings.board_description }}
-                    </div>
                   </div>
               {%- endcase -%}
             </div>
@@ -85,7 +85,7 @@
           "placeholder": "Surfboard"
         },
         {
-          "type": "textarea",
+          "type": "html",
           "id": "board_description",
           "label": "Board Description"
         },
@@ -109,3 +109,6 @@
   ]
 }
 {% endschema %}
+
+
+

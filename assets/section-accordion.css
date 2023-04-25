@@ -10,13 +10,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: Special Elite, Monospace;
+  font-family: 'Nunito Sans', sans-serif;
   padding: 6rem 1.5rem; }
   @media screen and (min-width: 750px) {
     .accordion__inner {
       padding: 10rem 5rem; } }
 
 .accordion__heading {
+  text-align: center;
   font-size: 28px;
   margin-bottom: 32px; }
   @media screen and (min-width: 990px) {
@@ -40,47 +41,77 @@
       gap: 7rem;
       grid-template-columns: repeat(2, 1fr); } }
 
-.accordion__column:last-of-type .accordion__item:first-of-type {
-  border-top: 0; }
+.accordion__column:first-of-type .accordion__item:first-of-type {
+  border-top: 1px solid #265979; }
+
+.accordion__column:first-of-type .accordion__item:nth-of-type(1n) {
+  border-bottom: 1px solid #E78367; }
+
+.accordion__column:first-of-type .accordion__item:nth-of-type(2n) {
+  border-bottom: 1px solid #EBB967; }
+
+.accordion__column:first-of-type .accordion__item:nth-of-type(3n) {
+  border-bottom: 1px solid #7DA9A3; }
+
+.accordion__column:first-of-type .accordion__item:nth-of-type(4n) {
+  border-bottom: 1px solid #9FB1C6; }
+
+.accordion__column:first-of-type .accordion__item:nth-of-type(5n) {
+  border-bottom: 1px solid #265979; }
+
+.accordion__column:last-of-type .accordion__item:nth-of-type(1n) {
+  border-top: 0;
+  border-bottom: 1px solid #7DA9A3; }
+
+.accordion__column:last-of-type .accordion__item:nth-of-type(2n) {
+  border-bottom: 1px solid #9FB1C6; }
+
+.accordion__column:last-of-type .accordion__item:nth-of-type(3n) {
+  border-bottom: 1px solid #E78367; }
+
+.accordion__column:last-of-type .accordion__item:nth-of-type(4n) {
+  border-bottom: 1px solid #265979; }
+
+.accordion__column:last-of-type .accordion__item:nth-of-type(5n) {
+  border-bottom: 1px solid #EBB967; }
 
 @media screen and (min-width: 750px) {
   .accordion__column:last-of-type .accordion__item:first-of-type {
-    border-top: 1px solid #ACC3CD; } }
+    border-top: 1px solid #EBB967; } }
 
-.accordion__item {
-  border-bottom: 1px solid #ACC3CD;
-  text-align: center; }
-  .accordion__item:first-of-type {
-    border-top: 1px solid #ACC3CD; }
-  .accordion__item-header {
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 1;
-    padding: 22px 16px 20px;
-    text-transform: uppercase; }
-    .accordion__item-header-icon {
-      float: right;
-      position: relative;
-      top: -8px;
-      -webkit-transition: -webkit-transform 0.2s ease-out;
-      transition: -webkit-transform 0.2s ease-out;
-      -o-transition: transform 0.2s ease-out;
-      transition: transform 0.2s ease-out;
-      transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out; }
-    .accordion__item-header.active .accordion__item-header-icon {
-      -webkit-transform: rotate(180deg);
-          -ms-transform: rotate(180deg);
-              transform: rotate(180deg); }
+.accordion__item-header {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding: 25px 26px 25px 0;
+  position: relative; }
+  .accordion__item-header-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transition: -webkit-transform 0.2s ease-out;
+    transition: -webkit-transform 0.2s ease-out;
+    -o-transition: transform 0.2s ease-out;
+    transition: transform 0.2s ease-out;
+    transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    display: block;
+    width: 32px;
+    height: 32px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .accordion__item-header.active .accordion__item-header-icon {
+    -webkit-transform: rotate(180deg) translateY(50%);
+        -ms-transform: rotate(180deg) translateY(50%);
+            transform: rotate(180deg) translateY(50%); }
 
 .accordion__content {
   display: none;
   overflow: hidden;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   -webkit-transition: max-height 0.3s ease-out;
   -o-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out; }
-  @media screen and (min-width: 750px) {
-    .accordion__content {
-      padding: 10px; } }
   .accordion__content.active {
     display: block; }

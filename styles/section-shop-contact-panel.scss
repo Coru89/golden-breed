@@ -1,6 +1,6 @@
 .shop-contact {
   background-color: #1A506F;
-  font-family: 'Special Elite', Monospace;
+  font-family: 'Nunito Sans', sans-serif;
   overflow: hidden;
   position: relative;
 
@@ -140,9 +140,11 @@
   }
 
   &__label {
-    font-size: 20px;
-    padding: 16px 0 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700 ;
     margin-bottom: 0;
+    padding: 16px 0 8px;
   }
 
   &__link {
@@ -258,11 +260,16 @@
 
     &-content {
       line-height: 1.3;
+      font-family: 'Nunito Sans', sans-serif;
 
       img {
         display: block;
         margin: auto;
         max-width: 100%;
+      }
+
+      * {
+        font-family: 'Nunito Sans', sans-serif;
       }
     }
 

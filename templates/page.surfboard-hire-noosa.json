@@ -4,7 +4,8 @@
       "type": "shop-hero",
       "settings": {
         "heading_title": "Noosa Surfboard Hire",
-        "image": "shopify:\/\/shop_images\/noosa-hero.png"
+        "image": "shopify:\/\/shop_images\/noosa-hero.png",
+        "banner_alert_message": ""
       }
     },
     "f4d52c76-711e-4a98-80b4-445b3517398f": {
@@ -13,37 +14,44 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Medium length section heading goes here"
+            "heading": "Rent a surfboard in Noosa"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. <\/p>"
+            "text": "<p>Golden Breed’s Noosa surfboard hire shop is just footsteps away from world-class breaks, golden sunsets and good times.Drop into our store and we’ll kit you out with your weapon to go and get salty with. Whether you’re a beginner wanting to rent a surfboard, or traveler who didn’t come prepared, we’ve got an epic variety of boards to choose from. Aside from surf hire, our surf store stocks hats, wax, tees, shirts, sunscreen, boards to buy and everything a top surf shop should have.<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "f3c3ee59-9726-490b-93f5-05dc4efd17b8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bodyboard Hire & Sups"
           }
         },
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a": {
           "type": "text",
           "settings": {
-            "text": "<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>"
+            "text": "<p>If chasing barrels isn’t your style, we also hire stand up paddle boards (SUPS) and bodyboards. Noosa is renowned for glassy mornings in the canals, and picturesque memories. On a flat day, rise and shine with the birds, grab a quick coffee and enjoy a chilled session of ray-spotting and seeing mother nature in all her glory.  Our Noosa surfboard hire shop has all options, for all ages. <\/p>"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "https:\/\/google.com.au"
+            "button_label": "See our Rates",
+            "button_link": "https:\/\/goldenbreed.com.au\/pages\/noosa-heads-board-hire#shopify-section-template--16200157659335__493ab732-928d-42ff-be99-fb0afa80e11a"
           }
         }
       },
       "block_order": [
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0",
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1",
+        "f3c3ee59-9726-490b-93f5-05dc4efd17b8",
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a",
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/noosa-overlay.png",
+        "image": "shopify:\/\/shop_images\/noosa-surf.jpg",
         "image_mobile": "shopify:\/\/shop_images\/noosa_shop.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -64,14 +72,15 @@
         "whatsapp": "07 5357 6053",
         "whatsappLink": "07 5357 6053",
         "email": "",
-        "driving_directions": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Driving.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>\n\n<img src=\"https:\/\/picsum.photos\/350\">",
+        "driving_directions": "",
         "driving_directions_heading": "How to find us!",
-        "parking_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Parking<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "parking_information_heading": "Where to park?",
-        "wheel_chair_accessibility_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Weelchair.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
-        "pet_friendliness": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Pet.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "pet_friendliness_heading": "We are pet friendly!"
+        "parking_information": "",
+        "parking_information_heading": "",
+        "wheel_chair_accessibility_information": "",
+        "wheel_chair_accessibility_information_heading": "",
+        "pet_friendliness": "",
+        "pet_friendliness_heading": "",
+        "remove_bottom_border": false
       }
     },
     "0484449b-6a50-4b3b-9ee6-6556451c5dae": {
@@ -80,8 +89,8 @@
         "d57d5d86-0949-4ab5-ae50-7d830b45740c": {
           "type": "surfboard",
           "settings": {
-            "heading": "Standup Paddle Board",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "SUPS ( STAND UP PADDLE BOARDS )",
+            "board_description": "<ul>\n<li>The stand up paddle board is a perfect way to cruise around  especially on flatter days when the waves are not happening.<\/li>\n<li>Most of the SUPS we have are for smaller conditions and cruising rather than surfing in bigger waves .<\/li>\n<li>There are many SUP riders out there that have definitely mastered the art ,and can surf on virtually anything extremely well.<\/li>\n<li>They can paddle into waves a lot quicker than regular surfboard riders.<\/li>\n<li>We generally recommend using the SUP option only in smaller conditions ,unless you are very experienced.<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/sup.svg",
             "card_background_color": "#7da9a3"
           }
@@ -89,8 +98,8 @@
         "224020ac-c432-49b4-ab6a-ad344118b2f0": {
           "type": "surfboard",
           "settings": {
-            "heading": "Longboard",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "LONGBOARDS",
+            "board_description": "<ul>\n<li>Longboards are the ‘go to” Surfboards for around the points breaks.<\/li>\n<li>Suitable for all standards of surfing.<\/li>\n<li>Best in waves small to Medium.<\/li>\n<li>Plenty of stability and buoyancy and they are wave catching machines!<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/Longboard.svg",
             "card_background_color": "#ebb967"
           }
@@ -98,8 +107,8 @@
         "528ea41e-c7e6-4211-9a77-4c0fdb36a139": {
           "type": "surfboard",
           "settings": {
-            "heading": "Shortboard",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "SHORTBOARDS",
+            "board_description": "<ul>\n<li>Shortboards are usually the domain of the more experienced surfer.<\/li>\n<li>They are less buoyant and highly manoeuvrable, so you need to have had a enough time on the water to get the best out of them.<\/li>\n<li>They really get going when the wave height is medium to big.<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/short.svg",
             "card_background_color": "#e78367"
           }
@@ -107,8 +116,8 @@
         "87cac967-f5bc-4103-8ec1-7e1d32605aff": {
           "type": "surfboard",
           "settings": {
-            "heading": "Foamy",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "FOAMIES",
+            "board_description": "<ul>\n<li>Foam boards are a great all-round starter board.<\/li>\n<li>Perfect for beginners getting the handle of what goes out in there in the waves.<\/li>\n<li>Being Foam they are very buoyant and reasonably stable and if you fall off and the board hits you it’s a lot less forgiving than a regular board!<\/li>\n<li>Most learners start on a FOAMIE for that reason.<\/li>\n<li>BTW there is also a lot of very experienced surfers that love to take out a Foamie on a smaller day and just have fun.<\/li>\n<li>Suitable for all levels and small to medium sized waves<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/foamy.svg",
             "card_background_color": "#72a7c0"
           }
@@ -116,8 +125,8 @@
         "23462703-3219-4adb-9854-f6c73c968c40": {
           "type": "surfboard",
           "settings": {
-            "heading": "Bodyboard",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "BODYBOARDS",
+            "board_description": "<ul>\n<li>We have a great range of Bodyboards suitable for kids and adults alike.\n<\/li>\n<li>This is where, for most ,the first thrill of riding a wave kicked in.<\/li>\n<li>Once you get hooked on that thrill its hard to ignore it!<\/li>\n<li>We recommend staying between the flags and only venturing in in smaller conditions.<\/li>\n<li>Let’s have fun and not sign up for a survival mission<\/li>\n<li>Suitable for just about everyone who is a reasonably competent swimmer.<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/bodyboard.svg",
             "card_background_color": "#9fb1c6"
           }
@@ -141,29 +150,36 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Medium length section heading goes here"
+            "heading": "New To Surfing?"
           }
         },
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis<\/p>"
+            "text": "<p> No stress, all staff at our Noosa surfboard hire shop have grown up in the ocean, so when it comes to the local breaks, and which boards are best for you, we can give you solid advice and tips to get started. Come on down, check out our range and we’ll get you in the ocean in this little slice of Sunshine Coast paradise we call home.<\/p>"
+          }
+        },
+        "455bcf1a-e01e-470b-9b61-b90d109fb64b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Noosa’s Iconic Surf Hire"
           }
         },
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
           "type": "text",
           "settings": {
-            "text": "<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>"
+            "text": "<p>We’re a surf brand who honours the nostalgia of retro vibes, classic times and enjoying life for what it really is. Find us at the Golden Breed round-a-bout in Noosa Heads, just as you’re heading into Hastings street - You can’t miss us. Bringing your board back is easy, it’s just a few footsteps from Noosa’s main beach, without having to rack up your boards to your car. We’l l prep your boards with wax, choose the right leggy for you, and set you in the right spot for where your most likely to get waves on the day.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0",
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1",
+        "455bcf1a-e01e-470b-9b61-b90d109fb64b",
         "53dfb156-69d4-478c-a327-c2f811bafa1d"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/noosa-storefront.png",
+        "image": "shopify:\/\/shop_images\/surfboard-guy-in-nossa.jpg",
         "image_mobile": "shopify:\/\/shop_images\/noosa-storefront.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -173,10 +189,10 @@
     "be878ebf-ea2f-4b42-bcd7-65a23267b69c": {
       "type": "image-grid",
       "settings": {
-        "heading": "Medium length section heading goes here",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. \nSed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et.",
-        "main_image": "shopify:\/\/shop_images\/noosa-yellow-surfboard.png",
-        "image_grid": "shopify:\/\/shop_images\/noosa-image-grid.png",
+        "heading": "Put A Leash On It",
+        "summary": "If you're hiring a board, or even buying one, we'll kit you out with a leggie, otherwise know as a leash, or leg rope that's going to keep you attached, and safe in the water. \n<br><br>\nOur Noosa surf store stocks stacks of gear, surf accessories and apparel. You'll be able to pick up wax, wax combs, sunscreen, bucket hats, rashie's, wet suits and everything you'll need before getting wet.  \n<br><br>\nIf you need advice on what size, what , what board, what leggie, or any technical question at all, our staff are knowledgeable and happy to assist.",
+        "main_image": "shopify:\/\/shop_images\/shop-girl.jpg",
+        "image_grid": "shopify:\/\/shop_images\/noosa-shop.png",
         "layout": "text_first"
       }
     },
@@ -216,24 +232,80 @@
         "755ec852-4103-4c73-98e7-a704ffc97c81": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "4 Hours",
-            "column_2_data": "1$",
+            "column_1_data": "Overnight (4pm until next day 9.30am)",
+            "column_2_data": "$45",
             "header": false
           }
         },
         "5870e094-095b-4db4-8891-e4a7b820f44b": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "4 Hours",
-            "column_2_data": "22$",
+            "column_1_data": "24 Hours",
+            "column_2_data": "$60",
             "header": false
           }
         },
         "966ab040-5bba-4ac2-9b99-14f819aca9bc": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "3 Hours",
-            "column_2_data": "70$",
+            "column_1_data": "2 Days",
+            "column_2_data": "$95",
+            "header": false
+          }
+        },
+        "5061deb0-c3c7-4ad0-9aff-57aa36688a63": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "3 Days",
+            "column_2_data": "$120",
+            "header": false
+          }
+        },
+        "a6ac96a1-c256-4430-81d7-92eef9226995": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Days",
+            "column_2_data": "$130",
+            "header": false
+          }
+        },
+        "2e53a0db-5cbe-4bc8-9ff6-487b82f1f485": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "5 Days",
+            "column_2_data": "$150",
+            "header": false
+          }
+        },
+        "68729628-e875-40dc-9e31-76883dea2612": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "6 Days",
+            "column_2_data": "$150",
+            "header": false
+          }
+        },
+        "1b17f2f0-adf0-42bf-8365-5a28ae06a202": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "6 Days",
+            "column_2_data": "$150",
+            "header": false
+          }
+        },
+        "9e341edb-a5f6-452a-8dd1-28ffc3cc0bcc": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "7 Days \/ 1 Week",
+            "column_2_data": "$160",
+            "header": false
+          }
+        },
+        "f792d1f4-4a50-4ba3-9dfb-1d80e8d7a5ff": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Weeks",
+            "column_2_data": "$210",
             "header": false
           }
         },
@@ -254,8 +326,16 @@
         "311fe5d9-5215-4890-ba29-80a04aadcfdc": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "rty",
-            "column_2_data": "er",
+            "column_1_data": "24 Hours",
+            "column_2_data": "$15",
+            "header": false
+          }
+        },
+        "33e7e7f4-8b07-4e67-abf1-5ac161a4c9ce": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "After 3 Days (per 24 hours)",
+            "column_2_data": "$5",
             "header": false
           }
         },
@@ -277,7 +357,7 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "2 Hours",
-            "column_2_data": "25$",
+            "column_2_data": "$35",
             "header": false
           }
         },
@@ -285,14 +365,78 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "4 Hours",
-            "column_2_data": "40$",
+            "column_2_data": "$50",
+            "header": false
+          }
+        },
+        "2d1ffde1-f76e-4397-af13-2ae973ee239b": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "24 Hours",
+            "column_2_data": "$80",
+            "header": false
+          }
+        },
+        "39f2ff50-906a-4795-a56d-adc1f00e64c9": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Days",
+            "column_2_data": "$120",
+            "header": false
+          }
+        },
+        "f632b5d3-8c9a-4899-9ab7-a2ebb68dfc9d": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "3 Days",
+            "column_2_data": "$160",
+            "header": false
+          }
+        },
+        "cd15c7dc-bc05-48be-9d9f-8d80f98923d9": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Days",
+            "column_2_data": "$180",
+            "header": false
+          }
+        },
+        "132d54db-9e58-472e-8145-8eb526e2351e": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "5 Days",
+            "column_2_data": "$200",
+            "header": false
+          }
+        },
+        "0068ab43-4b24-4f4a-a8d9-1aac7990136a": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "6 Days",
+            "column_2_data": "$220",
+            "header": false
+          }
+        },
+        "5907293d-78a9-430d-bb65-f1531493a0d8": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "7 Days \/ 1 Week",
+            "column_2_data": "$240",
+            "header": false
+          }
+        },
+        "3fa9eba8-feab-412e-8305-046889177a26": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Weeks",
+            "column_2_data": "$360",
             "header": false
           }
         },
         "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9": {
           "type": "tabaccordion_section",
           "settings": {
-            "tabaccordion_section_name": "Bodyboard rates"
+            "tabaccordion_section_name": "4 Person SUP"
           }
         },
         "ebfc088e-1ca1-4194-b821-228b5e0a4588": {
@@ -307,7 +451,23 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "2 Hours",
-            "column_2_data": "25$",
+            "column_2_data": "$50",
+            "header": false
+          }
+        },
+        "7b6b5aa8-ddda-4fd4-9a66-5b9f0fdbd80d": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Hours",
+            "column_2_data": "$85",
+            "header": false
+          }
+        },
+        "0997239e-fc40-4e6f-9790-e1c0027fb379": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "24 Hours",
+            "column_2_data": "$120",
             "header": false
           }
         }
@@ -320,55 +480,78 @@
         "755ec852-4103-4c73-98e7-a704ffc97c81",
         "5870e094-095b-4db4-8891-e4a7b820f44b",
         "966ab040-5bba-4ac2-9b99-14f819aca9bc",
+        "5061deb0-c3c7-4ad0-9aff-57aa36688a63",
+        "a6ac96a1-c256-4430-81d7-92eef9226995",
+        "2e53a0db-5cbe-4bc8-9ff6-487b82f1f485",
+        "68729628-e875-40dc-9e31-76883dea2612",
+        "1b17f2f0-adf0-42bf-8365-5a28ae06a202",
+        "9e341edb-a5f6-452a-8dd1-28ffc3cc0bcc",
+        "f792d1f4-4a50-4ba3-9dfb-1d80e8d7a5ff",
         "144cdffa-870c-4be2-b4da-cd5ad44a7582",
         "a7ac5f76-1a61-4cb7-b587-3a072da4d7da",
         "311fe5d9-5215-4890-ba29-80a04aadcfdc",
+        "33e7e7f4-8b07-4e67-abf1-5ac161a4c9ce",
         "190d047b-e037-4cdc-9520-10958d4fbed7",
         "3cf2e180-b169-48f5-b80d-fee03e2182f8",
         "33ed2176-06c4-482a-998a-28a388db1eb4",
         "7cc19b2f-a3a7-4708-816d-809cf249ace2",
+        "2d1ffde1-f76e-4397-af13-2ae973ee239b",
+        "39f2ff50-906a-4795-a56d-adc1f00e64c9",
+        "f632b5d3-8c9a-4899-9ab7-a2ebb68dfc9d",
+        "cd15c7dc-bc05-48be-9d9f-8d80f98923d9",
+        "132d54db-9e58-472e-8145-8eb526e2351e",
+        "0068ab43-4b24-4f4a-a8d9-1aac7990136a",
+        "5907293d-78a9-430d-bb65-f1531493a0d8",
+        "3fa9eba8-feab-412e-8305-046889177a26",
         "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9",
         "ebfc088e-1ca1-4194-b821-228b5e0a4588",
-        "c19d9b9f-48c9-4571-befd-50164b8dd408"
+        "c19d9b9f-48c9-4571-befd-50164b8dd408",
+        "7b6b5aa8-ddda-4fd4-9a66-5b9f0fdbd80d",
+        "0997239e-fc40-4e6f-9790-e1c0027fb379"
       ],
       "settings": {
-        "heading": "Heading"
+        "heading": "Check Out Our Hire Rates",
+        "anchorID": "rates"
       }
     },
     "25c46024-1bb7-4607-8d0d-54e868c531f4": {
       "type": "testimonials",
       "blocks": {
+        "5d39b0f6-e3d3-43b0-8635-5323f195bf58": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Nick Richards",
+            "quote": "I recently had the pleasure of renting a surfboard from Golden Breed, and I have to say that I was thoroughly impressed with their service. From the moment I walked into their shop, I was greeted with warm and friendly staff who were eager to help me find the perfect surfboard for my needs.",
+            "background_image": "shopify:\/\/shop_images\/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
+          }
+        },
         "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d": {
           "type": "testimonial",
           "settings": {
-            "name": "",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "name": "Buddha",
+            "quote": "Golden Breed is an iconic Australian Surf Brand. The Golden Breed Shop in Noosa Heads, whilst small, offers a good range of functional and purpose built surf wear at a competitive price.",
             "background_image": "shopify:\/\/shop_images\/byron-hero.png"
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
           "type": "testimonial",
           "settings": {
-            "name": "Name Here",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "name": "MaiJPS",
+            "quote": "The Best shop to get rental surfboard ! Highly recommended.\nI rented 9'0 hard longboard which was great and they offered me I can change the board as much as I want from the plenty of choice.\nDefinitely come back!\nBest part of the shop is all staff was very friendly and helpful!",
             "background_image": "shopify:\/\/shop_images\/noosa-hero.png"
-          }
-        },
-        "5d39b0f6-e3d3-43b0-8635-5323f195bf58": {
-          "type": "testimonial",
-          "settings": {
-            "name": "name",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
-            "background_image": "shopify:\/\/shop_images\/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
           }
         }
       },
       "block_order": [
+        "5d39b0f6-e3d3-43b0-8635-5323f195bf58",
         "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d",
-        "284c5a80-cb2c-4da8-86e3-08e24283e8de",
-        "5d39b0f6-e3d3-43b0-8635-5323f195bf58"
+        "284c5a80-cb2c-4da8-86e3-08e24283e8de"
       ],
       "settings": {
+        "shopName": "Golden Breed - Noosa",
+        "addressLocality": "Noosa Heads",
+        "streetAddress": "13 Noosa Drive, Noosa Heads QLD 4567",
+        "tel": "07 5357 6053"
       }
     },
     "7a575310-7f34-4910-8427-5e7100bbbae5": {
@@ -377,36 +560,85 @@
         "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Hello World",
-            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+            "accordion_label": "Do I need to be an experienced surfer to hire a surfboard?",
+            "accordion_content": "It's recommended that you have some experience surfing before hiring a fibreglass surfboard, but we also rent beginner boards - Foamies which are soft, and a lot safer for people still finding their feet."
           }
         },
         "cffc097b-c126-4ff2-845d-7dd4374810fc": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Hello World",
-            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+            "accordion_label": "How do I choose the right size surfboard for me?",
+            "accordion_content": "The size of the board depends on your weight, height, and skill level. You can ask our staff for advice on which size would be best for you."
           }
         },
         "83ea7dec-fc49-48fd-8cd0-4f64ac355056": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Accordion Item",
-            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+            "accordion_label": "Can I hire a surfboard without a wetsuit?",
+            "accordion_content": "In Noosa, you don't need a wetty, unless you're surfing in the winter months. Ideally, you'd have a rashie to protect yourself from chaffing, and the sun. Ask our staff, and we'll give you options."
           }
         },
         "e7acff88-229c-4dc5-827d-e0b73e9654c3": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Item Label",
-            "accordion_content": "Veritatis\nobcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam\nnihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,\ntenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,\nquia. Quo neque error repudiandae fuga?"
+            "accordion_label": "How much does it cost to hire a surfboard?",
+            "accordion_content": "Have a look at our pricing schedule on this page, you'll find pricing for surfboards, body boards and stand up paddle boards."
           }
         },
         "f416df8a-b269-4b69-ac34-b95773dc6d9e": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Another Item Title",
-            "accordion_content": "Veritatis\nobcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam\nnihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,\ntenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,\nquia. Quo neque error repudiandae fuga?"
+            "accordion_label": "Can I hire a surfboard for multiple days?",
+            "accordion_content": "100%. Ask our staff, and they'll let you know your options and pricing."
+          }
+        },
+        "57282809-fdf1-466a-b4c0-78c07ebeb8dc": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Does Golden Breed provide surf wax when hiring a board?",
+            "accordion_content": "Yes, we wax your weapon, rail to rail, prior to you heading out, but it's always a good idea to bring your own, or buy some, just in case."
+          }
+        },
+        "ff30a0cf-bcee-4548-ba64-d5719cab65da": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How do I transport the surfboard to the beach?",
+            "accordion_content": "We're within walking distance to the river mouth, Little Cove, Nationals, and Tea Tree. Otherwise, if you want to hit the opens - Dog Beach, Sunshine Beach, Castaways or Peregian, it's best to have surf racks, and a purpose made surf tie-down. Better yet, if you've got a van, load them in carefully so they're secure and won't get damaged while traveling."
+          }
+        },
+        "3e0f7132-40b5-4960-9228-ce008d796d85": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What do I do if the surfboard gets damaged while I'm using it?",
+            "accordion_content": "You should contact us immediately if the surfboard gets damaged while you're using it. Do not take it back in the water, this will further damage it. We will advise you on what to do next."
+          }
+        },
+        "7061d479-a688-499e-92e8-cfbaa5a44a6b": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Can I hire a surfboard for a child?",
+            "accordion_content": "Yes, we rent body boards, and surfboards for kiddos. It's best to check availability with our Noosa staff."
+          }
+        },
+        "b789f466-3fae-484f-a88e-513b800df208": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How do I know if the surfboard is in good condition?",
+            "accordion_content": "It's always good practice to inspect the surfboard for any cracks or damage before hiring it. Or even take photos."
+          }
+        },
+        "320ae347-64c3-43fb-b8b0-de4491df846d": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What happens if I return the surfboard late?",
+            "accordion_content": "We sometimes charge a fee for late returns, but this depends on how late you return it and how busy Noosa is. We're reasonably relaxed, but it's best to expect that you'll get an additional charge."
+          }
+        },
+        "5352a431-3106-429e-90a6-1d54940620f9": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Where are the best surfing spots in Noosa?",
+            "accordion_content": "This depends on the conditions, but spots that people commonly surf are the river mouth, accessible from Hastings Street, First Point, Little Cove, Nationals, Tea Tree and Granite are accessible from the Noosa national park carpark. If the points aren't working, try the opens at Dog Beach, Sunshine Beach, Castaways Peregian or Coolum which require you to rack up and a short drive."
           }
         }
       },
@@ -415,11 +647,18 @@
         "cffc097b-c126-4ff2-845d-7dd4374810fc",
         "83ea7dec-fc49-48fd-8cd0-4f64ac355056",
         "e7acff88-229c-4dc5-827d-e0b73e9654c3",
-        "f416df8a-b269-4b69-ac34-b95773dc6d9e"
+        "f416df8a-b269-4b69-ac34-b95773dc6d9e",
+        "57282809-fdf1-466a-b4c0-78c07ebeb8dc",
+        "ff30a0cf-bcee-4548-ba64-d5719cab65da",
+        "3e0f7132-40b5-4960-9228-ce008d796d85",
+        "7061d479-a688-499e-92e8-cfbaa5a44a6b",
+        "b789f466-3fae-484f-a88e-513b800df208",
+        "320ae347-64c3-43fb-b8b0-de4491df846d",
+        "5352a431-3106-429e-90a6-1d54940620f9"
       ],
       "settings": {
-        "heading": "FAQs",
-        "sub_heading": "Our commonly asked questions..."
+        "heading": "FAQs - SUP, Bodyboard & Surfboard Hire",
+        "sub_heading": "Our commonly asked questions when people hire boards from us."
       }
     },
     "554dd024-c9a3-46c0-b76c-4665b0cc603d": {
@@ -436,14 +675,15 @@
         "whatsapp": "02 6680 7944",
         "whatsappLink": "",
         "email": "",
-        "driving_directions": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Driving.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>\n\n<img src=\"https:\/\/picsum.photos\/350\">",
+        "driving_directions": "<p>Find us at the Golden Breed round-about at 13, Noosa Drive, Noosa Heads.<\/p>\n\n<p>As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed round about. You can't miss us, we're smack bam in your direct line of site in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.<\/p>\n\n<img src=\"https:\/\/picsum.photos\/350\">",
         "driving_directions_heading": "How to find us!",
         "parking_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Parking<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
         "parking_information_heading": "Where to park?",
         "wheel_chair_accessibility_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Weelchair.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
         "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
         "pet_friendliness": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Pet.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "pet_friendliness_heading": "We are pet friendly!"
+        "pet_friendliness_heading": "We are pet friendly!",
+        "remove_bottom_border": true
       }
     }
   },

@@ -3,7 +3,7 @@
 
 <section class="tab-accordion">
   <div class="tab-accordion__inner page-width page-width--desktop">
-    <h2 class="tab-accordion__heading">
+    <h2 {% if section.settings.anchorID %}id={{section.settings.anchorID}} {% endif %}class="tab-accordion__heading">
       {{ section.settings.heading }}
     </h2>
     <div class="tab-accordion__items">
@@ -52,7 +52,13 @@
       "type": "text",
       "id": "heading",
       "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "anchorID",
+      "label": "anchor ID"
     }
+    
   ],
   "blocks": [
     {
