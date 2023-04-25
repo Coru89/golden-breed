@@ -7,6 +7,12 @@
         "show_collection_image": false
       }
     },
+    "1677725562d6eac228": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -48,7 +54,7 @@
         "image_2": "shopify:\/\/shop_images\/gns.jpg",
         "title-2": "",
         "button-text-2": "Shop Now",
-        "link-2": "shopify:\/\/collections\/gordon-smith",
+        "link-2": "shopify:\/\/collections\/gordon-smith-1",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -62,6 +68,7 @@
   },
   "order": [
     "banner",
+    "1677725562d6eac228",
     "product-grid",
     "163944753611453958"
   ]

@@ -7,6 +7,9 @@
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
       </h1>
+      <div class="collection-desc desc-desktop">
+      {{ collection.description }}
+      </div>
 
      
     </div>
@@ -32,6 +35,7 @@
     {%- endif -%}
   </div>
 </div>
+
 
 {% schema %}
 {

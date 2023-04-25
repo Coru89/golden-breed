@@ -69,7 +69,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "T-Shirts",
-        "collection": "mens-vintage-surf-tees",
+        "collection": "mens-tees",
         "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -149,7 +149,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Caps & Hats",
-        "collection": "hats-caps",
+        "collection": "golden-breed-hats-caps",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -180,11 +180,11 @@
         "1639913865bcb252bd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mens-col-1.webp",
+        "image": "shopify:\/\/shop_images\/mens-col-1.jpg",
         "title-1": "",
         "button-text-1": "Shop Shirts",
         "link-1": "shopify:\/\/collections\/golden-breed-hawaiian-shirts",
-        "image_2": "shopify:\/\/shop_images\/mens-col-2.webp",
+        "image_2": "shopify:\/\/shop_images\/mens-col-2.jpg",
         "title-2": "",
         "button-text-2": "Shop Shorts",
         "link-2": "shopify:\/\/collections\/mens-shorts",

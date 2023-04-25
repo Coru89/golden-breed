@@ -948,9 +948,6 @@
         "image": {
           "label": "Image"
         },
-        "image_mobile": {
-          "label": "Image for Mobile"
-        },
         "height": {
           "options__1": {
             "label": "Adapt to image"

@@ -31,7 +31,10 @@
     <h1 class="shop-hero__heading main-page-title page-title h0">
       {{ section.settings.heading_title | escape }}
     </h1>
-    
+  </div>
+  <div class="shop-hero__alert">
+    {{ section.settings.banner_alert_message }}
+    <strong>Free delivery</strong> on orders over $75
   </div>
 </section>
 
@@ -49,6 +52,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "Hero Image"
+    },
+    {
+      "type": "html",
+      "id": "banner_alert_message",
+      "label": "Alert Banner Message"
     }
   ],
   "presets": [

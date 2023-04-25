@@ -4,7 +4,8 @@
       "type": "shop-hero",
       "settings": {
         "heading_title": "Surfboard Hire Byron Bay",
-        "image": "shopify:\/\/shop_images\/byron-hero.png"
+        "image": "shopify:\/\/shop_images\/byron-hero.png",
+        "banner_alert_message": ""
       }
     },
     "f4d52c76-711e-4a98-80b4-445b3517398f": {
@@ -54,6 +55,7 @@
       "type": "shop-contact-panel",
       "settings": {
         "heading": "Contact Us To Find Out More",
+        "description": "",
         "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"><\/iframe>",
         "shop_name": "Golden Breed - Byron Bay",
         "address": "10 Lawson Street, Byron Bay NSW 2481",
@@ -62,15 +64,16 @@
         "phoneLink": "",
         "whatsapp": "02 6680 7944",
         "whatsappLink": "",
-        "email": "GBByronbay@goldenbreed.com.au",
-        "driving_directions": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Driving.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>\n\n<img src=\"https:\/\/picsum.photos\/350\">",
-        "driving_directions_heading": "How to find us!",
-        "parking_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Parking<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "parking_information_heading": "Where to park?",
-        "wheel_chair_accessibility_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Weelchair.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
-        "pet_friendliness": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Pet.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "pet_friendliness_heading": "We are pet friendly!"
+        "email": "",
+        "driving_directions": "",
+        "driving_directions_heading": "",
+        "parking_information": "",
+        "parking_information_heading": "",
+        "wheel_chair_accessibility_information": "",
+        "wheel_chair_accessibility_information_heading": "",
+        "pet_friendliness": "",
+        "pet_friendliness_heading": "",
+        "remove_bottom_border": false
       }
     },
     "0484449b-6a50-4b3b-9ee6-6556451c5dae": {
@@ -331,7 +334,8 @@
         "c19d9b9f-48c9-4571-befd-50164b8dd408"
       ],
       "settings": {
-        "heading": "Heading"
+        "heading": "Heading",
+        "anchorID": "rates"
       }
     },
     "25c46024-1bb7-4607-8d0d-54e868c531f4": {
@@ -368,6 +372,10 @@
         "5d39b0f6-e3d3-43b0-8635-5323f195bf58"
       ],
       "settings": {
+        "shopName": "Golden Breed - Byron Bay",
+        "addressLocality": "Byron Bay",
+        "streetAddress": "10 Lawson Street, Byron Bay NSW 2481",
+        "tel": "02 6680 7944"
       }
     },
     "7a575310-7f34-4910-8427-5e7100bbbae5": {
@@ -425,6 +433,7 @@
       "type": "shop-contact-panel",
       "settings": {
         "heading": "Contact Us To Find Out More",
+        "description": "",
         "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"><\/iframe>",
         "shop_name": "Golden Breed - Byron Bay",
         "address": "10 Lawson Street, Byron Bay NSW 2481",
@@ -441,7 +450,8 @@
         "wheel_chair_accessibility_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Weelchair.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
         "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
         "pet_friendliness": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Pet.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
-        "pet_friendliness_heading": "We are pet friendly!"
+        "pet_friendliness_heading": "We are pet friendly!",
+        "remove_bottom_border": true
       }
     }
   },

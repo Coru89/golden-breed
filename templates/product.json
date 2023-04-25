@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1677725859488c5869": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -99,6 +105,7 @@
     }
   },
   "order": [
+    "1677725859488c5869",
     "main",
     "product-recommendations"
   ]
