@@ -19,18 +19,12 @@
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
    
   
-    <div style="margin-top:-1px; border-top:4px solid #e9b88a;">
-      <div style="border-top:4px solid #c67986;">
-         <div style="border-top:4px solid #f2f3f6;">
-              <div style="border-top:4px solid #abc3cd;"> 
-   <div style="border-top:4px solid #6d8a9e;">
-          
-            
-               
-                  
-  
-    
-  
+    <div style="margin-top:-1px; border-top:6px solid #EBB967;">
+      <div style="border-top:3px solid #E78367;">
+         <div style="border-top:3px solid #F2F1F0;">
+              <div style="border-top:3px solid #5991A5;"> 
+   <div style="border-top:3px solid #AAC2D1;">
+
   <div  class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
         {%- liquid
@@ -51,7 +45,7 @@
 
               {%- case block.type -%}
                 {%- when 'text' -%}
-                  <div  style="font-size:14px; color:#1d5b78;">
+                  <div class="footer-block__text">
                    {{ block.settings.subtext }}
                   </div>
                 {%- when 'link_list' -%}
@@ -93,7 +87,7 @@
 
   <div class="footer__content-bottom">
     
-     <div style="padding-top:30px; padding-bottom:30px;" class="footer-block--newsletter">
+     <div class="footer-block--newsletter">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
@@ -322,9 +316,9 @@
           </div>
         {%- endif -%}
         <div class="footer__copyright caption">
-          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }} </small>
-          <small class="copyright__content"><a href="https://goldenbreed.com.au" target="_blank">GOLDEN BREED</a></small>
-          <small class="copyright__content"> | WEB BY <a href="https://www.gurl.com.au" target="_blank">GURL</a> | MANAGED BY <a href="https://www.thinkroom.com/">THINKROOM</a></small>
+          <span class="copyright__content">&copy; {{ 'now' | date: "%Y" }} </span>
+          <span class="copyright__content"><a href="https://goldenbreed.com.au" target="_blank">GOLDEN BREED</a></span>
+          <span class="copyright__content"> | WEB BY <a href="https://www.gurl.com.au" target="_blank">GURL</a> | MANAGED BY <a href="https://www.thinkroom.com/">THINKROOM</a></small>
         </div>
       </div>
     </div>

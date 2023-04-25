@@ -7,8 +7,8 @@
 }
 
 .footer__content-top {
-  padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+  padding-top: 4.5rem;
   display: block;
 }
 
@@ -30,7 +30,6 @@
 
   .footer__content-top {
     padding-bottom: 5rem;
-   
   }
 }
 
@@ -49,8 +48,7 @@
 
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2.5rem;
 }
 
 .footer__content-bottom:only-child {
@@ -161,6 +159,10 @@
   font-family: 'Nunito Sans', sans-serif;
   font-size: calc(var(--font-heading-scale) * 1.4rem);
   font-weight: 700;
+}
+
+.footer-block__heading:last-of-type {
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -370,7 +372,8 @@ noscript .localization-selector.link {
 
 @media screen and (min-width: 750px) {
   .footer__payment {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
+    padding: 0;
   }
 }
 
@@ -432,9 +435,23 @@ noscript .localization-selector.link {
   }
 }
 
-.footer-block__details-content .list-menu__item--link,
-.copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+.footer-block__text {
+  font-size: 14px;
+}
+
+.footer-block__text a {
+  text-decoration: none;
+}
+
+.footer-block__text svg {
+  margin-right: 6px;
+}
+
+.copyright__content a,
+.copyright__content {
+  color: #C0C0C0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -524,5 +541,6 @@ noscript .localization-selector.link {
 
 .footer p,
 .footer .link {
+  color: #265979;
   font-family: 'Nunito Sans', sans-serif;
 }
