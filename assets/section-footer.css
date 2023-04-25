@@ -155,14 +155,17 @@
 }
 
 .footer-block__heading {
+  color: #C57886;
   margin-bottom: 2rem;
   margin-top: 0;
-  font-size: calc(var(--font-heading-scale) * 1.6rem);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: calc(var(--font-heading-scale) * 1.4rem);
+  font-weight: 700;
 }
 
 @media screen and (min-width: 990px) {
   .footer-block__heading {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
   }
 }
 
@@ -405,6 +408,9 @@ noscript .localization-selector.link {
 
 .footer-block__details-content {
   margin-bottom: 4rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 @media screen and (min-width: 750px) {
@@ -514,4 +520,9 @@ noscript .localization-selector.link {
 
 .footer .disclosure__link--active {
   text-decoration: underline;
+}
+
+.footer p,
+.footer .link {
+  font-family: 'Nunito Sans', sans-serif;
 }
