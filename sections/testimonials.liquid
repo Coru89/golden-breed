@@ -77,18 +77,21 @@
         {%- if block.settings.quote != blank and block.settings.name != blank -%}
           {
             "@type": "Review",
-            "author": "{{ block.settings.name }}",
             "description": "{{ block.settings.quote }}",
             "reviewRating": {
               "@type": "Rating",
               "bestRating": "5",
               "ratingValue": "5",
               "worstRating": "1"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "{{ block.settings.name }}"
             }
           }{%- unless forloop.last -%},{%- endunless -%}
         {%- endif -%}
       {%- endfor -%}
-        ]
+    ]
   }
   </script>
 
