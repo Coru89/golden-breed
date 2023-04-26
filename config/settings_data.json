@@ -36,6 +36,8 @@
           "announcement-bar-0"
         ],
         "settings": {
+          "color_scheme": "background-1",
+          "menu": "announcement-bar-menu"
         }
       },
       "header": {
