@@ -26,8 +26,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Free Delivery On Orders Over $75",
-              "color_scheme": "accent-1",
+              "text": "<b>Free Delivery<\/b> On Orders Over $75",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
