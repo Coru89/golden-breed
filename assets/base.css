@@ -1909,7 +1909,7 @@ input[type='checkbox'] {
   font-family: Nunito Sans,sans-serif;
   letter-spacing: 0.1rem;
   margin: 0;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 2rem 0.6rem 0;
   text-align: center;
 }
 
@@ -2022,26 +2022,37 @@ input[type='checkbox'] {
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
     grid-template-areas:
-      'heading icons'
+      'heading'
       'navigation navigation';
     grid-template-columns: 1fr auto;
   }
 
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
+    grid-template-areas: 'heading navigation';
     grid-template-columns: auto auto 1fr;
     column-gap: 2rem;
   }
 
+  .header--middle-space-between {
+    column-gap: 2rem;
+    grid-template-areas: 'heading navigation';
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+  }
+
   .header--top-center {
     grid-template-areas:
-      'left-icon heading icons'
+      'left-icon heading'
       'navigation navigation navigation';
   }
 
   .header:not(.header--middle-left) .header__inline-menu {
     margin-top: 1.05rem;
   }
+}
+
+.header .header__inline-menu li:last-of-type .header__menu-item {
+  padding-right: 0;
 }
 
 .header *[tabindex='-1']:focus {
@@ -2296,6 +2307,7 @@ details[open] > .announcement-bar__icon--menu .icon-hamburger {
   padding: 1.2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
+  margin-left: 2.5rem;
 }
 
 .header__menu-item:hover {
