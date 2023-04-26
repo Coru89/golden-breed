@@ -13,8 +13,12 @@
   z-index: 2
 }
 
+predictive-search {
+  position: relative;
+}
+
 @media screen and (max-width: 749px) {
-  .predictive-search--header {
+  .predictive-search--announcement-bar {
     right: 0;
     left: 0;
     top: 100%;
@@ -31,10 +35,6 @@
 @media screen and (min-width: 750px) {
   .predictive-search {
     border-top: none; 
-  }
-
-  .header predictive-search { 
-    position: relative;
   }
 }
 
