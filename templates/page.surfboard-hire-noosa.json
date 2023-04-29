@@ -51,7 +51,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/noosa-surf.jpg",
+        "image": "shopify:\/\/shop_images\/noosa-overlap.png",
         "image_mobile": "shopify:\/\/shop_images\/noosa_shop.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -179,7 +179,6 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/surfboard-guy-in-nossa.jpg",
         "image_mobile": "shopify:\/\/shop_images\/noosa-storefront.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -191,8 +190,6 @@
       "settings": {
         "heading": "Put A Leash On It",
         "summary": "If you're hiring a board, or even buying one, we'll kit you out with a leggie, otherwise know as a leash, or leg rope that's going to keep you attached, and safe in the water. \n<br><br>\nOur Noosa surf store stocks stacks of gear, surf accessories and apparel. You'll be able to pick up wax, wax combs, sunscreen, bucket hats, rashie's, wet suits and everything you'll need before getting wet.  \n<br><br>\nIf you need advice on what size, what , what board, what leggie, or any technical question at all, our staff are knowledgeable and happy to assist.",
-        "main_image": "shopify:\/\/shop_images\/shop-girl.jpg",
-        "image_grid": "shopify:\/\/shop_images\/noosa-shop.png",
         "layout": "text_first"
       }
     },
