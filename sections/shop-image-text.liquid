@@ -66,9 +66,9 @@
           {%- for block in section.blocks -%}
             {% case block.type %}
               {%- when 'heading' -%}
-                <h2 class="shop-image-with-text__heading" {{ block.shopify_attributes }}>
+                <{{ block.settings.heading_type }} class="shop-image-with-text__heading" {{ block.shopify_attributes }}>
                   {{ block.settings.heading | escape }}
-                </h2>
+                </{{ block.settings.heading_type }}>
               {%- when 'text' -%}
                 <div class="shop-image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
               {%- when 'button' -%}
@@ -175,6 +175,22 @@
           "id": "heading",
           "default": "Surfshop Image with Text",
           "label": "t:sections.shop-image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "label": "Heading Type",
+          "id": "heading_type",
+          "options": [
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            }
+          ],
+          "default": "h2"
         }
       ]
     },

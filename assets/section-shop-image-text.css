@@ -164,12 +164,17 @@
     color: #fff;
     text-decoration: underline; }
 
-.shop-image-with-text__heading {
+h2.shop-image-with-text__heading {
   font-size: 28px; }
   @media screen and (min-width: 990px) {
-    .shop-image-with-text__heading {
-      display: block;
+    h2.shop-image-with-text__heading {
       font-size: 34px; } }
+
+h3.shop-image-with-text__heading {
+  font-size: 18px; }
+  @media screen and (min-width: 990px) {
+    h3.shop-image-with-text__heading {
+      font-size: 24px; } }
 
 .shop-image-with-text__heading--mobile {
   display: inline-block;

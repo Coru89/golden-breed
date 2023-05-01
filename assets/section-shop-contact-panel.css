@@ -1,5 +1,5 @@
 .shop-contact {
-  background-color: #385980;
+  background-color: #1A506F;
   font-family: 'Nunito Sans', sans-serif;
   overflow: hidden;
   position: relative;
@@ -17,6 +17,10 @@
     display: block !important;
     position: relative; }
   .shop-contact__grid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin: 0;
     position: relative;
     z-index: 1; }
@@ -33,29 +37,17 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+            flex-direction: column; }
     @media screen and (min-width: 750px) {
       .shop-contact__row {
         display: block; } }
   .shop-contact .grid__item {
     padding: 4rem calc(4rem / var(--font-body-scale)) 5rem; }
-    .shop-contact .grid__item:first-of-type {
-      -webkit-box-ordinal-group: 2;
-          -ms-flex-order: 1;
-              order: 1; }
     .shop-contact .grid__item:last-of-type {
-      -webkit-box-ordinal-group: 3;
-          -ms-flex-order: 2;
-              order: 2; }
+      padding-bottom: 0; }
     @media screen and (min-width: 750px) {
       .shop-contact .grid__item:first-of-type {
-        padding: 5.5rem 0 5.5rem 0;
-        -webkit-box-ordinal-group: 1;
-            -ms-flex-order: 0;
-                order: 0; }
+        padding: 5.5rem 0 5.5rem 0; }
       .shop-contact .grid__item:last-of-type {
         padding-bottom: 5.5rem; } }
     @media screen and (min-width: 990px) {
@@ -64,11 +56,11 @@
       .shop-contact .grid__item:last-of-type {
         padding: 5.5rem 5.5rem 5.5rem 3.5rem; } }
   .shop-contact__map-wrapper {
-    padding: 0 4rem !important;
     position: relative; }
     @media screen and (min-width: 750px) {
       .shop-contact__map-wrapper {
-        padding: 5.5rem 0 5.5rem 0 !important; } }
+        padding-left: 0 !important;
+        padding-right: 0 !important; } }
   .shop-contact__logo {
     height: auto;
     margin-bottom: 3rem;
@@ -103,8 +95,6 @@
       margin-bottom: 3rem;
       max-width: 400px;
       width: 100%; }
-      .shop-contact__group-row:last-of-type {
-        margin-bottom: 0; }
       @media screen and (min-width: 750px) {
         .shop-contact__group-row {
           -webkit-box-pack: justify;
@@ -152,7 +142,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #2B4D75;
+    background-color: #2F7094;
     border-width: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -178,13 +168,12 @@
     .shop-contact__button svg {
       margin-bottom: 2rem; }
     .shop-contact__button-row {
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch;
+      display: grid;
       gap: 30px;
+      grid-template-columns: repeat(2, 1fr);
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
@@ -192,10 +181,6 @@
       padding-right: 0 !important; }
       @media screen and (min-width: 750px) {
         .shop-contact__button-row {
-          -webkit-box-align: stretch;
-              -ms-flex-align: stretch;
-                  align-items: stretch;
-          display: grid;
           grid-template-columns: repeat(4, 1fr); } }
   .shop-contact__modal {
     background-color: #FEFDF8;
@@ -236,12 +221,6 @@
         max-width: 100%; }
       .shop-contact__modal-content * {
         font-family: 'Nunito Sans', sans-serif; }
-    .shop-contact__modal-group {
-      max-width: 255px;
-      width: 100%; }
-      @media screen and (min-width: 750px) {
-        .shop-contact__modal-group {
-          max-width: unset; } }
     .shop-contact__modal-header {
       -webkit-box-align: center;
           -ms-flex-align: center;
