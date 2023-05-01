@@ -59,9 +59,9 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo-golden-breed-69-header.png",
+          "logo": "shopify:\/\/shop_images\/logo-golden-breed-69-header.svg",
           "logo_width": 170,
-          "logo_position": "middle-left",
+          "logo_position": "middle-space-between",
           "menu": "new-main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
