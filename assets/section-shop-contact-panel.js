@@ -26,8 +26,7 @@ if (
       body.classList.add('shop-contact__modal--body-active');
 
       if (!stickyHeader) return;
-      stickyHeader.style.display = 'none';
-  
+      stickyHeader.classList.add('shopify-section-header-hidden');
     });
   });
   
@@ -46,9 +45,7 @@ if (
       body.classList.remove('shop-contact__modal--body-active');
 
       if (!stickyHeader) return;
-      stickyHeader.classList.add('shopify-section-header-hidden');
-      stickyHeader.removeAttribute("style");
-  
+      stickyHeader.classList.remove('shopify-section-header-hidden');
     });
   });
 }
@@ -66,7 +63,6 @@ if (
       body.classList.remove("shop-contact__modal--body-active");
 
       if (!stickyHeader) return;
-      stickyHeader.classList.add("shopify-section-header-hidden");
-      stickyHeader.removeAttribute("style");
+      stickyHeader.classList.remove('shopify-section-header-hidden');
     }
   };
