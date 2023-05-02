@@ -1858,10 +1858,17 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__list {
+  display: none;
   line-height: 0;
   padding: 0;
   margin: 0;
   margin-left: auto;
+}
+
+@media screen and (min-width: 750px) {
+  .announcement-bar__list {
+    display: block;
+  }
 }
 
 .announcement-bar__link {
@@ -1873,6 +1880,7 @@ input[type='checkbox'] {
   font-size: 13px;
   font-weight: 400;
   position: relative;
+  white-space: nowrap;
 }
 
 .announcement-bar__link:after {
@@ -1905,6 +1913,7 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__message {
+  display: none;
   color: #F7BA57;
   font-family: Nunito Sans,sans-serif;
   letter-spacing: 0.1rem;
@@ -1913,11 +1922,25 @@ input[type='checkbox'] {
   text-align: center;
 }
 
+@media screen and (min-width: 750px) {
+  .announcement-bar__message {
+    display: block;
+  }
+}
+
 /* announcement icons */
 .announcement-bar__icons {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .announcement-bar__icons {
+    width: unset;
+  }
 }
 
 .announcement-bar__icon,
@@ -1929,8 +1952,14 @@ input[type='checkbox'] {
 
 .announcement-bar__icon {
   color: rgb(var(--color-background));
-  padding: 0.6rem 0 0.6rem 3.5rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
   text-decoration: none;
+}
+
+@media screen and (min-width: 750px) {
+  .announcement-bar__icon {
+    padding: 0.6rem 0 0.6rem 3.5rem;
+  }
 }
 
 .announcement-bar__icon-label {
@@ -2051,8 +2080,59 @@ input[type='checkbox'] {
   }
 }
 
-.header .header__inline-menu li:last-of-type .header__menu-item {
-  padding-right: 0;
+/* Header icons */
+.header__icons {
+  display: flex;
+  grid-area: icons;
+  justify-self: end;
+}
+
+.header__icon:not(.header__icon--summary),
+.header__icon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__icon {
+  color: rgb(var(--color-foreground));
+}
+
+.header__icon span {
+  height: 100%;
+}
+
+.header__icon::after {
+  content: none;
+}
+
+.header__icon:hover .icon,
+.modal__close-button:hover .icon {
+  transform: scale(1.07);
+}
+
+.header__icon .icon {
+  height: 2rem;
+  width: 2rem;
+  fill: none;
+  vertical-align: middle;
+}
+
+.header__icon,
+.header__icon--cart .icon {
+  height: 4.4rem;
+  width: 4.4rem;
+}
+
+.header__icon--cart {
+  position: relative;
+  margin-right: -1.2rem;
+}
+
+@media screen and (max-width: 989px) {
+  menu-drawer ~ .header__icons .header__icon--account {
+    display: none;
+  }
 }
 
 .header *[tabindex='-1']:focus {
@@ -2234,6 +2314,32 @@ details[open] .modal-overlay::after {
     position: initial;
     margin-left: 0.5rem;
   }
+}
+
+/* Header menu drawer */
+.header__icon--menu .icon {
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 150ms ease, opacity 150ms ease;
+}
+
+details:not([open]) > .header__icon--menu .icon-close,
+details[open] > .header__icon--menu .icon-hamburger {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.js details[open]:not(.menu-opening) > .header__icon--menu .icon-close {
+  visibility: hidden;
+}
+
+.js details[open]:not(.menu-opening) > .header__icon--menu .icon-hamburger {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1.07);
 }
 
 /* Header menu drawer */
