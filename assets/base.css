@@ -2582,7 +2582,7 @@ text-decoration: line-through;
 
 
 /* view more button fix */
-.button {position:relative;z-index:999;}
+/* .button {position:relative;z-index:999;} */
 
 .header__submenu .header__menu-item:hover {color:#ABC3CD!important;}
 
