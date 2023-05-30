@@ -5,7 +5,7 @@
       "settings": {
         "heading_title": "{{ collection.title }}",
         "image": "{{ collection.metafields.custom.hero_image.value }}",
-        "banner_alert_message": ""
+        "banner_alert_message": "whatg is this?"
       }
     },
     "banner": {
