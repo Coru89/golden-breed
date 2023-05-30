@@ -12,6 +12,7 @@
     <span aria-hidden="true">&rsaquo;</span>
     <span>{{ product.title }}</span>
   {% elsif template contains 'collection' and collection.handle %}
+    <h1>HELLO WORLD FROM THE BREADCRUMB</h1>
     <span aria-hidden="true">&rsaquo;</span>
     {% if current_tags %}
       {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
