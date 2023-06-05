@@ -27,7 +27,7 @@
 	height: auto;
 	font-family: "Ionicons", "Questrial" !important;
 	cursor: pointer;
-    color: #E2A829;
+    color: #EBB967;
 }
 
 .video-js .vjs-big-play-button:before,
@@ -325,7 +325,7 @@ body.vjs-full-window {
 	text-align: center;
 	cursor: pointer;
 	/* background: rgba(0,0,0,.15); */
-    background-color: #3e3e3e;
+    background-color: #fff;
 	color: #fff;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
@@ -336,11 +336,11 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-big-play-button:hover {
-    background-color: #e2a829;
+    background-color: #EBB967;
 }
 
 .video-js .vjs-big-play-button:hover::before {
-    color: #3e3e3e;
+    color: #fff;
 }
 
 

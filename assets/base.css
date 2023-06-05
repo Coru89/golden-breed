@@ -2585,9 +2585,12 @@ text-decoration: line-through;
   
 
 /* product category descriptions */
-.collection-desc {margin-top:30px;
-                  color:#21597a;
-                  font-size:14px;}
+.collection-desc {
+  margin-top:30px;
+  color:#265979;
+  font-size:16px;
+}
+
 .desc-desktop {display:block;}
 .desc-mobile {display:none;}
 

@@ -2,47 +2,57 @@
 {{ 'vjs.css' | asset_url | stylesheet_tag }}
 {{ 'collection-video.css' | asset_url | stylesheet_tag }}
 
+<script>
+
+  window.addEventListener('load', (event) => {
+    const readmoreEl = document.querySelector('.collection-video__readmore');
+    const readlessEl = document.querySelector('.collection-video__readless');
+    const descriptionFull = document.querySelector('.collection-video__description-full');
+    const descriptionShort = document.querySelector('.collection-video__description-short');
+
+    readmoreEl.addEventListener("click", function(e) {
+      e.preventDefault();
+      descriptionShort.style.display = 'none';
+      descriptionFull.style.display = 'block';
+    });
+
+    readlessEl.addEventListener("click", function(e) {
+      e.preventDefault();
+      descriptionFull.style.display = 'none';
+      descriptionShort.style.display = 'block';
+    });
+  });
+  
+</script>
+
 <script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 
-<script>
-    $('.readmore').click(function (event) {
-    event.preventDefault();
-    var descriptionFull = document.querySelector('.collection-video__description-full');
-    descriptionFull.style.display = 'block';
-    var descriptionShort = document.querySelector('.collection-video__description-short');
-    descriptionShort.style.display = 'none';
-    });
-    $('.readless').click(function (event) {
-    event.preventDefault();
-    var descriptionFull = document.querySelector('.collection-video__description-full');
-    descriptionFull.style.display = 'none';
-    var descriptionShort = document.querySelector('.collection-video__description-short');
-    descriptionShort.style.display = 'block';window.scrollTo({top: 110, behavior: 'smooth'});
-    })
-  </script>
 
 <section class="collection-video">
-  <div class="collection-video__inner page-width page-width--desktop">
+  <div class="collection-video__inner">
 
-    <h2 class="collection-video__heading">{{ section.settings.title }}</h2>
-    {% if section.settings.description.size > 700 %}
-      <div class="collection-video__description-short">
-      {{section.settings.description.size | truncate: 500, ". . . " }}<a class="readmore" href="#">more ></a>
-      </div>
-      <div class="collection-video__description-full" style="display:none;">
-      {{ collection.description }}
-      <br><a class="readless" href="#">< Show Less</a>
-      </div>
-      {% else %}
-        {{ collection.description }}
-    {% endif %} 
+    <div class="collection-video__text page-width page-width--desktop">
+      <h2 class="collection-video__heading">{{ section.settings.title }}</h2>
 
+      {% if section.settings.description.size > 700 %}
+        <div class="collection-video__description collection-video__description-short">
+        {{ section.settings.description | newline_to_br | truncate: 500, "... " }}<a href="" class="collection-video__readmore">more</a>
+        </div>
+        <div class="collection-video__description collection-video__description-full" style="display:none;">
+        {{ section.settings.description | newline_to_br }}
+        <br><a class="collection-video__readless" href="">less</a>
+        </div>
+        {% else %}
+          <span> {{ section.settings.description | newline_to_br }} </span>
+  
+      {% endif %} 
+    </div>
 
     {% if section.settings.video_url %}
-      <video id="my-video" class="video-js" controls preload="auto" poster="{{ section.settings.image | image_url }}" data-setup=''>
+      <video class="video-js collection-video__video" id="my-video" controls preload="auto" {% if section.settings.image %}poster="{{ section.settings.image | image_url }}"{% endif %} data-setup=''>
           <source src="{{ section.settings.video_url }}" type='video/mp4'>
       </video>
     {% endif %}
@@ -52,7 +62,7 @@
   
   {% schema %}
   {
-    "name": "Video New",
+    "name": "Collection Video",
     "class": "shopify-section--video",
     "settings": [
       {
@@ -62,15 +72,14 @@
         "default": "heading"
       },
       {
-        "type": "textarea",
+        "type": "richtext",
         "id": "description",
-        "label": "Description",
+        "label": "Description"
       },
       {
         "type": "text",
         "id": "video_url",
-        "label": "Video",
-        "default": "https://cdn.shopify.com/videos/c/o/v/a8340a931ed5494887fc95873e353131.mp4"
+        "label": "Video"
       },
       {
         "type": "image_picker",
@@ -81,7 +90,7 @@
     ],
     "presets": [
       {
-        "name": "Video New"
+        "name": "Video Collection"
       }
     ]
   }
