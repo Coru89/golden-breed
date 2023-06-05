@@ -428,14 +428,14 @@
     {%- if section.settings.menu != blank -%}
              
       <nav class="header__inline-menu">
-        <ul style="margin-top:20px;" class="list-menu list-menu--inline" role="list">
+        <ul style="margin: 20px 0;" class="list-menu list-menu--inline" role="list">
           {%- for link in section.settings.menu.links -%}
             <li>
               {%- if link.links != blank -%}
                 <details-disclosure>
                   <details id="Details-HeaderMenu-{{ forloop.index }}">
                     <summary class="header__menu-item list-menu__item link focus-inset">
-                      <span style="margin-bottom:20px;">{{ link.title | escape }}</span>
+                      <span>{{ link.title | escape }}</span>
                       {% render 'icon-caret' %}
                     </summary>
                     <ul style="display: flex;" id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">

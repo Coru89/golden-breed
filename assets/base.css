@@ -756,7 +756,7 @@ summary .icon-caret {
   position: absolute;
   height: 0.6rem;
   right: 1.5rem;
-  top:17px;
+  /* top:17px; */
 }
 
 summary::-webkit-details-marker {
