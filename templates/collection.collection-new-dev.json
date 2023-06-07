@@ -67,7 +67,13 @@
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_label_3": "Button label",
+            "button_link_3": "",
+            "button_style_secondary_3": false,
+            "button_label_4": "Button label",
+            "button_link_4": "",
+            "button_style_secondary_4": false
           }
         }
       },
@@ -77,12 +83,22 @@
         "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-2"
       ],
       "settings": {
-        "title-1": "",
-        "button-text-1": "",
+        "image": "shopify:\/\/shop_images\/accessories.png",
+        "title-1": "Title 1",
+        "button-text-1": "button 1",
         "link-1": "",
-        "title-2": "",
-        "button-text-2": "",
+        "image_2": "shopify:\/\/shop_images\/mens.png",
+        "title-2": "Title 2",
+        "button-text-2": "button 2",
         "link-2": "",
+        "image_3": "shopify:\/\/shop_images\/womens_09aed64d-1e95-4d44-82db-62056573f149.png",
+        "title-3": "Title 3",
+        "button-text-3": "button text 3",
+        "link-3": "",
+        "image_4": "shopify:\/\/shop_images\/g_s_b65c762f-3b0e-47a2-ac24-3bae10ef5d46.png",
+        "title-4": "Title 4",
+        "button-text-4": "button text 4",
+        "link-4": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
