@@ -42,7 +42,8 @@
 
       {% if section.settings.description.size > 700 %}
         <div class="collection-video__description collection-video__description-short">
-        {{ section.settings.description | newline_to_br | truncate: 500, "... " }}<a href="" class="collection-video__readmore">more</a>
+        {{ section.settings.description | newline_to_br | truncate: 500, "... " }}
+        <a href="" class="collection-video__readmore">more</a>
         </div>
         <div class="collection-video__description collection-video__description-full" style="display:none;">
         {{ section.settings.description | newline_to_br }}
@@ -74,7 +75,7 @@
         "label": "Header"
       },
       {
-        "type": "textarea",
+        "type": "richtext",
         "id": "description",
         "label": "Description"
       },
