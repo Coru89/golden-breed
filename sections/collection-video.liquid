@@ -1,6 +1,10 @@
 {{ 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' | stylesheet_tag }}
 {{ 'vjs.css' | asset_url | stylesheet_tag }}
 {{ 'collection-video.css' | asset_url | stylesheet_tag }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
 
 <script>
 
@@ -25,10 +29,9 @@
   
 </script>
 
-<script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+{% if section.settings.video_url %}
+  <script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
+{% endif %}
 
 
 <section class="collection-video">
