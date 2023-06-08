@@ -40,9 +40,9 @@
       "type": "collection-video",
       "settings": {
         "title": "A Short History: Gordon & Smith Surfboards",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant.<\/p><p><br\/>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel... more<\/p>",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant.<\/p><p><br\/>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel... more{{ collection.metafields.custom.video_description | metafield_tag }}<\/p>",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/286909f87fe546acb1c748820a85ecb2.mp4",
-        "image": "shopify:\/\/shop_images\/video-poster_ee417c7f-8451-4f3f-8acd-89b8f2ffc5f0.png"
+        "image": "{{ collection.metafields.custom.video_poster_image.value }}"
       }
     },
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5": {
