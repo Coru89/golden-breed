@@ -47,9 +47,13 @@
       position: relative; } }
 
 .image-banner-4 .banner__box {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -66,45 +70,32 @@
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      height: 100%;
-      position: absolute;
-      top: 0;
+      height: auto;
       -webkit-box-pack: start;
           -ms-flex-pack: start;
-              justify-content: flex-start; } }
+              justify-content: flex-start;
+      position: absolute;
+      top: 0;
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg);
+      -webkit-writing-mode: vertical-rl;
+          -ms-writing-mode: tb-rl;
+              writing-mode: vertical-rl; } }
   @media screen and (min-width: 750px) {
     .image-banner-4 .banner__box {
       min-width: unset;
+      padding: 3rem;
+      -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+              transform: rotate(0);
       width: inherit;
-      padding: 3rem; } }
+      -webkit-writing-mode: unset;
+          -ms-writing-mode: unset;
+              writing-mode: unset; } }
   @media screen and (min-width: 1000px) {
     .image-banner-4 .banner__box {
       padding: 5rem; } }
-  .image-banner-4 .banner__box:first-of-type {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    height: 100%; }
-    @media screen and (min-width: 576px) {
-      .image-banner-4 .banner__box:first-of-type {
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
-        height: auto;
-        -webkit-transform: rotate(180deg);
-            -ms-transform: rotate(180deg);
-                transform: rotate(180deg);
-        -webkit-writing-mode: vertical-rl;
-            -ms-writing-mode: tb-rl;
-                writing-mode: vertical-rl; } }
-    @media screen and (min-width: 750px) {
-      .image-banner-4 .banner__box:first-of-type {
-        -webkit-transform: rotate(0);
-            -ms-transform: rotate(0);
-                transform: rotate(0);
-        -webkit-writing-mode: unset;
-            -ms-writing-mode: unset;
-                writing-mode: unset; } }
   .image-banner-4 .banner__box > .banner__buttons {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
