@@ -36,6 +36,15 @@
         "collapse_on_larger_devices": false
       }
     },
+    "1a64566a-3c48-4946-812a-6f7fb5550574": {
+      "type": "collection-video",
+      "settings": {
+        "title": "A Short History: Gordon & Smith Surfboards",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant.<\/p><p><br\/>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel... more<\/p>",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/video-poster_ee417c7f-8451-4f3f-8acd-89b8f2ffc5f0.png"
+      }
+    },
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5": {
       "type": "accordion-meta-object",
       "settings": {
@@ -58,29 +67,11 @@
           "settings": {
             "text": "Check out our latest surf accessories defining iconic, retro vibes in today's chaotic 2023. Leave the rat-race behind while enjoying some ocean-side chill time and looking damn good while you're at it. Golden Breed is a following true to its roots who honour the golden days - let that be your statement to the world."
           }
-        },
-        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "shopify:\/\/collections\/accessories",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_label_3": "",
-            "button_link_3": "",
-            "button_style_secondary_3": false,
-            "button_label_4": "",
-            "button_link_4": "",
-            "button_style_secondary_4": false
-          }
         }
       },
       "block_order": [
         "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-0",
-        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-1",
-        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-2"
+        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/accessories.png",
@@ -89,15 +80,12 @@
         "link-1": "shopify:\/\/collections\/accessories",
         "image_2": "shopify:\/\/shop_images\/mens.png",
         "title-2": "Men's",
-        "button-text-2": "",
         "link-2": "shopify:\/\/collections\/mens",
         "image_3": "shopify:\/\/shop_images\/womens_09aed64d-1e95-4d44-82db-62056573f149.png",
         "title-3": "Women's",
-        "button-text-3": "",
         "link-3": "shopify:\/\/collections\/women",
         "image_4": "shopify:\/\/shop_images\/g_s_b65c762f-3b0e-47a2-ac24-3bae10ef5d46.png",
         "title-4": "G&S",
-        "button-text-4": "",
         "link-4": "shopify:\/\/collections\/g-s-hats-and-caps",
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -152,6 +140,7 @@
     "banner",
     "1677725562d6eac228",
     "product-grid",
+    "1a64566a-3c48-4946-812a-6f7fb5550574",
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5",
     "ffc44b5b-3f32-4f29-8499-10049cac7a4f",
     "163944753611453958"
