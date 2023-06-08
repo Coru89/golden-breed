@@ -37,7 +37,8 @@
       line-height: calc(1 + 0.7 / var(--font-body-scale)); } }
 
 .image-banner-4 .banner__buttons {
-  display: none; }
+  display: none;
+  text-transform: uppercase; }
   @media screen and (min-width: 750px) {
     .image-banner-4 .banner__buttons {
       display: block; } }
