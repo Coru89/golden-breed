@@ -29,7 +29,7 @@
   
 </script>
 
-{% if section.settings.video_url %}
+{% if section.settings.video_url != blank %}
   <script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
 {% endif %}
 
@@ -54,11 +54,11 @@
       {% endif %} 
     </div>
 
-    {% if section.settings.video_url %}
       <video class="video-js collection-video__video" id="my-video" controls preload="auto" {% if section.settings.image %}poster="{{ section.settings.image | image_url }}"{% endif %} data-setup=''>
+        {% if section.settings.video_url != blank %}
           <source src="{{ section.settings.video_url }}" type='video/mp4'>
+        {% endif %}
       </video>
-    {% endif %}
   </div>
 </section>
         
@@ -71,11 +71,10 @@
       {
         "type": "text",
         "id": "title",
-        "label": "Header",
-        "default": "heading"
+        "label": "Header"
       },
       {
-        "type": "richtext",
+        "type": "text",
         "id": "description",
         "label": "Description"
       },
