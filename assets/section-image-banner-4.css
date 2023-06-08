@@ -18,6 +18,10 @@
     .image-banner-4 .banner__heading {
       font-size: 44px; } }
 
+.image-banner-4 .banner__link {
+  height: 100%;
+  width: 100%; }
+
 .image-banner-4 .banner__heading, .image-banner-4 .banner__text {
   color: #fff;
   text-align: left; }
