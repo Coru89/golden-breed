@@ -7,8 +7,17 @@
     &__heading {
       text-transform: uppercase;
       opacity: 0.9;
+      font-size: 32px;
+
+      @media screen and (min-width: 576px) {
+        margin: 0;
+      }
 
       @media screen and (min-width: 750px) {
+        font-size: 32px;
+      }
+
+      @media screen and (min-width: 1000px) {
         font-size: 44px;
       }
     }
@@ -19,18 +28,80 @@
       text-align: left;
     }
 
+    &__text {
+      display: none;
+      line-height: 1.5;
+
+      @media screen and (min-width: 750px) {
+        display: block;
+        
+      }
+
+      @media screen and (min-width: 1000px) {
+        line-height: calc(1 + 0.7 / var(--font-body-scale));  
+      }
+    }
+
+    &__buttons {
+      display: none;
+      @media screen and (min-width: 750px) {
+        display: block;
+      }
+    }
+
     &__content {
       padding-top: 0;
+      position: absolute;
+      height: 100%;
+
+      @media screen and (min-width: 750px) {
+        position: relative;
+      }
+
     }
 
     &__box {
-      align-items: flex-start;
-      bottom: 0;
       display: flex;
-      flex-direction: column;
-      height: 100%;
-      position: absolute;
-      top: 0;
+      justify-content: center;
+
+      @media screen and (min-width: 576px) {
+         align-items: flex-start;
+         bottom: 0;
+         display: flex;
+         flex-direction: column;
+         height: 100%;
+         position: absolute;
+         top: 0;
+         justify-content: flex-start;
+       }
+
+       @media screen and (min-width: 750px) {
+          min-width: unset;
+          width: inherit;
+          padding: 3rem;
+       }
+
+       @media screen and (min-width: 1000px) {
+        padding: 5rem;
+       }
+
+       &:first-of-type {
+        align-items: flex-end;
+        height: 100%;
+
+        @media screen and (min-width: 576px) {
+          align-items: flex-start;
+          height: auto;
+          transform: rotate(180deg);
+          writing-mode: vertical-rl;
+        }
+  
+        @media screen and (min-width: 750px) {
+          transform: rotate(0);
+          writing-mode: unset;
+        }
+  
+      }
 
       & > .banner__buttons {
         justify-content: flex-start;
@@ -46,10 +117,12 @@
         }
 
         &__box {
-          transform: rotate(180deg);
-          writing-mode: vertical-rl;
-          display: block;
           min-width: unset;
+
+          @media screen and (min-width: 576px) {
+            transform: rotate(180deg);
+            writing-mode: vertical-rl;
+          }
         }
 
         &__heading {
@@ -60,14 +133,27 @@
   }
 }
 
-@media (min-width: 576px) {
-  .col-sm-35 {
+// @media (min-width: 576px) {
+//   .col-sm-35 {
+//     width: 35%;
+//     flex-grow: 0;
+//     flex-shrink: 0;
+//   }
+
+//   .col-sm-216 {
+//     width: 21.66%;
+//     flex: 0 0 auto;
+//   }
+// }
+
+@media (min-width: 750px) {
+  .col-md-35 {
     width: 35%;
     flex-grow: 0;
     flex-shrink: 0;
   }
 
-  .col-sm-216 {
+  .col-md-216 {
     width: 21.66%;
     flex: 0 0 auto;
   }
