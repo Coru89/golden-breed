@@ -73,19 +73,18 @@
               <div class="banner__text" {{ block.shopify_attributes }}>
                 <span>{{ block.settings.text | escape }}</span>
               </div>
-            {%- when 'buttons' -%}
-              <div
-                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                {%- if section.settings.button-text-1 != blank -%}
-                  <a role="link" href="{{ section.settings.link-1 }}" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">
-                    {{- section.settings['button-text-1'] -}}
-                  </a>
-                {%- endif -%}
-              </div>
           {%- endcase -%}
         {%- endfor -%}
+        <div
+          class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+          {{ block.shopify_attributes }}
+        >
+          {%- if section.settings.button-text-1 != blank -%}
+            <a role="link" href="{{ section.settings.link-1 }}" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">
+              {{- section.settings['button-text-1'] -}}
+            </a>
+          {%- endif -%}
+        </div>
       </div>
     </div>
   </div>
@@ -132,18 +131,6 @@
               {%- when 'text' -%}
                 <div class="banner__text" {{ block.shopify_attributes }}>
                   <span>{{ section.settings['text-2'] }}</span>
-                </div>
-              {%- when 'buttons' -%}
-                <div
-                  class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {% comment %} <a
-                    href="{{ section.settings.link-2 }}"
-                    class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-                  >
-                    {{- section.settings['button-text-2'] -}}
-                  </a> {% endcomment %}
                 </div>
             {%- endcase -%}
           {%- endfor -%}
@@ -196,18 +183,6 @@
               <div class="banner__text" {{ block.shopify_attributes }}>
                 <span>{{ section.settings['text-3'] }}</span>
               </div>
-            {%- when 'buttons' -%}
-              <div
-                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                <a
-                  href="{{ section.settings.link-2 }}"
-                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-                >
-                  {{- section.settings['button-text-3'] -}}
-                </a>
-              </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -255,18 +230,6 @@
             {%- when 'text' -%}
               <div class="banner__text" {{ block.shopify_attributes }}>
                 <span>{{ section.settings['text-4'] }}</span>
-              </div>
-            {%- when 'buttons' -%}
-              <div
-                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                <a
-                  href="{{ section.settings.link-4 }}"
-                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-                >
-                  {{- section.settings['button-text-4'] -}}
-                </a>
               </div>
           {%- endcase -%}
         {%- endfor -%}
