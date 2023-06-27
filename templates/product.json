@@ -35,15 +35,15 @@
             "icon": "ruler"
           }
         },
+        "fd6c8f86-946b-4217-9f08-8f2fccedf68e": {
+          "type": "shopify:\/\/apps\/smartsize\/blocks\/app-block\/465a43e0-6a1a-4d30-b82e-fe6118568705",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "fd6c8f86-946b-4217-9f08-8f2fccedf68e": {
-          "type": "shopify:\/\/apps\/smartsize\/blocks\/app-block\/465a43e0-6a1a-4d30-b82e-fe6118568705",
-          "settings": {
           }
         },
         "6d0e4be2-c802-43d9-97a0-99cc8d22c0dc": {
@@ -82,8 +82,8 @@
         "price",
         "variant_picker",
         "7180d271-94d9-4997-b68f-c53c1b1a059f",
-        "buy_buttons",
         "fd6c8f86-946b-4217-9f08-8f2fccedf68e",
+        "buy_buttons",
         "6d0e4be2-c802-43d9-97a0-99cc8d22c0dc",
         "description",
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
