@@ -1461,7 +1461,7 @@
                 "label": "Dropdown"
               },
               "options__2": {
-                "label": "Button"
+                "label": "Pills"
               }
             }
           }
@@ -1488,10 +1488,10 @@
               "label": "Text"
             },
             "featured_image_info": {
-              "content": "If you include a link in social media posts, the page’s featured image will be shown as the preview image. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
+              "content": "If you include a link in social media posts, the page’s featured image will be shown as the preview image. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "A store title and description are included with the preview image. [Learn more](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "A store title and description are included with the preview image. [Learn more](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             }
           }
         },
@@ -1505,17 +1505,17 @@
           }
         },
         "collapsible_tab": {
-          "name": "Collapsible tab",
+          "name": "Collapsible row",
           "settings": {
             "heading": {
               "info": "Include a heading that explains the content.",
               "label": "Heading"
             },
             "content": {
-              "label": "Tab content"
+              "label": "Row content"
             },
             "page": {
-              "label": "Tab content from page"
+              "label": "Row content from page"
             },
             "icon": {
               "label": "Icon",
@@ -1523,72 +1523,132 @@
                 "label": "None"
               },
               "options__2": {
-                "label": "Box"
+                "label": "Apple"
               },
               "options__3": {
-                "label": "Chat bubble"
+                "label": "Banana"
               },
               "options__4": {
-                "label": "Check mark"
+                "label": "Bottle"
               },
               "options__5": {
-                "label": "Dryer"
+                "label": "Box"
               },
               "options__6": {
-                "label": "Eye"
+                "label": "Carrot"
               },
               "options__7": {
-                "label": "Heart"
+                "label": "Chat bubble"
               },
               "options__8": {
-                "label": "Iron"
+                "label": "Check mark"
               },
               "options__9": {
-                "label": "Leaf"
+                "label": "Clipboard"
               },
               "options__10": {
-                "label": "Leather"
+                "label": "Dairy"
               },
               "options__11": {
-                "label": "Lock"
+                "label": "Dairy free"
               },
               "options__12": {
-                "label": "Map pin"
+                "label": "Dryer"
               },
               "options__13": {
-                "label": "Pants"
+                "label": "Eye"
               },
               "options__14": {
-                "label": "Plane"
+                "label": "Fire"
               },
               "options__15": {
-                "label": "Price tag"
+                "label": "Gluten free"
               },
               "options__16": {
-                "label": "Question mark"
+                "label": "Heart"
               },
               "options__17": {
-                "label": "Return"
+                "label": "Iron"
               },
               "options__18": {
-                "label": "Ruler"
+                "label": "Leaf"
               },
               "options__19": {
-                "label": "Shirt"
+                "label": "Leather"
               },
               "options__20": {
-                "label": "Shoe"
+                "label": "Lightning bolt"
               },
               "options__21": {
-                "label": "Silhouette"
+                "label": "Lipstick"
               },
               "options__22": {
-                "label": "Star"
+                "label": "Lock"
               },
               "options__23": {
-                "label": "Truck"
+                "label": "Map pin"
               },
               "options__24": {
+                "label": "Nut free"
+              },
+              "options__25": {
+                "label": "Pants"
+              },
+              "options__26": {
+                "label": "Paw print"
+              },
+              "options__27": {
+                "label": "Pepper"
+              },
+              "options__28": {
+                "label": "Perfume"
+              },
+              "options__29": {
+                "label": "Plane"
+              },
+              "options__30": {
+                "label": "Plant"
+              },
+              "options__31": {
+                "label": "Price tag"
+              },
+              "options__32": {
+                "label": "Question mark"
+              },
+              "options__33": {
+                "label": "Recycle"
+              },
+              "options__34": {
+                "label": "Return"
+              },
+              "options__35": {
+                "label": "Ruler"
+              },
+              "options__36": {
+                "label": "Serving dish"
+              },
+              "options__37": {
+                "label": "Shirt"
+              },
+              "options__38": {
+                "label": "Shoe"
+              },
+              "options__39": {
+                "label": "Silhouette"
+              },
+              "options__40": {
+                "label": "Snowflake"
+              },
+              "options__41": {
+                "label": "Star"
+              },
+              "options__42": {
+                "label": "Stopwatch"
+              },
+              "options__43": {
+                "label": "Truck"
+              },
+              "options__44": {
                 "label": "Washing"
               }
             }
@@ -1609,7 +1669,51 @@
           "name": "Product rating",
           "settings": {
             "paragraph": {
-              "content": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#product-rating-block)"
+              "content": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
+            }
+          }
+        },
+        "complementary_products": {
+          "name": "Complementary products",
+          "settings": {
+            "paragraph": {
+              "content": "To select complementary products, add the Search & Discovery app. [Learn more](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+            },
+            "heading": {
+              "label": "Heading"
+            },
+            "make_collapsible_row": {
+              "label": "Show as collapsible row"
+            },
+            "icon": {
+              "info": "Visible when collapsible row is displayed."
+            },
+            "product_list_limit": {
+              "label": "Maximum products to show"
+            },
+            "products_per_page": {
+              "label": "Number of products per page"
+            },
+            "pagination_style": {
+              "label": "Pagination style",
+              "options": {
+                "option_1": "Dots",
+                "option_2": "Counter",
+                "option_3": "Numbers"
+              }
+            },
+            "product_card": {
+              "heading": "Product card"
+            },
+            "image_ratio": {
+              "label": "Image ratio",
+              "options": {
+                "option_1": "Portrait",
+                "option_2": "Square"
+              }
+            },
+            "enable_quick_add": {
+              "label": "Enable quick add button"
             }
           }
         }
@@ -1620,7 +1724,57 @@
           "info": "Learn more about [media types.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
-          "label": "Enable sticky product information on large screens"
+          "label": "Enable sticky content on desktop"
+        },
+        "gallery_layout": {
+          "label": "Desktop layout",
+          "options__1": {
+            "label": "Stacked"
+          },
+          "options__2": {
+            "label": "2 columns"
+          },
+          "options__3": {
+            "label": "Thumbnails"
+          },
+          "options__4": {
+            "label": "Thumbnail carousel"
+          }
+        },
+        "media_size": {
+          "label": "Desktop media size",
+          "info": "Media is automatically optimized for mobile.",
+          "options__1": {
+            "label": "Small"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Large"
+          }
+        },
+        "media_position": {
+          "label": "Desktop media position",
+          "info": "Position is automatically optimized for mobile.",
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Right"
+          }
+        },
+        "mobile_thumbnails": {
+          "label": "Mobile layout",
+          "options__1": {
+            "label": "2 columns"
+          },
+          "options__2": {
+            "label": "Show thumbnails"
+          },
+          "options__3": {
+            "label": "Hide thumbnails"
+          }
         },
         "hide_variants": {
           "label": "Hide other variants’ media after selecting a variant"
@@ -1630,9 +1784,18 @@
         }
       }
     },
+    "main-register": {
+      "name": "Registration"
+    },
+    "main-reset-password": {
+      "name": "Password reset"
+    },
     "main-search": {
       "name": "Search results",
       "settings": {
+        "columns_desktop": {
+          "label": "Number of columns on desktop"
+        },
         "image_ratio": {
           "label": "Image ratio",
           "options__1": {
@@ -1648,30 +1811,37 @@
         "show_secondary_image": {
           "label": "Show second image on hover"
         },
-        "add_image_padding": {
-          "label": "Add image padding"
-        },
-        "show_image_outline": {
-          "label": "Show image border"
-        },
         "show_vendor": {
           "label": "Show vendor"
         },
         "show_rating": {
           "label": "Show product rating",
-          "info": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#search-results-show-product-rating)"
+          "info": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#search-results-section-settings)"
         },
         "header__1": {
           "content": "Product card"
         },
         "header__2": {
-          "content": "Blog card"
+          "content": "Blog card",
+          "info": "Blog card styles also apply to page cards in search results. To change card styles update your theme settings."
         },
         "article_show_date": {
           "label": "Show date"
         },
         "article_show_author": {
           "label": "Show author"
+        },
+        "header_mobile": {
+          "content": "Mobile Layout"
+        },
+        "columns_mobile": {
+          "label": "Number of columns on mobile",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          }
         }
       }
     },
