@@ -253,17 +253,16 @@
 }
 
 .card__badge {
-  top: 1rem;
+  bottom: 0;
   display: flex;
   flex-wrap: wrap;
- right:1rem;
   margin-left:auto;
   position: absolute;
 }
 
-.card__badge > * {
+/* .card__badge > * {
 
-}
+} */
 
 .overlay-card {
   position: absolute;

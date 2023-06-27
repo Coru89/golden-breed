@@ -64,10 +64,15 @@
 }
 
 .price--on-sale .price__sale {
+  color:#F6434B;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  color:#c36b5f;
+  font-weight: 700;
+}
+
+.price--discount {
+  font-weight: 400;
 }
 
 .price--center {

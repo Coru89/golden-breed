@@ -61,17 +61,10 @@
             "heading": "Image banner",
             "heading_size": "medium"
           }
-        },
-        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-1": {
-          "type": "text",
-          "settings": {
-            "text": "Check out our latest surf accessories defining iconic, retro vibes in today's chaotic 2023. Leave the rat-race behind while enjoying some ocean-side chill time and looking damn good while you're at it. Golden Breed is a following true to its roots who honour the golden days - let that be your statement to the world."
-          }
         }
       },
       "block_order": [
-        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-0",
-        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-1"
+        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/accessories.png",

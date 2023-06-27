@@ -141,39 +141,27 @@
         "content": "t:settings_schema.styles.settings.header__1.content"
       },
       {
-        "type": "select",
+        "type": "color",
         "id": "sale_badge_color_scheme",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__2.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__3.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__1.label"
-          }
-        ],
-        "default": "accent-2",
+        "default": "#F49600",
         "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.label"
       },
       {
-        "type": "select",
+        "type": "color",
         "id": "sold_out_badge_color_scheme",
-        "options": [
-          {
-            "value": "background-1",
-            "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.options__1.label"
-          },
-          {
-            "value": "inverse",
-            "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.options__2.label"
-          }
-        ],
-        "default": "inverse",
+        "default": "#87A6CA",
+        "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.label"
+      },
+      {
+        "type": "color",
+        "id": "new_badge_color_scheme",
+        "default": "#7DA9A3",
+        "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.label"
+      },
+      {
+        "type": "color",
+        "id": "restocked_badge_color_scheme",
+        "default": "#265979",
         "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.label"
       },
       {

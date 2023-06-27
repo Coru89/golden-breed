@@ -10,6 +10,8 @@
 
 .collection-video__description {
   color: #265979; }
+  .collection-video__description span {
+    font-family: 'Nunito Sans', sans-serif; }
 
 .collection-video__readmore, .collection-video__readless {
   color: #265979; }
