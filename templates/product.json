@@ -109,11 +109,19 @@
         "show_vendor": true,
         "show_rating": false
       }
+    },
+    "133b1ec4-866a-4d58-b91f-43793884ece4": {
+      "type": "accordion-meta-object",
+      "settings": {
+        "heading": "FAQs",
+        "sub_heading": "Our commonly asked questions..."
+      }
     }
   },
   "order": [
     "1677725859488c5869",
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "133b1ec4-866a-4d58-b91f-43793884ece4"
   ]
 }
