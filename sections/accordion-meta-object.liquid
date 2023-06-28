@@ -1,4 +1,11 @@
-{% assign faqitems = collection.metafields.custom.collectionfaqs.value %}
+{% if collection.metafields.custom.collectionfaqs.value != blank %}
+  {% assign faqitems = collection.metafields.custom.collectionfaqs.value %}
+{% elsif product.metafields.custom.productFaqs.value != blank %}
+  {% assign faqitems = product.metafields.custom.productFaqs.value %}
+{% endif %}
+
+<script>console.log('product', {{ product.metafields.custom }})</script>
+<script>console.log('collection', {{ collection.metafields.custom }})</script>
 
 {% if faqitems %}
   {{ 'section-accordion.css' | asset_url | stylesheet_tag }}
@@ -13,8 +20,15 @@
         {{ section.settings.sub_heading }}
       </div>
       <div class="accordion__items">
-        {% assign itemsEven = collection.metafields.custom.collectionfaqs.value %}
-        {% assign itemsOdd = collection.metafields.custom.collectionfaqs.value %}
+
+        {% if collection.metafields.custom.collectionfaqs.value != blank %}
+          {% assign itemsEven = collection.metafields.custom.collectionfaqs.value %}
+          {% assign itemsOdd = collection.metafields.custom.collectionfaqs.value %}
+        {% elsif product.metafields.custom.productFaqs.value != blank %}
+          {% assign itemsOdd = product.metafields.custom.productFaqs.value %}
+          {% assign itemsEven = product.metafields.custom.productFaqs.value %}
+        {% endif %}
+          
         <div class="accordion__column">
           {%- for item in itemsEven -%}
             {% assign mod = forloop.index | modulo: 2 %}
@@ -77,7 +91,7 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-      {%- for item in collection.metafields.custom.collectionfaqs.value -%}
+      {%- for item in faqitems -%}
       {%- if item.answer != blank and item.question != blank -%}
       {
         "@type": "Question",
