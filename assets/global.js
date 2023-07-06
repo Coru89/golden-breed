@@ -774,9 +774,11 @@ class VariantSelects extends HTMLElement {
   }
 
   filterMedia() {
-    const thumbnailColorElements = document.querySelectorAll('.thumbnail-list [thumbnail-color]');
+    const thumbnailColorElements = document.querySelectorAll('.thumbnail-list__item[thumbnail-color]');
     thumbnailColorElements.forEach(element => {
-      element.style.display = 'none';
+      if (element.getAttribute('thumbnail-color')) {
+        element.style.display = 'none';
+      }
     });
   
     const selectedVariant = this.currentVariant ? this.currentVariant.featured_media.alt : document.querySelector('fieldset[name="Colour"] [checked]').getAttribute('value');
