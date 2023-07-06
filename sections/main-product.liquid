@@ -87,6 +87,7 @@
             {%- if product.selected_or_first_available_variant.featured_media != null -%}
               {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
               <li
+                thumbnail-color="{{ featured_media.alt }}"
                 id="Slide-{{ section.id }}-{{ featured_media.id }}"
                 class="product__media-item grid__item slider__slide is-active{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %} product__media-item--variant{% endif %}"
                 data-media-id="{{ section.id }}-{{ featured_media.id }}"
@@ -105,6 +106,7 @@
             {%- for media in product.media -%}
               {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li
+                  thumbnail-color="{{ media.alt }}"
                   id="Slide-{{ section.id }}-{{ media.id }}"
                   class="product__media-item grid__item slider__slide{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
                   data-media-id="{{ section.id }}-{{ media.id }}"
@@ -192,6 +194,7 @@
                 {%- endcapture -%}
                 {%- assign media_index = media_index | plus: 1 -%}
                 <li
+                  thumbnail-color="{{ featured_media.alt }}"
                   id="Slide-Thumbnails-{{ section.id }}-0"
                   class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}"
                   data-target="{{ section.id }}-{{ featured_media.id }}"
@@ -236,6 +239,7 @@
                   {%- endcapture -%}
                   {%- assign media_index = media_index | plus: 1 -%}
                   <li
+                    thumbnail-color="{{ media.alt }}"
                     id="Slide-Thumbnails-{{ section.id }}-{{ forloop.index }}"
                     class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}"
                     data-target="{{ section.id }}-{{ media.id }}"
@@ -415,36 +419,6 @@
                   </div>
                 </details>
               </div>
-            {%- when 'quantity_selector' -%}
-              <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
-                <label class="form__label" for="Quantity-{{ section.id }}">
-                  {{ 'products.product.quantity.label' | t }}
-                </label>
-
-                <quantity-input class="quantity">
-                  <button class="quantity__button no-js-hidden" name="minus" type="button">
-                    <span class="visually-hidden">
-                      {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
-                    </span>
-                    {% render 'icon-minus' %}
-                  </button>
-                  <input
-                    class="quantity__input"
-                    type="number"
-                    name="quantity"
-                    id="Quantity-{{ section.id }}"
-                    min="1"
-                    value="1"
-                    form="{{ product_form_id }}"
-                  >
-                  <button class="quantity__button no-js-hidden" name="plus" type="button">
-                    <span class="visually-hidden">
-                      {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
-                    </span>
-                    {% render 'icon-plus' %}
-                  </button>
-                </quantity-input>
-              </div>
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden"
@@ -511,7 +485,7 @@
                     {{ block.shopify_attributes }}
                   >
                     {%- for option in product.options_with_values -%}
-                      <fieldset class="js product-form__input">
+                      <fieldset name="{{ option.name }}" class="js product-form__input">
                         <legend class="form__label">{{ option.name }}</legend>
                         {%- for value in option.values -%}
                           <input
@@ -524,50 +498,123 @@
                               checked
                             {% endif %}
                           >
-                          <label
-                            for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-                            style="
-                              {% if value == 'OFF WHITE' %}background:#fff; color:#1e5b79;{% endif %}
-                              {% if value == 'Off White' %}background:#fff; color:#1e5b79;{% endif %}
-                              {% if value == 'WHITE' %}background:#fff; color:#1e5b79;{% endif %}
-                              {% if value == 'White' %}background:#fff; color:#1e5b79;{% endif %}
-                              {% if value == 'WINTER WHITE' %}background:#fff; color:#1e5b79;{% endif %}
-                              {% if value == 'SEA BLUE MARLE' %}background:#a0c2cf; color:#1e5b79;{% endif %}
-                              {% if value == 'BLUE' %}background:#5985b1; color:#fff;{% endif %}
-                              {% if value == 'GREY MARLE' %}background:#b4b6b5; color:#fff;{% endif %}
-                              {% if value == 'SALMON' %}background:#e6bda6; color:#1e5b79;{% endif %}
-                              {% if value == 'WASH BLACK' %}background:#5e5e5e; color:#fff;{% endif %}
-                              {% if value == 'BLACK' %}background:#000; color:#fff;{% endif %}
-                              {% if value == 'BLEACH GOLD' %}background:#efe8d5; color:#1e5b79;{% endif %}
-                              {% if value == 'MINT' %}background:#afcbc2; color:#fff;{% endif %}
-                              {% if value == 'Mint' %}background:#afcbc2; color:#fff;{% endif %}
-                              {% if value == 'Blue' %}background:#5a7892; color:#fff;{% endif %}
-                              {% if value == 'WASH RED' %}background:#f27064; color:#fff;{% endif %}
-                              {% if value == 'SURF GREEN' %}background:#7eaea0; color:#fff;{% endif %}
-                              {% if value == 'SAGE' %}background:#aab59c; color:#fff;{% endif %}
-                              {% if value == 'DUSTY BLUE' %}background:#7390a9; color:#fff;{% endif %}
-                              {% if value == 'NAVY' %}background:#445162; color:#fff;{% endif %}
-                              {% if value == 'SKY' %}background:#c3dae0; color:#1e5b79;{% endif %}
-                              {% if value == 'BEIGE' %}background:#e2d8bc; color:#1e5b79;{% endif %}
-                              {% if value == 'GREEN ZUMBA' %}background:#719293; color:#fff;{% endif %}
-                              {% if value == 'PINK' %}background:#e1cfd0; color:#1e5b79;{% endif %}
-                              {% if value == 'NAVY MARLE' %}background:#8e93a7; color:#fff;{% endif %}
-                              {% if value == 'TAUPE' %}background:#d7cbb7; color:#fff;{% endif %}
-                              {% if value == 'RED MARLE' %}background:#cd847c; color:#fff;{% endif %}
-                               {% if value == 'moss' %}background:#a9a893; color:#fff;{% endif %}
-                              {% if value == 'maroon' %}background:#9d404e; color:#fff;{% endif %}
-                              {% if value == 'beige' %}background:#bf8567; color:#fff;{% endif %}
-                              {% if value == 'Mustard' %}background:#e8a610; color:#fff;{% endif %}
-                              {% if value == 'Ocean' %}background:#97c4ef; color:#fff;{% endif %}
-                              {% if value == 'Rose' %}background:#d7758a; color:#fff;{% endif %}
-                              {% if value == 'PORT' %}background:#815c9e; color:#fff;{% endif %}
-                              {% if value == 'KHAKI' %}background:#768e7f; color:#fff;{% endif %}
-                              {% if value == 'Peony' %}background:#fad8c3; color:#1e5b79;{% endif %}
-                              {% if value == 'DENIM' %}background:#4f6b89; color:#fff;{% endif %}
-                            "
-                          >
-                            {{ value }}
-                          </label>
+                          {% assign variant_needed = null %}
+                          {% for variant in product.variants %}
+                            {% if variant.options contains value %}
+                              {% assign variant_needed = variant %}
+                            {% endif %}
+                          {% endfor %}
+                          {% if variant_needed.metafields.color.swatch and option.name == 'Colour' %}
+                            <label
+                              class="color-swatch"
+                              for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              data-option="{{ value }}"
+                              style="background-color: {{variant_needed.metafields.color.swatch}}"
+                            >
+                              &nbsp
+                            </label>
+                          {% elsif variant_needed.metafields.image.swatch and option.name == 'Colour' %}
+                            <label
+                              class="color-swatch"
+                              for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              data-option="{{ value }}"
+                              style="background-size: cover; background-image: url('{{variant_needed.metafields.image.swatch}}')"
+                            >
+                              &nbsp
+                            </label>
+                          {% else %}
+                            <label
+                              for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              style="
+                                {% if value == 'OFF WHITE' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'Off White' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'WHITE' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'White' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'WINTER WHITE' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'SEA BLUE MARLE' %}background:#a0c2cf; color:#1e5b79;{% endif %}
+                                {% if value == 'BLUE' %}background:#5985b1; color:#fff;{% endif %}
+                                {% if value == 'GREY MARLE' %}background:#b4b6b5; color:#fff;{% endif %}
+                                {% if value == 'SALMON' %}background:#e6bda6; color:#1e5b79;{% endif %}
+                                {% if value == 'WASH BLACK' %}background:#5e5e5e; color:#fff;{% endif %}
+                                {% if value == 'BLACK' %}background:#000; color:#fff;{% endif %}
+                                {% if value == 'BLEACH GOLD' %}background:#efe8d5; color:#1e5b79;{% endif %}
+                                {% if value == 'MINT' %}background:#afcbc2; color:#fff;{% endif %}
+                                {% if value == 'Mint' %}background:#afcbc2; color:#fff;{% endif %}
+                                {% if value == 'Blue' %}background:#5a7892; color:#fff;{% endif %}
+                                {% if value == 'WASH RED' %}background:#f27064; color:#fff;{% endif %}
+                                {% if value == 'SURF GREEN' %}background:#7eaea0; color:#fff;{% endif %}
+                                {% if value == 'SAGE' %}background:#aab59c; color:#fff;{% endif %}
+                                {% if value == 'DUSTY BLUE' %}background:#7390a9; color:#fff;{% endif %}
+                                {% if value == 'NAVY' %}background:#445162; color:#fff;{% endif %}
+                                {% if value == 'SKY' %}background:#c3dae0; color:#1e5b79;{% endif %}
+                                {% if value == 'BEIGE' %}background:#e2d8bc; color:#1e5b79;{% endif %}
+                                {% if value == 'GREEN ZUMBA' %}background:#719293; color:#fff;{% endif %}
+                                {% if value == 'PINK' %}background:#e1cfd0; color:#1e5b79;{% endif %}
+                                {% if value == 'NAVY MARLE' %}background:#8e93a7; color:#fff;{% endif %}
+                                {% if value == 'TAUPE' %}background:#d7cbb7; color:#fff;{% endif %}
+                                {% if value == 'RED MARLE' %}background:#cd847c; color:#fff;{% endif %}
+                                 {% if value == 'moss' %}background:#a9a893; color:#fff;{% endif %}
+                                {% if value == 'maroon' %}background:#9d404e; color:#fff;{% endif %}
+                                {% if value == 'beige' %}background:#bf8567; color:#fff;{% endif %}
+                                {% if value == 'Mustard' %}background:#e8a610; color:#fff;{% endif %}
+                                {% if value == 'Ocean' %}background:#97c4ef; color:#fff;{% endif %}
+                                {% if value == 'Rose' %}background:#d7758a; color:#fff;{% endif %}
+                                {% if value == 'PORT' %}background:#815c9e; color:#fff;{% endif %}
+                                {% if value == 'KHAKI' %}background:#768e7f; color:#fff;{% endif %}
+                                {% if value == 'Peony' %}background:#fad8c3; color:#1e5b79;{% endif %}
+                                {% if value == 'DENIM' %}background:#4f6b89; color:#fff;{% endif %}
+                              "
+                            >
+                              {{ value }}
+                            </label>
+                          {% endif %}
+
+                          {% comment %}
+                            <label
+                              for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              style="
+                                {% if value == 'OFF WHITE' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'Off White' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'WHITE' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'White' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'WINTER WHITE' %}background:#fff; color:#1e5b79;{% endif %}
+                                {% if value == 'SEA BLUE MARLE' %}background:#a0c2cf; color:#1e5b79;{% endif %}
+                                {% if value == 'BLUE' %}background:#5985b1; color:#fff;{% endif %}
+                                {% if value == 'GREY MARLE' %}background:#b4b6b5; color:#fff;{% endif %}
+                                {% if value == 'SALMON' %}background:#e6bda6; color:#1e5b79;{% endif %}
+                                {% if value == 'WASH BLACK' %}background:#5e5e5e; color:#fff;{% endif %}
+                                {% if value == 'BLACK' %}background:#000; color:#fff;{% endif %}
+                                {% if value == 'BLEACH GOLD' %}background:#efe8d5; color:#1e5b79;{% endif %}
+                                {% if value == 'MINT' %}background:#afcbc2; color:#fff;{% endif %}
+                                {% if value == 'Mint' %}background:#afcbc2; color:#fff;{% endif %}
+                                {% if value == 'Blue' %}background:#5a7892; color:#fff;{% endif %}
+                                {% if value == 'WASH RED' %}background:#f27064; color:#fff;{% endif %}
+                                {% if value == 'SURF GREEN' %}background:#7eaea0; color:#fff;{% endif %}
+                                {% if value == 'SAGE' %}background:#aab59c; color:#fff;{% endif %}
+                                {% if value == 'DUSTY BLUE' %}background:#7390a9; color:#fff;{% endif %}
+                                {% if value == 'NAVY' %}background:#445162; color:#fff;{% endif %}
+                                {% if value == 'SKY' %}background:#c3dae0; color:#1e5b79;{% endif %}
+                                {% if value == 'BEIGE' %}background:#e2d8bc; color:#1e5b79;{% endif %}
+                                {% if value == 'GREEN ZUMBA' %}background:#719293; color:#fff;{% endif %}
+                                {% if value == 'PINK' %}background:#e1cfd0; color:#1e5b79;{% endif %}
+                                {% if value == 'NAVY MARLE' %}background:#8e93a7; color:#fff;{% endif %}
+                                {% if value == 'TAUPE' %}background:#d7cbb7; color:#fff;{% endif %}
+                                {% if value == 'RED MARLE' %}background:#cd847c; color:#fff;{% endif %}
+                                 {% if value == 'moss' %}background:#a9a893; color:#fff;{% endif %}
+                                {% if value == 'maroon' %}background:#9d404e; color:#fff;{% endif %}
+                                {% if value == 'beige' %}background:#bf8567; color:#fff;{% endif %}
+                                {% if value == 'Mustard' %}background:#e8a610; color:#fff;{% endif %}
+                                {% if value == 'Ocean' %}background:#97c4ef; color:#fff;{% endif %}
+                                {% if value == 'Rose' %}background:#d7758a; color:#fff;{% endif %}
+                                {% if value == 'PORT' %}background:#815c9e; color:#fff;{% endif %}
+                                {% if value == 'KHAKI' %}background:#768e7f; color:#fff;{% endif %}
+                                {% if value == 'Peony' %}background:#fad8c3; color:#1e5b79;{% endif %}
+                                {% if value == 'DENIM' %}background:#4f6b89; color:#fff;{% endif %}
+                              "
+                            >
+                              {{ value }}
+                            </label>
+                          {% endcomment %}
                         {%- endfor -%}
                       </fieldset>
                     {%- endfor -%}
@@ -693,7 +740,38 @@
                       value="{{ product.selected_or_first_available_variant.id }}"
                       disabled
                     >
-                    <div class="product-form__buttons">
+                    <div class="product-form__buttons{% if section.settings.enable_quantity_selector == true %} product-form__buttons--quantity{% endif %}">
+                      {% if section.settings.enable_quantity_selector == true %}
+                        <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
+                          <label class="form__label" for="Quantity-{{ section.id }}">
+                            {{ 'products.product.quantity.label' | t }}
+                          </label>
+
+                          <quantity-input class="quantity">
+                            <button class="quantity__button no-js-hidden" name="minus" type="button">
+                              <span class="visually-hidden">
+                                {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+                              </span>
+                              {% render 'icon-minus' %}
+                            </button>
+                            <input
+                              class="quantity__input"
+                              type="number"
+                              name="quantity"
+                              id="Quantity-{{ section.id }}"
+                              min="1"
+                              value="1"
+                              form="{{ product_form_id }}"
+                            >
+                            <button class="quantity__button no-js-hidden" name="plus" type="button">
+                              <span class="visually-hidden">
+                                {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                              </span>
+                              {% render 'icon-plus' %}
+                            </button>
+                          </quantity-input>
+                        </div>
+                      {% endif %}
                       <button
                         type="submit"
                         name="add"
@@ -1048,11 +1126,6 @@
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
-      "limit": 1
-    },
-    {
-      "type": "quantity_selector",
-      "name": "t:sections.main-product.blocks.quantity_selector.name",
       "limit": 1
     },
     {
@@ -1494,6 +1567,12 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_quantity_selector",
+      "default": true,
+      "label": "Enable Quantity Selector"
     }
   ]
 }
