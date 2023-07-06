@@ -894,7 +894,7 @@ customElements.define('variant-selects', VariantSelects);
 class VariantRadios extends VariantSelects {
   constructor() {
     super();
-    this.filterMedia();
+    // this.filterMedia();
     this.onVariantChange()
   }
 
