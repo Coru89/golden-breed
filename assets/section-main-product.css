@@ -1637,3 +1637,18 @@ a.product__text {
   background: none;
   }
   
+
+/* Freebies + Returns Messages */
+.product-message {
+  text-transform: uppercase;
+  display: flex;
+  color: #335B74;
+}
+
+.product-message p {
+  display: inline;
+}
+
+.product-message svg {
+  margin-right: 8px;
+}
