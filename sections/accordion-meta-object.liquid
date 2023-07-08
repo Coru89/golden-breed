@@ -4,9 +4,6 @@
   {% assign faqitems = product.metafields.custom.productFaqs.value %}
 {% endif %}
 
-<script>console.log('product', {{ product.metafields.custom }})</script>
-<script>console.log('collection', {{ collection.metafields.custom }})</script>
-
 {% if faqitems %}
   {{ 'section-accordion.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'section-accordion.js' | asset_url }}" async></script>
