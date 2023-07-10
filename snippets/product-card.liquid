@@ -17,7 +17,7 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
 <div class="card-wrapper">
-  <div class="">
+<div class="card-information">
       {%- if show_vendor -%}
         {% for tag in product_card_product.tags %}
           {% if tag contains 'Sunnylife' %}
@@ -159,7 +159,7 @@
   </div>
 
   <div
-    class="{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}{% if product_card_product.featured_media != nil and show_image_outline %} card--outline{% endif %}"
+    class="card card--product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}{% if product_card_product.featured_media != nil and show_image_outline %} card--outline{% endif %}"
     tabindex="-1"
   >
     <div class="card__inner">
