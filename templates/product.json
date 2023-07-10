@@ -40,8 +40,6 @@
           "settings": {
           }
         },
-<<<<<<< HEAD
-=======
         "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34": {
           "type": "freebie_message",
           "settings": {
@@ -54,7 +52,6 @@
             "returns_rte": "<p><strong>Free returns<\/strong> within 30 days<\/p>"
           }
         },
->>>>>>> 073e98432e090e22423e69a29396b8c50bf9de20
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -116,6 +113,18 @@
         "enable_quantity_selector": true
       }
     },
+    "891ee324-8896-4021-9598-50458db48649": {
+      "type": "product-wear-with",
+      "settings": {
+        "heading": "Wear it with",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -139,6 +148,7 @@
   "order": [
     "1677725859488c5869",
     "main",
+    "891ee324-8896-4021-9598-50458db48649",
     "product-recommendations",
     "133b1ec4-866a-4d58-b91f-43793884ece4"
   ]
