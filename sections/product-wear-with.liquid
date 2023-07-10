@@ -5,36 +5,36 @@
 
 
 {% assign items = product.metafields.custom.wear_with.value %}
+
 <script>
   console.log('size', {{ product.metafields.custom.wear_with.count }});
   console.log('size', {{ product.metafields.custom.wear_with.value.count }});
 </script>
-<div class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
-    <h2 class="product-recommendations__heading">{{ section.settings.heading | escape }}</h2>
-    <ul class="grid grid--2-col product-grid{% if items.count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ product.metafields.custom.wear_with.size }}-col-tablet{% endif %}" role="list">
-      
-      {% assign items = product.metafields.custom.wear_with.value %}
+{%- if items.count > 0 -%}
+  <div class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
+      <h2 class="product-recommendations__heading">{{ section.settings.heading | escape }}</h2>
+      <ul class="grid grid--2-col product-grid{% if items.count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ items.count }}-col-tablet{% endif %}" role="list">
+        
+        {% for item in items %}
+          <script>
+            console.log('item', {{ item | json }});
+          </script>
 
-      {% for item in items %}
-
-        <script>
-          console.log('item', {{ item | json }});
-        </script>
-
-        <li class="grid__item">
-          {% render 'product-card',
-            product_card_product: item,
-            media_size: section.settings.image_ratio,
-            show_secondary_image: section.settings.show_secondary_image,
-            add_image_padding: section.settings.add_image_padding,
-            show_vendor: section.settings.show_vendor,
-            show_image_outline: section.settings.show_image_outline,
-            show_rating: section.settings.show_rating
-          %}
-        </li>
-      {% endfor %}
-    </ul>
-</div>
+          <li class="grid__item">
+            {% render 'product-card',
+              product_card_product: item,
+              media_size: section.settings.image_ratio,
+              show_secondary_image: section.settings.show_secondary_image,
+              add_image_padding: section.settings.add_image_padding,
+              show_vendor: section.settings.show_vendor,
+              show_image_outline: section.settings.show_image_outline,
+              show_rating: section.settings.show_rating
+            %}
+          </li>
+        {% endfor %}
+      </ul>
+  </div>
+{%- endif -%}
 
 {% comment %} {% javascript %}
   class ProductRecommendations extends HTMLElement {
