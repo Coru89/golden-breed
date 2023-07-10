@@ -741,7 +741,7 @@ class VariantSelects extends HTMLElement {
       this.setUnavailable();
     } else {
       this.updateMedia();
-      this.filterMedia();
+      // this.filterMedia();
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
@@ -773,28 +773,28 @@ class VariantSelects extends HTMLElement {
     modalContent.prepend(newMediaModal);
   }
 
-  filterMedia() {
-    const thumbnailColorElements = document.querySelectorAll('.thumbnail-list__item[thumbnail-color]');
-    thumbnailColorElements.forEach(element => {
-      if (element.getAttribute('thumbnail-color')) {
-        element.style.display = 'none';
-      }
-    });
+  // filterMedia() {
+  //   const thumbnailColorElements = document.querySelectorAll('.thumbnail-list__item[thumbnail-color]');
+  //   thumbnailColorElements.forEach(element => {
+  //     if (element.getAttribute('thumbnail-color')) {
+  //       element.style.display = 'none';
+  //     }
+  //   });
   
-    const selectedVariant = this.currentVariant ? this.currentVariant.featured_media.alt : document.querySelector('fieldset[name="Colour"] [checked]').getAttribute('value');
-    const selectedAttribute = `.thumbnail-list__item[thumbnail-color="${selectedVariant}"]`;
+  //   const selectedVariant = this.currentVariant ? this.currentVariant.featured_media.alt : document.querySelector('fieldset[name="Colour"] [checked]').getAttribute('value');
+  //   const selectedAttribute = `.thumbnail-list__item[thumbnail-color="${selectedVariant}"]`;
 
-    if (
-      selectedVariant &&
-      selectedVariant === selectedVariant
-    ) {
+  //   if (
+  //     selectedVariant &&
+  //     selectedVariant === selectedVariant
+  //   ) {
 
-      const selectedElements = document.querySelectorAll(selectedAttribute);
-      selectedElements.forEach(element => {
-        element.style.display = 'list-item';
-      });
-    }
-  }
+  //     const selectedElements = document.querySelectorAll(selectedAttribute);
+  //     selectedElements.forEach(element => {
+  //       element.style.display = 'list-item';
+  //     });
+  //   }
+  // }
 
   updateURL() {
     if (!this.currentVariant || this.dataset.updateUrl === 'false') return;

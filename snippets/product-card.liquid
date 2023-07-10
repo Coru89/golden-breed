@@ -18,7 +18,8 @@
 
 <div class="card-wrapper">
   <div class="card-information">
-    <div class="card-information__wrapper">
+    <div class="swatches-globo--list"></div>
+
       {%- if show_vendor -%}
         {% for tag in product_card_product.tags %}
           {% if tag contains 'Sunnylife' %}
@@ -136,6 +137,7 @@
       {% endfor %}
 
       {% for product_option in product_card_product.options_with_values %}
+
         {% if product_option.name == 'Sizes'
           or product_option.name == 'sizes'
           or product_option.name == 'size'
@@ -155,7 +157,7 @@
           </div>
         {% endif %}
       {% endfor %}
-    </div>
+
   </div>
 
   <div

@@ -40,11 +40,6 @@
           "settings": {
           }
         },
-        "cb89e3cd-cd43-4a9e-862c-0f639db0a731": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
