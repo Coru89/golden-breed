@@ -11,7 +11,7 @@
   console.log('size', {{ product.metafields.custom.wear_with.value.count }});
 </script>
 {%- if items.count > 0 -%}
-  <div class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
+  <product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
       <h2 class="product-recommendations__heading">{{ section.settings.heading | escape }}</h2>
       <ul class="grid grid--2-col product-grid{% if items.count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ items.count }}-col-tablet{% endif %}" role="list">
         
@@ -33,39 +33,8 @@
           </li>
         {% endfor %}
       </ul>
-  </div>
+  </product-recommendations>
 {%- endif -%}
-
-{% comment %} {% javascript %}
-  class ProductRecommendations extends HTMLElement {
-    constructor() {
-      super();
-
-      const handleIntersection = (entries, observer) => {
-        if (!entries[0].isIntersecting) return;
-        observer.unobserve(this);
-
-        fetch(this.dataset.url)
-          .then(response => response.text())
-          .then(text => {
-            const html = document.createElement('div');
-            html.innerHTML = text;
-            const recommendations = html.querySelector('product-recommendations');
-            if (recommendations && recommendations.innerHTML.trim().length) {
-              this.innerHTML = recommendations.innerHTML;
-            }
-          })
-          .catch(e => {
-            console.error(e);
-          });
-      }
-
-      new IntersectionObserver(handleIntersection.bind(this), {rootMargin: '0px 0px 200px 0px'}).observe(this);
-    }
-  }
-
-  customElements.define('product-recommendations', ProductRecommendations);
-{% endjavascript %} {% endcomment %}
 
 {% schema %}
 {
@@ -75,7 +44,7 @@
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:sections.product-recommendations.settings.paragraph__1.content"
+      "content": "Wear with section is configured on a per-product basis. Go to the product page in the back end of Shopify to add recommended products. This section will be hidden until"
     },
     {
       "type": "text",
