@@ -40,6 +40,21 @@
           "settings": {
           }
         },
+<<<<<<< HEAD
+=======
+        "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34": {
+          "type": "freebie_message",
+          "settings": {
+            "freebie_rte": "<p><strong>Surprise freebie<\/strong> with this product<\/p>"
+          }
+        },
+        "47e42ffd-787a-4f6f-8544-b47b352c018e": {
+          "type": "returns_message",
+          "settings": {
+            "returns_rte": "<p><strong>Free returns<\/strong> within 30 days<\/p>"
+          }
+        },
+>>>>>>> 073e98432e090e22423e69a29396b8c50bf9de20
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -83,7 +98,8 @@
         "variant_picker",
         "7180d271-94d9-4997-b68f-c53c1b1a059f",
         "fd6c8f86-946b-4217-9f08-8f2fccedf68e",
-        "cb89e3cd-cd43-4a9e-862c-0f639db0a731",
+        "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34",
+        "47e42ffd-787a-4f6f-8544-b47b352c018e",
         "buy_buttons",
         "6d0e4be2-c802-43d9-97a0-99cc8d22c0dc",
         "description",
@@ -96,7 +112,8 @@
         "media_size": "medium",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_quantity_selector": true
       }
     },
     "product-recommendations": {
