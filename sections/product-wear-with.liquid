@@ -3,23 +3,14 @@
 <link rel="stylesheet" href="{{ 'component-product-grid.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'section-product-recommendations.css' | asset_url }}" media="print" onload="this.media='all'">
 
-
 {% assign items = product.metafields.custom.wear_with.value %}
 
-<script>
-  console.log('size', {{ product.metafields.custom.wear_with.count }});
-  console.log('size', {{ product.metafields.custom.wear_with.value.count }});
-</script>
 {%- if items.count > 0 -%}
   <product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
       <h2 class="product-recommendations__heading">{{ section.settings.heading | escape }}</h2>
       <ul class="grid grid--2-col product-grid{% if items.count > 3 %} grid--4-col-desktop grid--quarter-max{% else %} grid--{{ items.count }}-col-tablet{% endif %}" role="list">
         
         {% for item in items %}
-          <script>
-            console.log('item', {{ item | json }});
-          </script>
-
           <li class="grid__item">
             {% render 'product-card',
               product_card_product: item,
@@ -44,7 +35,7 @@
   "settings": [
     {
       "type": "paragraph",
-      "content": "Wear with section is configured on a per-product basis. Go to the product page in the back end of Shopify to add recommended products. This section will be hidden until"
+      "content": "Wear with section is configured on a per-product basis. Go to the product page in the back end of Shopify to add recommended products. This section will be hidden until populated. For best visual results, select 3-4 items."
     },
     {
       "type": "text",
@@ -110,7 +101,7 @@
   ],
   "presets": [
     {
-      "name": "Wear with"
+      "name": "Wear it with"
     }
   ]
 }
