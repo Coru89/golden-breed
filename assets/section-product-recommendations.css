@@ -1,5 +1,6 @@
 .product-recommendations {
   display: block;
+  margin: 10rem auto 7rem auto;
 }
 
 .product-recommendations__heading {
