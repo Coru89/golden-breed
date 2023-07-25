@@ -29,7 +29,7 @@
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": false,
         "enable_filtering": true,
         "enable_sorting": true,
