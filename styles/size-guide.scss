@@ -114,6 +114,11 @@
     text-decoration-line: underline;
     font-weight: 800;
     font-size: 1.4rem;
+    margin: 0;
+}
+
+.sizefox-container .MuiBox-root {
+    margin: 0;
 }
 
 .MuiBox-root .form__label:after {

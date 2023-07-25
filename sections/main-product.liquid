@@ -332,7 +332,7 @@
             src="https://cdn.shopify.com/s/files/1/2575/8088/files/logo_96cb2768-8a26-43e6-b0dd-ee8855ef1c20_170x@2x.png?v=1638923181"
           >
         {% endif %} {% endcomment %}
-        {% if product.tags contains 'restocked' %}
+        {% comment %} {% if product.tags contains 'restocked' %}
           <span style="font-size:12px; color:#1d5b78; border:2px solid #1d5b78; width:120px; font-weight:600; margin-top:-20px; padding:3px;"
             >Restocked</span
           >
@@ -342,29 +342,31 @@
           <span style="font-size:12px; color:#fff; background:#bb7e5a; width:120px; font-weight:600; margin-top:-20px; padding:10px 20px; border-radius:20px;"
             >NEW</span
           >
-        {% endif %}
+        {% endif %} {% endcomment %}
 
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-              {% render block %}
+              <div style="order: {{ forloop.index | plus: 1 }};margin-top: 0;">
+                {% render block %}
+              </div>
             {%- when 'text' -%}
               <p
-                style="padding-bottom:10px; border-bottom:1px solid #1d5b78;"
+                style="padding-bottom:10px; border-bottom:1px solid #1d5b78;order: {{ forloop.index }}"
                 class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                 {{ block.shopify_attributes }}
               >
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <h1 class="product__title" {{ block.shopify_attributes }}>
+              <h1 style="order: {{ forloop.index }}" class="product__title" {{ block.shopify_attributes }}>
                 {{ product.title | escape }}
               </h1>
 
             {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              <div style="order: {{ forloop.index | minus: 1 }}" class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
                   product: product,
                   use_variant: true,
@@ -373,7 +375,7 @@
                 -%}
               </div>
 
-              <div {{ block.shopify_attributes }}>
+              <div style="order: {{ forloop.index }}" {{ block.shopify_attributes }}>
                 {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}
@@ -381,14 +383,16 @@
               </div>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                <div class="product__description rte">
+                <div style="order: {{ forloop.index }}" class="product__description rte">
                   {{ product.description }}
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
+              <div style="order: {{ forloop.index }}">
               {{ block.settings.custom_liquid }}
+              </div>
             {%- when 'collapsible_tab' -%}
-              <div class="product__accordion accordion" {{ block.shopify_attributes }}>
+              <div style="order: {{ forloop.index }}" class="product__accordion accordion" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
@@ -407,7 +411,7 @@
               </div>
             {%- when 'freebie_message' -%}
               {% if product.metafields.custom.freebie == true %}
-                <div class="product-message">
+                <div style="order: {{ forloop.index }}" class="product-message">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16 11V7C16 5.93913 15.5786 4.92172 14.8284 4.17157C14.0783 3.42143 13.0609 3 12 3C10.9391 3 9.92172 3.42143 9.17157 4.17157C8.42143 4.92172 8 5.93913 8 7V11H16ZM5 9H19L20 21H4L5 9Z" stroke="#265979" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
@@ -415,7 +419,7 @@
                 </div>
               {% endif %}
             {%- when 'returns_message' -%}
-              <div class="product-message">
+              <div style="order: {{ forloop.index }}" class="product-message">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7.875 12C7.82565 12.0003 7.77673 11.9908 7.73104 11.9722C7.68535 11.9535 7.64379 11.926 7.60875 11.8913L6.27375 10.5563L5.37 10.8563C5.31351 10.8753 5.25328 10.8807 5.19431 10.8718C5.13535 10.863 5.07934 10.8402 5.03095 10.8053C4.98255 10.7705 4.94316 10.7246 4.91604 10.6715C4.88891 10.6184 4.87485 10.5596 4.875 10.5V7.875C4.87522 7.79946 4.89826 7.72575 4.94108 7.66352C4.98391 7.60129 5.04453 7.55345 5.115 7.52625L12.99 4.52625C13.083 4.49095 13.1862 4.49403 13.2769 4.53482C13.3676 4.5756 13.4384 4.65076 13.4738 4.74375C13.5091 4.83674 13.506 4.93995 13.4652 5.03067C13.4244 5.12139 13.3492 5.1922 13.2563 5.2275L5.625 8.13375V9.97875L6.255 9.76875C6.3198 9.74839 6.38891 9.746 6.45496 9.76185C6.521 9.7777 6.58151 9.8112 6.63 9.85875L7.5 10.7213V9C7.49963 8.92533 7.52156 8.85225 7.56298 8.79011C7.6044 8.72798 7.66343 8.67963 7.7325 8.65125L15.6075 5.43C15.6995 5.39221 15.8027 5.39251 15.8945 5.43084C15.9863 5.46917 16.0591 5.54238 16.0969 5.63438C16.1347 5.72637 16.1344 5.82962 16.096 5.92139C16.0577 6.01317 15.9845 6.08596 15.8925 6.12375L8.25 9.25125V11.625C8.25 11.7245 8.21049 11.8198 8.14017 11.8902C8.06984 11.9605 7.97446 12 7.875 12Z" fill="#335B74"/>
                   <path d="M10.5 21.375C10.4565 21.3749 10.4134 21.3673 10.3725 21.3525L2.1225 18.3525C2.05002 18.3263 1.98738 18.2784 1.9431 18.2153C1.89881 18.1523 1.87503 18.0771 1.875 18V6.75C1.875 6.65054 1.91451 6.55516 1.98484 6.48483C2.05516 6.41451 2.15054 6.375 2.25 6.375C2.34946 6.375 2.44484 6.41451 2.51516 6.48483C2.58549 6.55516 2.625 6.65054 2.625 6.75V17.7375L10.125 20.4637V9.75C10.125 9.65054 10.1645 9.55516 10.2348 9.48483C10.3052 9.41451 10.4005 9.375 10.5 9.375C10.5995 9.375 10.6948 9.41451 10.7652 9.48483C10.8355 9.55516 10.875 9.65054 10.875 9.75V21C10.875 21.0995 10.8355 21.1948 10.7652 21.2652C10.6948 21.3355 10.5995 21.375 10.5 21.375ZM18.75 9.75C18.6505 9.75 18.5552 9.71049 18.4848 9.64017C18.4145 9.56984 18.375 9.47446 18.375 9.375V6.75C18.375 6.65054 18.4145 6.55516 18.4848 6.48483C18.5552 6.41451 18.6505 6.375 18.75 6.375C18.8495 6.375 18.9448 6.41451 19.0152 6.48483C19.0855 6.55516 19.125 6.65054 19.125 6.75V9.375C19.125 9.47446 19.0855 9.56984 19.0152 9.64017C18.9448 9.71049 18.8495 9.75 18.75 9.75Z" fill="#335B74"/>
@@ -426,7 +430,7 @@
                 <span>{{ block.settings.returns_rte }}</span>
               </div>
             {%- when 'size_chart_gb' -%}
-              <div class="product__accordion accordion" {{ block.shopify_attributes }}>
+              <div style="order: {{ forloop.index }}" class="product__accordion accordion" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
@@ -445,6 +449,7 @@
               </div>
             {%- when 'popup' -%}
               <modal-opener
+                style="order: {{ forloop.index }}"
                 class="product-popup-modal__opener no-js-hidden"
                 data-modal="#PopupModal-{{ block.id }}"
                 {{ block.shopify_attributes }}
@@ -462,7 +467,7 @@
                 {{- block.settings.text -}}
               </a>
             {%- when 'share' -%}
-              <share-button id="Share-{{ section.id }}" class="share-button" {{ block.shopify_attributes }}>
+              <share-button id="Share-{{ section.id }}" style="order: {{ forloop.index }}" class="share-button" {{ block.shopify_attributes }}>
                 <button class="share-button__button hidden">
                   {% render 'icon-share' %}
                   {{ block.settings.share_label | escape }}
@@ -503,6 +508,7 @@
               {%- unless product.has_only_default_variant -%}
                 {%- if block.settings.picker_type == 'button' -%}
                   <variant-radios
+                    style="order: {{ forloop.index }}"
                     class="no-js-hidden"
                     data-section="{{ section.id }}"
                     data-url="{{ product.url }}"
@@ -721,7 +727,7 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
-              <div {{ block.shopify_attributes }}>
+              <div style="order: {{ forloop.index }}" {{ block.shopify_attributes }}>
                 <product-form class="product-form">
                   <div class="product-form__error-message-wrapper" role="alert" hidden>
                     <svg
@@ -873,6 +879,7 @@
                   endif
                 %}
                 <div
+                  style="order: {{ forloop.index }}"
                   class="rating"
                   role="img"
                   aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}"

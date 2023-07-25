@@ -5,6 +5,8 @@
 
 .globo-swatch-product-detail .swatch--gl li .globo-style--button {
     padding-top: 8px;
+    transition: none !important;
+    background-color: transparent !important;
 }
 
 .globo-swatch-product-detail ul.value {
@@ -14,4 +16,12 @@
 
 .globo-swatch-product-detail .name-variant {
     font-weight: 400;
+}
+
+.globo-swatch-product-detail .swatch--gl:last-of-type {
+    margin-bottom: 0;
+}
+
+variant-radios {
+    visibility: hidden;
 }

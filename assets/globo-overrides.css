@@ -3,7 +3,11 @@
   font-weight: 700; }
 
 .globo-swatch-product-detail .swatch--gl li .globo-style--button {
-  padding-top: 8px; }
+  padding-top: 8px;
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  background-color: transparent !important; }
 
 .globo-swatch-product-detail ul.value {
   -webkit-box-align: center;
@@ -12,3 +16,9 @@
 
 .globo-swatch-product-detail .name-variant {
   font-weight: 400; }
+
+.globo-swatch-product-detail .swatch--gl:last-of-type {
+  margin-bottom: 0; }
+
+variant-radios {
+  visibility: hidden; }
