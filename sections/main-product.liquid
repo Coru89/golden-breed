@@ -7,6 +7,7 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'size-guide.css' | asset_url | stylesheet_tag }}
+{{ 'globo-overrides.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -34,7 +35,6 @@
 <style>
   .product-form__input input[type='radio'].unavailable + label {
     color: #b86869;
-
     text-decoration: line-through;
     cursor: no-drop;
   }
@@ -44,6 +44,10 @@
   }
   span.badge.price__badge-sold-out.color-inverse {
     margin: 0px;
+  }
+
+  .MuiBox-root .form__label:after {
+    background: url({{ 'ruler.svg' | asset_url }});
   }
 </style>
 
@@ -307,7 +311,7 @@
         id="ProductInfo-{{ section.id }}"
         class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}"
       >
-        {% if product.tags contains 'shaka' %}
+        {% comment %} {% if product.tags contains 'shaka' %}
           <img style="width:120px;" src="https://cdn.shopify.com/s/files/1/2575/8088/files/shaka-logo.png?v=1601110398">
         {% endif %}
 
@@ -327,7 +331,7 @@
             style="width:160px;"
             src="https://cdn.shopify.com/s/files/1/2575/8088/files/logo_96cb2768-8a26-43e6-b0dd-ee8855ef1c20_170x@2x.png?v=1638923181"
           >
-        {% endif %}
+        {% endif %} {% endcomment %}
         {% if product.tags contains 'restocked' %}
           <span style="font-size:12px; color:#1d5b78; border:2px solid #1d5b78; width:120px; font-weight:600; margin-top:-20px; padding:3px;"
             >Restocked</span
