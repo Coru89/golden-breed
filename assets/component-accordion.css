@@ -1,8 +1,9 @@
 .accordion summary {
+  align-items: center;
   display: flex;
-  position: relative;
   line-height: 1;
-  padding: 2rem 0;
+  padding: 1.75rem 0 1.5rem 0;
+  position: relative;
 }
 
 .accordion .summary__title {
