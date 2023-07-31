@@ -5,7 +5,7 @@
       "settings": {
         "heading_title": "{{ collection.title }}",
         "image": "{{ collection.metafields.custom.hero_image.value }}",
-        "banner_alert_message": "Free delivery on orders over $75"
+        "banner_alert_message": ""
       }
     },
     "banner": {
@@ -13,12 +13,6 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false
-      }
-    },
-    "1677725562d6eac228": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
       }
     },
     "product-grid": {
@@ -138,7 +132,6 @@
   "order": [
     "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339",
     "banner",
-    "1677725562d6eac228",
     "product-grid",
     "1a64566a-3c48-4946-812a-6f7fb5550574",
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5",
