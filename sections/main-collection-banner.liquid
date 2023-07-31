@@ -9,7 +9,7 @@
         {{- collection.title | escape -}}
       </h1> {% endcomment %}
 
-      {%- if section.settings.show_collection_description == true %}
+      {%- if section.settings.show_collection_description == true and collection.description != blank %}
         <div class="collection-desc">
         {{ collection.description }}
         </div>
@@ -42,7 +42,7 @@
 {% schema %}
 {
   "name": "t:sections.main-collection-banner.name",
-  "class": "spaced-section spaced-section--full-width",
+  "class": "spaced-section--full-width",
   "settings": [
     {
       "type": "paragraph",
