@@ -119,6 +119,13 @@
         "show_rating": true
       }
     },
+    "133b1ec4-866a-4d58-b91f-43793884ece4": {
+      "type": "accordion-meta-object",
+      "settings": {
+        "heading": "FAQs",
+        "sub_heading": "Our commonly asked questions..."
+      }
+    },
     "16891011425aabffa8": {
       "type": "apps",
       "blocks": {
@@ -134,13 +141,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "133b1ec4-866a-4d58-b91f-43793884ece4": {
-      "type": "accordion-meta-object",
-      "settings": {
-        "heading": "FAQs",
-        "sub_heading": "Our commonly asked questions..."
-      }
     }
   },
   "order": [
@@ -148,7 +148,7 @@
     "main",
     "891ee324-8896-4021-9598-50458db48649",
     "product-recommendations",
-    "16891011425aabffa8",
-    "133b1ec4-866a-4d58-b91f-43793884ece4"
+    "133b1ec4-866a-4d58-b91f-43793884ece4",
+    "16891011425aabffa8"
   ]
 }
