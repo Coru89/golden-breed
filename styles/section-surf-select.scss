@@ -43,6 +43,10 @@
     }
 
     &:hover {
+      .surf-select__slide-image {
+        display: none;
+      }
+      
       .surf-select__slide-content-overlay {
         display: block;
       }

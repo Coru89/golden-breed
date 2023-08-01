@@ -31,6 +31,8 @@
     display: block;
     height: auto;
     max-width: 100%; }
+  .surf-select__slide:hover .surf-select__slide-image {
+    display: none; }
   .surf-select__slide:hover .surf-select__slide-content-overlay {
     display: block; }
   .surf-select__slide-content {
