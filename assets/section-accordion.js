@@ -1,4 +1,4 @@
-const accordionHeaderEls = document.querySelectorAll('.accordion__item-header');
+const accordionHeaderEls = document.querySelectorAll('.section-accordion__item-header');
 
   accordionHeaderEls.forEach(header => {
     header.addEventListener('click', (e) => {

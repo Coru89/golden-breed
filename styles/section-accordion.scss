@@ -1,4 +1,4 @@
-.accordion {
+.section-accordion {
     &__inner {
       align-items: center;
       color: #265979;
@@ -43,7 +43,7 @@
 
     &__column {
       &:first-of-type {
-        .accordion__item {
+        .section-accordion__item {
         
           &:first-of-type {
             border-top: 1px solid #265979;
@@ -67,7 +67,7 @@
       }
 
       &:last-of-type {
-        .accordion__item {
+        .section-accordion__item {
           &:first-of-type {
             border-top: 1px solid #EBB967;
           }
@@ -109,7 +109,7 @@
         }
   
         &.active {  
-          .accordion__item-header-icon {
+          .section-accordion__item-header-icon {
             transform: rotate(180deg);
           }
         }
