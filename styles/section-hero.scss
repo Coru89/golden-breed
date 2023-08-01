@@ -1,13 +1,11 @@
-.shop-hero {
+.hero {
   height: 234px;
-  margin-bottom: 3rem;
   position: relative;
   width: 100%;
 
   @media screen and (min-width: 1320px) {
     background-position: unset;
     height: 300px;
-    margin-bottom: 7.5rem;
   }
 
   &__wrapper {
@@ -64,14 +62,24 @@
     text-align: center;
   }
 
-  .placeholder + .shop-hero__wrapper {
-    .shop-hero__heading {
+  .placeholder + .hero__wrapper {
+    .hero__heading {
       color: #1d5b78;
 
       &::after {
         background-color: #1d5b78;
       }
   
+    }
+  }
+}
+
+.template-page-surfboard-hire-byron {
+  .hero {
+    margin-bottom: 3rem;
+
+    @media screen and (min-width: 1320px) {
+      margin-bottom: 7.5rem;
     }
   }
 }

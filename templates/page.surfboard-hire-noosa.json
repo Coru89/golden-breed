@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "shop-hero",
+      "type": "hero",
       "settings": {
         "heading_title": "Noosa Surfboard Hire",
         "image": "shopify:\/\/shop_images\/noosa-hero.png",

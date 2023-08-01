@@ -1,5 +1,4 @@
 .price {
-  align-items: center;
   color: rgb(var(--color-foreground));
   display: flex;
   flex-direction: row;
@@ -74,6 +73,7 @@
 
 .price--discount {
   font-weight: 400;
+  margin-right: 1rem;
 }
 
 .price--center {

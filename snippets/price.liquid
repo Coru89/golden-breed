@@ -85,12 +85,43 @@
     </small>
   </div>
   {%- if show_badges -%}
-    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-      {{ 'products.product.on_sale' | t }}
-    </span>
+    <span class="product__badge">
+      {%- if product.available == false -%}
+        <span
+          style="background:{{ settings.sold_out_badge_color_scheme }};"
+          class="badge badge--bottom-left"
+        >
+          {{- 'products.product.sold_out' | t -}}
+        </span>
+      {%- elsif product.compare_at_price > product.price
+        and product.available
+      -%}
+        <span 
+          style="background:{{ settings.sale_badge_color_scheme }};"
+          class="badge badge--bottom-left">
+          {{- 'products.product.on_sale' | t -}}
+        </span>
+      {%- endif -%}
 
-    <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
-      {{ 'products.product.sold_out' | t }}
+      {% if product.tags contains 'NEW' %}
+        <span
+          style="background:{{ settings.new_badge_color_scheme }};"
+          class="badge badge--bottom-left"
+          >
+            New
+          </span
+        >
+      {%- endif -%}
+
+      {% if product.tags contains 'restocked' %}
+        <span
+          style="background:{{ settings.restocked_badge_color_scheme }};"
+          class="badge badge--bottom-left"
+          >
+            Restocked
+          </span
+        >
+      {%- endif -%}
     </span>
   {%- endif -%}
 </div>

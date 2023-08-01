@@ -151,7 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {% include 'sales-motivator-init' %}</head>
 
-  <body class="gradient">
+  <body class="gradient template-{{ template | replace: '.', '-' | replace: '/', '-' }}">
  
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}

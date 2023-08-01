@@ -110,7 +110,6 @@
             {%- for media in product.media -%}
               {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li
-                  {% comment %} thumbnail-color="{{ media.alt }}" {% endcomment %}
                   id="Slide-{{ section.id }}-{{ media.id }}"
                   class="product__media-item grid__item slider__slide{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}"
                   data-media-id="{{ section.id }}-{{ media.id }}"
@@ -349,7 +348,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-              <div style="order: {{ forloop.index | plus: 1 }};margin-top: 0;">
+              <div style="order: {{ forloop.index }};margin-top: 0;">
                 {% render block %}
               </div>
             {%- when 'text' -%}
@@ -361,21 +360,23 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <h1 style="order: {{ forloop.index }}" class="product__title" {{ block.shopify_attributes }}>
-                {{ product.title | escape }}
-              </h1>
+              <span style="order: {{ forloop.index }}">
+                <h1 class="product__title" {{ block.shopify_attributes }}>
+                  {{ product.title | escape }}
+                </h1>
+                
+  
+              </span>
 
             {%- when 'price' -%}
-              <div style="order: {{ forloop.index | minus: 1 }}" class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              <div style="order: {{ forloop.index }}" class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
                   product: product,
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
-              </div>
-
-              <div style="order: {{ forloop.index }}" {{ block.shopify_attributes }}>
+                
                 {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}

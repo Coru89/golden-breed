@@ -1,7 +1,7 @@
 {
   "sections": {
     "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339": {
-      "type": "shop-hero",
+      "type": "hero",
       "settings": {
         "heading_title": "{{ collection.title }}",
         "image": "{{ collection.metafields.custom.hero_image.value }}",

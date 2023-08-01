@@ -421,7 +421,7 @@
                   <details id="Details-Mobile-{{ forloop.index }}-{{ section.id }}" class="mobile-facets__details js-filter" data-index="mobile-{{ forloop.index }}">
                     <summary class="mobile-facets__summary focus-inset">
                       <div>
-                        <span>Select {{ filter.label | escape }}</span>                        
+                        <span>Sort by</span>                        
                         <span class="mobile-facets__arrow no-js-hidden">
                           <svg fill="none" height="18" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.747 4.701a.422.422 0 0 1 0 .597L1.446 9.599a.422.422 0 0 1-.597 0L.65 9.4a.422.422 0 0 1 0-.596L4.454 5 .65 1.196a.422.422 0 0 1 0-.597L.85.4a.422.422 0 0 1 .596 0l4.301 4.301Z" fill="#265979"/></svg>
                         </span>
@@ -431,7 +431,7 @@
                     <div id="FacetMobile-{{ forloop.index }}-{{ section.id }}" class="mobile-facets__submenu">
                       <button class="mobile-facets__close-button link link--text focus-inset" aria-expanded="true" type="button">
                         <svg width="50" height="20" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.646 9.646a.5.5 0 0 0 0 .708l3.182 3.182a.5.5 0 1 0 .708-.708L2.707 10l2.829-2.828a.5.5 0 1 0-.708-.708L1.646 9.646ZM47 9.5H2v1h45v-1Z" fill="#265979"/></svg>
-                        <span class="mobile-facets__close-text">{{ filter.label | escape }}</span>
+                        <span class="mobile-facets__close-text">Sort by</span>
                       </button>
                       <ul class="mobile-facets__list list-unstyled" role="list">
                         {%- for option in results.sort_options -%}
