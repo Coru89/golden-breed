@@ -540,7 +540,6 @@
       
       	jQuery.each(products, function(productKey, productValue) {
           	jQuery.each(productValue.variants, function(variantKey, variantValue) {
-              	console.log(variantValue);
               	jQuery('input[name="updates[]"]').each(function() {
                   	if (jQuery(this).attr('id').indexOf(variantValue.id) !== -1) {
               			jQuery(this).prop('disabled', true);

@@ -213,7 +213,7 @@
                 <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
               </h2>
               <div class="select">
-                {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+                {%- assign sort_by = 'sort_by' -%}
                 <select name="sort_by" class="facet-filters__sort select__select caption-large" id="SortBy" aria-describedby="a11y-refresh-page-message">
                   {%- for option in results.sort_options -%}
                     <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
@@ -418,21 +418,46 @@
               {%- endfor -%}
 
               {%- if enable_sorting -%}
-                <div class="mobile-facets__details js-filter" data-index="mobile-{{ forloop.index }}">
-                  <div class="mobile-facets__summary">
-                    <div class="mobile-facets__sort">
-                      <label for="SortBy-mobile">{{ 'products.facets.sort_by_label' | t }}</label>
-                      <div class="select">
-                        <select name="sort_by" class="select__select" id="SortBy-mobile" aria-describedby="a11y-refresh-page-message">
-                          {%- for option in results.sort_options -%}
-                            <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
-                          {%- endfor -%}
-                        </select>
-                        <svg class="icon icon-caret icon-sort" fill="none" height="18" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.747 4.701a.422.422 0 0 1 0 .597L1.446 9.599a.422.422 0 0 1-.597 0L.65 9.4a.422.422 0 0 1 0-.596L4.454 5 .65 1.196a.422.422 0 0 1 0-.597L.85.4a.422.422 0 0 1 .596 0l4.301 4.301Z" fill="#265979"></path></svg>
+                  <details id="Details-Mobile-{{ forloop.index }}-{{ section.id }}" class="mobile-facets__details js-filter" data-index="mobile-{{ forloop.index }}">
+                    <summary class="mobile-facets__summary focus-inset">
+                      <div>
+                        <span>Select {{ filter.label | escape }}</span>                        
+                        <span class="mobile-facets__arrow no-js-hidden">
+                          <svg fill="none" height="18" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.747 4.701a.422.422 0 0 1 0 .597L1.446 9.599a.422.422 0 0 1-.597 0L.65 9.4a.422.422 0 0 1 0-.596L4.454 5 .65 1.196a.422.422 0 0 1 0-.597L.85.4a.422.422 0 0 1 .596 0l4.301 4.301Z" fill="#265979"/></svg>
+                        </span>
+                        <noscript>{% render 'icon-caret' %}</noscript>
                       </div>
+                    </summary>
+                    <div id="FacetMobile-{{ forloop.index }}-{{ section.id }}" class="mobile-facets__submenu">
+                      <button class="mobile-facets__close-button link link--text focus-inset" aria-expanded="true" type="button">
+                        <svg width="50" height="20" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.646 9.646a.5.5 0 0 0 0 .708l3.182 3.182a.5.5 0 1 0 .708-.708L2.707 10l2.829-2.828a.5.5 0 1 0-.708-.708L1.646 9.646ZM47 9.5H2v1h45v-1Z" fill="#265979"/></svg>
+                        <span class="mobile-facets__close-text">{{ filter.label | escape }}</span>
+                      </button>
+                      <ul class="mobile-facets__list list-unstyled" role="list">
+                        {%- for option in results.sort_options -%}
+                          <li class="mobile-facets__item list-menu__item">
+                            <label class="mobile-facets__label{% if option.value.count == 0 and option.value.active == false %} mobile-facets__label--disabled{% endif %}">
+                            <input class="mobile-facets__radio" type="radio" id="Filter-{{ sort | escape }}-mobile-{{ forloop.index }}" name="{{ sort_by }}" value="{{ option.value }}"
+                              {% if option.value.active %}checked{% endif %}
+                              {% if option.value.count == 0 and option.value.active == false %}disabled{% endif %}
+                            >
+                            <span class="mobile-facets__highlight"></span>
+                              {{ option.name | escape }}
+                            </label>
+                          </li>
+                      {%- endfor -%}
+                    </ul>
+
+                    <div class="no-js-hidden mobile-facets__footer">
+                      <facet-remove class="mobile-facets__clear-wrapper">
+                        <a href="{{ results_url }}" class="mobile-facets__clear underlined-link">{{ 'products.facets.clear' | t }}</a>
+                      </facet-remove>
+                      <button type="button" class="no-js-hidden button button--primary" onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click()">{{ 'products.facets.apply' | t }}</button>
+                      <noscript><button class="button button--primary">{{ 'products.facets.apply' | t }}</button></noscript>
                     </div>
                   </div>
-                </div>
+                </details>
+
               {%- endif -%}
 
               <div class="mobile-facets__footer">
