@@ -1,11 +1,5 @@
 {
   "sections": {
-    "1677725859488c5869": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -22,6 +16,12 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "a2fd6274-9fbf-492d-bb0f-5655e2feb9df": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
           }
         },
         "fd6c8f86-946b-4217-9f08-8f2fccedf68e": {
@@ -77,6 +77,7 @@
         "title",
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755",
         "price",
+        "a2fd6274-9fbf-492d-bb0f-5655e2feb9df",
         "fd6c8f86-946b-4217-9f08-8f2fccedf68e",
         "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34",
         "47e42ffd-787a-4f6f-8544-b47b352c018e",
@@ -144,7 +145,6 @@
     }
   },
   "order": [
-    "1677725859488c5869",
     "main",
     "891ee324-8896-4021-9598-50458db48649",
     "product-recommendations",
