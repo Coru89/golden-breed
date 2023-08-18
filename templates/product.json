@@ -24,6 +24,11 @@
             "picker_type": "button"
           }
         },
+        "63f894a2-88f4-4e72-9ef9-5a58cf4034b9": {
+          "type": "shopify:\/\/apps\/smartsize\/blocks\/app-block\/465a43e0-6a1a-4d30-b82e-fe6118568705",
+          "settings": {
+          }
+        },
         "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34": {
           "type": "freebie_message",
           "settings": {
@@ -73,6 +78,7 @@
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755",
         "price",
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df",
+        "63f894a2-88f4-4e72-9ef9-5a58cf4034b9",
         "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34",
         "47e42ffd-787a-4f6f-8544-b47b352c018e",
         "buy_buttons",
