@@ -127,6 +127,26 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5281749993944428517": {
+        "type": "shopify:\/\/apps\/variant-image-wizard-swatch\/blocks\/app-embed\/66205c03-f474-4e2c-b275-0a2806eeac16",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4293466245358296089": {
+        "type": "shopify:\/\/apps\/smartsize\/blocks\/app-embed\/465a43e0-6a1a-4d30-b82e-fe6118568705",
+        "disabled": false,
+        "settings": {
+          "button_horizontal_aligment": "left",
+          "button_vertical_aligment": "top"
+        }
       }
     }
   },
