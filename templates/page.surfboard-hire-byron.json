@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "hero",
+      "type": "shop-hero",
       "settings": {
         "heading_title": "Surfboard Hire Byron Bay",
         "image": "shopify:\/\/shop_images\/byron-hero.png",
@@ -14,33 +14,26 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Medium length section heading goes here"
+            "heading": "Byron Surf Hire"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. <\/p>"
-          }
-        },
-        "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>"
+            "text": "<p>Visit us in-store for Golden Breed’s surfboard hire. Byron Bay’s loaded with options of where to surf, no matter your experience and we’ve got a range of boards that suit. Choose from shortboards, foamies SUP’s, and bodyboards, so you can go and get salty in style. <\/p><p>Or if you have no idea where to begin, our staff have all been surfing Byron Bay for years, they know all the local surf breaks and which boards are going to be right fto deck you out with.<\/p><p>Come on down, we’ll size you up, give you advice, a few safety tips and set you in the right direction. Find us at 10 Lawson St in the heart of Byron.<\/p>"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "https:\/\/google.com.au"
+            "button_label": "see rates",
+            "button_link": "#rates"
           }
         }
       },
       "block_order": [
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0",
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1",
-        "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a",
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2"
       ],
       "settings": {
@@ -61,10 +54,10 @@
         "address": "10 Lawson Street, Byron Bay NSW 2481",
         "hours": "",
         "phone": "02 6680 7944",
-        "phoneLink": "",
+        "phoneLink": "02 6680 7944",
         "whatsapp": "02 6680 7944",
-        "whatsappLink": "",
-        "email": "",
+        "whatsappLink": "02 6680 7944",
+        "email": "GBByronbay@goldenbreed.com.au",
         "driving_directions": "",
         "driving_directions_heading": "",
         "parking_information": "",
@@ -82,8 +75,8 @@
         "d57d5d86-0949-4ab5-ae50-7d830b45740c": {
           "type": "surfboard",
           "settings": {
-            "heading": "Standup Paddle Board",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "SUPS ( STAND UP PADDLE BOARDS )",
+            "board_description": "<ul>\n<li>The stand up paddle board is a perfect way to cruise around  especially on flatter days when the waves are not happening.<\/li>\n<li>Most of the SUPS we have are for smaller conditions and cruising rather than surfing in bigger waves .<\/li>\n<li>There are many SUP riders out there that have definitely mastered the art ,and can surf on virtually anything extremely well.<\/li>\n<li>They can paddle into waves a lot quicker than regular surfboard riders.<\/li>\n<li>We generally recommend using the SUP option only in smaller conditions ,unless you are very experienced.<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/sup.svg",
             "card_background_color": "#7da9a3"
           }
@@ -91,8 +84,8 @@
         "224020ac-c432-49b4-ab6a-ad344118b2f0": {
           "type": "surfboard",
           "settings": {
-            "heading": "Longboard",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "LONGBOARDS",
+            "board_description": "<ul>\n<li>Longboards are the ‘go to” Surfboards for around the points breaks.<\/li>\n<li>Suitable for all standards of surfing.<\/li>\n<li>Best in waves small to Medium.<\/li>\n<li>Plenty of stability and buoyancy and they are wave catching machines!<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/Longboard.svg",
             "card_background_color": "#ebb967"
           }
@@ -100,8 +93,8 @@
         "528ea41e-c7e6-4211-9a77-4c0fdb36a139": {
           "type": "surfboard",
           "settings": {
-            "heading": "Shortboard",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "SHORTBOARDS",
+            "board_description": "<ul>\n<li>Shortboards are usually the domain of the more experienced surfer.<\/li>\n<li>They are less buoyant and highly manoeuvrable, so you need to have had a enough time on the water to get the best out of them.<\/li>\n<li>They really get going when the wave height is medium to big.<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/short.svg",
             "card_background_color": "#e78367"
           }
@@ -109,8 +102,8 @@
         "87cac967-f5bc-4103-8ec1-7e1d32605aff": {
           "type": "surfboard",
           "settings": {
-            "heading": "Foamy",
-            "board_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+            "heading": "BODYBOARDS",
+            "board_description": "<ul>\n<li>We have a great range of Bodyboards suitable for kids and adults alike.\n<\/li>\n<li>This is where, for most ,the first thrill of riding a wave kicked in.<\/li>\n<li>Once you get hooked on that thrill its hard to ignore it!<\/li>\n<li>We recommend staying between the flags and only venturing in in smaller conditions.<\/li>\n<li>Let’s have fun and not sign up for a survival mission<\/li>\n<li>Suitable for just about everyone who is a reasonably competent swimmer.<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/foamy.svg",
             "card_background_color": "#72a7c0"
           }
@@ -133,8 +126,8 @@
         "23462703-3219-4adb-9854-f6c73c968c40"
       ],
       "settings": {
-        "heading": "Which Surfboard Should You Hire?",
-        "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
+        "heading": "Which Surfboard Should I Hire?",
+        "summary": "Wondering which board is right for you? Check out our quick guide below, or ask in store."
       }
     },
     "48048996-d24c-4463-b513-cb5451d66010": {
@@ -143,26 +136,47 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Medium length section heading goes here"
+            "heading": "Byron Bay Surfing"
           }
         },
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis<\/p>"
+            "text": "<p>Byron Bay surfing has an epic reputation for peely rights, glassy mornings and good vibes. We’ve got loads of surf spots to choose from, so here’s a quick run-down.<\/p>"
+          }
+        },
+        "5c9b6e78-ea19-45fb-8a14-b29f929bd96d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beginner Surf Spots in Byron"
           }
         },
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
           "type": "text",
           "settings": {
-            "text": "<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>"
+            "text": "<p>The Pass, located at the eastern end of Main Beach. It can get crazy-busy, so just be careful of other people in the water and research how to be safe in the water. The waves here are long and fat, making it an ideal spot for beginners. <\/p><p>Wategos Beach is another option, located just a short drive from our store. The waves here are forgiving, making it a great place to practice your pop-up.<\/p>"
+          }
+        },
+        "9e10a562-5309-4af1-a2db-e7f52eac436e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Advanced Surf Spots in Byron"
+          }
+        },
+        "296916b2-c0d2-4ca0-b309-261ce1aa5343": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you're an experienced surfer looking for a challenge, Byron Bay won't disappoint. The area is home to some of the best surf breaks in the world, including Lennox Head and The Wreck. <\/p><p>Lennox is located about 15 minutes south of Byron Bay and is known for its long, powerful waves, head south another 5 minutes and you’ll find Boulders surrounded by mother nature in all her glory.<\/p><p>The Wreck, located at the northern end of Main Beach, is another popular surf spot with experienced surfers. The waves here are hard and fast, making it a challenging but rewarding break to get salty.<\/p><p>Byron Bay Surfing is world class, just be careful to find the right breaks, be safe, and wear a damn leggie.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0",
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1",
-        "53dfb156-69d4-478c-a327-c2f811bafa1d"
+        "5c9b6e78-ea19-45fb-8a14-b29f929bd96d",
+        "53dfb156-69d4-478c-a327-c2f811bafa1d",
+        "9e10a562-5309-4af1-a2db-e7f52eac436e",
+        "296916b2-c0d2-4ca0-b309-261ce1aa5343"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/img-overlayed.png",
@@ -175,10 +189,10 @@
     "be878ebf-ea2f-4b42-bcd7-65a23267b69c": {
       "type": "image-grid",
       "settings": {
-        "heading": "Medium length section heading goes here",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. \nSed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et.",
+        "heading": "SUP’s Bodyboards & Surfboard Hire",
+        "summary": "Our Byron Bay Surf hire includes 4 person stand up paddle boards, (SUP’s).  Hire body boards, paddle boards and surfboard hire from our Byron store. If you’re not sure which board is for you, we’ll help.\n\nWe hire foamies (beginners boards), for the kids we’ve got body boards, and for advanced surfers, we’ve got shortboards and more. We’ll kit you out with rashie’s, boardies if needed, and wax your weapon, rail to rail so you’re ready to go and get salty.",
         "main_image": "shopify:\/\/shop_images\/byron-bay-shop.png",
-        "image_grid": "shopify:\/\/shop_images\/img-gallery.png",
+        "image_grid": "shopify:\/\/shop_images\/byron-shop.png",
         "layout": "text_first"
       }
     },
@@ -203,7 +217,7 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "2 Hours",
-            "column_2_data": "25$",
+            "column_2_data": "$25",
             "header": false
           }
         },
@@ -211,31 +225,79 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "4 Hours",
-            "column_2_data": "40$",
+            "column_2_data": "$40",
             "header": false
           }
         },
         "755ec852-4103-4c73-98e7-a704ffc97c81": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "4 Hours",
-            "column_2_data": "1$",
+            "column_1_data": "Overnight (4pm until next day 9.30am)",
+            "column_2_data": "$45",
             "header": false
           }
         },
         "5870e094-095b-4db4-8891-e4a7b820f44b": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "4 Hours",
-            "column_2_data": "22$",
+            "column_1_data": "24 Hours",
+            "column_2_data": "$60",
             "header": false
           }
         },
         "966ab040-5bba-4ac2-9b99-14f819aca9bc": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "3 Hours",
-            "column_2_data": "70$",
+            "column_1_data": "2 Days",
+            "column_2_data": "$95",
+            "header": false
+          }
+        },
+        "ebfc088e-1ca1-4194-b821-228b5e0a4588": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "3 Days",
+            "column_2_data": "$120",
+            "header": true
+          }
+        },
+        "c19d9b9f-48c9-4571-befd-50164b8dd408": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Hours",
+            "column_2_data": "$130",
+            "header": false
+          }
+        },
+        "1d4c7e21-a606-418f-a20b-8288900183a4": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "5 Days",
+            "column_2_data": "$150",
+            "header": false
+          }
+        },
+        "b393f96d-25ee-4f98-86cc-347ccb1782d6": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "6 Days",
+            "column_2_data": "$150",
+            "header": false
+          }
+        },
+        "49e05641-557d-47cc-86fa-740e31a70c51": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "7 Days \/ 1 Week",
+            "column_2_data": "$160",
+            "header": false
+          }
+        },
+        "90aca3c3-f359-4065-b4c3-a54c9ed20fc3": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Weeks",
+            "column_2_data": "$210",
             "header": false
           }
         },
@@ -256,8 +318,16 @@
         "311fe5d9-5215-4890-ba29-80a04aadcfdc": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "rty",
-            "column_2_data": "er",
+            "column_1_data": "24 Hours",
+            "column_2_data": "$15",
+            "header": false
+          }
+        },
+        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "After 3 Days (per 24 hours)",
+            "column_2_data": "$5",
             "header": false
           }
         },
@@ -267,7 +337,7 @@
             "tabaccordion_section_name": "Stand up paddle boards"
           }
         },
-        "3cf2e180-b169-48f5-b80d-fee03e2182f8": {
+        "33ed2176-06c4-482a-998a-28a388db1eb4": {
           "type": "table_row",
           "settings": {
             "column_1_data": "Terms",
@@ -275,11 +345,11 @@
             "header": true
           }
         },
-        "33ed2176-06c4-482a-998a-28a388db1eb4": {
+        "3cf2e180-b169-48f5-b80d-fee03e2182f8": {
           "type": "table_row",
           "settings": {
             "column_1_data": "2 Hours",
-            "column_2_data": "25$",
+            "column_2_data": "$35",
             "header": false
           }
         },
@@ -287,7 +357,63 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "4 Hours",
-            "column_2_data": "40$",
+            "column_2_data": "$50",
+            "header": false
+          }
+        },
+        "399c18dc-67d3-4e6d-a0ac-69112d29d8d5": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "24 Hours",
+            "column_2_data": "$80",
+            "header": false
+          }
+        },
+        "d0ec9da7-aeb8-4595-a18f-47e493f354bb": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Days",
+            "column_2_data": "$120",
+            "header": false
+          }
+        },
+        "0bccce00-d02f-406b-94d8-95ef31c70f34": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "3 Days",
+            "column_2_data": "$160",
+            "header": false
+          }
+        },
+        "0fe5a760-13bc-4bda-bf8f-92eff4b95b02": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Days",
+            "column_2_data": "$180",
+            "header": false
+          }
+        },
+        "504329c8-8a66-46ae-82e8-d1823fcefc96": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "5 Days",
+            "column_2_data": "$200",
+            "header": false
+          }
+        },
+        "66d65f2a-fdce-4174-ae00-988915e73cbe": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "7 Days \/ 1 Week",
+            "column_2_data": "$240",
+            "header": false
+          }
+        },
+        "f40ec46c-7fd9-481b-8ee3-4ea6c3700428": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "2 Weeks",
+            "column_2_data": "$360",
             "header": false
           }
         },
@@ -297,7 +423,7 @@
             "tabaccordion_section_name": "Bodyboard rates"
           }
         },
-        "ebfc088e-1ca1-4194-b821-228b5e0a4588": {
+        "d1188ef1-a84e-4223-aed0-7b9a2b9ee680": {
           "type": "table_row",
           "settings": {
             "column_1_data": "Terms",
@@ -305,11 +431,27 @@
             "header": true
           }
         },
-        "c19d9b9f-48c9-4571-befd-50164b8dd408": {
+        "79f54398-0b40-42de-9679-46ef7ab5e299": {
           "type": "table_row",
           "settings": {
             "column_1_data": "2 Hours",
-            "column_2_data": "25$",
+            "column_2_data": "$50",
+            "header": false
+          }
+        },
+        "5254f180-0f1b-4857-b411-a355205ff4cb": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "4 Hours",
+            "column_2_data": "$85",
+            "header": false
+          }
+        },
+        "beda9343-1ad4-4266-b2c6-a857cc41b213": {
+          "type": "table_row",
+          "settings": {
+            "column_1_data": "24 Hours",
+            "column_2_data": "$120",
             "header": false
           }
         }
@@ -322,19 +464,35 @@
         "755ec852-4103-4c73-98e7-a704ffc97c81",
         "5870e094-095b-4db4-8891-e4a7b820f44b",
         "966ab040-5bba-4ac2-9b99-14f819aca9bc",
+        "ebfc088e-1ca1-4194-b821-228b5e0a4588",
+        "c19d9b9f-48c9-4571-befd-50164b8dd408",
+        "1d4c7e21-a606-418f-a20b-8288900183a4",
+        "b393f96d-25ee-4f98-86cc-347ccb1782d6",
+        "49e05641-557d-47cc-86fa-740e31a70c51",
+        "90aca3c3-f359-4065-b4c3-a54c9ed20fc3",
         "144cdffa-870c-4be2-b4da-cd5ad44a7582",
         "a7ac5f76-1a61-4cb7-b587-3a072da4d7da",
         "311fe5d9-5215-4890-ba29-80a04aadcfdc",
+        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7",
         "190d047b-e037-4cdc-9520-10958d4fbed7",
-        "3cf2e180-b169-48f5-b80d-fee03e2182f8",
         "33ed2176-06c4-482a-998a-28a388db1eb4",
+        "3cf2e180-b169-48f5-b80d-fee03e2182f8",
         "7cc19b2f-a3a7-4708-816d-809cf249ace2",
+        "399c18dc-67d3-4e6d-a0ac-69112d29d8d5",
+        "d0ec9da7-aeb8-4595-a18f-47e493f354bb",
+        "0bccce00-d02f-406b-94d8-95ef31c70f34",
+        "0fe5a760-13bc-4bda-bf8f-92eff4b95b02",
+        "504329c8-8a66-46ae-82e8-d1823fcefc96",
+        "66d65f2a-fdce-4174-ae00-988915e73cbe",
+        "f40ec46c-7fd9-481b-8ee3-4ea6c3700428",
         "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9",
-        "ebfc088e-1ca1-4194-b821-228b5e0a4588",
-        "c19d9b9f-48c9-4571-befd-50164b8dd408"
+        "d1188ef1-a84e-4223-aed0-7b9a2b9ee680",
+        "79f54398-0b40-42de-9679-46ef7ab5e299",
+        "5254f180-0f1b-4857-b411-a355205ff4cb",
+        "beda9343-1ad4-4266-b2c6-a857cc41b213"
       ],
       "settings": {
-        "heading": "Heading",
+        "heading": "Surf, SUP & Body Board Rates",
         "anchorID": "rates"
       }
     },
@@ -344,24 +502,24 @@
         "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d": {
           "type": "testimonial",
           "settings": {
-            "name": "",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "name": "Barry P",
+            "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool.",
             "background_image": "shopify:\/\/shop_images\/byron-hero.png"
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
           "type": "testimonial",
           "settings": {
-            "name": "Name Here",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "name": "Becky Keen",
+            "quote": "Gorgeous clothes!",
             "background_image": "shopify:\/\/shop_images\/noosa-hero.png"
           }
         },
         "5d39b0f6-e3d3-43b0-8635-5323f195bf58": {
           "type": "testimonial",
           "settings": {
-            "name": "name",
-            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "name": "Jason Howarth",
+            "quote": "A little not so hidden gem in Byron. I recently realised a lot of my clothes are from here!",
             "background_image": "shopify:\/\/shop_images\/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
           }
         }
@@ -372,7 +530,7 @@
         "5d39b0f6-e3d3-43b0-8635-5323f195bf58"
       ],
       "settings": {
-        "shopName": "Golden Breed - Byron Bay",
+        "shopName": "Golden Breed Byron Bay",
         "addressLocality": "Byron Bay",
         "streetAddress": "10 Lawson Street, Byron Bay NSW 2481",
         "tel": "02 6680 7944"
@@ -384,36 +542,120 @@
         "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Hello World",
-            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+            "accordion_label": "What are the best surf beaches in Byron Bay?",
+            "accordion_content": "There are several great surf spots in this world-famous surf town. The Pass is the most popular and also the busiest. Wategos beach is great as well .You should also check out Belongil beach and Clarks.\n\nThen you can venture around to Tallows and Broken head.\n\nIf you have wheels… Lennox Heads and Brunswick Heads are also great options."
           }
         },
         "cffc097b-c126-4ff2-845d-7dd4374810fc": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Hello World",
-            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+            "accordion_label": "What is The Pass in Byron Bay?",
+            "accordion_content": "The Pass is one of the busiest and most famous surf spots in Byron Bay. It is an iconic surf break with consistent sets, big swells, and long, peely right-handers. It is great for all levels of surfers and is particularly popular with long-boarders."
           }
         },
         "83ea7dec-fc49-48fd-8cd0-4f64ac355056": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Accordion Item",
-            "accordion_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\nnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\noptio, eaque rerum! Provident similique accusantium nemo autem."
+            "accordion_label": "Where is the best place to surf in Byron if you're a beginner?",
+            "accordion_content": "There are several great spots to surf in Byron Bay for beginners. Like most places, beginners should only venture out when the ocean is in calm mode! Every spot can put you in harms way if the swell is too big.\n\nYou always need to ask our staff or google local surf reports and check the key factors around your surf session.\n\nSwell size \/ wind strength and direction \/tide movements and crowds."
           }
         },
         "e7acff88-229c-4dc5-827d-e0b73e9654c3": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Item Label",
-            "accordion_content": "Veritatis\nobcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam\nnihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,\ntenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,\nquia. Quo neque error repudiandae fuga?"
+            "accordion_label": "How much does it cost to rent a surfboard?",
+            "accordion_content": "Hiring a board starts from $15 for 2 hours, check out our pricing chart, and note the different tabs for SUP's, bodyboards and fomies. If you'd like to rent a board for longer than 2 hours, we have plenty of options."
           }
         },
         "f416df8a-b269-4b69-ac34-b95773dc6d9e": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Another Item Title",
-            "accordion_content": "Veritatis\nobcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam\nnihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,\ntenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,\nquia. Quo neque error repudiandae fuga?"
+            "accordion_label": "Do I need to book my surfboard rental in advance?",
+            "accordion_content": "Not usually, but to avoid disappointment during peak season, it's never a bad idea to pay a deposit and secure one.\nYou can book online, in-store, or over the phone."
+          }
+        },
+        "f24b833f-2854-4fae-a731-2cb95f534330": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Where are the best places to rent a surfboard in Byron Bay?",
+            "accordion_content": "Golden Breed surf shop, of course. Where else?"
+          }
+        },
+        "0ebb744d-bf17-40da-a45d-03eb9585e363": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Do I need to be an experienced surfer to hire a surfboard?",
+            "accordion_content": "It's recommended that you have It's recommended that you have some experience surfing before hiring a fibreglass surfboard, but we also offer beginner boards called Foamies, which are softer and safer for those still learning to surf"
+          }
+        },
+        "6307e00e-3435-4bcf-9498-c8fb7ba1a801": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How do I select the appropriate surfboard size for me?",
+            "accordion_content": "Your weight, height, and skill level determine the appropriate surfboard size. Just ask our staff, and they'll size you up appropriately."
+          }
+        },
+        "ccb0f1ef-370a-4cb5-9905-c5ee6cfa5a2a": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Is it necessary to have a wetsuit when hiring a surfboard?",
+            "accordion_content": "You won't require a wetsuit unless it's the winter months but it's smart to wear a rashie for protection against chafing and the sun. We sell and hire these options at an additional charge, although borrowing a rashie is free."
+          }
+        },
+        "785012a6-f157-4af8-9a91-073cf7cc6aa7": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What is the cost of renting a surfboard?",
+            "accordion_content": "You can find pricing for surfboards, body boards, and stand up paddle boards on this page in our pricing section. Note the tabs, which will switch you between board types."
+          }
+        },
+        "9ce33fd5-5ca5-407a-b2bd-1101771e4c35": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Can I rent a surfboard for multiple days?",
+            "accordion_content": "Absolutely! You can ask our staff about your options and pricing."
+          }
+        },
+        "2349955e-2db5-4f70-87c5-af749554e04d": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Do you provide surf wax when hiring a surfboard?",
+            "accordion_content": "Sure do, we wax your board, rail to rail, but it's a good idea to bring your own or purchase some, especially if you're renting for longer than 2 hours."
+          }
+        },
+        "8f4a37f8-0b9a-49ec-a072-1a86de253938": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What is the best way to transport the surfboard to the beach?",
+            "accordion_content": "In Byron, you're going to want to load the boards in a van, or rack them up on the roof of your car. There are several breaks that are within walking distance, but that's valuable wave time you're missing out on."
+          }
+        },
+        "3fe9cd5f-9306-4fee-ab1b-2a2bf769b522": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What should I do if the surfboard gets damaged while I am using it?",
+            "accordion_content": "Keep it out of the water and let us know. These things happen. We're pretty relaxed assuming you haven't been reckless with it. In most cases, there's just a small charge to get a minor ding repair."
+          }
+        },
+        "8bcafdfd-fb6b-4526-a671-9a936893b737": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Can I rent a surfboard for my child?",
+            "accordion_content": "We have body boards and foamies available for kids. Please check availability with our Byron staff."
+          }
+        },
+        "ff6640cf-37c2-44ff-b512-a629946c599a": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How do I know if the surfboard is in good condition?",
+            "accordion_content": "It's always best to inspect the surfboard for any cracks or damage before renting it. Take photos while in the shop of anything you're unsure of."
+          }
+        },
+        "2076d9ec-1603-40bf-8c7d-64dffcf2734f": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What happens if I return the surfboard late?",
+            "accordion_content": "We may charge a fee for late returns, depending on how late the board is returned. While we're typically relaxed, you should expect a small additional charge."
           }
         }
       },
@@ -422,7 +664,19 @@
         "cffc097b-c126-4ff2-845d-7dd4374810fc",
         "83ea7dec-fc49-48fd-8cd0-4f64ac355056",
         "e7acff88-229c-4dc5-827d-e0b73e9654c3",
-        "f416df8a-b269-4b69-ac34-b95773dc6d9e"
+        "f416df8a-b269-4b69-ac34-b95773dc6d9e",
+        "f24b833f-2854-4fae-a731-2cb95f534330",
+        "0ebb744d-bf17-40da-a45d-03eb9585e363",
+        "6307e00e-3435-4bcf-9498-c8fb7ba1a801",
+        "ccb0f1ef-370a-4cb5-9905-c5ee6cfa5a2a",
+        "785012a6-f157-4af8-9a91-073cf7cc6aa7",
+        "9ce33fd5-5ca5-407a-b2bd-1101771e4c35",
+        "2349955e-2db5-4f70-87c5-af749554e04d",
+        "8f4a37f8-0b9a-49ec-a072-1a86de253938",
+        "3fe9cd5f-9306-4fee-ab1b-2a2bf769b522",
+        "8bcafdfd-fb6b-4526-a671-9a936893b737",
+        "ff6640cf-37c2-44ff-b512-a629946c599a",
+        "2076d9ec-1603-40bf-8c7d-64dffcf2734f"
       ],
       "settings": {
         "heading": "FAQs",
@@ -435,21 +689,21 @@
         "heading": "Contact Us To Find Out More",
         "description": "",
         "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"><\/iframe>",
-        "shop_name": "Golden Breed - Byron Bay",
+        "shop_name": "Golden Breed Byron Bay",
         "address": "10 Lawson Street, Byron Bay NSW 2481",
         "hours": "",
         "phone": "02 6680 7944",
-        "phoneLink": "",
+        "phoneLink": "02 6680 7944",
         "whatsapp": "02 6680 7944",
-        "whatsappLink": "",
+        "whatsappLink": "02 6680 7944",
         "email": "GBByronbay@goldenbreed.com.au",
-        "driving_directions": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Driving.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>\n\n<img src=\"https:\/\/picsum.photos\/350\">",
+        "driving_directions": "<p>Here's how to find Golden Breed's Byron Bay surf shop. The shop's at 10 Lawson St, right on the corner of Lawson St and Fletcher St roundabout, (the Golden Breed round-about). you'll find us right across from Subway. If you're driving in from town, head down Jonson St towards the beach and turn left onto Lawson. Keep driving until you hit the roundabout, and you'll see Golden Breed's retro  vibes, right in your line of sight. If you're traveling from the other direction, just follow Fletcher St towards the beach, turn right onto Lawson, and you'll see the shop on your left. Easy as!\n<\/p>",
         "driving_directions_heading": "How to find us!",
-        "parking_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Parking<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
+        "parking_information": "<p> If you're only planning a quick visit, Lawson Street has 1-hour parking for $5 an hour, or if you need a a little longer, Fletcher St's got a 2-hour zone at the same rate. For longer stays, there's the Byron Street Carpark (just off Fletcher St), and the Middleton St Carpark, both offering 4-hour parking, once again at @ $5 an hour.<br><br>\n\nYou can also park at Lawson St Carpark's North and South Car Parks, with 4-hour zones at the same rate. If you're a bit tight on cash, you can park for free at Somerset St, which is only a short 5-minute walk into town. Just remember to move your wheels to another zone once time's up, they'll sting you in a heart beat. <br><br>\n\nPaid parking's available from 9 am to 6 pm, seven days a week. Or for $25 you can grab all-day parking. Pay at the meter or through the Pay Stay App.<\/p>",
         "parking_information_heading": "Where to park?",
-        "wheel_chair_accessibility_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Weelchair.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
+        "wheel_chair_accessibility_information": "<p>Our Byron Bay surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out out surf fashion and we're happy to accommodate for all abilities.<\/p>",
         "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
-        "pet_friendliness": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Pet.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
+        "pet_friendliness": "<p>Good news for all the dog lovers out there - Our shop is dog-friendly! That's right, you can bring your pooch along as long as they're well-behaved and don't hassle the other customers. We all want to have a chilled shopping experience without any dramas. If your fur buddy is chill and just wants to hang out while you browse our range then bring 'em in, no worries!<\/p>",
         "pet_friendliness_heading": "We are pet friendly!",
         "remove_bottom_border": true
       }

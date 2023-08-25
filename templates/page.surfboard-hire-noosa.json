@@ -1,11 +1,11 @@
 {
   "sections": {
     "main": {
-      "type": "hero",
+      "type": "shop-hero",
       "settings": {
         "heading_title": "Noosa Surfboard Hire",
         "image": "shopify:\/\/shop_images\/noosa-hero.png",
-        "banner_alert_message": "<strong>Free delivery<\/strong> on orders over $75"
+        "banner_alert_message": ""
       }
     },
     "f4d52c76-711e-4a98-80b4-445b3517398f": {
@@ -14,8 +14,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Rent a surfboard in Noosa",
-            "heading_type": "h2"
+            "heading": "Rent a surfboard in Noosa"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
@@ -27,8 +26,7 @@
         "f3c3ee59-9726-490b-93f5-05dc4efd17b8": {
           "type": "heading",
           "settings": {
-            "heading": "Bodyboard Hire & Sups",
-            "heading_type": "h2"
+            "heading": "Bodyboard Hire & Sups"
           }
         },
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a": {
@@ -152,8 +150,7 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "New To Surfing?",
-            "heading_type": "h2"
+            "heading": "New To Surfing?"
           }
         },
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
@@ -165,8 +162,7 @@
         "455bcf1a-e01e-470b-9b61-b90d109fb64b": {
           "type": "heading",
           "settings": {
-            "heading": "Noosa’s Iconic Surf Hire",
-            "heading_type": "h2"
+            "heading": "Noosa’s Iconic Surf Hire"
           }
         },
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
@@ -183,6 +179,7 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/surfboard-guy-in-nossa.jpg",
         "image_mobile": "shopify:\/\/shop_images\/noosa-storefront.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -194,6 +191,8 @@
       "settings": {
         "heading": "Put A Leash On It",
         "summary": "If you're hiring a board, or even buying one, we'll kit you out with a leggie, otherwise know as a leash, or leg rope that's going to keep you attached, and safe in the water. \n<br><br>\nOur Noosa surf store stocks stacks of gear, surf accessories and apparel. You'll be able to pick up wax, wax combs, sunscreen, bucket hats, rashie's, wet suits and everything you'll need before getting wet.  \n<br><br>\nIf you need advice on what size, what , what board, what leggie, or any technical question at all, our staff are knowledgeable and happy to assist.",
+        "main_image": "shopify:\/\/shop_images\/shop-girl.jpg",
+        "image_grid": "shopify:\/\/shop_images\/noosa-shop.png",
         "layout": "text_first"
       }
     },
@@ -226,7 +225,7 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "4 Hours",
-            "column_2_data": "40$",
+            "column_2_data": "$40",
             "header": false
           }
         },
@@ -279,14 +278,6 @@
           }
         },
         "68729628-e875-40dc-9e31-76883dea2612": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "6 Days",
-            "column_2_data": "$150",
-            "header": false
-          }
-        },
-        "1b17f2f0-adf0-42bf-8365-5a28ae06a202": {
           "type": "table_row",
           "settings": {
             "column_1_data": "6 Days",
@@ -485,7 +476,6 @@
         "a6ac96a1-c256-4430-81d7-92eef9226995",
         "2e53a0db-5cbe-4bc8-9ff6-487b82f1f485",
         "68729628-e875-40dc-9e31-76883dea2612",
-        "1b17f2f0-adf0-42bf-8365-5a28ae06a202",
         "9e341edb-a5f6-452a-8dd1-28ffc3cc0bcc",
         "f792d1f4-4a50-4ba3-9dfb-1d80e8d7a5ff",
         "144cdffa-870c-4be2-b4da-cd5ad44a7582",
@@ -676,13 +666,13 @@
         "whatsapp": "02 6680 7944",
         "whatsappLink": "",
         "email": "",
-        "driving_directions": "<p>Find us at the Golden Breed round-about at 13, Noosa Drive, Noosa Heads.<\/p>\n\n<p>As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed round about. You can't miss us, we're smack bam in your direct line of site in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.<\/p>\n\n<img src=\"https:\/\/picsum.photos\/350\">",
+        "driving_directions": "<p>Find us at the Golden Breed round-about at 13, Noosa Drive, Noosa Heads.<\/p>\n\n<p>As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed round about. You can't miss us, we're smack bam in your direct line of site in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.<\/p>",
         "driving_directions_heading": "How to find us!",
-        "parking_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Parking<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
+        "parking_information": "<p>Find us at the Golden Breed roundabout at 13 Noosa Drive, Noosa Heads.As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed roundabout.<\/p>\n\n<p>You can't miss us. We're smack-bam in your direct line of sight in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.<\/p>",
         "parking_information_heading": "Where to park?",
-        "wheel_chair_accessibility_information": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Weelchair.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
+        "wheel_chair_accessibility_information": "<p>Our new Noosa surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out out surf fashion and we're happy to accommodate for all abilities.<\/p>",
         "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
-        "pet_friendliness": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra nibh. Curabitur vitae nunc sed velit dignissim. Tempus iaculis urna id volutpat. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Pet.<\/p>\n\n<p>Sed sed risus pretium quam vulputate dignissim suspendisse. Pellentesque habitant morbi tristique senectus et netus et. Vitae ultricies leo integer malesuada nunc vel. Tellus in hac habitasse platea. Diam vulputate ut pharetra sit amet aliquam id diam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat commodo sed egestas egestas. Aliquam ut porttitor leo a diam sollicitudin tempor id eu.<\/p>",
+        "pet_friendliness": "<p>Want to bring your pooch? Fur buddies are 100% welcome, providing their well behaved, chill and toilet trained. Just please be aware that some other customers may not love doggo's as much as you do, so please consider those in the shop.<\/p>",
         "pet_friendliness_heading": "We are pet friendly!",
         "remove_bottom_border": true
       }
