@@ -12,10 +12,9 @@
       "blocks": {
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "WHAT'S ON | NOOSA FESTIVAL OF SURFING",
-            "button_link_1": "",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/father-s-day-gift-guide",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -27,7 +26,7 @@
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HEADER_DESKTOP.png",
+        "image": "shopify:\/\/shop_images\/August_24_-_Website_Header_Desktop.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -43,10 +42,9 @@
       "blocks": {
         "f9242c00-4426-454d-8fef-de701979d48c": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "WHAT'S ON | NOOSA FESTIVAL OF SURFING",
-            "button_link_1": "",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/mens-tees",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -58,7 +56,7 @@
         "f9242c00-4426-454d-8fef-de701979d48c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HEADERMOBILE1.png",
+        "image": "shopify:\/\/shop_images\/August_24_-_Website_Header_Mobile.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -71,13 +69,12 @@
     },
     "16389277978b203bd3": {
       "type": "image-banner-2",
-      "disabled": true,
       "blocks": {
         "16389277979e6dee71-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Men's",
-            "button_link_1": "shopify:\/\/pages\/golden-breed-mens",
+            "button_link_1": "shopify:\/\/collections\/father-s-day-gift-guide",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -88,10 +85,13 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
         "button-text-1": "SHOP MEN",
         "link-1": "shopify:\/\/collections\/golden-breed-mens",
+        "image_2": "shopify:\/\/shop_images\/GB-HOME-HEADER-WOMEN.jpg",
         "title-2": "",
         "button-text-2": "SHOP WOMEN",
         "link-2": "shopify:\/\/collections\/golden-breed-women",
@@ -111,7 +111,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/favi.png?v=1613721392\" style=\"width:50px;\"><br>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!",
+            "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/favi.png?v=1613721392\" style=\"width:50px;\" alt=\"golden breed surf wear australia\"><br>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!",
             "heading_size": "h2"
           }
         },
