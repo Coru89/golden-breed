@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339": {
+      "type": "hero",
+      "settings": {
+        "heading_title": "{{ collection.title }}",
+        "image": "{{ collection.metafields.custom.hero_image.value }}",
+        "banner_alert_message": ""
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 52,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1a64566a-3c48-4946-812a-6f7fb5550574": {
+      "type": "collection-video",
+      "settings": {
+        "title": "{{ collection.metafields.custom.video_heading.value }}",
+        "description": "<p>{{ collection.metafields.custom.video_description | metafield_tag }}<\/p>",
+        "video_url": "{{ collection.metafields.custom.video_url.value }}",
+        "image": "{{ collection.metafields.custom.video_poster_image.value }}"
+      }
+    },
+    "c6cc63e0-facc-44b2-bf99-f32e3449fcc5": {
+      "type": "accordion-meta-object",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "sub_heading": "Lorem ipsum dolor sit amet, consectetur adipiscing  labore."
+      }
+    },
+    "ffc44b5b-3f32-4f29-8499-10049cac7a4f": {
+      "type": "image-banner-4",
+      "blocks": {
+        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/accessories.png",
+        "title-1": "Accessories",
+        "text": "Check out our latest surf accessories defining iconic, retro vibes in today's chaotic 2023. Leave the rat-race behind while enjoying some ocean-side chill time and looking damn good while you're at it. Golden Breed is a following true to its roots who honour the golden days - let that be your statement to the world.",
+        "button-text-1": "Shop Now",
+        "link-1": "shopify:\/\/collections\/accessories",
+        "image_2": "shopify:\/\/shop_images\/mens.png",
+        "title-2": "Men's",
+        "text-2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.",
+        "button-text-2": "Shop now",
+        "link-2": "shopify:\/\/collections\/mens",
+        "image_3": "shopify:\/\/shop_images\/womens_09aed64d-1e95-4d44-82db-62056573f149.png",
+        "title-3": "Women's",
+        "text-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.",
+        "button-text-3": "Shop now",
+        "link-3": "shopify:\/\/collections\/women",
+        "image_4": "shopify:\/\/shop_images\/g_s_b65c762f-3b0e-47a2-ac24-3bae10ef5d46.png",
+        "title-4": "G&S",
+        "text-4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.",
+        "button-text-4": "Shop now",
+        "link-4": "shopify:\/\/collections\/g-s-hats-and-caps",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 30,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "163944753611453958": {
+      "type": "image-banner-2",
+      "disabled": true,
+      "blocks": {
+        "3b509622-7b57-4601-84be-b4b5a749cba1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "shopify:\/\/collections\/accessories",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "3b509622-7b57-4601-84be-b4b5a749cba1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/accessories_181eba77-fd8b-46fb-af8a-9ee3fc237f1c.jpg",
+        "title-1": "",
+        "button-text-1": "Shop Now",
+        "link-1": "shopify:\/\/collections\/beach-lifestyle",
+        "image_2": "shopify:\/\/shop_images\/gns.jpg",
+        "title-2": "",
+        "button-text-2": "Shop Now",
+        "link-2": "shopify:\/\/collections\/gordon-smith-1",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339",
+    "banner",
+    "product-grid",
+    "1a64566a-3c48-4946-812a-6f7fb5550574",
+    "c6cc63e0-facc-44b2-bf99-f32e3449fcc5",
+    "ffc44b5b-3f32-4f29-8499-10049cac7a4f",
+    "163944753611453958"
+  ]
+}
