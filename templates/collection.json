@@ -66,17 +66,14 @@
         "text": "Check out our latest surf accessories defining iconic, retro vibes in today's chaotic 2023. Leave the rat-race behind while enjoying some ocean-side chill time and looking damn good while you're at it. Golden Breed is a following true to its roots who honour the golden days - let that be your statement to the world.",
         "button-text-1": "Shop Now",
         "link-1": "shopify:\/\/collections\/accessories",
-        "image_2": "shopify:\/\/shop_images\/mens.png",
         "title-2": "Men's",
         "text-2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.",
         "button-text-2": "Shop now",
         "link-2": "shopify:\/\/collections\/mens",
-        "image_3": "shopify:\/\/shop_images\/womens_09aed64d-1e95-4d44-82db-62056573f149.png",
         "title-3": "Women's",
         "text-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.",
         "button-text-3": "Shop now",
         "link-3": "shopify:\/\/collections\/women",
-        "image_4": "shopify:\/\/shop_images\/g_s_b65c762f-3b0e-47a2-ac24-3bae10ef5d46.png",
         "title-4": "G&S",
         "text-4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.",
         "button-text-4": "Shop now",
@@ -92,7 +89,6 @@
     },
     "163944753611453958": {
       "type": "image-banner-2",
-      "disabled": true,
       "blocks": {
         "3b509622-7b57-4601-84be-b4b5a749cba1": {
           "type": "buttons",
@@ -109,6 +105,7 @@
       "block_order": [
         "3b509622-7b57-4601-84be-b4b5a749cba1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/accessories_181eba77-fd8b-46fb-af8a-9ee3fc237f1c.jpg",
         "title-1": "",
