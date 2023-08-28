@@ -5,6 +5,43 @@
       "settings": {
       }
     },
+    "0471e7a0-b09a-4d40-917a-407deba17fa9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Head Office (for General & Social Media enquiries)<\/strong><\/p><p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>Ph - <a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914<\/a><\/p><p>Email - <a href=\"mailto:info@goldenbreed.com.au\" title=\"mailto:info@goldenbreed.com.au\">info@goldenbreed.com.au<\/a><\/p><p><\/p><p><\/p><p><em><strong>or fill out the form below and we will be in touch<\/strong><\/em><\/p>"
+          }
+        },
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-0",
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1",
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -14,6 +51,7 @@
   },
   "order": [
     "main",
+    "0471e7a0-b09a-4d40-917a-407deba17fa9",
     "form"
   ]
 }
