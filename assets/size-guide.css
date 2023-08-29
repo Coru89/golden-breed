@@ -12,6 +12,9 @@
 .MuiTableCell-body {
   background-color: transparent !important; }
 
+tr.MuiTableRow-root.MuiTableRow-head {
+  background-color: transparent; }
+
 .MuiTableRow-root:nth-child(1n) {
   background-color: #C9D7E9; }
 
