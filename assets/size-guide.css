@@ -107,3 +107,6 @@
   right: 0;
   top: 0;
   width: 20px; }
+
+.MuiTypography-gutterBottom {
+  text-align: left; }
