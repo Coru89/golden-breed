@@ -110,3 +110,6 @@
 
 .MuiTypography-gutterBottom {
   text-align: left; }
+
+.MuiTableContainer-root {
+  border: 0; }
