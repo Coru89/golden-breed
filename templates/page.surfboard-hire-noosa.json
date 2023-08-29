@@ -156,7 +156,7 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p> No stress, all staff at our Noosa surfboard hire shop have grown up in the ocean, so when it comes to the local breaks, and which boards are best for you, we can give you solid advice and tips to get started. Come on down, check out our range and we’ll get you in the ocean in this little slice of Sunshine Coast paradise we call home.<\/p>"
+            "text": "<p> No stress, all staff at our Noosa surfboard hire shop have grown up in the ocean, so when it comes to the local breaks, and which boards are best for you, we can give you solid advice and tips to get started. Come on down, check out our range and we’ll get you in the ocean in this little slice of Sunshine Coast paradise that we call home.<\/p>"
           }
         },
         "455bcf1a-e01e-470b-9b61-b90d109fb64b": {
@@ -168,7 +168,19 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re a surf brand who honours the nostalgia of retro vibes, classic times and enjoying life for what it really is. Find us at the Golden Breed round-a-bout in Noosa Heads, just as you’re heading into Hastings street - You can’t miss us. Bringing your board back is easy, it’s just a few footsteps from Noosa’s main beach, without having to rack up your boards to your car. We’l l prep your boards with wax, choose the right leggy for you, and set you in the right spot for where your most likely to get waves on the day.<\/p>"
+            "text": "<p>We’re a surf brand who honours the nostalgia of retro vibes, classic times and enjoying life for what it really is. Find us at the Golden Breed round-a-bout on Nooa Drive, Noosa Heads - You can’t miss us. <\/p><p>Bringing your board back is easy being just a few footsteps from Noosa’s main beach. We’ll organise eveything you need. Starting by prepping your boards with wax, we'll find the right leggy for you, suggest a rash guard, and recommend the right spot for your skill level and the waves on the day.<\/p>"
+          }
+        },
+        "8c3ce641-cbcd-4ace-8e03-5e45953d66b4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where To Surf  In Noosa"
+          }
+        },
+        "c9ebea79-4ee6-41d2-ade9-2e284f72dbdd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a beginner, you can try your luck at Noosa main beach, but usually, there's a better wave if you walk north for 5 minutes and head towards the Noosa river mouth. It all depends on the swell direction and wind conditions, so if does look a little choppy, turn towards the national park from main beach and the first bay you'll find is called Little Cove. Another great spot for beginners. There are plenty of surf beaches here, but it's best to always get surf lessons if you're inexperienced. A learn to surf, surf school can show you the basics while keeping you safe. The surf schools are usually located by the river mouth and you can access them by car via Noosa Woods.<\/p>"
           }
         }
       },
@@ -176,7 +188,9 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0",
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1",
         "455bcf1a-e01e-470b-9b61-b90d109fb64b",
-        "53dfb156-69d4-478c-a327-c2f811bafa1d"
+        "53dfb156-69d4-478c-a327-c2f811bafa1d",
+        "8c3ce641-cbcd-4ace-8e03-5e45953d66b4",
+        "c9ebea79-4ee6-41d2-ade9-2e284f72dbdd"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/surfboard-guy-in-nossa.jpg",
