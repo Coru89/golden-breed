@@ -116,3 +116,7 @@ tr.MuiTableRow-root.MuiTableRow-head {
 
 .MuiTableContainer-root {
   border: 0; }
+
+table {
+  table-layout: fixed;
+  width: 100%; }
