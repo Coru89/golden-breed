@@ -68,9 +68,11 @@ tr.MuiTableRow-root.MuiTableRow-head {
 .MuiTableCell-root {
   color: #265979 !important; }
 
-.MuiTypography-h6 {
-  font-size: 18px;
+.MuiTableCell-head {
   font-weight: 700; }
+
+.MuiTypography-h6 {
+  font-size: 18px; }
 
 .ui-dialog-content .MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom:nth-child(2n) {
   display: none; }
