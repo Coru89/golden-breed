@@ -13,7 +13,8 @@
   background-color: transparent !important; }
 
 tr.MuiTableRow-root.MuiTableRow-head {
-  background-color: transparent; }
+  background-color: transparent;
+  font-weight: 700; }
 
 .MuiTableRow-root:nth-child(1n) {
   background-color: #C9D7E9; }
