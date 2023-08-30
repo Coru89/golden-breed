@@ -64,8 +64,9 @@ tr.MuiTableRow-root.MuiTableRow-head {
 .MuiTableRow-root:nth-child(16n) {
   background-color: #fff; }
 
-.MuiBox-root * {
-  color: #265979; }
+.MuiBox-root *,
+.MuiTableCell-root {
+  color: #265979 !important; }
 
 .MuiTypography-h6 {
   font-size: 18px;

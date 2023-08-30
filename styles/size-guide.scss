@@ -85,8 +85,9 @@ tr.MuiTableRow-root.MuiTableRow-head {
     background-color: #fff;
 }
 
-.MuiBox-root * {
-    color: #265979;
+.MuiBox-root *,
+.MuiTableCell-root {
+    color: #265979 !important;
 }
 
 .MuiTypography-h6 {
