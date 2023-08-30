@@ -72,7 +72,8 @@ tr.MuiTableRow-root.MuiTableRow-head {
   font-weight: 700; }
 
 .MuiTypography-h6 {
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 700; }
 
 .ui-dialog-content .MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom:nth-child(2n) {
   display: none; }
