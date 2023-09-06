@@ -2666,3 +2666,35 @@ section#shopify-section-template--16288740704455__16631201915756bdaa,section#sho
     display: none;
   }
 }
+
+/* override for transparent swatches produced by the globo app */
+/* product page */
+.globo-swatch-product-detail .swatch--gl ul.g-variant-color-detail li label.globo-border-color-swatch[style*="background-color: transparent"] {
+  font-size: 13px !important;
+  padding: 8px 10px 5px 10px;
+  width: 100% !important;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  height: auto !important;
+}
+
+.globo-swatch-product-detail .swatch--gl ul.g-variant-color-detail li label.globo-border-color-swatch[style*="background-color: transparent"]:hover {
+  transform: none;
+}
+
+.select-option > input:checked + .globo-border-color-swatch[style*="background-color: transparent"] {
+  font-weight: 700;
+  border-width: 2px;
+}
+
+/* collection page */
+.globo-swatch-list .swatch--gl ul.g-variant-color li label.globo-border-color-swatch[style*="background-color: transparent"] {
+  font-size: 13px !important;
+  padding: 3px 5px 0 5px;
+  width: 100% !important;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  height: auto !important;
+}
+
+
