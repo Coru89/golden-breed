@@ -50,7 +50,7 @@
         "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/byron-bay-shop.png",
+        "image": "shopify:\/\/shop_images\/gbstorebyron.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -78,6 +78,7 @@
         "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/gbnoosastore.webp",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
