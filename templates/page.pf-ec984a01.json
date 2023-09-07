@@ -13,6 +13,32 @@
         "banner_alert_message": ""
       }
     },
+    "e4d1f554-e9e2-4283-b16d-425be9512c26": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16288741556423__e4d1f554-e9e2-4283-b16d-425be9512c26-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Golden Breed Stores",
+            "heading_size": "h1"
+          }
+        },
+        "template--16288741556423__e4d1f554-e9e2-4283-b16d-425be9512c26-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Head Office (for General & Social Media enquiries)<\/strong><\/p><p><strong>34 - 36 Cook Street, Flinders VIC 3929<\/strong><\/p><p><strong>Ph - 1300 882 914<\/strong><\/p><p><strong>Email - info@goldenbreed.com.au<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16288741556423__e4d1f554-e9e2-4283-b16d-425be9512c26-heading-1",
+        "template--16288741556423__e4d1f554-e9e2-4283-b16d-425be9512c26-text-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "2a9842b2-8b91-4bad-a3fa-173d71887377": {
       "type": "shop-image-text",
       "blocks": {
@@ -153,6 +179,7 @@
   "order": [
     "pf-ec984a01",
     "31b9e743-4b02-4123-9f61-f3eae288dd19",
+    "e4d1f554-e9e2-4283-b16d-425be9512c26",
     "2a9842b2-8b91-4bad-a3fa-173d71887377",
     "44705638-d49c-4954-bea1-47ad5e064715",
     "f05e86f6-681b-411c-a1d7-5ac664d87cad"
