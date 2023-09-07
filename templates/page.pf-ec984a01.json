@@ -13,42 +13,6 @@
         "banner_alert_message": ""
       }
     },
-    "c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-heading-1",
-        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-text-1",
-        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-button-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "2a9842b2-8b91-4bad-a3fa-173d71887377": {
       "type": "shop-image-text",
       "blocks": {
@@ -91,12 +55,39 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "44705638-d49c-4954-bea1-47ad5e064715": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Noosa Heads",
+            "heading_type": "h2"
+          }
+        },
+        "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-heading-1",
+        "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "pf-ec984a01",
     "31b9e743-4b02-4123-9f61-f3eae288dd19",
-    "c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e",
-    "2a9842b2-8b91-4bad-a3fa-173d71887377"
+    "2a9842b2-8b91-4bad-a3fa-173d71887377",
+    "44705638-d49c-4954-bea1-47ad5e064715"
   ]
 }
