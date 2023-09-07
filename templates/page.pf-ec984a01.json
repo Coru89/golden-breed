@@ -26,7 +26,7 @@
         "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p>"
+            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p><p><\/p>"
           }
         },
         "70999e55-476c-456d-9bca-7d0b83db7c90": {
@@ -39,7 +39,7 @@
         "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Mon - Sat 9:00am - 6:00pm<\/strong><\/p><p><strong>Sun 9:00am - 5:00pm<\/strong><\/p><p><strong>Public Holidays 9:00am - 5:00pm<\/strong><\/p>"
+            "text": "<p>Mon - Sat 9:00am - 6:00pm<\/p><p>Sun 9:00am - 5:00pm<\/p><p>Public Holidays 9:00am - 5:00pm<\/p>"
           }
         }
       },
@@ -69,13 +69,35 @@
         "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p>"
+            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p><p><\/p>"
+          }
+        },
+        "495ffc2d-c154-4dca-b4ae-97cb2c482d9e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Opening Hours",
+            "heading_type": "h2"
+          }
+        },
+        "03681433-b925-40e5-8400-8700dcd74096": {
+          "type": "text",
+          "settings": {
+            "text": "<p>9:00am - 5pm*<\/p>"
+          }
+        },
+        "f33566f5-5bfe-4347-8f16-552efddf8285": {
+          "type": "text",
+          "settings": {
+            "text": "<p>* Extended opening hours throughout Summer<br\/>months and school holidays.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-heading-1",
-        "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1"
+        "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1",
+        "495ffc2d-c154-4dca-b4ae-97cb2c482d9e",
+        "03681433-b925-40e5-8400-8700dcd74096",
+        "f33566f5-5bfe-4347-8f16-552efddf8285"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gbnoosastore.webp",
@@ -83,12 +105,56 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "f05e86f6-681b-411c-a1d7-5ac664d87cad": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16288741556423__f05e86f6-681b-411c-a1d7-5ac664d87cad-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flinders",
+            "heading_type": "h2"
+          }
+        },
+        "template--16288741556423__f05e86f6-681b-411c-a1d7-5ac664d87cad-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>1300 882 914<\/p><p>GBFlinders@goldenbreed.com.au<\/p><p><\/p>"
+          }
+        },
+        "7955af37-e0ce-4674-b29d-a79159384842": {
+          "type": "heading",
+          "settings": {
+            "heading": "Opening Hours",
+            "heading_type": "h2"
+          }
+        },
+        "f152f689-8e72-42b5-abb0-db53bb6d105e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everyday 9:00am - 5pm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16288741556423__f05e86f6-681b-411c-a1d7-5ac664d87cad-heading-1",
+        "template--16288741556423__f05e86f6-681b-411c-a1d7-5ac664d87cad-text-1",
+        "7955af37-e0ce-4674-b29d-a79159384842",
+        "f152f689-8e72-42b5-abb0-db53bb6d105e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gbstoresflinders.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
     "pf-ec984a01",
     "31b9e743-4b02-4123-9f61-f3eae288dd19",
     "2a9842b2-8b91-4bad-a3fa-173d71887377",
-    "44705638-d49c-4954-bea1-47ad5e064715"
+    "44705638-d49c-4954-bea1-47ad5e064715",
+    "f05e86f6-681b-411c-a1d7-5ac664d87cad"
   ]
 }
