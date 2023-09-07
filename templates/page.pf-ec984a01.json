@@ -2,11 +2,101 @@
   "sections": {
     "pf-ec984a01": {
       "type": "pf-ec984a01",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "31b9e743-4b02-4123-9f61-f3eae288dd19": {
+      "type": "hero",
+      "settings": {
+        "heading_title": "Hero Title",
+        "banner_alert_message": ""
+      }
+    },
+    "c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-heading-1",
+        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-text-1",
+        "template--16288741556423__c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "2a9842b2-8b91-4bad-a3fa-173d71887377": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Byron Bay",
+            "heading_type": "h2"
+          }
+        },
+        "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p>"
+          }
+        },
+        "70999e55-476c-456d-9bca-7d0b83db7c90": {
+          "type": "heading",
+          "settings": {
+            "heading": "Opening Hours",
+            "heading_type": "h2"
+          }
+        },
+        "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Mon - Sat 9:00am - 6:00pm<\/strong><\/p><p><strong>Sun 9:00am - 5:00pm<\/strong><\/p><p><strong>Public Holidays 9:00am - 5:00pm<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-heading-1",
+        "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-text-1",
+        "70999e55-476c-456d-9bca-7d0b83db7c90",
+        "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/byron-bay-shop.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
       }
     }
   },
   "order": [
-    "pf-ec984a01"
+    "pf-ec984a01",
+    "31b9e743-4b02-4123-9f61-f3eae288dd19",
+    "c621bc03-ebf4-4c3a-99a9-1bf2e2c7807e",
+    "2a9842b2-8b91-4bad-a3fa-173d71887377"
   ]
 }
