@@ -126,18 +126,25 @@
             "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p><p><\/p>"
           }
         },
-        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-button-1": {
-          "type": "button",
+        "5397fad7-d0af-4d6c-8d8c-be3d01c5d76c": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "Surfshop Image with Text",
+            "heading_type": "h2"
+          }
+        },
+        "9c60a23b-474c-4bf2-a5ab-d3e0cc955358": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-heading-1",
         "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-text-1",
-        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-button-1"
+        "5397fad7-d0af-4d6c-8d8c-be3d01c5d76c",
+        "9c60a23b-474c-4bf2-a5ab-d3e0cc955358"
       ],
       "settings": {
         "height": "adapt",
@@ -161,18 +168,25 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-button-1": {
-          "type": "button",
+        "a3235dff-beab-4f93-a1be-f18efb32747c": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "Surfshop Image with Text",
+            "heading_type": "h2"
+          }
+        },
+        "a2ba2f9f-e5f4-465a-8970-0a4c1a474e23": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-heading-1",
         "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-text-1",
-        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-button-1"
+        "a3235dff-beab-4f93-a1be-f18efb32747c",
+        "a2ba2f9f-e5f4-465a-8970-0a4c1a474e23"
       ],
       "settings": {
         "height": "adapt",
@@ -196,18 +210,25 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-button-1": {
-          "type": "button",
+        "ed30a0a3-971d-4b24-a99c-45a0b28d7987": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "Surfshop Image with Text",
+            "heading_type": "h2"
+          }
+        },
+        "522e57c6-ed19-416f-ab70-9f25cccdc15e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-heading-1",
         "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-text-1",
-        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-button-1"
+        "ed30a0a3-971d-4b24-a99c-45a0b28d7987",
+        "522e57c6-ed19-416f-ab70-9f25cccdc15e"
       ],
       "settings": {
         "height": "adapt",
