@@ -129,14 +129,14 @@
         "5397fad7-d0af-4d6c-8d8c-be3d01c5d76c": {
           "type": "heading",
           "settings": {
-            "heading": "Surfshop Image with Text",
+            "heading": "Opening Hours",
             "heading_type": "h2"
           }
         },
         "9c60a23b-474c-4bf2-a5ab-d3e0cc955358": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Mon - Sat 9:00am - 6:00pm<\/p><p>Sun 9:00am - 5:00pm<\/p><p>Public Holidays 9:00am - 5:00pm<\/p>"
           }
         }
       },
@@ -171,14 +171,14 @@
         "a3235dff-beab-4f93-a1be-f18efb32747c": {
           "type": "heading",
           "settings": {
-            "heading": "Surfshop Image with Text",
+            "heading": "Noosa Heads",
             "heading_type": "h2"
           }
         },
         "a2ba2f9f-e5f4-465a-8970-0a4c1a474e23": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p><p><\/p>"
           }
         }
       },
@@ -200,7 +200,7 @@
         "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Surfshop Image with Text",
+            "heading": "Opening Hours",
             "heading_type": "h2"
           }
         },
