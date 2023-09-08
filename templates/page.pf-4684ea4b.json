@@ -109,11 +109,119 @@
         "heading": "Which Surfboard Should You Hire?",
         "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
       }
+    },
+    "ca4054e3-15ae-43e3-90e6-4f09fe422103": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Surfshop Image with Text",
+            "heading_type": "h2"
+          }
+        },
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-heading-1",
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-text-1",
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "347da1e2-4250-437b-8fb7-19504c9631ca": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Surfshop Image with Text",
+            "heading_type": "h2"
+          }
+        },
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-heading-1",
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-text-1",
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "0c729495-66ad-4b79-9d4b-c363f8a955ee": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Surfshop Image with Text",
+            "heading_type": "h2"
+          }
+        },
+        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-heading-1",
+        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-text-1",
+        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "pf-4684ea4b",
     "7db95d7b-aad3-453d-b487-fc56aa3b32d2",
-    "0484449b-6a50-4b3b-9ee6-6556451c5dae"
+    "0484449b-6a50-4b3b-9ee6-6556451c5dae",
+    "ca4054e3-15ae-43e3-90e6-4f09fe422103",
+    "347da1e2-4250-437b-8fb7-19504c9631ca",
+    "0c729495-66ad-4b79-9d4b-c363f8a955ee"
   ]
 }
