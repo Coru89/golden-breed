@@ -16,6 +16,12 @@
             "heading_size": "h2"
           }
         },
+        "073f5d74-5f06-48d7-bf38-86345878f7a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BOARD-HIRE-IMAGE-white.webp"
+          }
+        },
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1": {
           "type": "text",
           "settings": {
@@ -34,6 +40,7 @@
       },
       "block_order": [
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-heading-1",
+        "073f5d74-5f06-48d7-bf38-86345878f7a6",
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1",
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-button-1"
       ],
