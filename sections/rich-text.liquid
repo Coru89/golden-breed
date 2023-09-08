@@ -17,6 +17,27 @@
             <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
               {{ block.settings.button_label | escape }}
             </a>
+          {%- when 'image' -%}
+            <img
+              srcset="
+                {%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
+                {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+                {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
+                {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+                {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | img_url: '1780x' }} 1780w,{%- endif -%}
+                {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | img_url: '2000x' }} 2000w,{%- endif -%}
+                {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
+                {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
+                {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w
+              "
+              sizes="100vw"
+              src="{{ block.settings.image | img_url: '1500x' }}"
+              loading="eager"
+              alt="{{ block.settings.image.alt | escape }}"
+              width="{{ block.settings.image.width }}"
+              height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio }}"
+              style="width: 100%; height: auto;"
+            >
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -134,6 +155,18 @@
           "label": "t:sections.rich-text.blocks.button.settings.button_style_secondary.label"
         }
       ]
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
     }
   ],
   "presets": [
@@ -148,6 +181,9 @@
         },
         {
           "type": "button"
+        },
+        {
+          "type": "image"
         }
       ]
     }
