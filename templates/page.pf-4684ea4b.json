@@ -42,8 +42,62 @@
         "full_width": true
       }
     },
-    "08b7910c-76fe-4bce-b492-b89d522e1994": {
+    "0484449b-6a50-4b3b-9ee6-6556451c5dae": {
       "type": "surf-select",
+      "blocks": {
+        "d57d5d86-0949-4ab5-ae50-7d830b45740c": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "SUPS ( STAND UP PADDLE BOARDS )",
+            "board_description": "<ul>\n<li>The stand up paddle board is a perfect way to cruise around  especially on flatter days when the waves are not happening.<\/li>\n<li>Most of the SUPS we have are for smaller conditions and cruising rather than surfing in bigger waves .<\/li>\n<li>There are many SUP riders out there that have definitely mastered the art ,and can surf on virtually anything extremely well.<\/li>\n<li>They can paddle into waves a lot quicker than regular surfboard riders.<\/li>\n<li>We generally recommend using the SUP option only in smaller conditions ,unless you are very experienced.<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/sup.svg",
+            "card_background_color": "#7da9a3"
+          }
+        },
+        "224020ac-c432-49b4-ab6a-ad344118b2f0": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "LONGBOARDS",
+            "board_description": "<ul>\n<li>Longboards are the ‘go to” Surfboards for around the points breaks.<\/li>\n<li>Suitable for all standards of surfing.<\/li>\n<li>Best in waves small to Medium.<\/li>\n<li>Plenty of stability and buoyancy and they are wave catching machines!<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/Longboard.svg",
+            "card_background_color": "#ebb967"
+          }
+        },
+        "528ea41e-c7e6-4211-9a77-4c0fdb36a139": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "SHORTBOARDS",
+            "board_description": "<ul>\n<li>Shortboards are usually the domain of the more experienced surfer.<\/li>\n<li>They are less buoyant and highly manoeuvrable, so you need to have had a enough time on the water to get the best out of them.<\/li>\n<li>They really get going when the wave height is medium to big.<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/short.svg",
+            "card_background_color": "#e78367"
+          }
+        },
+        "87cac967-f5bc-4103-8ec1-7e1d32605aff": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "FOAMIES",
+            "board_description": "<ul>\n<li>Foam boards are a great all-round starter board.<\/li>\n<li>Perfect for beginners getting the handle of what goes out in there in the waves.<\/li>\n<li>Being Foam they are very buoyant and reasonably stable and if you fall off and the board hits you it’s a lot less forgiving than a regular board!<\/li>\n<li>Most learners start on a FOAMIE for that reason.<\/li>\n<li>BTW there is also a lot of very experienced surfers that love to take out a Foamie on a smaller day and just have fun.<\/li>\n<li>Suitable for all levels and small to medium sized waves<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/foamy.svg",
+            "card_background_color": "#72a7c0"
+          }
+        },
+        "23462703-3219-4adb-9854-f6c73c968c40": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "BODYBOARDS",
+            "board_description": "<ul>\n<li>We have a great range of Bodyboards suitable for kids and adults alike.\n<\/li>\n<li>This is where, for most ,the first thrill of riding a wave kicked in.<\/li>\n<li>Once you get hooked on that thrill its hard to ignore it!<\/li>\n<li>We recommend staying between the flags and only venturing in in smaller conditions.<\/li>\n<li>Let’s have fun and not sign up for a survival mission<\/li>\n<li>Suitable for just about everyone who is a reasonably competent swimmer.<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/bodyboard.svg",
+            "card_background_color": "#9fb1c6"
+          }
+        }
+      },
+      "block_order": [
+        "d57d5d86-0949-4ab5-ae50-7d830b45740c",
+        "224020ac-c432-49b4-ab6a-ad344118b2f0",
+        "528ea41e-c7e6-4211-9a77-4c0fdb36a139",
+        "87cac967-f5bc-4103-8ec1-7e1d32605aff",
+        "23462703-3219-4adb-9854-f6c73c968c40"
+      ],
       "settings": {
         "heading": "Which Surfboard Should You Hire?",
         "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
@@ -141,7 +195,7 @@
   "order": [
     "pf-4684ea4b",
     "7db95d7b-aad3-453d-b487-fc56aa3b32d2",
-    "08b7910c-76fe-4bce-b492-b89d522e1994",
+    "0484449b-6a50-4b3b-9ee6-6556451c5dae",
     "ab809d29-1e52-41ca-9192-718636d87b9b",
     "0160769a-be22-4789-affb-1b336898de3b",
     "589c60ca-dcb0-4519-a5a7-e471a531721e"
