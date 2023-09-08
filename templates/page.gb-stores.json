@@ -175,8 +175,8 @@
         "f152f689-8e72-42b5-abb0-db53bb6d105e"
       ],
       "custom_css": [
-        ".shop-image-with-text__content {text-align: right;}",
-        ".shop-image-with-text__content * {width: 100%;}"
+        "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; }}",
+        "@media screen and (min-width: 750px) {.shop-image-with-text__content * {width: 100%; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gbstoresflinders.jpg",
