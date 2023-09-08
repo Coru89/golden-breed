@@ -45,7 +45,7 @@
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-button-1"
       ],
       "custom_css": [
-        ".rich-text__blocks {max-width: 160rem;}"
+        ".rich-text__blocks {max-width: calc(160rem - 15rem);}"
       ],
       "settings": {
         "color_scheme": "background-1",
