@@ -116,14 +116,14 @@
         "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Surfshop Image with Text",
+            "heading": "Byron Bay",
             "heading_type": "h2"
           }
         },
         "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p><p><\/p>"
           }
         },
         "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-button-1": {
