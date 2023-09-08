@@ -76,8 +76,8 @@
         "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0"
       ],
       "custom_css": [
-        ".shop-image-with-text__content {text-align: right;}",
-        ".shop-image-with-text__content * {width: 100%;}"
+        "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; }}",
+        "@media screen and (min-width: 750px) {.shop-image-with-text__content * {width: 100%; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gbstorebyron.jpg",
