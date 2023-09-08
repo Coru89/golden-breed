@@ -44,6 +44,9 @@
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1",
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-button-1"
       ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 160rem;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -123,11 +126,12 @@
         "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p><p><\/p>"
+            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p>"
           }
         },
         "5397fad7-d0af-4d6c-8d8c-be3d01c5d76c": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Opening Hours",
             "heading_type": "h2"
@@ -135,6 +139,7 @@
         },
         "9c60a23b-474c-4bf2-a5ab-d3e0cc955358": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Mon - Sat 9:00am - 6:00pm<\/p><p>Sun 9:00am - 5:00pm<\/p><p>Public Holidays 9:00am - 5:00pm<\/p>"
           }
@@ -157,6 +162,7 @@
       "blocks": {
         "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Surfshop Image with Text",
             "heading_type": "h2"
@@ -164,6 +170,7 @@
         },
         "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -178,7 +185,7 @@
         "a2ba2f9f-e5f4-465a-8970-0a4c1a474e23": {
           "type": "text",
           "settings": {
-            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p><p><\/p>"
+            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p>"
           }
         }
       },
@@ -197,36 +204,21 @@
     "0c729495-66ad-4b79-9d4b-c363f8a955ee": {
       "type": "shop-image-text",
       "blocks": {
-        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Opening Hours",
-            "heading_type": "h2"
-          }
-        },
-        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
         "ed30a0a3-971d-4b24-a99c-45a0b28d7987": {
           "type": "heading",
           "settings": {
-            "heading": "Surfshop Image with Text",
+            "heading": "Flinders",
             "heading_type": "h2"
           }
         },
         "522e57c6-ed19-416f-ab70-9f25cccdc15e": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>1300 882 914<\/p><p>GBFlinders@goldenbreed.com.au<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-heading-1",
-        "template--16288740835527__0c729495-66ad-4b79-9d4b-c363f8a955ee-text-1",
         "ed30a0a3-971d-4b24-a99c-45a0b28d7987",
         "522e57c6-ed19-416f-ab70-9f25cccdc15e"
       ],
