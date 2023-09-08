@@ -9,18 +9,17 @@
     "7db95d7b-aad3-453d-b487-fc56aa3b32d2": {
       "type": "rich-text",
       "blocks": {
+        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Surfboards",
+            "heading_size": "h2"
+          }
+        },
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>Whether you’re travelling through the country’s best surf regions, or just want to try something new before investing, pop into your nearest Golden Breed Store and our friendly staff will get you sorted. <\/p><p>Our expert staff can assist with board hire and great surfing tips if you've never surfed before, or purchase information if you’re ready to buy a surfboard or SUP. Being locals who surf they know the local surf history, tides, wind, swell, swell direction and of course the best surf breaks!<\/p><p>If you've got the juice.. we've got the gear!<\/p>"
-          }
-        },
-        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Surfboards",
-            "heading_size": "h2"
           }
         },
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-button-1": {
@@ -34,8 +33,8 @@
         }
       },
       "block_order": [
-        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1",
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-heading-1",
+        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1",
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-button-1"
       ],
       "settings": {
@@ -103,18 +102,11 @@
         "heading": "Which Surfboard Should You Hire?",
         "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
       }
-    },
-    "ab809d29-1e52-41ca-9192-718636d87b9b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": ""
-      }
     }
   },
   "order": [
     "pf-4684ea4b",
     "7db95d7b-aad3-453d-b487-fc56aa3b32d2",
-    "0484449b-6a50-4b3b-9ee6-6556451c5dae",
-    "ab809d29-1e52-41ca-9192-718636d87b9b"
+    "0484449b-6a50-4b3b-9ee6-6556451c5dae"
   ]
 }
