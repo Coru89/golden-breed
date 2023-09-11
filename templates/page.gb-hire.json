@@ -2,24 +2,30 @@
   "sections": {
     "pf-4684ea4b": {
       "type": "pf-4684ea4b",
+      "disabled": true,
       "settings": {
       }
     },
     "7db95d7b-aad3-453d-b487-fc56aa3b32d2": {
       "type": "rich-text",
       "blocks": {
+        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Surfboards",
+            "heading_size": "h0"
+          }
+        },
+        "073f5d74-5f06-48d7-bf38-86345878f7a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BOARD-HIRE-IMAGE-white.webp"
+          }
+        },
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>Whether you’re travelling through the country’s best surf regions, or just want to try something new before investing, pop into your nearest Golden Breed Store and our friendly staff will get you sorted. <\/p><p>Our expert staff can assist with board hire and great surfing tips if you've never surfed before, or purchase information if you’re ready to buy a surfboard or SUP. Being locals who surf they know the local surf history, tides, wind, swell, swell direction and of course the best surf breaks!<\/p><p>If you've got the juice.. we've got the gear!<\/p>"
-          }
-        },
-        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Surfboards",
-            "heading_size": "h2"
           }
         },
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-button-1": {
@@ -33,117 +39,203 @@
         }
       },
       "block_order": [
-        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1",
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-heading-1",
+        "073f5d74-5f06-48d7-bf38-86345878f7a6",
+        "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-text-1",
         "template--16288740835527__7db95d7b-aad3-453d-b487-fc56aa3b32d2-button-1"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: calc(160rem - 15rem);}",
+        "p {text-align: left; margin-bottom: 2rem;}"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
       }
     },
-    "08b7910c-76fe-4bce-b492-b89d522e1994": {
+    "0484449b-6a50-4b3b-9ee6-6556451c5dae": {
       "type": "surf-select",
+      "blocks": {
+        "d57d5d86-0949-4ab5-ae50-7d830b45740c": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "SUPS ( STAND UP PADDLE BOARDS )",
+            "board_description": "<ul>\n<li>The stand up paddle board is a perfect way to cruise around  especially on flatter days when the waves are not happening.<\/li>\n<li>Most of the SUPS we have are for smaller conditions and cruising rather than surfing in bigger waves .<\/li>\n<li>There are many SUP riders out there that have definitely mastered the art ,and can surf on virtually anything extremely well.<\/li>\n<li>They can paddle into waves a lot quicker than regular surfboard riders.<\/li>\n<li>We generally recommend using the SUP option only in smaller conditions ,unless you are very experienced.<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/sup.svg",
+            "card_background_color": "#7da9a3"
+          }
+        },
+        "224020ac-c432-49b4-ab6a-ad344118b2f0": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "LONGBOARDS",
+            "board_description": "<ul>\n<li>Longboards are the ‘go to” Surfboards for around the points breaks.<\/li>\n<li>Suitable for all standards of surfing.<\/li>\n<li>Best in waves small to Medium.<\/li>\n<li>Plenty of stability and buoyancy and they are wave catching machines!<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/Longboard.svg",
+            "card_background_color": "#ebb967"
+          }
+        },
+        "528ea41e-c7e6-4211-9a77-4c0fdb36a139": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "SHORTBOARDS",
+            "board_description": "<ul>\n<li>Shortboards are usually the domain of the more experienced surfer.<\/li>\n<li>They are less buoyant and highly manoeuvrable, so you need to have had a enough time on the water to get the best out of them.<\/li>\n<li>They really get going when the wave height is medium to big.<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/short.svg",
+            "card_background_color": "#e78367"
+          }
+        },
+        "87cac967-f5bc-4103-8ec1-7e1d32605aff": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "FOAMIES",
+            "board_description": "<ul>\n<li>Foam boards are a great all-round starter board.<\/li>\n<li>Perfect for beginners getting the handle of what goes out in there in the waves.<\/li>\n<li>Being Foam they are very buoyant and reasonably stable and if you fall off and the board hits you it’s a lot less forgiving than a regular board!<\/li>\n<li>Most learners start on a FOAMIE for that reason.<\/li>\n<li>BTW there is also a lot of very experienced surfers that love to take out a Foamie on a smaller day and just have fun.<\/li>\n<li>Suitable for all levels and small to medium sized waves<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/foamy.svg",
+            "card_background_color": "#72a7c0"
+          }
+        },
+        "23462703-3219-4adb-9854-f6c73c968c40": {
+          "type": "surfboard",
+          "settings": {
+            "heading": "BODYBOARDS",
+            "board_description": "<ul>\n<li>We have a great range of Bodyboards suitable for kids and adults alike.\n<\/li>\n<li>This is where, for most ,the first thrill of riding a wave kicked in.<\/li>\n<li>Once you get hooked on that thrill its hard to ignore it!<\/li>\n<li>We recommend staying between the flags and only venturing in in smaller conditions.<\/li>\n<li>Let’s have fun and not sign up for a survival mission<\/li>\n<li>Suitable for just about everyone who is a reasonably competent swimmer.<\/li>\n<\/ul>",
+            "board_image": "shopify:\/\/shop_images\/bodyboard.svg",
+            "card_background_color": "#9fb1c6"
+          }
+        }
+      },
+      "block_order": [
+        "d57d5d86-0949-4ab5-ae50-7d830b45740c",
+        "224020ac-c432-49b4-ab6a-ad344118b2f0",
+        "528ea41e-c7e6-4211-9a77-4c0fdb36a139",
+        "87cac967-f5bc-4103-8ec1-7e1d32605aff",
+        "23462703-3219-4adb-9854-f6c73c968c40"
+      ],
       "settings": {
         "heading": "Which Surfboard Should You Hire?",
         "summary": "Renting a surfboard can be daunting with all the choices, shapes and sizes, and the various Noosa breaks. Here’s a simple guide that’ll get you started."
       }
     },
-    "ab809d29-1e52-41ca-9192-718636d87b9b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": ""
-      }
-    },
-    "0160769a-be22-4789-affb-1b336898de3b": {
-      "type": "image-with-text",
+    "ca4054e3-15ae-43e3-90e6-4f09fe422103": {
+      "type": "shop-image-text",
       "blocks": {
-        "template--16288740835527__0160769a-be22-4789-affb-1b336898de3b-heading-1": {
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Byron Bay",
+            "heading_type": "h2"
           }
         },
-        "template--16288740835527__0160769a-be22-4789-affb-1b336898de3b-text-1": {
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p>"
           }
         },
-        "template--16288740835527__0160769a-be22-4789-affb-1b336898de3b-button-1": {
-          "type": "button",
+        "5397fad7-d0af-4d6c-8d8c-be3d01c5d76c": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "Opening Hours",
+            "heading_type": "h2"
+          }
+        },
+        "9c60a23b-474c-4bf2-a5ab-d3e0cc955358": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Mon - Sat 9:00am - 6:00pm<\/p><p>Sun 9:00am - 5:00pm<\/p><p>Public Holidays 9:00am - 5:00pm<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16288740835527__0160769a-be22-4789-affb-1b336898de3b-heading-1",
-        "template--16288740835527__0160769a-be22-4789-affb-1b336898de3b-text-1",
-        "template--16288740835527__0160769a-be22-4789-affb-1b336898de3b-button-1"
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-heading-1",
+        "template--16288740835527__ca4054e3-15ae-43e3-90e6-4f09fe422103-text-1",
+        "5397fad7-d0af-4d6c-8d8c-be3d01c5d76c",
+        "9c60a23b-474c-4bf2-a5ab-d3e0cc955358"
       ],
-      "disabled": true,
       "settings": {
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
     },
-    "589c60ca-dcb0-4519-a5a7-e471a531721e": {
-      "type": "image-banner",
+    "347da1e2-4250-437b-8fb7-19504c9631ca": {
+      "type": "shop-image-text",
       "blocks": {
-        "template--16288740835527__589c60ca-dcb0-4519-a5a7-e471a531721e-heading-1": {
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-heading-1": {
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
+            "heading": "Surfshop Image with Text",
+            "heading_type": "h2"
           }
         },
-        "template--16288740835527__589c60ca-dcb0-4519-a5a7-e471a531721e-text-1": {
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-text-1": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "template--16288740835527__589c60ca-dcb0-4519-a5a7-e471a531721e-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
+        "a3235dff-beab-4f93-a1be-f18efb32747c": {
+          "type": "heading",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Noosa Heads",
+            "heading_type": "h2"
+          }
+        },
+        "a2ba2f9f-e5f4-465a-8970-0a4c1a474e23": {
+          "type": "text",
+          "settings": {
+            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p>"
           }
         }
       },
       "block_order": [
-        "template--16288740835527__589c60ca-dcb0-4519-a5a7-e471a531721e-heading-1",
-        "template--16288740835527__589c60ca-dcb0-4519-a5a7-e471a531721e-text-1",
-        "template--16288740835527__589c60ca-dcb0-4519-a5a7-e471a531721e-buttons-1"
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-heading-1",
+        "template--16288740835527__347da1e2-4250-437b-8fb7-19504c9631ca-text-1",
+        "a3235dff-beab-4f93-a1be-f18efb32747c",
+        "a2ba2f9f-e5f4-465a-8970-0a4c1a474e23"
       ],
       "settings": {
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 30,
+        "height": "adapt",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "layout": "image_first"
+      }
+    },
+    "0c729495-66ad-4b79-9d4b-c363f8a955ee": {
+      "type": "shop-image-text",
+      "blocks": {
+        "ed30a0a3-971d-4b24-a99c-45a0b28d7987": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flinders",
+            "heading_type": "h2"
+          }
+        },
+        "522e57c6-ed19-416f-ab70-9f25cccdc15e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>1300 882 914<\/p><p>GBFlinders@goldenbreed.com.au<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ed30a0a3-971d-4b24-a99c-45a0b28d7987",
+        "522e57c6-ed19-416f-ab70-9f25cccdc15e"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     }
   },
   "order": [
     "pf-4684ea4b",
     "7db95d7b-aad3-453d-b487-fc56aa3b32d2",
-    "08b7910c-76fe-4bce-b492-b89d522e1994",
-    "ab809d29-1e52-41ca-9192-718636d87b9b",
-    "0160769a-be22-4789-affb-1b336898de3b",
-    "589c60ca-dcb0-4519-a5a7-e471a531721e"
+    "0484449b-6a50-4b3b-9ee6-6556451c5dae",
+    "ca4054e3-15ae-43e3-90e6-4f09fe422103",
+    "347da1e2-4250-437b-8fb7-19504c9631ca",
+    "0c729495-66ad-4b79-9d4b-c363f8a955ee"
   ]
 }
