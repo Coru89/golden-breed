@@ -8,9 +8,13 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-  
-  
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
   <head>
+	<!-- Added by AVADA SEO Suite -->
+	{% include 'avada-seo' %}
+	<!-- /Added by AVADA SEO Suite -->
+{% include "starapps-core" %}
+
   
     
   {% render 'pagefly-head' %}
@@ -30,7 +34,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="">
+    <meta name="theme-color" content="#21597A">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -154,7 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {% include 'sales-motivator-init' %}</head>
 
-  <body class="gradient"><div class="pagefly-container">{{ content_for_layout }}</div></body>
+  <body class="gradient template-{{ template | replace: '.', '-' | replace: '/', '-' }}"><div class="pagefly-container">{{ content_for_layout }}</div></body>
 </html>
 
 
