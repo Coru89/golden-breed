@@ -153,6 +153,7 @@
         "9c60a23b-474c-4bf2-a5ab-d3e0cc955358"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/gbstorebyron.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -197,6 +198,7 @@
         "a2ba2f9f-e5f4-465a-8970-0a4c1a474e23"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/gbnoosastore.webp",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -224,6 +226,8 @@
         "522e57c6-ed19-416f-ab70-9f25cccdc15e"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/gbstoresflinders.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/gbstoresflinders.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
