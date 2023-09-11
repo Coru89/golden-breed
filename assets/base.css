@@ -2098,7 +2098,7 @@ input[type='checkbox'] {
   .header--middle-space-between {
     column-gap: 2rem;
     grid-template-areas: 'heading navigation';
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto 1fr;
     justify-content: space-between;
   }
 
