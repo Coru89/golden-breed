@@ -278,7 +278,14 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__submit {
-  margin-bottom: 1rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .product-form__submit {
+    display: inline-block;
+    width: calc(60% - 12px);
+  }
 }
 
 .no-js .product-form__submit.button--secondary {
@@ -464,6 +471,15 @@ a.product__text {
   margin-right: 12px;
 }
 
+@media screen and (min-width: 900px) {
+  .product-form__quantity {
+    display: inline-block;
+    margin-bottom: 0;
+    min-width: unset;
+    width: 40%;
+  }
+}
+
 .product-form__quantity-top .form__label {
   margin-bottom: 1.2rem;
 }
@@ -480,6 +496,7 @@ a.product__text {
 .product-form__buttons--quantity {
   align-items: flex-end;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-form__buttons--quantity .product-form__input {
