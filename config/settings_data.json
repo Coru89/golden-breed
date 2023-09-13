@@ -73,15 +73,15 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Information",
-              "menu": "footer"
+              "heading": "Shop",
+              "menu": "main-menu"
             }
           },
           "84069167-495e-4f45-83b4-9480dc989fe9": {
             "type": "link_list",
             "settings": {
-              "heading": "Shop",
-              "menu": "main-menu"
+              "heading": "Information",
+              "menu": "footer"
             }
           },
           "eee581e5-807e-4f21-a288-486a50a0faec": {
