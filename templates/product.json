@@ -5,7 +5,6 @@
       "blocks": {
         "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3": {
           "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
-          "disabled": true,
           "settings": {
             "show_catroot": true,
             "link_catroot": "\/",
@@ -28,9 +27,8 @@
       "block_order": [
         "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3"
       ],
-      "disabled": true,
       "custom_css": [
-        ".spaced-section {margin: 3rem 0;}"
+        ".spaced-section {margin: 3rem 0 0 0;}"
       ],
       "settings": {
         "include_margins": true
@@ -121,6 +119,9 @@
         "description",
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
         "f5a5e6b9-82b5-4aab-8fd1-ed18379477da"
+      ],
+      "custom_css": [
+        ".spaced-section {margin-top: 3rem;}"
       ],
       "settings": {
         "enable_sticky_info": true,
