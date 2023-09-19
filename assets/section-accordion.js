@@ -1,4 +1,5 @@
-const accordionHeaderEls = document.querySelectorAll('.section-accordion__item-header');
+window.addEventListener('DOMContentLoaded', (event) => {
+  const accordionHeaderEls = document.querySelectorAll('.section-accordion__item-header');
 
   accordionHeaderEls.forEach(header => {
     header.addEventListener('click', (e) => {
@@ -7,4 +8,5 @@ const accordionHeaderEls = document.querySelectorAll('.section-accordion__item-h
         content.classList.toggle('active');
     });
   });
-  
+
+});
