@@ -11,10 +11,10 @@
   <section class="section-accordion">
     <div class="section-accordion__inner page-width page-width--desktop">
       <h2 class="section-accordion__heading">
-        {{ section.settings.heading }}
+        {{ collection.metafields.custom.collectionfaqsheading.value }}
       </h2>
       <div class="section-accordion__sub-heading">
-        {{ section.settings.sub_heading }}
+        {{ collection.metafields.custom.collectionfaqssubheading.value }}
       </div>
       <div class="section-accordion__items">
 
@@ -110,18 +110,8 @@
   "name": "Accordion - meta-object",
   "settings": [
     {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "FAQs",
-      "placeholder": "FAQs"
-    },
-    {
-      "type": "text",
-      "id": "sub_heading",
-      "label": "Sub Heading",
-      "default": "Our commonly asked questions...",
-      "placeholder": "Our commonly asked questions..."
+      "type": "header",
+      "content": "This section is configured per collection."
     }
   ],
   "presets": [
