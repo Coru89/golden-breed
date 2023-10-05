@@ -88,7 +88,7 @@
       "name": {{ block.settings.accordion_label | json }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ block.settings.accordion_content | json }}
+        "text": {{ block.settings.accordion_content | escape | json }}
       }
     }{%- unless forloop.last -%},{%- endunless -%}
     {%- endif -%}
