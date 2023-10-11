@@ -42,8 +42,6 @@
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5": {
       "type": "accordion-meta-object",
       "settings": {
-        "heading": "Frequently Asked Questions",
-        "sub_heading": ""
       }
     },
     "ffc44b5b-3f32-4f29-8499-10049cac7a4f": {
@@ -73,7 +71,7 @@
         "link-2": "shopify:\/\/collections\/mens",
         "image_3": "shopify:\/\/shop_images\/womens.png",
         "title-3": "Women's",
-        "text-3": "Browse our Women's surfwear designed right here in Australia. From bikinis to bucket hats. From beach dress vibes to rocking casual knits that scream \" I love fashion\" Buy online with the confidence of free delivery, and free returns within 15 days.",
+        "text-3": "Browse our Women's surfwear designed right here in Australia. From bikinis to bucket hats. From beach dress vibes to rocking casual knits that scream \" I love fashion\" Buy online with the confidence of free delivery, and a returns policy for 45 days.",
         "button-text-3": "Shop now",
         "link-3": "shopify:\/\/collections\/women",
         "image_4": "shopify:\/\/shop_images\/g_s-collection.png",
