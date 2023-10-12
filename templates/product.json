@@ -43,7 +43,7 @@
           }
         },
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -72,7 +72,7 @@
         "47e42ffd-787a-4f6f-8544-b47b352c018e": {
           "type": "returns_message",
           "settings": {
-            "returns_rte": "<p><strong>Free returns<\/strong> within 30 days<\/p>"
+            "returns_rte": "<p><strong>Returns<\/strong> within 45 days<\/p>"
           }
         },
         "buy_buttons": {
@@ -160,15 +160,13 @@
     "133b1ec4-866a-4d58-b91f-43793884ece4": {
       "type": "accordion-meta-object",
       "settings": {
-        "heading": "FAQs",
-        "sub_heading": "Our commonly asked questions..."
       }
     },
     "16891011425aabffa8": {
       "type": "apps",
       "blocks": {
         "c73b87e0-67f0-4d81-8130-3110be90b135": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
