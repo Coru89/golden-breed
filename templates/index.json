@@ -14,7 +14,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/mens-shorts",
+            "button_link_1": "shopify:\/\/collections\/mens-tops",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -26,7 +26,7 @@
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/October_14_-_Website_Header_Desktop.jpg",
+        "image": "shopify:\/\/shop_images\/October_14_-_Website_Header_Desktop_11852dc9-00d5-4219-a572-fd5bba570ef5.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
