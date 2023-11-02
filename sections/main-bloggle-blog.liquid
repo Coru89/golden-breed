@@ -130,6 +130,7 @@
             {% endif %}
             <div class="article-text-container responsive-div ai--flex-start-layout">
               <p class="bloggle--blog-item-title ">{{ article.title }}</p>
+              <p class="bloggle--blog-item-title ">{{ article.tags[0] }}</p>
               <p class="bloggle--blog-item-date">{{ article.published_at | time_tag: format: 'date' }}</p>
               {% if article.excerpt.size != 0 %}
                     {% assign allWords = article.excerpt | strip_html | split: " " %}
