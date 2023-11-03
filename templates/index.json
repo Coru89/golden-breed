@@ -14,7 +14,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/spooky-sale",
+            "button_link_1": "shopify:\/\/collections\/nov-4",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -27,7 +27,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/November_1_-_Website_Header_Desktop.jpg",
+        "image": "shopify:\/\/shop_images\/November_4_-_Website_Header_Desktop.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -45,7 +45,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/spooky-sale",
+            "button_link_1": "shopify:\/\/collections\/nov-4",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -58,7 +58,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/November_1_-_Website_Header_Mobile.jpg",
+        "image": "shopify:\/\/shop_images\/November_4_-_Website_Header_Mobile.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
