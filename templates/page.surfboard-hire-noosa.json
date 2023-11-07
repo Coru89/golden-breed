@@ -14,7 +14,8 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Rent a surfboard in Noosa"
+            "heading": "Rent A Surfboard In Noosa",
+            "heading_type": "h2"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
@@ -26,7 +27,8 @@
         "f3c3ee59-9726-490b-93f5-05dc4efd17b8": {
           "type": "heading",
           "settings": {
-            "heading": "Bodyboard Hire & Sups"
+            "heading": "Bodyboard Hire & Sups",
+            "heading_type": "h2"
           }
         },
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a": {
@@ -150,7 +152,8 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "New To Surfing?"
+            "heading": "New To Surfing?",
+            "heading_type": "h2"
           }
         },
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
@@ -162,7 +165,8 @@
         "455bcf1a-e01e-470b-9b61-b90d109fb64b": {
           "type": "heading",
           "settings": {
-            "heading": "Noosa’s Iconic Surf Hire"
+            "heading": "Noosa’s Iconic Surf Hire",
+            "heading_type": "h2"
           }
         },
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
@@ -174,7 +178,8 @@
         "8c3ce641-cbcd-4ace-8e03-5e45953d66b4": {
           "type": "heading",
           "settings": {
-            "heading": "Where To Surf  In Noosa"
+            "heading": "Where To Surf  In Noosa",
+            "heading_type": "h2"
           }
         },
         "c9ebea79-4ee6-41d2-ade9-2e284f72dbdd": {
