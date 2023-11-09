@@ -12,6 +12,7 @@
       "blocks": {
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
             "button_link_1": "shopify:\/\/collections\/nov-4",
@@ -27,7 +28,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/November-4---Website-Header-Desktop.gif",
+        "image": "shopify:\/\/shop_images\/November_11_-_Website_Header_Desktop.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -43,6 +44,7 @@
       "blocks": {
         "f9242c00-4426-454d-8fef-de701979d48c": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
             "button_link_1": "shopify:\/\/collections\/nov-4",
@@ -58,7 +60,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/November-4-Website-Header-Mobile.gif",
+        "image": "shopify:\/\/shop_images\/November_11_-_Website_Header_Mobile.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
