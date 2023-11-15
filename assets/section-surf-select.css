@@ -1,7 +1,10 @@
 .surf-select__inner {
   color: #265979;
   font-family: 'Nunito Sans', sans-serif;
-  padding: 5.5rem 5rem 0; }
+  padding: 5.5rem 1.5rem 0; }
+  @media screen and (min-width: 750px) {
+    .surf-select__inner {
+      padding: 5.5rem 5rem 0; } }
 
 .surf-select__heading {
   font-size: 28px;
@@ -13,6 +16,7 @@
 
 .surf-select__summary {
   margin: 0 auto 32px auto;
+  line-height: 1.3;
   text-align: center; }
   @media screen and (min-width: 750px) {
     .surf-select__summary {

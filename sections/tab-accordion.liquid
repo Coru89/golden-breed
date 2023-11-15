@@ -6,6 +6,11 @@
     <h2 {% if section.settings.anchorID %}id={{section.settings.anchorID}} {% endif %}class="tab-accordion__heading">
       {{ section.settings.heading }}
     </h2>
+    {% if section.settings.description != blank %}
+      <p class="tab-accordion__description">
+        {{ section.settings.description }}
+      </p>
+    {% endif %}
     <div class="tab-accordion__items">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -52,6 +57,11 @@
       "type": "text",
       "id": "heading",
       "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
     },
     {
       "type": "text",
