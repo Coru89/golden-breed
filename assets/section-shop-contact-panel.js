@@ -17,13 +17,13 @@ if (
 
       if (!modalEl) return;
       const overlayEl = e.currentTarget.closest('.shop-contact__button-row').querySelector('.shop-contact__modal-overlay');
-      modalEl.classList.add('shop-contact__modal--active');
+      modalEl.classList.add('gb-modal--active');
   
       if (!overlayEl) return;
-      overlayEl.classList.add('shop-contact__modal-overlay--active');
+      overlayEl.classList.add('gb-modal-overlay--active');
 
       if (!body) return;
-      body.classList.add('shop-contact__modal--body-active');
+      body.classList.add('gb-modal--body-active');
 
       if (!stickyHeader) return;
       stickyHeader.classList.add('shopify-section-header-hidden');
@@ -36,13 +36,13 @@ if (
 
       if (!modalEl) return;
       const overlayEl = e.currentTarget.closest('.shop-contact__button-row').querySelector('.shop-contact__modal-overlay');
-      modalEl.classList.remove('shop-contact__modal--active');
+      modalEl.classList.remove('gb-modal--active');
   
       if (!overlayEl) return;
-      overlayEl.classList.remove('shop-contact__modal-overlay--active');
+      overlayEl.classList.remove('gb-modal-overlay--active');
 
       if (!body) return;
-      body.classList.remove('shop-contact__modal--body-active');
+      body.classList.remove('modal--body-active');
 
       if (!stickyHeader) return;
       stickyHeader.classList.remove('shopify-section-header-hidden');
@@ -53,14 +53,14 @@ if (
   // close mobile nav if user clicks outside of nav
   document.onclick = (e) => {
     const target = e.target;
-    if (target.classList.contains("shop-contact__modal-overlay--active")) {
-      target.classList.remove('shop-contact__modal-overlay--active');
+    if (target.classList.contains("gb-modal-overlay--active")) {
+      target.classList.remove('gb-modal-overlay--active');
 
-      const modalEl = document.querySelector('.shop-contact__modal--active');
-      modalEl.classList.remove("shop-contact__modal--active");
+      const modalEl = document.querySelector('.gb-modal--active');
+      modalEl.classList.remove("gb-modal--active");
 
       if (!body) return;
-      body.classList.remove("shop-contact__modal--body-active");
+      body.classList.remove("gb-modal--body-active");
 
       if (!stickyHeader) return;
       stickyHeader.classList.remove('shopify-section-header-hidden');

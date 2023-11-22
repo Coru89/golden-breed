@@ -1,15 +1,10 @@
 {{ 'section-shop-image-text.css' | asset_url | stylesheet_tag }}
+<link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+
+<script src="{{ 'section-shop-image-text-video-modal.js' | asset_url }}" async></script>
 
 <section class="shop-image-with-text">
   <div class="shop-image-with-text__inner {% if section.settings.full_width %}shop-image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}">
-    {% comment %} {%- for block in section.blocks -%}
-      {% case block.type %}
-        {%- when 'heading' -%}
-          <h2 class="shop-image-with-text__heading shop-image-with-text__heading--mobile" {{ block.shopify_attributes }}>
-            {{ block.settings.heading | escape }}
-          </h2>
-      {%- endcase -%}
-    {%- endfor -%} {% endcomment %}
     <div class="shop-image-with-text__grid color-{{ section.settings.color_scheme }} grid grid--gapless grid--1-col grid--2-col-tablet gradient{% if section.settings.layout == 'text_first' %} shop-image-with-text__grid--reverse{% endif %}">
       <div class="grid__item">
         <div class="shop-image-with-text__media shop-image-with-text__media-desktop shop-image-with-text__media--{{ section.settings.height }} {% if section.settings.image != blank %}media{% else %}shop-image-with-text__media--placeholder placeholder{% endif %}"
@@ -52,7 +47,7 @@
               sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
               alt="{{ section.settings.image_mobile.alt | escape }}"
               loading="lazy"
-              width="{{ section.settings.image_mobile.width }}"
+              width="{{ section.settings.image_mobile.width }}"shop-image-with-text
               height="{{ section.settings.image_mobile.height }}"
             >
           {%- else -%}
@@ -76,6 +71,25 @@
                   <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="shop-image-with-text__button" {{ block.shopify_attributes }}>
                     {{ block.settings.button_label | escape }}
                   </a>
+                {%- endif -%}
+              {%- when 'video_url' -%}
+                {%- if block.settings.video_url != blank -%}
+                  <div class="shop-image-with-text__video-wrapper">
+                    <div class="shop-image-with-text__modal-overlay"></div>
+                    <button class="shop-image-with-text__overlay-button">
+                      <div class="shop-image-with-text__overlay-button-icon"></div>
+                      {{- block.settings.overlay_image | image_url: width: 3000 | image_tag: draggable: false, class: 'shop-image-with-text__video-overlay', sizes: '50vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+                    </button>
+                    <div class="shop-image-with-text__modal">
+                      {% comment %} <h2>{{block.settings.modal_heading }}</h2>  {% endcomment %}
+                      <button class="shop-image-with-text__modal-close">
+                        <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m14.835 14.364-.471.472a.667.667 0 0 1-.943 0L8 9.415l-5.421 5.42a.667.667 0 0 1-.943 0l-.471-.47a.667.667 0 0 1 0-.944l5.42-5.42-5.42-5.422a.667.667 0 0 1 0-.943l.471-.471c.26-.26.682-.26.943 0L8 6.586l5.421-5.421c.26-.26.683-.26.943 0l.471.471c.26.26.26.683 0 .943L9.415 8l5.42 5.421c.26.26.26.683 0 .943Z" fill="#fff"/></svg>
+                      </button>
+
+                    <div class="shop-image-with-text__modal-content">
+                      <iframe src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}?enablejsapi=1&autoplay=1&mute=1" class="js-youtube shop-image-with-text__iframe" allow="autoplay; encrypted-media" allowfullscreen></iframe>                    </div>
+                    </div>
+                  </div>
                 {%- endif -%}
             {%- endcase -%}
           {%- endfor -%}
@@ -223,6 +237,24 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.shop-image-with-text.blocks.button.settings.button_link.label"
+        }
+      ]
+    },
+    {
+      "type": "video_url",
+      "name": "Video",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Overlay Image",
+          "id": "overlay_image"
+        },
+        {
+          "type": "video_url",
+          "label": "Video Url",
+          "id": "video_url",
+          "accept": ["vimeo", "youtube"]
         }
       ]
     }
