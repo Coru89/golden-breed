@@ -90,7 +90,6 @@
       top: -8px;
       -webkit-transition: -webkit-transform 0.2s ease-out;
       transition: -webkit-transform 0.2s ease-out;
-      -o-transition: transform 0.2s ease-out;
       transition: transform 0.2s ease-out;
       transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out; }
     .section-accordion__item-header.active .section-accordion__item-header-icon {
@@ -103,7 +102,6 @@
   overflow: hidden;
   padding: 10px;
   -webkit-transition: max-height 0.3s ease-out;
-  -o-transition: max-height 0.3s ease-out;
   transition: max-height 0.3s ease-out; }
   @media screen and (min-width: 750px) {
     .section-accordion__content {

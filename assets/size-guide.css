@@ -98,7 +98,8 @@ tr.MuiTableRow-root.MuiTableRow-head {
   padding-right: 24px;
   position: relative;
   color: #F49600;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   font-weight: 800;
   font-size: 1.4rem;
   margin: 0; }

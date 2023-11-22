@@ -137,7 +137,7 @@
     border: 14px solid transparent;
     /* Use the border-image property to apply the border image */
     /* Use the border-image property to apply the border image */
-    -o-border-image: -o-repeating-linear-gradient(left, #929ea4 0, #929ea4 147px, #9fb1c6 147px, #9fb1c6 294px, #e78367 294px, #e78367 441px, #ebb967 441px, #ebb967 588px, #7da9a3 588px, #7da9a3 735px) 14;
+    -o-border-image: repeating-linear-gradient(to right, #929ea4 0, #929ea4 147px, #9fb1c6 147px, #9fb1c6 294px, #e78367 294px, #e78367 441px, #ebb967 441px, #ebb967 588px, #7da9a3 588px, #7da9a3 735px) 14;
        border-image: repeating-linear-gradient(to right, #929ea4 0, #929ea4 147px, #9fb1c6 147px, #9fb1c6 294px, #e78367 294px, #e78367 441px, #ebb967 441px, #ebb967 588px, #7da9a3 588px, #7da9a3 735px) 14;
     /* Set the box-sizing property to border-box to ensure the width and height of the element includes the border */
     -webkit-box-sizing: border-box;

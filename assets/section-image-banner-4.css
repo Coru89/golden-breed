@@ -12,7 +12,6 @@
           -ms-flex: auto;
               flex: auto;
       -webkit-transition: 0.8s;
-      -o-transition: 0.8s;
       transition: 0.8s; }
       .image-banner-4 .banner.col-md-3:hover {
         width: 33%; }
@@ -63,7 +62,6 @@
               -ms-transform: rotate(180deg);
                   transform: rotate(180deg);
           -webkit-transition: 0.2s;
-          -o-transition: 0.2s;
           transition: 0.2s;
           -webkit-writing-mode: vertical-rl;
               -ms-writing-mode: tb-rl;
@@ -101,7 +99,6 @@
       .image-banner-4 .banner__text, .image-banner-4 .banner__heading:not(.banner__heading--vertical), .image-banner-4 .banner__buttons {
         opacity: 0;
         -webkit-transition: 1s;
-        -o-transition: 1s;
         transition: 1s; } }
   .image-banner-4 .banner__box {
     -webkit-box-align: center;
