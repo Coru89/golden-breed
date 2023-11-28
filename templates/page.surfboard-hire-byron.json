@@ -14,7 +14,8 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Byron Surf Hire"
+            "heading": "Byron Surf Hire",
+            "heading_type": "h2"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
@@ -29,12 +30,28 @@
             "button_label": "see rates",
             "button_link": "#rates"
           }
+        },
+        "5b981d5a-c443-4499-942d-a251c32de5db": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Tie A Surfboard To Roof Racks",
+            "heading_type": "h2"
+          }
+        },
+        "896bebf8-c988-4b0c-aa4e-d47f8c212ccd": {
+          "type": "video_url",
+          "settings": {
+            "overlay_image": "shopify:\/\/shop_images\/tiedown.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=6GRsJXt0Qu4&ab_channel=GoldenBreed"
+          }
         }
       },
       "block_order": [
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0",
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1",
-        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2"
+        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2",
+        "5b981d5a-c443-4499-942d-a251c32de5db",
+        "896bebf8-c988-4b0c-aa4e-d47f8c212ccd"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/overlay-2.png",
@@ -136,7 +153,8 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Byron Bay Surfing"
+            "heading": "Byron Bay Surfing",
+            "heading_type": "h2"
           }
         },
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
@@ -148,7 +166,8 @@
         "5c9b6e78-ea19-45fb-8a14-b29f929bd96d": {
           "type": "heading",
           "settings": {
-            "heading": "Beginner Surf Spots in Byron"
+            "heading": "Beginner Surf Spots in Byron",
+            "heading_type": "h2"
           }
         },
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
@@ -160,7 +179,8 @@
         "9e10a562-5309-4af1-a2db-e7f52eac436e": {
           "type": "heading",
           "settings": {
-            "heading": "Advanced Surf Spots in Byron"
+            "heading": "Advanced Surf Spots in Byron",
+            "heading_type": "h2"
           }
         },
         "296916b2-c0d2-4ca0-b309-261ce1aa5343": {
@@ -493,6 +513,7 @@
       ],
       "settings": {
         "heading": "Surf, SUP & Body Board Rates",
+        "description": "",
         "anchorID": "rates"
       }
     },
