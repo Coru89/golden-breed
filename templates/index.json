@@ -12,10 +12,9 @@
       "blocks": {
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/noosa-heads",
+            "button_link_1": "shopify:\/\/collections\/men-new-arrivals",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -26,9 +25,8 @@
       "block_order": [
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/November_27_-_Website_Header_Desktop.png",
+        "image": "shopify:\/\/shop_images\/December_2_-_Website_Header_Desktop.png",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -44,10 +42,9 @@
       "blocks": {
         "f9242c00-4426-454d-8fef-de701979d48c": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/noosa-heads",
+            "button_link_1": "shopify:\/\/collections\/men-new-arrivals",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -58,9 +55,8 @@
       "block_order": [
         "f9242c00-4426-454d-8fef-de701979d48c"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/November_27_-_Website_Header_Mobile.png",
+        "image": "shopify:\/\/shop_images\/December_2_-_Website_Header_Mobile.png",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -89,6 +85,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
