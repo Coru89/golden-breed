@@ -72,7 +72,7 @@
                     {{ block.settings.button_label | escape }}
                   </a>
                 {%- endif -%}
-              {%- when 'video_url' -%}
+              {%- when 'video_block' -%}
                 {%- if block.settings.video_url != blank -%}
                   <div class="shop-image-with-text__video-wrapper">
                     <div class="shop-image-with-text__modal-overlay"></div>
@@ -241,9 +241,8 @@
       ]
     },
     {
-      "type": "video_url",
+      "type": "video_block",
       "name": "Video",
-      "limit": 1,
       "settings": [
         {
           "type": "image_picker",
@@ -271,6 +270,9 @@
         },
         {
           "type": "button"
+        },
+        {
+          "type": "video_block"
         }
       ]
     }

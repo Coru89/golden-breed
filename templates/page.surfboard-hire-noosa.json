@@ -45,7 +45,7 @@
           }
         },
         "34298aca-507c-4e6a-8544-107244347bd1": {
-          "type": "video_url",
+          "type": "video_block",
           "settings": {
             "overlay_image": "shopify:\/\/shop_images\/noosa-where-to-surf-poster.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=DCXqrjd7RTU"
