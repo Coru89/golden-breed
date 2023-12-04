@@ -732,7 +732,6 @@ class VariantSelects extends HTMLElement {
   onVariantChange() {
     this.updateOptions();
     this.updateMasterId();
-    this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
 
@@ -863,7 +862,7 @@ class VariantSelects extends HTMLElement {
     if (!addButton) return;
 
     if (disable) {
-      //addButton.setAttribute('disabled', 'disabled');
+      addButton.setAttribute('disabled', 'disabled');
       if (text) addButtonText.textContent = text;
     } else {
       addButton.removeAttribute('disabled');
