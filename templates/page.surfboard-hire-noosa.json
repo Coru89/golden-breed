@@ -34,7 +34,7 @@
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a": {
           "type": "text",
           "settings": {
-            "text": "<p>If chasing barrels isn’t your style, we also hire stand up paddle boards (SUPS) and bodyboards. Noosa is renowned for glassy mornings in the canals, and picturesque memories. On a flat day, rise and shine with the birds, grab a quick coffee and enjoy a chilled session of ray-spotting and seeing mother nature in all her glory.  Our Noosa surfboard hire shop has all options, for all ages. <\/p>"
+            "text": "<p>If chasing barrels isn’t your style, we also hire stand up paddle boards (SUPS) and bodyboards. Noosa is renowned for glassy mornings in the canals, and picturesque memories. On a flat day, rise and shine with the birds, grab a quick coffee and enjoy a chilled session of ray-spotting and seeing mother nature in all her glory.  Our Noosa surfboard hire shop has all options, for all ages...<\/p>"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2": {
@@ -44,10 +44,17 @@
             "button_link": "https:\/\/goldenbreed.com.au\/pages\/noosa-heads-board-hire#shopify-section-template--16200157659335__493ab732-928d-42ff-be99-fb0afa80e11a"
           }
         },
+        "105dc473-15a2-474d-9cba-36ad9df561b2": {
+          "type": "heading",
+          "settings": {
+            "heading": "Noosa Surf Spots",
+            "heading_type": "h2"
+          }
+        },
         "34298aca-507c-4e6a-8544-107244347bd1": {
           "type": "video_block",
           "settings": {
-            "overlay_image": "shopify:\/\/shop_images\/noosa-where-to-surf-poster.jpg",
+            "overlay_image": "shopify:\/\/shop_images\/noosa-surf-spots.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=DCXqrjd7RTU"
           }
         }
@@ -58,6 +65,7 @@
         "f3c3ee59-9726-490b-93f5-05dc4efd17b8",
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a",
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2",
+        "105dc473-15a2-474d-9cba-36ad9df561b2",
         "34298aca-507c-4e6a-8544-107244347bd1"
       ],
       "settings": {
