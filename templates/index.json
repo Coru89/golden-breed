@@ -27,7 +27,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/December_2_-_Website_Header_Desktop.png",
+        "image": "shopify:\/\/shop_images\/December_9_-_Website_Header_Desktop.png",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -58,7 +58,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/December_2_-_Website_Header_Mobile.png",
+        "image": "shopify:\/\/shop_images\/December_9_-_Website_Header_Mobile.png",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
