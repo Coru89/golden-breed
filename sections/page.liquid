@@ -3,7 +3,14 @@
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
-
+<script>
+    $(function() {
+        $('#colorselector').change(function(){
+            $('.colors').hide();
+            $('#' + $(this).val()).show();
+        });
+    });</script>
+    
 <div class="page-width">
   <h2 style="margin-left:auto; margin-right:auto;">
     {%- if section.settings.page.title != blank -%}
