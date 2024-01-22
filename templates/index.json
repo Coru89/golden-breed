@@ -12,6 +12,7 @@
       "blocks": {
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
             "button_link_1": "shopify:\/\/collections\/mens-restocked",
@@ -26,7 +27,7 @@
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/January_20_-_Website_Desktop_Header.jpg",
+        "image": "shopify:\/\/shop_images\/January_23_-_Website_Desktop_Header.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
