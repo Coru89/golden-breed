@@ -15,7 +15,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/mens-restocked",
+            "button_link_1": "shopify:\/\/collections\/gordon-smith-1",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -28,7 +28,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/January_23_-_Website_Desktop_Header.jpg",
+        "image": "shopify:\/\/shop_images\/February_3_-_Website_Desktop_Header.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -47,7 +47,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/mens-restocked",
+            "button_link_1": "shopify:\/\/collections\/gordon-smith-1",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -60,7 +60,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/January_23_-_Website_Header_Mobile.jpg",
+        "image": "shopify:\/\/shop_images\/February_3_-_Website_Header_Mobile.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
