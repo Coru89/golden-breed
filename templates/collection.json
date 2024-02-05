@@ -30,6 +30,15 @@
         "collapse_on_larger_devices": false
       }
     },
+    "collection_video_youtube_4BQHXB": {
+      "type": "collection-video-youtube",
+      "settings": {
+        "title": "{{ collection.metafields.custom.video_heading.value }}",
+        "description": "<p>{{ collection.metafields.custom.video_description | metafield_tag }}<\/p>",
+        "video_url": "{{ collection.metafields.custom.youtube_video_url.value }}",
+        "image": "{{ collection.metafields.custom.video_poster_image.value }}"
+      }
+    },
     "1a64566a-3c48-4946-812a-6f7fb5550574": {
       "type": "collection-video",
       "settings": {
@@ -131,6 +140,7 @@
     "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339",
     "banner",
     "product-grid",
+    "collection_video_youtube_4BQHXB",
     "1a64566a-3c48-4946-812a-6f7fb5550574",
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5",
     "ffc44b5b-3f32-4f29-8499-10049cac7a4f",
