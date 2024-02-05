@@ -20,3 +20,44 @@
 
 .collection-video__video {
   margin-top: 6rem; }
+
+.collection-video__yt-video {
+  margin-top: 6rem;
+  padding-bottom: 56.25%; }
+
+.collection-video__overlay-button-icon {
+  font-size: 60px;
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+  display: block !important;
+  position: absolute;
+  text-indent: 5px;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 100%;
+  color: #fff;
+  border-radius: 100%;
+  outline: none;
+  z-index: 1;
+  font-family: "Ionicons", "Questrial" !important; }
+  .collection-video__overlay-button-icon::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    font-family: "Ionicons", "Questrial" !important;
+    cursor: pointer;
+    color: #ebb967;
+    content: "\f488";
+    border-radius: 100%; }
+  .collection-video__overlay-button-icon:hover {
+    background-color: #ebb967; }
+    .collection-video__overlay-button-icon:hover::before {
+      color: #fff; }

@@ -910,6 +910,7 @@ body.vjs-full-window {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  display: block !important; /* customization */
   height: 100%;
   margin: 0;
   padding: 0;

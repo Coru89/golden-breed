@@ -1,0 +1,107 @@
+{% comment %} <script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js"></script> {% endcomment %}
+
+{{ 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' | stylesheet_tag }}
+{{ 'vjs.css' | asset_url | stylesheet_tag }}
+{{ 'collection-video.css' | asset_url | stylesheet_tag }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+{% if section.settings.video_url != blank %}
+
+  <script>
+    window.addEventListener('load', (event) => {
+      const readmoreEl = document.querySelector('.collection-video__readmore');
+      const readlessEl = document.querySelector('.collection-video__readless');
+      const descriptionFull = document.querySelector('.collection-video__description-full');
+      const descriptionShort = document.querySelector('.collection-video__description-short');
+
+      readmoreEl.addEventListener('click', function (e) {
+        e.preventDefault();
+        descriptionShort.style.display = 'none';
+        descriptionFull.style.display = 'block';
+      });
+
+      readlessEl.addEventListener('click', function (e) {
+        e.preventDefault();
+        descriptionFull.style.display = 'none';
+        descriptionShort.style.display = 'block';
+      });
+    });
+  </script>
+<script src="https://vjs.zencdn.net/5.4.6/video.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js"></script>
+
+  <section class="collection-video">
+    <div class="collection-video__inner">
+      <div class="collection-video__text page-width page-width--desktop">
+        <h2 class="collection-video__heading">{{ section.settings.title }}</h2>
+
+        {% if section.settings.description.size > 700 %}
+          <div class="collection-video__description collection-video__description-short">
+            {{ section.settings.description | newline_to_br | truncate: 500, '... ' }}
+            <a href="" class="collection-video__readmore">more</a>
+          </div>
+          <div class="collection-video__description collection-video__description-full" style="display:none;">
+            {{ section.settings.description | newline_to_br }}
+            <br>
+            <a class="collection-video__readless" href="">less</a>
+          </div>
+        {% else %}
+          <span> {{ section.settings.description | newline_to_br }} </span>
+        {% endif %}
+      </div>
+
+      <video
+        class="video-js collection-video__yt-video"
+        controls
+        preload="auto"
+        {% if section.settings.image %}
+          poster="{{ section.settings.image | image_url }}"
+        {% endif %}
+        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ section.settings.video_url }}"}]}'
+      >
+          {% comment %} <source src="{{ section.settings.video_url }}" type="video/mp4"> {% endcomment %}
+      </video>
+
+    </div>
+  </section>
+
+
+{% endif %}
+
+{% schema %}
+{
+  "name": "Collection Video YouTube",
+  "class": "shopify-section--video",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Cover image",
+      "info": "2000 x 1125px .jpg recommended."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Collection"
+    }
+  ]
+}
+{% endschema %}
