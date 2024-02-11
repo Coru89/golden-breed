@@ -25,6 +25,7 @@
       "block_order": [
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/February_8_-_Website_Desktop_Header.jpg",
         "image_height": "large",
@@ -55,6 +56,7 @@
       "block_order": [
         "f9242c00-4426-454d-8fef-de701979d48c"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/February_8_-_Website_Header_Mobile.jpg",
         "image_height": "large",
@@ -85,7 +87,6 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
