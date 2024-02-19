@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -12,14 +13,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Contact Us",
+            "heading_size": "h0"
           }
         },
         "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Head Office (for General & Social Media enquiries)<\/strong><\/p><p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>Ph - <a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914<\/a><\/p><p>Email - <a href=\"mailto:info@goldenbreed.com.au\" title=\"mailto:info@goldenbreed.com.au\">info@goldenbreed.com.au<\/a><\/p><p><\/p><p><\/p><p><em><strong>or fill out the form below and we will be in touch<\/strong><\/em><\/p>"
+            "text": ""
           }
         },
         "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-2": {
@@ -42,6 +43,32 @@
         "full_width": true
       }
     },
+    "rich_text_T6yMxq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Mp9mi3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_DMn7iw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Head Office (for General & Social Media enquiries)<\/strong><\/p><p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>Ph - <a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914<\/a><\/p><p>Email - <a href=\"mailto:info@goldenbreed.com.au\" title=\"mailto:info@goldenbreed.com.au\">info@goldenbreed.com.au<\/a><\/p><p><\/p><p><\/p><p><em><strong>or fill out the form below and we will be in touch<\/strong><\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mp9mi3",
+        "text_DMn7iw"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -52,6 +79,7 @@
   "order": [
     "main",
     "0471e7a0-b09a-4d40-917a-407deba17fa9",
+    "rich_text_T6yMxq",
     "form"
   ]
 }
