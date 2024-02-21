@@ -659,6 +659,105 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "image_banner_zyKkFa": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CKY4jL": {
+          "type": "heading",
+          "settings": {
+            "heading": "2022<br>The Big Noosa Project",
+            "heading_size": "large"
+          }
+        },
+        "text_RJMj3z": {
+          "type": "text",
+          "settings": {
+            "text": "After some years of planning and back and forth with the Noosa council ,Architects and Builders we finally got started on this big building project in Noosa Heads!We demolished the old asbestos shack at 13 Noosa drive and works finally commenced end of January 2022.Our architect Andrew Bock was briefed along these lines , “the new building has to look like it has been there for 50 years + and it should look like an old beach shack”Our architectural drawings reflected that ,and with great excitement all the fun and games begun . It was a difficult time to build as COVID had restricted supplies and staff and Builders had ever increasing costs ,Which they were not shy in passing along !"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CKY4jL",
+        "text_RJMj3z"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2022_1cd3d7a0-b46f-4a29-8fed-e4fb161a131f.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_BMfCmq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zdEUU9": {
+          "type": "heading",
+          "settings": {
+            "heading": "2023<br>Opening Our New Super Site",
+            "heading_size": "large"
+          }
+        },
+        "text_rE6kzp": {
+          "type": "text",
+          "settings": {
+            "text": "Dubbed the Temple of Stoke by Long time Noosa journo , Author and good mate Mr. Phil Jarratt ,the” brand -new old surf shack “ ,Golden Breeds latest retail super siteOpened its doors 5th January 2023 .It has surpassed all expectations in every regard.We absolutely love this building .There is also the SUNBIRD SUITE nestling above the shop which is available as an AIRBNB .A totally unique luxury and very private 2 story apartment ,set in the tree -tops a few meters from the beach and right above the Golden Breed Surf Shop ."
+          }
+        }
+      },
+      "block_order": [
+        "heading_zdEUU9",
+        "text_rE6kzp"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_3aaePP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TaFHAw": {
+          "type": "heading",
+          "settings": {
+            "heading": "2024<br>Our Golden Breed Online Store",
+            "heading_size": "large"
+          }
+        },
+        "text_JpNXdE": {
+          "type": "text",
+          "settings": {
+            "text": "It’s taken several years ,but now our Golden Breed online store is nearly our single biggest store .Recently we have partnered with some real ONLINE Pros. We have invested plenty of time and resources into our Online store to ensure we continue with this upward trajectory .What is so unique about our Store and all our Socials content and photo shoots ,is we use all our retail shop staff as the models  .It’s a bit of fun for them and its totally organic for us. The best part is you can VISIT US from anywhere in the world , anytime of the day. Get all the latest deals and news at www.goldenbreed.com.au"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TaFHAw",
+        "text_JpNXdE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2024.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
     }
   },
   "order": [
@@ -681,6 +780,9 @@
     "16399117896887c77d",
     "16399118462178193d",
     "1639911909f85940af",
-    "163991251516556499"
+    "163991251516556499",
+    "image_banner_zyKkFa",
+    "image_banner_BMfCmq",
+    "image_banner_3aaePP"
   ]
 }
