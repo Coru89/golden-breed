@@ -2,7 +2,6 @@
   "sections": {
     "1639955343e58290b6": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"margin-top:-5rem; margin-bottom:-5rem;\"><div style=\"margin-top:-1px; border-top:4px solid #e9b88a;\">\n      <div style=\"border-top:4px solid #c67986;\">\n         <div style=\"border-top:4px solid #f2f3f6;\">\n              <div style=\"border-top:4px solid #abc3cd;\"> \n   <div style=\"border-top:4px solid #6d8a9e;\">\n          <\/div><\/div><\/div><\/div><\/div><\/div>"
       }
@@ -13,8 +12,8 @@
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/el-solito-el-shortos",
+            "button_label_1": "SHOP THE SALE!",
+            "button_link_1": "shopify:\/\/collections\/end-of-summer-sale-2024",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -25,9 +24,8 @@
       "block_order": [
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/February_8_-_Website_Desktop_Header.jpg",
+        "image": "shopify:\/\/shop_images\/February_24_-_Website_Desktop_Header_e1096a07-c621-4c27-abbf-6bd4bd04c69e.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -44,8 +42,8 @@
         "f9242c00-4426-454d-8fef-de701979d48c": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/el-solito-el-shortos",
+            "button_label_1": "SHOP THE SALE!",
+            "button_link_1": "shopify:\/\/collections\/end-of-summer-sale-2024",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -56,9 +54,8 @@
       "block_order": [
         "f9242c00-4426-454d-8fef-de701979d48c"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/February_8_-_Website_Header_Mobile.jpg",
+        "image": "shopify:\/\/shop_images\/February_24_-_Website_Header_Mobile.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -104,6 +101,7 @@
         "text_LHqtYB",
         "buttons_jrdceD"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/February_24_-_Website_Desktop_Header_e1096a07-c621-4c27-abbf-6bd4bd04c69e.jpg",
         "image_height": "medium",
