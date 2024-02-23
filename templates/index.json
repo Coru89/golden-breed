@@ -69,6 +69,53 @@
         "show_text_below": true
       }
     },
+    "image_banner_i4CpwW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CTcFzA": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "text_LHqtYB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "buttons_jrdceD": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the Sale!",
+            "button_link_1": "shopify:\/\/collections\/end-of-summer-sale-2024",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CTcFzA",
+        "text_LHqtYB",
+        "buttons_jrdceD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/February_24_-_Website_Desktop_Header_e1096a07-c621-4c27-abbf-6bd4bd04c69e.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-2",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "16389277978b203bd3": {
       "type": "image-banner-2",
       "blocks": {
@@ -87,6 +134,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
@@ -307,6 +355,7 @@
     "1639955343e58290b6",
     "16631201915756bdaa",
     "b5e58ba2-84d3-4d31-b272-53af30dacf58",
+    "image_banner_i4CpwW",
     "16389277978b203bd3",
     "rich_text",
     "163893815304badf40",
