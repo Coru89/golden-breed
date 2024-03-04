@@ -366,100 +366,6 @@
             "header": false
           }
         },
-        "190d047b-e037-4cdc-9520-10958d4fbed7": {
-          "type": "tabaccordion_section",
-          "settings": {
-            "tabaccordion_section_name": "Stand up paddle boards"
-          }
-        },
-        "3cf2e180-b169-48f5-b80d-fee03e2182f8": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "Terms",
-            "column_2_data": "Price",
-            "header": true
-          }
-        },
-        "33ed2176-06c4-482a-998a-28a388db1eb4": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "2 Hours",
-            "column_2_data": "$35",
-            "header": false
-          }
-        },
-        "7cc19b2f-a3a7-4708-816d-809cf249ace2": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "4 Hours",
-            "column_2_data": "$50",
-            "header": false
-          }
-        },
-        "2d1ffde1-f76e-4397-af13-2ae973ee239b": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "24 Hours",
-            "column_2_data": "$80",
-            "header": false
-          }
-        },
-        "39f2ff50-906a-4795-a56d-adc1f00e64c9": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "2 Days",
-            "column_2_data": "$120",
-            "header": false
-          }
-        },
-        "f632b5d3-8c9a-4899-9ab7-a2ebb68dfc9d": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "3 Days",
-            "column_2_data": "$160",
-            "header": false
-          }
-        },
-        "cd15c7dc-bc05-48be-9d9f-8d80f98923d9": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "4 Days",
-            "column_2_data": "$180",
-            "header": false
-          }
-        },
-        "132d54db-9e58-472e-8145-8eb526e2351e": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "5 Days",
-            "column_2_data": "$200",
-            "header": false
-          }
-        },
-        "0068ab43-4b24-4f4a-a8d9-1aac7990136a": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "6 Days",
-            "column_2_data": "$220",
-            "header": false
-          }
-        },
-        "5907293d-78a9-430d-bb65-f1531493a0d8": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "7 Days \/ 1 Week",
-            "column_2_data": "$240",
-            "header": false
-          }
-        },
-        "3fa9eba8-feab-412e-8305-046889177a26": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "2 Weeks",
-            "column_2_data": "$360",
-            "header": false
-          }
-        },
         "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9": {
           "type": "tabaccordion_section",
           "settings": {
@@ -517,18 +423,6 @@
         "a7ac5f76-1a61-4cb7-b587-3a072da4d7da",
         "311fe5d9-5215-4890-ba29-80a04aadcfdc",
         "33e7e7f4-8b07-4e67-abf1-5ac161a4c9ce",
-        "190d047b-e037-4cdc-9520-10958d4fbed7",
-        "3cf2e180-b169-48f5-b80d-fee03e2182f8",
-        "33ed2176-06c4-482a-998a-28a388db1eb4",
-        "7cc19b2f-a3a7-4708-816d-809cf249ace2",
-        "2d1ffde1-f76e-4397-af13-2ae973ee239b",
-        "39f2ff50-906a-4795-a56d-adc1f00e64c9",
-        "f632b5d3-8c9a-4899-9ab7-a2ebb68dfc9d",
-        "cd15c7dc-bc05-48be-9d9f-8d80f98923d9",
-        "132d54db-9e58-472e-8145-8eb526e2351e",
-        "0068ab43-4b24-4f4a-a8d9-1aac7990136a",
-        "5907293d-78a9-430d-bb65-f1531493a0d8",
-        "3fa9eba8-feab-412e-8305-046889177a26",
         "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9",
         "ebfc088e-1ca1-4194-b821-228b5e0a4588",
         "c19d9b9f-48c9-4571-befd-50164b8dd408",
