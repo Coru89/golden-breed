@@ -209,7 +209,7 @@
     "be878ebf-ea2f-4b42-bcd7-65a23267b69c": {
       "type": "image-grid",
       "settings": {
-        "heading": "SUP’s Bodyboards & Surfboard Hire",
+        "heading": "Bodyboards & Surfboard Hire",
         "summary": "Our Byron Bay Surf hire includes 4 person stand up paddle boards, (SUP’s).  Hire body boards, paddle boards and surfboard hire from our Byron store. If you’re not sure which board is for you, we’ll help.\n\nWe hire foamies (beginners boards), for the kids we’ve got body boards, and for advanced surfers, we’ve got shortboards and more. We’ll kit you out with rashie’s, boardies if needed, and wax your weapon, rail to rail so you’re ready to go and get salty.",
         "main_image": "shopify:\/\/shop_images\/byron-bay-shop.png",
         "image_grid": "shopify:\/\/shop_images\/byron-shop.png",
@@ -512,7 +512,7 @@
         "beda9343-1ad4-4266-b2c6-a857cc41b213"
       ],
       "settings": {
-        "heading": "Surf, SUP & Body Board Rates",
+        "heading": "Surf, Body Board Rates",
         "description": "",
         "anchorID": "rates"
       }
