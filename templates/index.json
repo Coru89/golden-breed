@@ -25,6 +25,7 @@
       "block_order": [
         "00ac3d32-d01c-46a1-80cc-16e12c7a3617"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/February_24_-_Website_Desktop_Header_3d6c6276-76aa-4a6a-93d1-04e6f46c69ef.jpg",
         "image_height": "large",
