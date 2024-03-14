@@ -2669,6 +2669,7 @@ section#shopify-section-template--16288740704455__16631201915756bdaa,section#sho
 
 /* override for transparent swatches produced by the globo app */
 /* product page */
+.globo-swatch-product-detail {order:4;}
 .globo-swatch-product-detail .swatch--gl ul.g-variant-color-detail li label.globo-border-color-swatch[style*="background-color: transparent"] {
   font-size: 13px !important;
   padding: 8px 10px 5px 10px;
