@@ -2178,6 +2178,10 @@ input[type="checkbox"] {
   }
 }
 
+.header {
+  padding-top: 1rem;
+}
+
 .header *[tabindex="-1"]:focus {
   outline: none;
 }
