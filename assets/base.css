@@ -2174,6 +2174,9 @@ input[type="checkbox"] {
   menu-drawer ~ .header__icons .header__icon--account {
     display: none;
   }
+  .nav_logo_head {
+    max-height: 30px !important;
+  }
 }
 
 .header *[tabindex="-1"]:focus {
