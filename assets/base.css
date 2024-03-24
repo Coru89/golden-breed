@@ -2218,6 +2218,7 @@ input[type='checkbox'] {
   .header__heading-link {
     text-align: center;
   }
+  .header__heading-logo {max-height:30px;}
 }
 
 @media screen and (min-width: 990px) {
