@@ -18,6 +18,11 @@
     margin-left: 0;
   }
 
+  .list-social__item {
+    display: flex;
+    align-items: center;
+  }
+
   .footer-block.grid__item {
     padding: 0;
     margin: 4rem 0;
