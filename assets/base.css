@@ -2071,7 +2071,6 @@ input[type="checkbox"] {
   grid-template-areas: "left-icon heading icons";
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
