@@ -2175,7 +2175,9 @@ input[type="checkbox"] {
     display: none;
   }
   .nav_logo_head {
-    max-height: 30px !important;
+    max-height: 36px !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
