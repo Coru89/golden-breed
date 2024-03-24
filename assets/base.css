@@ -2468,6 +2468,10 @@ details[open] > .announcement-bar__icon--menu .icon-hamburger {
   .header--middle-left .header__inline-menu {
     margin-left: 0;
   }
+
+  summary.header__menu-item {
+    padding-right: 2rem !important;
+  }
 }
 
 .header__menu {
