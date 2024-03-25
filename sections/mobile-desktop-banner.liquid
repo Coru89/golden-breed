@@ -48,10 +48,10 @@
           {%- if section.settings.image_desktop.width >= 3840 -%}{{ section.settings.image_desktop | img_url: '3840x' }} 3840w,{%- endif -%}
           {{ section.settings.image_desktop | img_url: 'master' }} {{ section.settings.image_desktop.width }}w"
         sizes="100vw"
-        src="{{ section.settings.image | img_url: '1500x' }}"
+        src="{{ section.settings.image_desktop | img_url: '1500x' }}"
         loading="lazy"
-        alt="{{ section.settings.image.alt | escape }}"
-        width="{{ section.settings.image.width }}"
+        alt="{{ section.settings.image_desktop.alt | escape }}"
+        width="{{ section.settings.image_desktop.width }}"
         height="{{ section.settings.image_desktop.width | divided_by: section.settings.image_desktop.aspect_ratio }}"
         
       >
