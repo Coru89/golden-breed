@@ -10,6 +10,8 @@
       content: '';
       display: block;
     }
+ .mobile_banner img {display:block;}
+    .desktop_banner img {display:none;}
   }
 
   @media screen and (min-width: 750px) {
@@ -19,6 +21,8 @@
       content: '';
       display: block;
     }
+    .mobile_banner img {display:none !important;}
+    .desktop_banner img {display:none !important;}
   }
   {%- endstyle -%}
 
@@ -31,7 +35,7 @@
 
 <div id="Banner-{{ section.id }}" class="banner banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
+    <div class="desktop_banner banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
       <img
         srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
           {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
@@ -53,7 +57,7 @@
   {%- endif -%}
 
     {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
+    <div class="mobile_banner banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
       <img
         srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
           {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
