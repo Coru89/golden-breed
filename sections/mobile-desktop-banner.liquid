@@ -1,6 +1,6 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
-{%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
+
   {%- style -%}
   @media screen and (max-width: 749px) {
     #Banner-{{ section.id }}::before,
@@ -21,7 +21,7 @@
     }
   }
   {%- endstyle -%}
-{%- endif -%}
+
 
 {%- style -%}
   #Banner-{{ section.id }}::after {
@@ -88,12 +88,12 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:sections.image-banner.settings.image.label"
+      "label": "Desktop Image"
     },
     {
       "type": "image_picker",
-      "id": "image_2",
-      "label": "t:sections.image-banner.settings.image_2.label"
+      "id": "image_mobile",
+      "label": "Mobile Image"
     },
     {
       "type": "select",
