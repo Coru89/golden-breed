@@ -104,12 +104,12 @@
         "buttons_jrdceD"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 749px) {#Banner-template--16288740704455__image_banner_i4CpwW {display: none;} }"
+        "@media only screen and (max-width: 749px) {#Banner-template--16288740704455__image_banner_i4CpwW {display: none; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/March_7_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
