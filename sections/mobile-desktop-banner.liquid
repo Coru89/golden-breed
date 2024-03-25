@@ -29,7 +29,7 @@
   }
 {%- endstyle -%}
 
-<div id="Banner-{{ section.id }}" class="banner banner--{{ section.settings.image_height }} banner--adapt {% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+<div id="Banner-{{ section.id }}" class="banner banner--adapt {% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   {%- if section.settings.image_desktop != blank -%}
     <div class="banner__media media{% if section.settings.image_desktop == blank %} placeholder{% endif %}">
       <img
