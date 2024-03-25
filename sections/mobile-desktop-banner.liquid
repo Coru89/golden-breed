@@ -10,6 +10,8 @@
       content: '';
       display: block;
     }
+     #Banner-{{ section.id }} .mobile_banner {display:block;}
+    #Banner-{{ section.id }} .desktop_banner {display:none !important;}
   }
 
   @media screen and (min-width: 750px) {
@@ -19,6 +21,9 @@
       content: '';
       display: block;
     }
+
+    #Banner-{{ section.id }} .mobile_banner {display:none !important;}
+    #Banner-{{ section.id }} .desktop_banner {display:block;}
   }
   {%- endstyle -%}
 
@@ -57,7 +62,7 @@
     </div>
   {%- endif -%}
   {%- if section.settings.image_mobile != blank -%}
-    <div class="banner__media media">
+    <div class="banner__media media mobile_banner">
       <img
         srcset="{%- if section.settings.image_mobile.width >= 375 -%}{{ section.settings.image_mobile | img_url: '375x' }} 375w,{%- endif -%}
           {%- if section.settings.image_mobile.width >= 750 -%}{{ section.settings.image_mobile | img_url: '750x' }} 750w,{%- endif -%}
