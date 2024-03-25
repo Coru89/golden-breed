@@ -57,7 +57,7 @@
     </div>
   {%- endif -%}
   {%- if section.settings.image_mobile != blank -%}
-    <div class="banner__media media banner--adapt">
+    <div class="banner__media media">
       <img
         srcset="{%- if section.settings.image_mobile.width >= 375 -%}{{ section.settings.image_mobile | img_url: '375x' }} 375w,{%- endif -%}
           {%- if section.settings.image_mobile.width >= 750 -%}{{ section.settings.image_mobile | img_url: '750x' }} 750w,{%- endif -%}
