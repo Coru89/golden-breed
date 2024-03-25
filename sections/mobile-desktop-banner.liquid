@@ -36,7 +36,7 @@
 
 <div id="Banner-{{ section.id }}" class="banner banner--medium banner--adapt banner--mobile-bottom banner--desktop-transparent">
   {%- if section.settings.image_desktop != blank -%}
-    <div class="desktop_banner banner__media media{% if section.settings.image_desktop == blank %} placeholder{% endif %}">
+    <div class="desktop_banner banner__media media {% if section.settings.image_desktop == blank %} placeholder{% endif %}">
       <img
         srcset="{%- if section.settings.image_desktop.width >= 375 -%}{{ section.settings.image_desktop | img_url: '375x' }} 375w,{%- endif -%}
           {%- if section.settings.image_desktop.width >= 750 -%}{{ section.settings.image_desktop | img_url: '750x' }} 750w,{%- endif -%}
