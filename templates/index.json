@@ -89,8 +89,8 @@
         "buttons_jrdceD": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Find a Store",
-            "button_link_1": "shopify:\/\/pages\/gb-stores",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -107,7 +107,7 @@
         "@media only screen and (max-width: 749px) {#Banner-template--16288740704455__image_banner_i4CpwW {display: none; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/March_7_-_Website_Desktop_Header.jpg",
+        "image": "shopify:\/\/shop_images\/March_26_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
