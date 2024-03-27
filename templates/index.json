@@ -57,8 +57,8 @@
         "f9242c00-4426-454d-8fef-de701979d48c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/March_7_-_Website_Header_Mobile.jpg",
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/March_26_-_Website_Header_Mobile.jpg",
+        "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
