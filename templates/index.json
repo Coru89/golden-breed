@@ -351,6 +351,20 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "mobile_hp_banner_LmaiVx": {
+      "type": "mobile-hp-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/March_30_-_EDM.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -364,6 +378,7 @@
     "163894817194625549",
     "1638926734988978b1",
     "16389384641b4e0b94",
-    "1638938467e517f824"
+    "1638938467e517f824",
+    "mobile_hp_banner_LmaiVx"
   ]
 }
