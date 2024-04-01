@@ -38,19 +38,34 @@
         "show_text_below": false
       }
     },
-    "mobile_hp_banner_LmaiVx": {
-      "type": "mobile-hp-banner",
+    "b5e58ba2-84d3-4d31-b272-53af30dacf58": {
+      "type": "image-banner",
+      "blocks": {
+        "f9242c00-4426-454d-8fef-de701979d48c": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all-new-arrivals",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "f9242c00-4426-454d-8fef-de701979d48c"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/March_30_-_EDM.jpg",
-        "banner_url": "shopify:\/\/collections\/all-new-arrivals",
         "image_height": "medium",
         "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "image_banner_i4CpwW": {
@@ -336,12 +351,27 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "mobile_hp_banner_LmaiVx": {
+      "type": "mobile-hp-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/March_30_-_EDM.jpg",
+        "banner_url": "",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "1639955343e58290b6",
     "16631201915756bdaa",
-    "mobile_hp_banner_LmaiVx",
+    "b5e58ba2-84d3-4d31-b272-53af30dacf58",
     "image_banner_i4CpwW",
     "16389277978b203bd3",
     "rich_text",
@@ -349,6 +379,7 @@
     "163894817194625549",
     "1638926734988978b1",
     "16389384641b4e0b94",
-    "1638938467e517f824"
+    "1638938467e517f824",
+    "mobile_hp_banner_LmaiVx"
   ]
 }
