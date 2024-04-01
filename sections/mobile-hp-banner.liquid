@@ -1,6 +1,6 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
-{%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
+
   {%- style -%}
   @media screen and (max-width: 749px) {
     #Banner-{{ section.id }}::before,
@@ -20,10 +20,7 @@
       display: block;
     }
   }
-  {%- endstyle -%}
-{%- endif -%}
 
-{%- style -%}
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
