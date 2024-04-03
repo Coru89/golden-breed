@@ -87,12 +87,21 @@
   {%- if show_badges -%}
     <span class="product__badge">
       {%- if product.available == false -%}
-        <span
-          style="background:{{ settings.sold_out_badge_color_scheme }};"
-          class="badge badge--bottom-left"
-        >
-          {{- 'products.product.sold_out' | t -}}
-        </span>
+        {% if product.tags contains 'coming soon' %}
+            <span
+              style="background: #f2f1f0; color: #335b74"
+              class="badge badge--bottom-left"
+              >
+                Coming soon
+            </span> 
+        {% else %}
+            <span
+              style="background:{{ settings.sold_out_badge_color_scheme }};"
+              class="badge badge--bottom-left"
+            >
+              {{- 'products.product.sold_out' | t -}}
+            </span>
+        {% endif %}
       {%- elsif product.compare_at_price > product.price
         and product.available
       -%}
