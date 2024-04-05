@@ -10,8 +10,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/March_30_-_EDM.jpg",
-        "banner_url": "shopify:\/\/collections\/all-new-arrivals",
+        "image": "shopify:\/\/shop_images\/March_26_-_Website_Header_Mobile-2.jpg",
+        "banner_url": "shopify:\/\/collections\/mens-rag-tops",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
