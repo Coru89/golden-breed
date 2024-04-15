@@ -6,8 +6,15 @@
         "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3": {
           "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
           "settings": {
+            "override_linktext_colour": false,
+            "linktext_colour": "#0000EE",
+            "separator_colour": "#555555",
+            "producttitle_colour": "#555555",
+            "spacing_above": 0,
+            "spacing_below": 0,
             "sep_plus_class": "breadcrumb__sep_plus5",
             "separator_char_code": "rsaquo;",
+            "hide_old_breadcrumb": false,
             "show_catroot": true,
             "link_catroot": "\/",
             "text_catroot": "Home",
@@ -20,7 +27,8 @@
             "text_catall": "All Products",
             "show_product_title": true,
             "truncate_limit": 0,
-            "prod_ignore_referrer": false
+            "prod_ignore_referrer": false,
+            "old_breadcrumb_class": "breadcrumb"
           }
         }
       },
@@ -58,21 +66,10 @@
             "picker_type": "button"
           }
         },
-        "a5266312-7f96-4ec7-b97e-7e26bb86c518": {
-          "type": "shopify:\/\/apps\/smartsize\/blocks\/app-block\/465a43e0-6a1a-4d30-b82e-fe6118568705",
+        "custom_liquid_qi9c8b": {
+          "type": "custom_liquid",
           "settings": {
-          }
-        },
-        "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34": {
-          "type": "freebie_message",
-          "settings": {
-            "freebie_rte": "<p><strong>Surprise freebie<\/strong> with this product<\/p>"
-          }
-        },
-        "47e42ffd-787a-4f6f-8544-b47b352c018e": {
-          "type": "returns_message",
-          "settings": {
-            "returns_rte": "<p><strong>Returns<\/strong> within 45 days<\/p>"
+            "custom_liquid": "<p style=\"font-weight:800; line-height:1.2;\">This board is available for collection in our Noosa Heads Store<\/p>"
           }
         },
         "buy_buttons": {
@@ -91,8 +88,8 @@
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "content": "<p><span><u>Shipping with Australia<\/u><\/span><br><br>Free Standard Delivery On Orders Over $75.<br><br>$10.00 for Standard Delivery on orders under $75.<br><br>$15.00 for Express Post Delivery on all orders.<br><br><u>International Delivery<\/u><br><br>For Delivery to NZ, Europe, Canada & United States<br>$25.00 Flat Rate including Tracking.<br><br><u>Returns & Exchanges<\/u><br><br>We accept returns for unworn products with tags and original proof of purchase.<br><br>Customers are responsible for any costs incurred to return the products.<br><br>For more info on please visit our Returns & Exchanges page : <a href=\"https:\/\/goldenbreed.com.au\/pages\/product-returns\">RETURNS & EXCHANGES →<\/a><br><br>Please note all products on sale or face coverings are final sale and not accepted for returns or exchanges.<br><br><\/p>",
+            "heading": "Shipping",
+            "content": "<p>This board is located at Golden Breed Noosa Heads and is available for collection upon purchase.<br><br>If you wish for the board to be shipped, we can introduce you to Surf Freight specialists to arrange for shipping to you.<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -112,9 +109,7 @@
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755",
         "price",
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df",
-        "a5266312-7f96-4ec7-b97e-7e26bb86c518",
-        "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34",
-        "47e42ffd-787a-4f6f-8544-b47b352c018e",
+        "custom_liquid_qi9c8b",
         "buy_buttons",
         "description",
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
