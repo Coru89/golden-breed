@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "1694587350eaa68ccd": {
+      "type": "apps",
+      "blocks": {
+        "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3": {
+          "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
+          "settings": {
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "separator_char_code": "rsaquo;",
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": true,
+            "show_finalbread_as_textonly": false,
+            "insert_jsonld": true,
+            "insert_shortlinkfix": false,
+            "prod_multicat_sel": "first",
+            "link_catall": "\/collections\/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 0,
+            "prod_ignore_referrer": false
+          }
+        }
+      },
+      "block_order": [
+        "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3"
+      ],
+      "custom_css": [
+        ".spaced-section {margin: 3rem 0 0 0;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "a2fd6274-9fbf-492d-bb0f-5655e2feb9df": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "a5266312-7f96-4ec7-b97e-7e26bb86c518": {
+          "type": "shopify:\/\/apps\/smartsize\/blocks\/app-block\/465a43e0-6a1a-4d30-b82e-fe6118568705",
+          "settings": {
+          }
+        },
+        "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34": {
+          "type": "freebie_message",
+          "settings": {
+            "freebie_rte": "<p><strong>Surprise freebie<\/strong> with this product<\/p>"
+          }
+        },
+        "47e42ffd-787a-4f6f-8544-b47b352c018e": {
+          "type": "returns_message",
+          "settings": {
+            "returns_rte": "<p><strong>Returns<\/strong> within 45 days<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "heading": "Details",
+            "icon": "none"
+          }
+        },
+        "9b5aa3b3-5826-4376-8f23-43f084cc5e99": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "content": "<p><span><u>Shipping with Australia<\/u><\/span><br><br>Free Standard Delivery On Orders Over $75.<br><br>$10.00 for Standard Delivery on orders under $75.<br><br>$15.00 for Express Post Delivery on all orders.<br><br><u>International Delivery<\/u><br><br>For Delivery to NZ, Europe, Canada & United States<br>$25.00 Flat Rate including Tracking.<br><br><u>Returns & Exchanges<\/u><br><br>We accept returns for unworn products with tags and original proof of purchase.<br><br>Customers are responsible for any costs incurred to return the products.<br><br>For more info on please visit our Returns & Exchanges page : <a href=\"https:\/\/goldenbreed.com.au\/pages\/product-returns\">RETURNS & EXCHANGES →<\/a><br><br>Please note all products on sale or face coverings are final sale and not accepted for returns or exchanges.<br><br><\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Contact Us",
+            "content": "<p>For any enquiries please email <strong>info@goldenbreed.com.au<\/strong><\/p><p> or use our <a href=\"\/pages\/contact-us\">contact page here.<\/a><\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755",
+        "price",
+        "a2fd6274-9fbf-492d-bb0f-5655e2feb9df",
+        "a5266312-7f96-4ec7-b97e-7e26bb86c518",
+        "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34",
+        "47e42ffd-787a-4f6f-8544-b47b352c018e",
+        "buy_buttons",
+        "description",
+        "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
+        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da"
+      ],
+      "custom_css": [
+        ".spaced-section {margin-top: 3rem;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "enable_quantity_selector": true
+      }
+    },
+    "891ee324-8896-4021-9598-50458db48649": {
+      "type": "product-wear-with",
+      "settings": {
+        "heading": "Wear it with",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": true
+      }
+    },
+    "133b1ec4-866a-4d58-b91f-43793884ece4": {
+      "type": "accordion-meta-object",
+      "settings": {
+      }
+    },
+    "16891011425aabffa8": {
+      "type": "apps",
+      "blocks": {
+        "c73b87e0-67f0-4d81-8130-3110be90b135": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "c73b87e0-67f0-4d81-8130-3110be90b135"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "1694587350eaa68ccd",
+    "main",
+    "891ee324-8896-4021-9598-50458db48649",
+    "product-recommendations",
+    "133b1ec4-866a-4d58-b91f-43793884ece4",
+    "16891011425aabffa8"
+  ]
+}
