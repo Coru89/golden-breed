@@ -9,6 +9,7 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/April_25_-_Website_Header_Mobile.jpg",
         "banner_url": "shopify:\/\/collections\/all-new-arrivals",
