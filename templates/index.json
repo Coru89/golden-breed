@@ -10,8 +10,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/April_30_-_Website_Header_Mobile_bd1ea850-10b4-4212-8f1a-ea7c3a262955.jpg",
-        "banner_url": "https:\/\/www.instagram.com\/p\/C6W94wkyu_F\/?img_index=1",
+        "image": "shopify:\/\/shop_images\/May_4_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify:\/\/collections\/floyd-walkshorts",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
