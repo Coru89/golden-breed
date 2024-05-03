@@ -28,8 +28,8 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "ENTER NOW",
-            "button_link_1": "https:\/\/www.instagram.com\/p\/C6W94wkyu_F\/?img_index=1",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/floyd-walkshorts",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_blank\"",
             "button_label_2": "",
