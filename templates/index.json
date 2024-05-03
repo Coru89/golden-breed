@@ -10,8 +10,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/March_30_-_EDM.jpg",
-        "banner_url": "shopify:\/\/collections\/all-new-arrivals",
+        "image": "shopify:\/\/shop_images\/April_30_-_Website_Header_Mobile_bd1ea850-10b4-4212-8f1a-ea7c3a262955.jpg",
+        "banner_url": "https:\/\/www.instagram.com\/p\/C6W94wkyu_F\/?img_index=1",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -28,8 +28,8 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/all-new-arrivals",
+            "button_label_1": "ENTER NOW",
+            "button_link_1": "https:\/\/www.instagram.com\/p\/C6W94wkyu_F\/?img_index=1",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -41,7 +41,7 @@
         "buttons_Lf63bB"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/March_30_-_Website_Desktop_Header.jpg",
+        "image": "shopify:\/\/shop_images\/April_30_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
