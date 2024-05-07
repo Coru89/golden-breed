@@ -17,17 +17,10 @@
     "16399164064f8d5d88": {
       "type": "rich-text",
       "blocks": {
-        "1639916406341644d3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Classic Surf Style Clothing For Men",
-            "heading_size": "h0"
-          }
-        },
         "1639916406341644d3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Classic surf style clothing for men that's inspired by our rich history of Australian surf culture. We bring you retro inspired gear, blended with 2024 designs. Free shipping when you shop online and make an order of men's surf clothes, over $75* anywhere in Australia. From surf accessories to boardshorts, hoodies, sunglasses and thongs.<\/p>"
+            "text": "<h1>Classic Surf Style Clothing For Men<\/h1><p>Classic surf style clothing for men that's inspired by our rich history of Australian surf culture. We bring you retro inspired gear, blended with 2024 designs. Free shipping when you shop online and make an order of men's surf clothes, over $75* anywhere in Australia. From surf accessories to boardshorts, hoodies, sunglasses and thongs.<\/p>"
           }
         },
         "1639916406341644d3-2": {
@@ -40,7 +33,6 @@
         }
       },
       "block_order": [
-        "1639916406341644d3-0",
         "1639916406341644d3-1",
         "1639916406341644d3-2"
       ],
