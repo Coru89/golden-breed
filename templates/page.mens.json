@@ -17,17 +17,10 @@
     "16399164064f8d5d88": {
       "type": "rich-text",
       "blocks": {
-        "1639916406341644d3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Classic Surf-Style Clothing For Men",
-            "heading_size": "h1"
-          }
-        },
         "1639916406341644d3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Take it easy with our classic surf-style clothing for Men. Inspired by our rich history of Australian Surf Culture, we bring to you retro inspired designs for the present day.<\/p>"
+            "text": "<h1>Classic Surf Style Clothing For Men<\/h1><p>Classic surf style clothing for men that's inspired by our rich history of Australian surf culture. We bring you retro inspired gear, blended with 2024 designs. Free shipping when you shop online and make an order of men's surf clothes, over $75* anywhere in Australia. From surf accessories to boardshorts, hoodies, sunglasses and thongs.<\/p>"
           }
         },
         "1639916406341644d3-2": {
@@ -40,7 +33,6 @@
         }
       },
       "block_order": [
-        "1639916406341644d3-0",
         "1639916406341644d3-1",
         "1639916406341644d3-2"
       ],
@@ -52,7 +44,7 @@
     "1639913989b2a448c5": {
       "type": "featured-collection",
       "settings": {
-        "title": "New Arrivals",
+        "title": "Shop Online Our New Mens Arrivals",
         "collection": "men-new-arrivals",
         "products_to_show": 8,
         "show_view_all": true,
@@ -68,7 +60,7 @@
     "163991512007273a0d": {
       "type": "featured-collection",
       "settings": {
-        "title": "T-Shirts",
+        "title": "Browse Golden Breed Surf Brand T-Shirts",
         "collection": "mens-tees",
         "products_to_show": 8,
         "show_view_all": true,
@@ -84,7 +76,7 @@
     "16399151648e6ce6c8": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shorts",
+        "title": "Shorts & Boardshorts",
         "collection": "mens-shorts",
         "products_to_show": 8,
         "show_view_all": true,
@@ -100,7 +92,7 @@
     "163991519323571034": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shirts",
+        "title": "Retro Surf Shirts",
         "collection": "golden-breed-hawaiian-shirts",
         "products_to_show": 4,
         "show_view_all": true,
