@@ -7,7 +7,7 @@
           "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
           "settings": {
             "override_linktext_colour": false,
-            "linktext_colour": "#0000EE",
+            "linktext_colour": "#0000ee",
             "separator_colour": "#555555",
             "producttitle_colour": "#555555",
             "spacing_above": 0,
@@ -143,7 +143,6 @@
     },
     "133b1ec4-866a-4d58-b91f-43793884ece4": {
       "type": "accordion-meta-object",
-      "disabled": true,
       "settings": {
       }
     },
