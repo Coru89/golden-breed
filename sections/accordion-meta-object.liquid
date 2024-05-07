@@ -1,29 +1,37 @@
 {% if collection.metafields.custom.collectionfaqs.value != blank %}
   {% assign faqitems = collection.metafields.custom.collectionfaqs.value %}
-{% elsif product.metafields.custom.productFaqs.value != blank %}
-  {% assign faqitems = product.metafields.custom.productFaqs.value %}
+{% elsif product.metafields.custom.productfaqs.value != blank %}
+  {% assign faqitems = product.metafields.custom.productfaqs.value %}
 {% endif %}
 
-{% if faqitems %}
+{% if faqitems != blank %}
   {{ 'section-accordion.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'section-accordion.js' | asset_url }}" async></script>
 
   <section class="section-accordion">
     <div class="section-accordion__inner page-width page-width--desktop">
       <h2 class="section-accordion__heading">
-        {{ collection.metafields.custom.collectionfaqsheading.value }}
+        {% if collection %}
+          {{ collection.metafields.custom.collectionfaqsheading.value }}
+        {% else %}
+          {{ product.metafields.custom.productfaqsheading.value }}
+        {% endif %}
       </h2>
       <div class="section-accordion__sub-heading">
-        {{ collection.metafields.custom.collectionfaqssubheading.value }}
+        {% if collection %}
+          {{ collection.metafields.custom.collectionfaqssubheading.value }}
+        {% else %}
+          {{ product.metafields.custom.productfaqssubheading.value }}
+      {% endif %}
       </div>
       <div class="section-accordion__items">
 
         {% if collection.metafields.custom.collectionfaqs.value != blank %}
           {% assign itemsEven = collection.metafields.custom.collectionfaqs.value %}
           {% assign itemsOdd = collection.metafields.custom.collectionfaqs.value %}
-        {% elsif product.metafields.custom.productFaqs.value != blank %}
-          {% assign itemsOdd = product.metafields.custom.productFaqs.value %}
-          {% assign itemsEven = product.metafields.custom.productFaqs.value %}
+        {% elsif product.metafields.custom.productfaqs.value != blank %}
+          {% assign itemsOdd = product.metafields.custom.productfaqs.value %}
+          {% assign itemsEven = product.metafields.custom.productfaqs.value %}
         {% endif %}
           
         <div class="section-accordion__column">
