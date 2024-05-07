@@ -141,11 +141,6 @@
         "enable_quantity_selector": true
       }
     },
-    "133b1ec4-866a-4d58-b91f-43793884ece4": {
-      "type": "accordion-meta-object",
-      "settings": {
-      }
-    },
     "891ee324-8896-4021-9598-50458db48649": {
       "type": "product-wear-with",
       "settings": {
@@ -185,14 +180,19 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "133b1ec4-866a-4d58-b91f-43793884ece4": {
+      "type": "accordion-meta-object",
+      "settings": {
+      }
     }
   },
   "order": [
     "1694587350eaa68ccd",
     "main",
-    "133b1ec4-866a-4d58-b91f-43793884ece4",
     "891ee324-8896-4021-9598-50458db48649",
     "product-recommendations",
-    "16891011425aabffa8"
+    "16891011425aabffa8",
+    "133b1ec4-866a-4d58-b91f-43793884ece4"
   ]
 }
