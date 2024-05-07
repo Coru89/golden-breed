@@ -6,21 +6,29 @@
         "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3": {
           "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
           "settings": {
+            "override_linktext_colour": false,
+            "linktext_colour": "#0000EE",
+            "separator_colour": "#555555",
+            "producttitle_colour": "#555555",
+            "spacing_above": 0,
+            "spacing_below": 0,
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "separator_char_code": "rsaquo;",
+            "hide_old_breadcrumb": false,
             "show_catroot": true,
             "link_catroot": "\/",
             "text_catroot": "Home",
             "show_tags": true,
             "show_finalbread_as_textonly": false,
-            "separator_char_code": "rsaquo;",
-            "sep_plus_class": "breadcrumb__sep_plus5",
             "insert_jsonld": true,
             "insert_shortlinkfix": false,
-            "prod_ignore_referrer": false,
             "prod_multicat_sel": "first",
             "link_catall": "\/collections\/all",
             "text_catall": "All Products",
             "show_product_title": true,
-            "truncate_limit": 0
+            "truncate_limit": 0,
+            "prod_ignore_referrer": false,
+            "old_breadcrumb_class": "breadcrumb"
           }
         }
       },
@@ -133,6 +141,12 @@
         "enable_quantity_selector": true
       }
     },
+    "133b1ec4-866a-4d58-b91f-43793884ece4": {
+      "type": "accordion-meta-object",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "891ee324-8896-4021-9598-50458db48649": {
       "type": "product-wear-with",
       "settings": {
@@ -157,11 +171,6 @@
         "show_rating": true
       }
     },
-    "133b1ec4-866a-4d58-b91f-43793884ece4": {
-      "type": "accordion-meta-object",
-      "settings": {
-      }
-    },
     "16891011425aabffa8": {
       "type": "apps",
       "blocks": {
@@ -182,9 +191,9 @@
   "order": [
     "1694587350eaa68ccd",
     "main",
+    "133b1ec4-866a-4d58-b91f-43793884ece4",
     "891ee324-8896-4021-9598-50458db48649",
     "product-recommendations",
-    "133b1ec4-866a-4d58-b91f-43793884ece4",
     "16891011425aabffa8"
   ]
 }
