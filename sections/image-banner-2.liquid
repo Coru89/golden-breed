@@ -70,7 +70,7 @@
           {%- when 'buttons' -%}
             <div  class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.button_label_1 != blank -%}
-                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.link-1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ section.settings.button-text-1 }}</a>
+                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.link-1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"{% if section.settings.button_custom_link_attributes_1 != blank %} {{ section.settings.button_custom_link_attributes_1 }}{% endif %}>{{ section.settings.button-text-1 }}</a>
               {%- endif -%}
               
             </div>
@@ -120,7 +120,7 @@
           {%- when 'buttons' -%}
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
              
-                <a  href="{{ section.settings.link-2 }}" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ section.settings.button-text-2 }}</a>
+                <a  href="{{ section.settings.link-2 }}" class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"{% if section.settings.button_custom_link_attributes_2 != blank %} {{ section.settings.button_custom_link_attributes_2 }}{% endif %}>{{ section.settings.button-text-2 }}</a>
               
             </div>
         {%- endcase -%}
@@ -142,47 +142,53 @@
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
     },
-
-        {
-          "type": "text",
-          "id": "title-1",
-           "label": "Title 1"
-        },
-{
-          "type": "text",
-          "id": "button-text-1",
-           "label": "Button Text"
-        },
-{
-          "type": "url",
-          "id": "link-1",
-          "label": "Link 1"
-        },
-     
-
+    {
+      "type": "text",
+      "id": "title-1",
+      "label": "Title 1"
+    },
+    {
+      "type": "text",
+      "id": "button-text-1",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "link-1",
+      "label": "Link 1"
+    },
+    {
+      "type": "text",
+      "id": "button_custom_link_attributes_1",
+      "label": "First Button Custom Link Attribute(s)",
+      "info": "e.g: rel=\"noopener noreferrer\" target=\"_blank\""
+    },
     {
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
     },
-
-{
-          "type": "text",
-          "id": "title-2",
-           "label": "Title 2"
-        },
-
-{
-          "type": "text",
-          "id": "button-text-2",
-           "label": "Button Text"
-        },
-
-{
-          "type": "url",
-          "id": "link-2",
-          "label": "Link 2"
-        },
+    {
+      "type": "text",
+      "id": "title-2",
+      "label": "Title 2"
+    },
+    {
+      "type": "text",
+      "id": "button-text-2",
+        "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "link-2",
+      "label": "Link 2"
+    },
+    {
+      "type": "text",
+      "id": "button_custom_link_attributes_2",
+      "label": "Second Button Custom Link Attribute(s)",
+      "info": "e.g: rel=\"noopener noreferrer\" target=\"_blank\""
+    },
     {
       "type": "select",
       "id": "image_height",
