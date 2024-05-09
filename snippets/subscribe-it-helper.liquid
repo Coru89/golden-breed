@@ -3,17 +3,28 @@ Don't edit this file.
 This snippet is auto generated and will be overwritten.
 {% endcomment %}
 
-{% comment %} <style type="text/css">
+<style type="text/css">
     .modal-title {font-family:Special Elite,Monospace; font-weight:600; line-height:1; margin-bottom:20px;}
 .product-name {font-family:Special Elite,Monospace; font-weight:600;}
+p {font-family:Special Elite,Monospace; }
 label {font-family:Special Elite,Monospace; }
-</style> {% endcomment %}
+</style>
 
 <script id="subscribe-it-helper">
+    function getRandomSubscribeAPIPath() {
+        const apiGatewayPaths=[]
+        apiGatewayPaths.push('xsy6rdr4zb') //Load balancer
+        //apiGatewayPaths.push('pw4ndd3ije')
+        //apiGatewayPaths.push('056wq1p6oa')
+        //apiGatewayPaths.push('obx6oifedg')
+        //apiGatewayPaths.push('seknvpr88e')
+
+        return apiGatewayPaths[Math.floor(Math.random()*apiGatewayPaths.length)]
+    }
     var _SIConfig = _SIConfig || {};
 
     _SIConfig = {
-        "app_hostname": "xsy6rdr4zb.execute-api.us-west-1.amazonaws.com",
+        "app_hostname": getRandomSubscribeAPIPath()+".execute-api.us-west-1.amazonaws.com",
         "conversions_hostname": "ifouxf840g.execute-api.us-west-1.amazonaws.com",
         "instock_qty_level": 1,
         "preorder_enabled": false,
@@ -49,6 +60,7 @@ label {font-family:Special Elite,Monospace; }
         "recaptcha_enabled": null,
         "content_for_body": "",
         "show_phone_number_field": false,
+        "customer_name_enabled": false,
         "only_sms_enabled": false,
         "show_notify_me_button_on_collection_page": false,
         "show_sms_first": false,
@@ -150,7 +162,7 @@ label {font-family:Special Elite,Monospace; }
     {% endif %}
 
     {% if customer %}
-    _SIConfig.customer = { email: {{ customer.email | json }}, phone: {{ customer.phone | json }} };
+        _SIConfig.customer = { email: {{ customer.email | json }}, phone: {{ customer.phone | json }}, name: {{ customer.name | json }} };
     {% endif %}
 </script>
 
