@@ -1,5 +1,23 @@
 {
   "sections": {
+    "rich_text_EXGMcf": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RdcWHX": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>All sales are final - no exchanges or refunds.<\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RdcWHX"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -28,24 +46,6 @@
         "show_cart_note": false
       }
     },
-    "rich_text_EXGMcf": {
-      "type": "rich-text",
-      "blocks": {
-        "text_RdcWHX": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>All sales are final - no exchanges or refunds.<\/h5>"
-          }
-        }
-      },
-      "block_order": [
-        "text_RdcWHX"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "16404371506932ac6d": {
       "type": "featured-collection",
       "settings": {
@@ -64,9 +64,9 @@
     }
   },
   "order": [
+    "rich_text_EXGMcf",
     "cart-items",
     "cart-footer",
-    "rich_text_EXGMcf",
     "16404371506932ac6d"
   ]
 }
