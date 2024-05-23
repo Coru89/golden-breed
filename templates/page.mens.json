@@ -153,6 +153,89 @@
         "show_rating": false
       }
     },
+    "accordion_nmHhc8": {
+      "type": "accordion",
+      "blocks": {
+        "accordion_item_RW4pYb": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "WHICH SURF CLOTHING BRAND IS THE MOST SUSTAINABLE?",
+            "accordion_content": "Honestly, most surf clothing brands like Deus Ex Machina, Ozmosis, Howler Brothers and Rip Curl, all make an effort due to their values and love of nature, but to our knowledge, there's no clear winner of which company manufacturers the most eco-friendly surfwear on the planet. One thing to look for is where the garments are made. Golden Breed partners with a small Bali manufacture, and we know this makes a tremendous impact on jobs in the local community."
+          }
+        },
+        "accordion_item_khP4jR": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "WHY IS GOLDEN BREED ALL ABOUT VINTAGE VIBES AND RETRO DESIGNS?",
+            "accordion_content": "Golden Breed was originally a global surf brand, established way back in 1969. It marks the glory days when life was simple, people were free and surf culture was all about the love of single finned cross stepping. We honour this era in our clothing with a touch of retro in every item we make. We're unique in the surf industry and fashion brands, with a clothing line that stays current and doesn't date quickly."
+          }
+        },
+        "accordion_item_HakiCT": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "ARE THE GB BRAND'S BOARDIES & SWIMWEAR GOOD FOR THE SURFING LIFESTYLE? OR IS IT JUST A FASHION CLOTHING RANGE?",
+            "accordion_content": "Sure is. You'll find some of the best surf clothing online with Golden Breed. Our board shorts are made with recycled 4 way stretch micro fibre polyester\/ spandex, designed for the surf scene and Australian surf."
+          }
+        },
+        "accordion_item_qY4e3M": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "HOW DOES GOLDEN BREED STACK UP AGAINST QUIKSILVER, RIP CURL, RUSTY, ROXY, RVCA, VOLCOM, HURLEY & BILLABONG?",
+            "accordion_content": "There's no denying it, they're some of the best surf brands out there, pumping out some of the best surf gear, but Golden Breed surf accessories and clothing comes with the nostalgia of the good old days, chilled vibes & salty memories. We're not one of the massive commercial major surf brands. We're a niche Australian, iconic surf label that's true to its roots and has honoured mother nature since 1969."
+          }
+        },
+        "accordion_item_iEffUq": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "IS THERE A MINIMUM SPEND TO GET FREE DELIVERY AND TO USE AFTERPAY?",
+            "accordion_content": "There's no minimum spend to use Afterpay, but to unlock free delivery in Australia, your order needs to be over $75, excluding delivery costs."
+          }
+        },
+        "accordion_item_pe8FQ3": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "ARE THE MENS SIZES APPROPRIATE FOR AUSTRALIAN SIZED MALES?",
+            "accordion_content": "Yes, we make our clothing line specifically for Aussies. But it's important that you check the size guide on each product page first before ordering. If you get the sizes slightly wrong, no worries, we have a free returns policy*."
+          }
+        },
+        "accordion_item_iVACEr": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "DO YOU SELL MEN'S WETSUITS, WAX & LEGGIES?",
+            "accordion_content": "Unfortunately, we don't sell wetty's, but we do sell accessories like wax, leash, grip pads and sunscreen in-store. If you're after a wetsuit and not surf apparel, your're best to head over to another online surf shop like Surfstitch for these items."
+          }
+        },
+        "accordion_item_qJNiCU": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "WHERE IS GOLDEN BREED'S SURF CLOTHING MANUFACTURED?",
+            "accordion_content": "Everything is designed in Australia, and we manufacture in Bali."
+          }
+        },
+        "accordion_item_KgJhbD": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "WHAT SORT OF COTTON IS IT MADE FROM ?",
+            "accordion_content": "The Gb ringer tees are made from what we call a “ vintage slub cotton “ This gives the tee shirt some wonderful texture."
+          }
+        }
+      },
+      "block_order": [
+        "accordion_item_RW4pYb",
+        "accordion_item_khP4jR",
+        "accordion_item_HakiCT",
+        "accordion_item_qY4e3M",
+        "accordion_item_iEffUq",
+        "accordion_item_pe8FQ3",
+        "accordion_item_iVACEr",
+        "accordion_item_qJNiCU",
+        "accordion_item_KgJhbD"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "sub_heading": "Our commonly asked questions..."
+      }
+    },
     "1639913865332fd7f9": {
       "type": "image-banner-2",
       "blocks": {
@@ -176,10 +259,12 @@
         "title-1": "",
         "button-text-1": "Shop Shirts",
         "link-1": "shopify:\/\/collections\/golden-breed-hawaiian-shirts",
+        "button_custom_link_attributes_1": "",
         "image_2": "shopify:\/\/shop_images\/mens-col-2.jpg",
         "title-2": "",
         "button-text-2": "Shop Shorts",
         "link-2": "shopify:\/\/collections\/mens-shorts",
+        "button_custom_link_attributes_2": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -201,6 +286,7 @@
     "16399153924e6f1775",
     "16399155391e01aa77",
     "163991557595476d0f",
+    "accordion_nmHhc8",
     "1639913865332fd7f9"
   ]
 }
