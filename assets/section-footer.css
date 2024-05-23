@@ -14,8 +14,12 @@
 
 @media screen and (max-width: 749px) {
   .footer .grid {
-    display: block;
+    /* display: block; */
+    display: grid;
     margin-left: 0;
+    grid-template-columns: repeat(2, 1fr); /* Create two columns of equal width */
+    justify-content:space-between;
+    grid-column-gap: 1.5rem;
   }
 
   .list-social__item {
@@ -25,8 +29,19 @@
 
   .footer-block.grid__item {
     padding: 0;
-    margin: 4rem 0;
+    margin: 0 0 4rem 0;
     width: 100%;
+  }
+
+  @media screen and (min-width: 749px) {
+    .footer-block.grid__item {
+      margin: 4rem 0;
+
+    }
+  }
+
+  .footer-block.grid__item:last-child {
+    grid-column: 1 / span 2;
   }
 
   .footer-block.grid__item:first-child {
