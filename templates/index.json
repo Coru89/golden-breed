@@ -9,6 +9,7 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/May_23_-_Website_Header_Mobile.jpg",
         "banner_url": "shopify:\/\/collections\/mid-season-sale-25-off",
@@ -42,6 +43,7 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/May_23_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
@@ -72,7 +74,6 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
