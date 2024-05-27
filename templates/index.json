@@ -101,8 +101,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/favi.png?v=1613721392\" style=\"width:50px;\" alt=\"golden breed surf wear australia\"><br>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!",
-            "heading_size": "h2"
+            "heading": "An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!",
+            "heading_size": "h0"
           }
         },
         "text": {
