@@ -12,7 +12,7 @@
       "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/May_23_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify:\/\/collections\/mid-season-sale-25-off",
+        "banner_url": "shopify:\/\/collections\/mid-season-sale",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/mid-season-sale-25-off",
+            "button_link_1": "shopify:\/\/collections\/mid-season-sale",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
