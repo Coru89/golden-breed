@@ -101,7 +101,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Golden Breed Surf Shop<\/h1>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!",
+            "heading": "<h1>Golden Breed Surf Shop<\/h1><h2>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!<\/h2>",
             "heading_size": "h2"
           }
         },
