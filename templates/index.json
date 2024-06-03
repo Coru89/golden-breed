@@ -9,10 +9,9 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/May_23_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify:\/\/collections\/mid-season-sale",
+        "image": "shopify:\/\/shop_images\/June_4_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify:\/\/collections\/mens-tees",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
