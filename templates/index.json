@@ -10,8 +10,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/June_4_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify:\/\/collections\/mens-tees",
+        "image": "shopify:\/\/shop_images\/June_8_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify:\/\/collections\/long-island",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
