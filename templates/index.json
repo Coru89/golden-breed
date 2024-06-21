@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1639955343e58290b6": {
@@ -10,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/June_8_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify:\/\/collections\/long-island",
+        "image": "shopify:\/\/shop_images\/June_22_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify:\/\/collections\/eofy-sale-25-off-everything",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
