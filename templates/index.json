@@ -51,6 +51,7 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/June_22_-_Website_Desktop_Header_2dfaf369-7025-4d2c-a72c-7663edc582b2.jpg",
         "image_height": "medium",
@@ -81,7 +82,6 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
