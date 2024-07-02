@@ -11,6 +11,7 @@
   "sections": {
     "1639955343e58290b6": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"margin-top:-5rem; margin-bottom:-5rem;\"><div style=\"margin-top:-1px; border-top:4px solid #e9b88a;\">\n      <div style=\"border-top:4px solid #c67986;\">\n         <div style=\"border-top:4px solid #f2f3f6;\">\n              <div style=\"border-top:4px solid #abc3cd;\"> \n   <div style=\"border-top:4px solid #6d8a9e;\">\n          <\/div><\/div><\/div><\/div><\/div><\/div>"
       }
