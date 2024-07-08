@@ -2498,6 +2498,10 @@ details[open] > .announcement-bar__icon--menu .icon-hamburger {
   text-underline-offset: 0.3rem;
 }
 
+.header__menu-item--top-level {
+  text-decoration: none;
+}
+
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));

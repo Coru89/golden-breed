@@ -100,6 +100,7 @@
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                               {{ link.title | escape }}<span style="margin-left:auto;"><svg fill="none" height="18" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 10"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.747 4.701a.422.422 0 0 1 0 .597L1.446 9.599a.422.422 0 0 1-.597 0L.65 9.4a.422.422 0 0 1 0-.596L4.454 5 .65 1.196a.422.422 0 0 1 0-.597L.85.4a.422.422 0 0 1 .596 0l4.301 4.301Z" fill="#265979"/></svg></span>
                             </summary>
+
                             <div id="link-{{ link.title | escape }}" class="menu-drawer__submenu motion-reduce" tabindex="-1">
                               <div class="menu-drawer__inner-submenu">
                                  {% if link.title == "Men's" %}
@@ -445,8 +446,12 @@
               {%- if link.links != blank -%}
                 <details-disclosure>
                   <details id="Details-HeaderMenu-{{ forloop.index }}">
-                    <summary class="header__menu-item list-menu__item link focus-inset">
-                      <span>{{ link.title | escape }}</span>
+                    <summary class="list-menu__item header__menu-item link focus-inset">
+
+                      <a href="{{ link.url }}" class="header__menu-item--top-level link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+                        <span >{{ link.title | escape }}</span>
+                      </a>
+
                       {% render 'icon-caret' %}
                     </summary>
                     <ul style="display: flex;" id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
