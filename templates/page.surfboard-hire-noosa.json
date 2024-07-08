@@ -27,14 +27,14 @@
         "f3c3ee59-9726-490b-93f5-05dc4efd17b8": {
           "type": "heading",
           "settings": {
-            "heading": "Bodyboard Hire & Sups",
+            "heading": "Bodyboard Hire",
             "heading_type": "h2"
           }
         },
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a": {
           "type": "text",
           "settings": {
-            "text": "<p>If chasing barrels isn’t your style, we also hire stand up paddle boards (SUPS) and bodyboards. Noosa is renowned for glassy mornings in the canals, and picturesque memories. On a flat day, rise and shine with the birds, grab a quick coffee and enjoy a chilled session of ray-spotting and seeing mother nature in all her glory.  Our Noosa surfboard hire shop has all options, for all ages...<\/p>"
+            "text": "<p>If chasing barrels is your thing, or even if you're just getting started, our Noosa surfboard hire shop is the place to be. Noosa is renowned for its glassy mornings, creating the perfect conditions for bodyboarding. Rise and shine with the birds, grab a quick coffee, and head out for a thrilling session on the waves. On a flat day, you can still enjoy the serene beauty of the canals, spotting rays and soaking in the picturesque surroundings. We offer a wide range of bodyboards suitable for all ages, ensuring everyone can make unforgettable memories in the water.<\/p>"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2": {
@@ -107,7 +107,7 @@
         "d57d5d86-0949-4ab5-ae50-7d830b45740c": {
           "type": "surfboard",
           "settings": {
-            "heading": "SUPS<br>( NOT AVAILABLE AT THIS TIME )",
+            "heading": "SUPS( NOT AVAILABLE AT THIS TIME )",
             "board_description": "<ul>\n<li>The stand up paddle board is a perfect way to cruise around  especially on flatter days when the waves are not happening.<\/li>\n<li>Most of the SUPS we have are for smaller conditions and cruising rather than surfing in bigger waves .<\/li>\n<li>There are many SUP riders out there that have definitely mastered the art ,and can surf on virtually anything extremely well.<\/li>\n<li>They can paddle into waves a lot quicker than regular surfboard riders.<\/li>\n<li>We generally recommend using the SUP option only in smaller conditions ,unless you are very experienced.<\/li>\n<\/ul>",
             "board_image": "shopify:\/\/shop_images\/sup.svg",
             "card_background_color": "#7da9a3"
@@ -308,7 +308,7 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "5 Days",
-            "column_2_data": "$150",
+            "column_2_data": "$140",
             "header": false
           }
         },
@@ -365,44 +365,6 @@
             "column_2_data": "$5",
             "header": false
           }
-        },
-        "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9": {
-          "type": "tabaccordion_section",
-          "settings": {
-            "tabaccordion_section_name": "4 Person SUP"
-          }
-        },
-        "ebfc088e-1ca1-4194-b821-228b5e0a4588": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "Terms",
-            "column_2_data": "Price",
-            "header": true
-          }
-        },
-        "c19d9b9f-48c9-4571-befd-50164b8dd408": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "2 Hours",
-            "column_2_data": "$50",
-            "header": false
-          }
-        },
-        "7b6b5aa8-ddda-4fd4-9a66-5b9f0fdbd80d": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "4 Hours",
-            "column_2_data": "$85",
-            "header": false
-          }
-        },
-        "0997239e-fc40-4e6f-9790-e1c0027fb379": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "24 Hours",
-            "column_2_data": "$120",
-            "header": false
-          }
         }
       },
       "block_order": [
@@ -422,12 +384,7 @@
         "144cdffa-870c-4be2-b4da-cd5ad44a7582",
         "a7ac5f76-1a61-4cb7-b587-3a072da4d7da",
         "311fe5d9-5215-4890-ba29-80a04aadcfdc",
-        "33e7e7f4-8b07-4e67-abf1-5ac161a4c9ce",
-        "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9",
-        "ebfc088e-1ca1-4194-b821-228b5e0a4588",
-        "c19d9b9f-48c9-4571-befd-50164b8dd408",
-        "7b6b5aa8-ddda-4fd4-9a66-5b9f0fdbd80d",
-        "0997239e-fc40-4e6f-9790-e1c0027fb379"
+        "33e7e7f4-8b07-4e67-abf1-5ac161a4c9ce"
       ],
       "settings": {
         "heading": "Check Out Our Hire Rates",
