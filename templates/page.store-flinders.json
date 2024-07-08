@@ -89,24 +89,24 @@
             "form_settings": false,
             "font_color": "#000000",
             "size": 14,
-            "input_background_color": "#FFF",
-            "input_background_color_focus": "#F4DADA",
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
             "input_border_radius": 1,
             "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2D2727",
-            "input_font_color": "#3D3131",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
             "input_size": 14,
             "border_color": "#121212",
             "border_radius": 2,
             "border": 1,
-            "fill_color": "#EBE9E9",
+            "fill_color": "#ebe9e9",
             "padding": 35,
             "form_width": 600,
             "btn_text": "Submit",
-            "sub_btn_txt_color": "#F3F3F3",
-            "sub_btn_bg_color": "#3F3333",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
             "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#FFFFFF",
+            "sub_btn_bdr_color": "#ffffff",
             "sub_btn_bdr_rad": 3,
             "sub_btn_bdr_width": 1,
             "fonts": "Times New Roman"
@@ -133,7 +133,7 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Here's how to find Golden Breed's Byron Bay surf shop. The shop's at 10 Lawson St, right on the corner of Lawson St and Fletcher St roundabout, (the Golden Breed round-about). you'll find us right across from Subway. If you're driving in from town, head down Jonson St towards the beach and turn left onto Lawson. Keep driving until you hit the roundabout, and you'll see Golden Breed's retro  vibes, right in your line of sight. If you're traveling from the other direction, just follow Fletcher St towards the beach, turn right onto Lawson, and you'll see the shop on your left. Easy as!<br\/><\/p>"
+            "text": "<p>LOREM<\/p>"
           }
         },
         "5c9b6e78-ea19-45fb-8a14-b29f929bd96d": {
@@ -146,7 +146,7 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
           "type": "text",
           "settings": {
-            "text": "<p> If you're only planning a quick visit, Lawson Street has 1-hour parking for $5 an hour, or if you need a a little longer, Fletcher St's got a 2-hour zone at the same rate. For longer stays, there's the Byron Street Carpark (just off Fletcher St), and the Middleton St Carpark, both offering 4-hour parking, once again at @ $5 an hour.<br\/><br\/>You can also park at Lawson St Carpark's North and South Car Parks, with 4-hour zones at the same rate. If you're a bit tight on cash, you can park for free at Somerset St, which is only a short 5-minute walk into town. Just remember to move your wheels to another zone once time's up, they'll sting you in a heart beat. <br\/><br\/>Paid parking's available from 9 am to 6 pm, seven days a week. Or for $25 you can grab all-day parking. Pay at the meter or through the Pay Stay App.<\/p>"
+            "text": "<p>LOREM<\/p>"
           }
         }
       },
@@ -177,7 +177,7 @@
         "text_QJzDDW": {
           "type": "text",
           "settings": {
-            "text": "<p>If you're an experienced surfer looking for a challenge, Byron Bay won't disappoint. The area is home to some of the best surf breaks in the world, including Lennox Head and The Wreck. <\/p><p>Lennox is located about 15 minutes soOur Byron Bay surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out out surf fashion and we're happy to accommodate for all abilities.uth of Byron Bay and is known for its long, powerful waves, head south another 5 minutes and you’ll find Boulders surrounded by mother nature in all her glory.<\/p><p>The Wreck, located at the northern end of Main Beach, is another popular surf spot with experienced surfers. The waves here are hard and fast, making it a challenging but rewarding break to get salty.<\/p><p>Byron Bay Surfing is world class, just be careful to find the right breaks, be safe, and wear a damn leggie.<\/p>"
+            "text": "<p>LOREM<\/p>"
           }
         },
         "heading_zqhgf4": {
