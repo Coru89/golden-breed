@@ -212,29 +212,21 @@
         "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "What are the best surf beaches in Byron Bay?",
-            "accordion_content": "There are several great surf spots in this world-famous surf town. The Pass is the most popular and also the busiest. Wategos beach is great as well .You should also check out Belongil beach and Clarks.\n\nThen you can venture around to Tallows and Broken head.\n\nIf you have wheels… Lennox Heads and Brunswick Heads are also great options."
+            "accordion_label": "Do you offer surfboard rentals at your Flinders location?",
+            "accordion_content": "No, our Flinders store does not offer surfboard rentals. However, we provide a wide selection of premium surfboards for purchase, along with apparel and accessories. Our knowledgeable staff can help you choose the right gear and offer advice on the best local surf spots."
           }
         },
         "cffc097b-c126-4ff2-845d-7dd4374810fc": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "What is The Pass in Byron Bay?",
-            "accordion_content": "The Pass is one of the busiest and most famous surf spots in Byron Bay. It is an iconic surf break with consistent sets, big swells, and long, peely right-handers. It is great for all levels of surfers and is particularly popular with long-boarders."
-          }
-        },
-        "ff6640cf-37c2-44ff-b512-a629946c599a": {
-          "type": "accordion_item",
-          "settings": {
-            "accordion_label": "How do I know if the surfboard is in good condition?",
-            "accordion_content": "It's always best to inspect the surfboard for any cracks or damage before renting it. Take photos while in the shop of anything you're unsure of."
+            "accordion_label": "Can your staff provide advice on local surfing conditions and spots?",
+            "accordion_content": "Absolutely! Our friendly and experienced staff are well-versed in the local surf conditions and can provide expert advice on the best spots to surf in and around Flinders. Whether you're new to surfing or a seasoned pro, we're here to help you make the most of your surfing experience."
           }
         }
       },
       "block_order": [
         "dba7340e-c2ba-4f41-8326-01ad6fad0885",
-        "cffc097b-c126-4ff2-845d-7dd4374810fc",
-        "ff6640cf-37c2-44ff-b512-a629946c599a"
+        "cffc097b-c126-4ff2-845d-7dd4374810fc"
       ],
       "settings": {
         "heading": "FAQs",
