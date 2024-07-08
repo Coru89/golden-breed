@@ -68,15 +68,15 @@
         "whatsapp": "1300 882 914",
         "whatsappLink": "tel:1300 882 914",
         "email": "GBFlinders@goldenbreed.com.au",
-        "driving_directions": "<p>Here's how to find Golden Breed's Byron Bay surf shop. The shop's at 10 Lawson St, right on the corner of Lawson St and Fletcher St roundabout, (the Golden Breed round-about). you'll find us right across from Subway. If you're driving in from town, head down Jonson St towards the beach and turn left onto Lawson. Keep driving until you hit the roundabout, and you'll see Golden Breed's retro  vibes, right in your line of sight. If you're traveling from the other direction, just follow Fletcher St towards the beach, turn right onto Lawson, and you'll see the shop on your left. Easy as!\n<\/p>",
-        "driving_directions_heading": "How to find us!",
-        "parking_information": "<p> If you're only planning a quick visit, Lawson Street has 1-hour parking for $5 an hour, or if you need a a little longer, Fletcher St's got a 2-hour zone at the same rate. For longer stays, there's the Byron Street Carpark (just off Fletcher St), and the Middleton St Carpark, both offering 4-hour parking, once again at @ $5 an hour.<br><br>\n\nYou can also park at Lawson St Carpark's North and South Car Parks, with 4-hour zones at the same rate. If you're a bit tight on cash, you can park for free at Somerset St, which is only a short 5-minute walk into town. Just remember to move your wheels to another zone once time's up, they'll sting you in a heart beat. <br><br>\n\nPaid parking's available from 9 am to 6 pm, seven days a week. Or for $25 you can grab all-day parking. Pay at the meter or through the Pay Stay App.<\/p>",
-        "parking_information_heading": "Where to park?",
-        "wheel_chair_accessibility_information": "<p>Our Byron Bay surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out out surf fashion and we're happy to accommodate for all abilities.<\/p>",
-        "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
-        "pet_friendliness": "<p>Good news for all the dog lovers out there - Our shop is dog-friendly! That's right, you can bring your pooch along as long as they're well-behaved and don't hassle the other customers. We all want to have a chilled shopping experience without any dramas. If your fur buddy is chill and just wants to hang out while you browse our range then bring 'em in, no worries!<\/p>",
-        "pet_friendliness_heading": "We are pet friendly!",
-        "remove_bottom_border": true
+        "driving_directions": "",
+        "driving_directions_heading": "",
+        "parking_information": "",
+        "parking_information_heading": "",
+        "wheel_chair_accessibility_information": "",
+        "wheel_chair_accessibility_information_heading": "",
+        "pet_friendliness": "",
+        "pet_friendliness_heading": "",
+        "remove_bottom_border": false
       }
     },
     "48048996-d24c-4463-b513-cb5451d66010": {
@@ -107,35 +107,63 @@
           "settings": {
             "text": "<p> If you're only planning a quick visit, Lawson Street has 1-hour parking for $5 an hour, or if you need a a little longer, Fletcher St's got a 2-hour zone at the same rate. For longer stays, there's the Byron Street Carpark (just off Fletcher St), and the Middleton St Carpark, both offering 4-hour parking, once again at @ $5 an hour.<br\/><br\/>You can also park at Lawson St Carpark's North and South Car Parks, with 4-hour zones at the same rate. If you're a bit tight on cash, you can park for free at Somerset St, which is only a short 5-minute walk into town. Just remember to move your wheels to another zone once time's up, they'll sting you in a heart beat. <br\/><br\/>Paid parking's available from 9 am to 6 pm, seven days a week. Or for $25 you can grab all-day parking. Pay at the meter or through the Pay Stay App.<\/p>"
           }
-        },
-        "9e10a562-5309-4af1-a2db-e7f52eac436e": {
-          "type": "heading",
-          "settings": {
-            "heading": "Wheel chair accessibility",
-            "heading_type": "h2"
-          }
-        },
-        "296916b2-c0d2-4ca0-b309-261ce1aa5343": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If you're an experienced surfer looking for a challenge, Byron Bay won't disappoint. The area is home to some of the best surf breaks in the world, including Lennox Head and The Wreck. <\/p><p>Lennox is located about 15 minutes soOur Byron Bay surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out out surf fashion and we're happy to accommodate for all abilities.uth of Byron Bay and is known for its long, powerful waves, head south another 5 minutes and you’ll find Boulders surrounded by mother nature in all her glory.<\/p><p>The Wreck, located at the northern end of Main Beach, is another popular surf spot with experienced surfers. The waves here are hard and fast, making it a challenging but rewarding break to get salty.<\/p><p>Byron Bay Surfing is world class, just be careful to find the right breaks, be safe, and wear a damn leggie.<\/p>"
-          }
         }
       },
       "block_order": [
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0",
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1",
         "5c9b6e78-ea19-45fb-8a14-b29f929bd96d",
-        "53dfb156-69d4-478c-a327-c2f811bafa1d",
-        "9e10a562-5309-4af1-a2db-e7f52eac436e",
-        "296916b2-c0d2-4ca0-b309-261ce1aa5343"
+        "53dfb156-69d4-478c-a327-c2f811bafa1d"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/img-overlayed.png",
+        "image": "shopify:\/\/shop_images\/flinders-tee_1.jpg",
         "image_mobile": "shopify:\/\/shop_images\/byron-beach.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
+      }
+    },
+    "shop_image_text_ez6Jwd": {
+      "type": "shop-image-text",
+      "blocks": {
+        "heading_4kTG8M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wheel chair accessibility",
+            "heading_type": "h2"
+          }
+        },
+        "text_QJzDDW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you're an experienced surfer looking for a challenge, Byron Bay won't disappoint. The area is home to some of the best surf breaks in the world, including Lennox Head and The Wreck. <\/p><p>Lennox is located about 15 minutes soOur Byron Bay surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out out surf fashion and we're happy to accommodate for all abilities.uth of Byron Bay and is known for its long, powerful waves, head south another 5 minutes and you’ll find Boulders surrounded by mother nature in all her glory.<\/p><p>The Wreck, located at the northern end of Main Beach, is another popular surf spot with experienced surfers. The waves here are hard and fast, making it a challenging but rewarding break to get salty.<\/p><p>Byron Bay Surfing is world class, just be careful to find the right breaks, be safe, and wear a damn leggie.<\/p>"
+          }
+        },
+        "heading_zqhgf4": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are Pet Friendly",
+            "heading_type": "h2"
+          }
+        },
+        "text_LxtEa6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Good news for all the dog lovers out there - Our shop is dog-friendly! That's right, you can bring your pooch along as long as they're well-behaved and don't hassle the other customers. We all want to have a chilled shopping experience without any dramas. If your fur buddy is chill and just wants to hang out while you browse our range then bring 'em in, no worries!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4kTG8M",
+        "text_QJzDDW",
+        "heading_zqhgf4",
+        "text_LxtEa6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EB2_8362_resized_d7cbaa90-b1d2-4482-a52d-cd6042b9ba51.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
       }
     },
     "25c46024-1bb7-4607-8d0d-54e868c531f4": {
@@ -219,6 +247,7 @@
     "f4d52c76-711e-4a98-80b4-445b3517398f",
     "554dd024-c9a3-46c0-b76c-4665b0cc603d",
     "48048996-d24c-4463-b513-cb5451d66010",
+    "shop_image_text_ez6Jwd",
     "25c46024-1bb7-4607-8d0d-54e868c531f4",
     "7a575310-7f34-4910-8427-5e7100bbbae5"
   ]
