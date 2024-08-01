@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_solid_button_labels": "#fefdf6",
@@ -217,6 +226,12 @@
       },
       "14826766009936288847": {
         "type": "shopify:\/\/apps\/discounty\/blocks\/sdk\/d65eb522-0d94-499f-9831-d4b3301f5340",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8605505498557855500": {
+        "type": "shopify:\/\/apps\/bogos-io-free-gift\/blocks\/app-embed\/0432bba6-720a-4e95-be5a-b868386f7aa6",
         "disabled": false,
         "settings": {
         }
