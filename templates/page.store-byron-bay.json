@@ -207,6 +207,41 @@
         "layout": "text_first"
       }
     },
+    "rich_text_YfE6cg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_axBGpP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ride the Waves: Surfboard Rentals",
+            "heading_size": "h1"
+          }
+        },
+        "text_eJpUWY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're an experienced surfer or just getting started, our Byron Bay store offers a wide range of top-quality surfboards for hire to suit your needs. Located in one of Australia's most iconic surf destinations, we make it easy for you to grab a board and enjoy the waves. Our friendly team is on hand to help you choose the right board for your skill level and style. Enjoy the ultimate Byron Bay surfing experience with our convenient and flexible rental options.<\/p>"
+          }
+        },
+        "button_Ka8dk8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/goldenbreed.com.au\/pages\/byron-bay-board-hire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_axBGpP",
+        "text_eJpUWY",
+        "button_Ka8dk8"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "25c46024-1bb7-4607-8d0d-54e868c531f4": {
       "type": "testimonials",
       "blocks": {
@@ -282,6 +317,7 @@
     "172039901981c24038",
     "48048996-d24c-4463-b513-cb5451d66010",
     "shop_image_text_ez6Jwd",
+    "rich_text_YfE6cg",
     "25c46024-1bb7-4607-8d0d-54e868c531f4",
     "7a575310-7f34-4910-8427-5e7100bbbae5"
   ]
