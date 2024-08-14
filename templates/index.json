@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/August_3_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify:\/\/collections\/fathers-day-gift-guide-2024",
+        "image": "shopify:\/\/shop_images\/August_15_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify:\/\/collections\/all-new-arrivals",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
