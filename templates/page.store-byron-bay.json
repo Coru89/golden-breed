@@ -54,7 +54,7 @@
         "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d14006.267053801497!2d153.6137753!3d-28.6427439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2snz!4v1724043037577!5m2!1sen!2snz\" width=\"600\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "shop_name": "Golden Breed Byron Bay",
         "address": "10 Lawson Street, Byron Bay NSW 2481",
-        "hours": "<p>Shop HoursMonday - Friday 10:00am - 4:00pmSaturday 9:00am - 5:00pmSunday 9:00am - 4:00pm<\/p>",
+        "hours": "<p>Monday - Friday 10:00am - 4:00pm<\/p><p>Saturday 9:00am - 5:00pm<\/p><p>Sunday 9:00am - 4:00pm<\/p>",
         "phone": "1300 882 914",
         "phoneLink": "tel:1300 882 914",
         "whatsapp": "1300 882 914",
