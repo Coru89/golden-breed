@@ -32,19 +32,11 @@
           "settings": {
             "text": "<p>Located in the charming town of Flinders, south of Melbourne, our store is your go-to destination for premium surfboards, apparel, and accessories. Whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help you find the perfect gear and provide expert advice on local surf spots. <\/p><p>Come on down and explore our latest collections and seasonal gear to stay updated with the best in surf culture. Get ready to hit the waves with style and confidence! <\/p>"
           }
-        },
-        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "see rates",
-            "button_link": "#rates"
-          }
         }
       },
       "block_order": [
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0",
-        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1",
-        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2"
+        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/flinders.jpg",
