@@ -32,19 +32,11 @@
           "settings": {
             "text": "<p>Welcome to the Golden Breed Noosa Store, located in the heart of Noosa Heads, offering a curated selection of premium surfboards, apparel, and accessories. Catering to all levels of surfing enthusiasts, our knowledgeable staff is here to guide you in selecting the perfect gear and provide tips on the best local surf spots. The store is pet-friendly, so feel free to bring your well-behaved dog along while you shop. Visit us during our regular hours, and don't hesitate to reach out for any inquiries.<\/p>"
           }
-        },
-        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "see rates",
-            "button_link": "#rates"
-          }
         }
       },
       "block_order": [
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0",
-        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1",
-        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2"
+        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/flinders.jpg",
