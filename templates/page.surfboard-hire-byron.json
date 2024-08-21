@@ -359,44 +359,6 @@
             "column_2_data": "$5",
             "header": false
           }
-        },
-        "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9": {
-          "type": "tabaccordion_section",
-          "settings": {
-            "tabaccordion_section_name": "Bodyboard rates"
-          }
-        },
-        "d1188ef1-a84e-4223-aed0-7b9a2b9ee680": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "Terms",
-            "column_2_data": "Price",
-            "header": true
-          }
-        },
-        "79f54398-0b40-42de-9679-46ef7ab5e299": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "2 Hours",
-            "column_2_data": "$50",
-            "header": false
-          }
-        },
-        "5254f180-0f1b-4857-b411-a355205ff4cb": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "4 Hours",
-            "column_2_data": "$85",
-            "header": false
-          }
-        },
-        "beda9343-1ad4-4266-b2c6-a857cc41b213": {
-          "type": "table_row",
-          "settings": {
-            "column_1_data": "24 Hours",
-            "column_2_data": "$120",
-            "header": false
-          }
         }
       },
       "block_order": [
@@ -416,12 +378,7 @@
         "144cdffa-870c-4be2-b4da-cd5ad44a7582",
         "a7ac5f76-1a61-4cb7-b587-3a072da4d7da",
         "311fe5d9-5215-4890-ba29-80a04aadcfdc",
-        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7",
-        "f6be14d6-8cc9-4a2a-9a15-fe94c35fd3a9",
-        "d1188ef1-a84e-4223-aed0-7b9a2b9ee680",
-        "79f54398-0b40-42de-9679-46ef7ab5e299",
-        "5254f180-0f1b-4857-b411-a355205ff4cb",
-        "beda9343-1ad4-4266-b2c6-a857cc41b213"
+        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7"
       ],
       "settings": {
         "heading": "Surf, Body Board Rates",
