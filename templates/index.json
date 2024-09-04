@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/August_31_-_Website_Header_Mobile_2b0ba600-643b-4440-9d1e-53de1bd14ed3.jpg",
-        "banner_url": "shopify:\/\/products\/gift-card",
+        "image": "shopify:\/\/shop_images\/September_5th_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify:\/\/collections\/sale",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
