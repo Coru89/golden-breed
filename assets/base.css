@@ -2742,6 +2742,11 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
   height: auto !important;
 }
 
+.swatches-globo .swatch--gl .ul-swatches-list li:not(ul.ul-globo-dropdown-option li) {
+    min-width: unset;
+    width: auto;
+}
+
 /* reviews comp page */
 .win-page {
   max-width: 660px;
