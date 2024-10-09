@@ -13,14 +13,14 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div style=\"margin-top:-5rem; margin-bottom:-5rem;\"><div style=\"margin-top:-1px; border-top:4px solid #e9b88a;\">\n      <div style=\"border-top:4px solid #c67986;\">\n         <div style=\"border-top:4px solid #f2f3f6;\">\n              <div style=\"border-top:4px solid #abc3cd;\"> \n   <div style=\"border-top:4px solid #6d8a9e;\">\n          <\/div><\/div><\/div><\/div><\/div><\/div>"
+        "custom_liquid": "<div style=\"margin-top:-5rem; margin-bottom:-5rem;\"><div style=\"margin-top:-1px; border-top:4px solid #e9b88a;\">\n      <div style=\"border-top:4px solid #c67986;\">\n         <div style=\"border-top:4px solid #f2f3f6;\">\n              <div style=\"border-top:4px solid #abc3cd;\"> \n   <div style=\"border-top:4px solid #6d8a9e;\">\n          </div></div></div></div></div></div>"
       }
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/September_21_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify:\/\/collections\/all-new-arrivals",
+        "image": "shopify://shop_images/Golden_Rewards_Mobile.jpg",
+        "banner_url": "https://goldenbreed.com.au/account/register",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -37,8 +37,8 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/all-new-arrivals",
+            "button_label_1": "Join & Get 10% Off",
+            "button_link_1": "https://goldenbreed.com.au/account/register",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
@@ -52,7 +52,7 @@
         "buttons_Lf63bB"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/September_21_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/September_21_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -70,7 +70,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Men's",
-            "button_link_1": "shopify:\/\/collections\/father-s-day-gift-guide",
+            "button_link_1": "shopify://collections/father-s-day-gift-guide",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -83,15 +83,15 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/GB-HOME-HEADER-MEN.jpg",
+        "image": "shopify://shop_images/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
         "button-text-1": "SHOP MEN",
-        "link-1": "shopify:\/\/collections\/golden-breed-mens",
+        "link-1": "shopify://collections/golden-breed-mens",
         "button_custom_link_attributes_1": "",
-        "image_2": "shopify:\/\/shop_images\/GB-HOME-HEADER-WOMEN.jpg",
+        "image_2": "shopify://shop_images/GB-HOME-HEADER-WOMEN.jpg",
         "title-2": "",
         "button-text-2": "SHOP WOMEN",
-        "link-2": "shopify:\/\/collections\/golden-breed-women",
+        "link-2": "shopify://collections/golden-breed-women",
         "button_custom_link_attributes_2": "",
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -109,14 +109,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Golden Breed Surf Shop<\/h1><h2>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!<\/h2>",
+            "heading": "<h1>Golden Breed Surf Shop</h1><h2>An iconic surf shop capturing the nostalgia of simpler times, summer air & good vibes. All bundled into vintage surf clothing & classic surfwear that's true to its roots!</h2>",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>GOLDEN BREED | SINCE 1969<\/p>"
+            "text": "<p>GOLDEN BREED | SINCE 1969</p>"
           }
         }
       },
@@ -167,31 +167,31 @@
         "1638926734a0464791-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hoodies_6d20e5c5-0116-48ce-b293-af011efeba47.jpg",
+            "image": "shopify://shop_images/hoodies_6d20e5c5-0116-48ce-b293-af011efeba47.jpg",
             "title": "Men's Hoodies",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-hoodies-sweats"
+            "link": "shopify://collections/mens-hoodies-sweats"
           }
         },
         "1638926734a0464791-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tshirt.jpg",
+            "image": "shopify://shop_images/tshirt.jpg",
             "title": "Men's Tees",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/mens-tees"
+            "link": "shopify://collections/mens-tees"
           }
         },
         "0c77e3a7-066a-4f9a-8b03-12cea990eeea": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mens-shirts.jpg",
+            "image": "shopify://shop_images/mens-shirts.jpg",
             "title": "Men's Shirts",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/golden-breed-hawaiian-shirts"
+            "link": "shopify://collections/golden-breed-hawaiian-shirts"
           }
         }
       },
@@ -217,31 +217,31 @@
         "1638938464e1544931-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/accessories2.jpg",
+            "image": "shopify://shop_images/accessories2.jpg",
             "title": "Accessories",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/golden-breed-hats-caps"
+            "link": "shopify://collections/golden-breed-hats-caps"
           }
         },
         "1638938464e1544931-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/g-n-s.jpg",
+            "image": "shopify://shop_images/g-n-s.jpg",
             "title": "Gordon & Smith",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/gordon-smith-1"
+            "link": "shopify://collections/gordon-smith-1"
           }
         },
         "1638938464e1544931-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/our-stores.jpg",
+            "image": "shopify://shop_images/our-stores.jpg",
             "title": "Visit Us In-Store",
-            "text": "<p><\/p>",
+            "text": "<p></p>",
             "link_label": "View Locations",
-            "link": "shopify:\/\/pages\/gb-stores"
+            "link": "shopify://pages/gb-stores"
           }
         }
       },
@@ -267,7 +267,7 @@
         "16389384679aa51710-0": {
           "type": "heading",
           "settings": {
-            "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2575\/8088\/files\/logo_96cb2768-8a26-43e6-b0dd-ee8855ef1c20_170x@2x.png?v=1638923181\" style=\"width:200px;\"><br><span style=\"color:#1c5b7a;\">Since 1969.<\/span>",
+            "heading": "<img src=\"https://cdn.shopify.com/s/files/1/2575/8088/files/logo_96cb2768-8a26-43e6-b0dd-ee8855ef1c20_170x@2x.png?v=1638923181\" style=\"width:200px;\"><br><span style=\"color:#1c5b7a;\">Since 1969.</span>",
             "heading_size": "medium"
           }
         },
@@ -275,7 +275,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Learn More",
-            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_link_1": "shopify://pages/about-us",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -288,7 +288,7 @@
         "16389384679aa51710-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero-full-story.jpg",
+        "image": "shopify://shop_images/hero-full-story.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
