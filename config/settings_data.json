@@ -184,7 +184,7 @@
       },
       "3322588378562147075": {
         "type": "shopify://apps/marsello-loyalty-email-sms/blocks/widget/2f8afca8-ebe2-41cc-a30f-c0ab7d4ac8be",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
