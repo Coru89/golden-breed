@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1639955343e58290b6": {
@@ -38,7 +38,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "",
-            "button_link_1": "https://goldenbreed.com.au/account/register",
+            "button_link_1": "https://goldenbreed.com.au/collections/golden-breed-hawaiian-shirts",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
@@ -52,7 +52,7 @@
         "buttons_Lf63bB"
       ],
       "settings": {
-        "image": "shopify://shop_images/September_21_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/October_12_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
