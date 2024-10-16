@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#fefdf6",
@@ -36,9 +36,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>Free Delivery</b> On Orders Over $75",
+              "text": "<b>2 for $150</b> El Solito & El Shorto - Ends Sunday!",
               "color_scheme": "background-1",
-              "link": ""
+              "link": "shopify://collections/el-solito-el-shortos"
             }
           }
         },
