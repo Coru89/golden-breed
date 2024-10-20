@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/October_17_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify://collections/el-solito-el-shortos",
+        "image": "shopify://shop_images/October_12_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify://collections/golden-breed-hawaiian-shirts",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
