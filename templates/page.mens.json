@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1639913856957e233b": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/mens-full5.jpg",
+        "image": "shopify://shop_images/mens-full5.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -20,14 +29,14 @@
         "1639916406341644d3-1": {
           "type": "text",
           "settings": {
-            "text": "<h1>Classic Surf Style Clothing For Men<\/h1><p>Classic surf style clothing for men that's inspired by our rich history of Australian surf culture. We bring you retro inspired gear, blended with 2024 designs. Free shipping when you shop online and make an order of men's surf clothes, over $75* anywhere in Australia. From surf accessories to boardshorts, hoodies, sunglasses and thongs.<\/p>"
+            "text": "<h1>Retro Surf Clothing For Men</h1><p>Retro surf clothing for men that's inspired by our rich history of Australian surf culture. We bring you retro inspired gear, blended with 2024 designs. Free shipping when you shop online and make an order of men's surf clothes, over $75* anywhere in Australia. From surf accessories to boardshorts, hoodies, sunglasses and thongs.</p>"
           }
         },
         "1639916406341644d3-2": {
           "type": "button",
           "settings": {
             "button_label": "Shop All Men's",
-            "button_link": "shopify:\/\/collections\/mens",
+            "button_link": "shopify://collections/mens",
             "button_style_secondary": true
           }
         }
@@ -174,7 +183,7 @@
           "type": "accordion_item",
           "settings": {
             "accordion_label": "ARE THE GB BRAND'S BOARDIES & SWIMWEAR GOOD FOR THE SURFING LIFESTYLE? OR IS IT JUST A FASHION CLOTHING RANGE?",
-            "accordion_content": "Sure is. You'll find some of the best surf clothing online with Golden Breed. Our board shorts are made with recycled 4 way stretch micro fibre polyester\/ spandex, designed for the surf scene and Australian surf."
+            "accordion_content": "Sure is. You'll find some of the best surf clothing online with Golden Breed. Our board shorts are made with recycled 4 way stretch micro fibre polyester/ spandex, designed for the surf scene and Australian surf."
           }
         },
         "accordion_item_qY4e3M": {
@@ -243,7 +252,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Shirts",
-            "button_link_1": "shopify:\/\/collections\/golden-breed-hawaiian-shirts",
+            "button_link_1": "shopify://collections/golden-breed-hawaiian-shirts",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
@@ -255,15 +264,15 @@
         "1639913865bcb252bd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mens-col-1.jpg",
+        "image": "shopify://shop_images/mens-col-1.jpg",
         "title-1": "",
         "button-text-1": "Shop Shirts",
-        "link-1": "shopify:\/\/collections\/golden-breed-hawaiian-shirts",
+        "link-1": "shopify://collections/golden-breed-hawaiian-shirts",
         "button_custom_link_attributes_1": "",
-        "image_2": "shopify:\/\/shop_images\/mens-col-2.jpg",
+        "image_2": "shopify://shop_images/mens-col-2.jpg",
         "title-2": "",
         "button-text-2": "Shop Shorts",
-        "link-2": "shopify:\/\/collections\/mens-shorts",
+        "link-2": "shopify://collections/mens-shorts",
         "button_custom_link_attributes_2": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
