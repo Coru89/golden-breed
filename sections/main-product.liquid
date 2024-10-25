@@ -426,6 +426,23 @@
                   </div>
                 </details>
               </div>
+            {%- when 'composition_tab' -%}
+              {% if product.metafields.custom.composition != blank %}
+                <div style="order: {{ forloop.index }}" class="product__accordion accordion" {{ block.shopify_attributes }}>
+                  <details id="Details-{{ block.id }}-{{ section.id }}">
+                    <summary>
+                      <div class="summary__title">
+                        {% comment %} {% render 'icon-accordion', icon: block.settings.icon %} {% endcomment %}
+                        <h2 class="h4 accordion__title">{{ block.settings.composition_heading }}</h2>
+                      </div>
+                      {% render 'icon-caret-large' %}
+                    </summary>
+                    <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                      {{ product.metafields.custom.composition | metafield_tag }}
+                    </div>
+                  </details>
+                </div>
+              {% endif %}
             {%- when 'freebie_message' -%}
               {% if product.metafields.custom.freebie == true %}
                 <div style="order: {{ forloop.index }}" class="product-message">
@@ -1517,7 +1534,23 @@
         }
       ]
     },
-
+    {
+      "type": "composition_tab",
+      "name": "Composition",
+      "settings": [
+        {
+          "type": "text",
+          "id": "composition_heading",
+          "default": "Composition",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "composition_content",
+          "label": "Composition"
+        }
+      ]
+    },
     {
       "type": "collapsible_tab",
       "name": "t:sections.main-product.blocks.collapsible_tab.name",
