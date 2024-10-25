@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1694587350eaa68ccd": {
@@ -107,6 +107,13 @@
             "icon": "none"
           }
         },
+        "composition_tab_wCyaqA": {
+          "type": "composition_tab",
+          "settings": {
+            "composition_heading": "Composition",
+            "composition_content": ""
+          }
+        },
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99": {
           "type": "collapsible_tab",
           "settings": {
@@ -136,6 +143,7 @@
         "47e42ffd-787a-4f6f-8544-b47b352c018e",
         "buy_buttons",
         "description",
+        "composition_tab_wCyaqA",
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
         "f5a5e6b9-82b5-4aab-8fd1-ed18379477da"
       ],
