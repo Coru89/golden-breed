@@ -141,7 +141,7 @@
           or product_option.name == 'size'
           or product_option.name == 'Size'
         %}
-          <div style="font-size:12px; display:flex;">
+          {% comment %} <div style="font-size:12px; display:flex;">
             <div style="padding-bottom:10px; text-transform:uppercase;">
               <b>{{ avai_size | split: ',' | uniq | join: '  ' }} </b>
             </div>
@@ -152,7 +152,7 @@
                 >
               </div>
             {%- endif -%} {% endcomment %}
-          </div>
+          </div> {% endcomment %}
         {% endif %}
       {% endfor %}
 
