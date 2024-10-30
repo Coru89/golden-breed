@@ -36,7 +36,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>Spooky Sale</b> 31% Off Select Items",
+              "text": "<b>Spooky Sale</b> 31% Off - 48 Hours Only",
               "color_scheme": "background-1",
               "link": "shopify://collections/spooky-sale-31-off"
             }
