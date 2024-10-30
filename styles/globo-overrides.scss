@@ -29,3 +29,36 @@ variant-radios {
 .globo-swatch-list {
     margin-top: 1.6rem;
 }
+
+.swatches-globo .ul-swatches-list li.swatches-options input:checked + .globo-style--button {
+    color: rgb(33, 89, 122) !important;
+  }
+
+  .swatches-globo .swatch--gl li .globo-style--button {
+    background-color: transparent !important;
+    border: 0 !important;
+    color: rgb(33, 89, 122) !important;
+    font-weight: 700;
+    font-size: 12px !important;
+    padding: 0 !important;
+    margin-right: 3px !important;
+  }
+
+
+  .collection .globo-swatch-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .collection .globo-swatch-list .swatch--gl:first-of-type {
+    order: 1;
+  }
+
+//   .collection .globo-out-of-stock {
+//     display: none !important;
+//   }
+
+  .collection .swatches-globo .swatch--gl {
+    margin-bottom: 0;
+  }
