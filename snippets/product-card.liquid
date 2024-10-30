@@ -129,7 +129,12 @@
 
       {% assign avai_size = '' %}
       {% for variant in product_card_product.variants %}
+
+
         {% if variant.inventory_quantity > 0 %}
+          <script>
+            console.log('variant inside', {{variant | json}});
+          </script>
           {% assign avai_size = avai_size | append: variant.option2 | append: ',' %}
         {% endif %}
       {% endfor %}
@@ -141,18 +146,24 @@
           or product_option.name == 'size'
           or product_option.name == 'Size'
         %}
-          {% comment %} <div style="font-size:12px; display:flex;">
-            <div style="padding-bottom:10px; text-transform:uppercase;">
-              <b>{{ avai_size | split: ',' | uniq | join: '  ' }} </b>
+        <script>
+          console.log('product_card_product', {{product_card_product | json}});
+          console.log('product_option', {{product_option | json}});
+          console.log('avai_size', {{avai_size | json}});
+
+        </script>
+        <div style="font-size:12px; display:flex;">
+          <div style="padding-bottom:10px; text-transform:uppercase;">
+            <b>{{ avai_size | split: ',' | uniq | join: '  ' }} </b>
+          </div>
+          {% comment %} {% if product_card_product.tags contains 'restocked' %}
+            <div style="margin-left:10px; margin-right:10px;">
+              <span style="font-size:11px; color:#1d5b78; border:1px solid #1d5b78; width:75px; padding:3px;"
+                >Restocked</span
+              >
             </div>
-            {% comment %} {% if product_card_product.tags contains 'restocked' %}
-              <div style="margin-left:10px; margin-right:10px;">
-                <span style="font-size:11px; color:#1d5b78; border:1px solid #1d5b78; width:75px; padding:3px;"
-                  >Restocked</span
-                >
-              </div>
-            {%- endif -%} {% endcomment %}
-          </div> {% endcomment %}
+          {%- endif -%} {% endcomment %}
+        </div>
         {% endif %}
       {% endfor %}
 
