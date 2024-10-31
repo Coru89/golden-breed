@@ -37,7 +37,7 @@ variant-radios {
   padding: 0 !important;
   margin-right: 3px !important; }
 
-.collection .globo-swatch-list {
+.globo-swatch-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
