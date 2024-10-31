@@ -47,10 +47,8 @@
             if (recommendations && recommendations.innerHTML.trim().length) {
               this.innerHTML = recommendations.innerHTML;
             }
-
             if (typeof globoswatch !== 'undefined') {
               globoswatch.init();
-              console.log('globo is defined.');
             }
           })
           .catch(e => {
