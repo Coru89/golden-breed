@@ -47,6 +47,9 @@
             if (recommendations && recommendations.innerHTML.trim().length) {
               this.innerHTML = recommendations.innerHTML;
             }
+            if (typeof globoswatch !== 'undefined') {
+              globoswatch.init();
+            }
           })
           .catch(e => {
             console.error(e);
