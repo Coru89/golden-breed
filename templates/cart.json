@@ -1,21 +1,68 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "image_banner_UWY4gb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RQQEXa": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "text_hRw9aV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "buttons_RMTt36": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Spooky Sale - 31% Off",
+            "button_link_1": "shopify://collections/spooky-sale-31-off",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RQQEXa",
+        "text_hRw9aV",
+        "buttons_RMTt36"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Web_Banner.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_EXGMcf": {
       "type": "rich-text",
       "blocks": {
         "text_RdcWHX": {
           "type": "text",
           "settings": {
-            "text": "<h5>Mid Season Sale: All sales are final - no exchanges or refunds.<\/h5>"
+            "text": "<h5>Mid Season Sale: All sales are final - no exchanges or refunds.</h5>"
           }
         }
       },
@@ -74,6 +121,7 @@
     }
   },
   "order": [
+    "image_banner_UWY4gb",
     "rich_text_EXGMcf",
     "cart-items",
     "cart-footer",
