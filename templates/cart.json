@@ -30,7 +30,7 @@
         "buttons_RMTt36": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Spooky Sale - 31% Off",
+            "button_label_1": "Shop the Spooky Sale - 31% Off",
             "button_link_1": "shopify://collections/spooky-sale-31-off",
             "button_style_secondary_1": false,
             "button_label_2": "",
