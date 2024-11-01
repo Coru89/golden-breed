@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/October_31_-_Website_Header_Mobile_df45042c-6e35-4ca4-a84e-04e0602cdccc.jpg",
-        "banner_url": "shopify://collections/spooky-sale-31-off",
+        "image": "shopify://shop_images/October_26_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify://collections/retro-polo-tops",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
