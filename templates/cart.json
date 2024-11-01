@@ -44,6 +44,7 @@
         "text_hRw9aV",
         "buttons_RMTt36"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Web_Banner.jpg",
         "image_height": "small",
