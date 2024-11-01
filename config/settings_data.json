@@ -36,9 +36,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>Spooky Sale</b> 31% Off - 48 Hours Only",
+              "text": "<b>Free Shipping</b> Orders over $75",
               "color_scheme": "background-1",
-              "link": "shopify://collections/spooky-sale-31-off"
+              "link": ""
             }
           }
         },
