@@ -210,7 +210,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% include 'sumo' %}
     {{ 'glide.core.css' | asset_url | stylesheet_tag }}
    
-  {% include 'subscribe-it-helper' %}</body>
+  {% include 'subscribe-it-helper' %}
+  {% render 'globo.swatch.custom' %}
+  </body>
 </html>
 
 {% render 'freegifts-snippet' %}
