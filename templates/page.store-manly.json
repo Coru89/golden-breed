@@ -12,7 +12,7 @@
     "main": {
       "type": "hero",
       "settings": {
-        "heading_title": "Flinders Store",
+        "heading_title": "Manly Store",
         "image": "shopify://shop_images/byron-hero.png",
         "banner_alert_message": ""
       }
@@ -23,7 +23,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Golden Breed Flinders Store",
+            "heading": "Golden Breed Manly Store",
             "heading_type": "h2"
           }
         },
