@@ -1,0 +1,280 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "hero",
+      "settings": {
+        "heading_title": "Flinders Store",
+        "image": "shopify://shop_images/byron-hero.png",
+        "banner_alert_message": ""
+      }
+    },
+    "f4d52c76-711e-4a98-80b4-445b3517398f": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Golden Breed Flinders Store",
+            "heading_type": "h2"
+          }
+        },
+        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Located in the charming town of Flinders, south of Melbourne, our store is your go-to destination for premium surfboards, apparel, and accessories. Whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help you find the perfect gear and provide expert advice on local surf spots. </p><p>Come on down and explore our latest collections and seasonal gear to stay updated with the best in surf culture. Get ready to hit the waves with style and confidence! </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0",
+        "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/flinders.jpg",
+        "image_mobile": "shopify://shop_images/byron-interior.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "554dd024-c9a3-46c0-b76c-4665b0cc603d": {
+      "type": "shop-contact-panel",
+      "settings": {
+        "heading": "Contact Us To Find Out More",
+        "description": "",
+        "google_maps_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12494.388711680545!2d145.0187856!3d-38.4738601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad5b8e579c0d605%3A0xaba6df8d3e6f49eb!2sGolden%20Breed%20Flinders!5e0!3m2!1sen!2snz!4v1720401467449!5m2!1sen!2snz\" width=\"620\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "shop_name": "Golden Breed Byron Bay",
+        "address": "34-36 Cook St, Flinders VIC 3929",
+        "hours": "<p>Monday - Friday 10:00am - 4:00pm</p><p>Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>",
+        "phone": "1300 882 914",
+        "phoneLink": "tel:1300 882 914",
+        "whatsapp": "1300 882 914",
+        "whatsappLink": "tel:1300 882 914",
+        "email": "GBFlinders@goldenbreed.com.au",
+        "driving_directions": "",
+        "driving_directions_heading": "",
+        "parking_information": "",
+        "parking_information_heading": "",
+        "wheel_chair_accessibility_information": "",
+        "wheel_chair_accessibility_information_heading": "",
+        "pet_friendliness": "",
+        "pet_friendliness_heading": "",
+        "remove_bottom_border": false
+      }
+    },
+    "172039901981c24038": {
+      "type": "apps",
+      "blocks": {
+        "hulk_form_builder_form_block_iL8mfQ": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "0KCSmomEy0ufGPggnu9fgQ",
+            "form_settings": false,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_iL8mfQ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "48048996-d24c-4463-b513-cb5451d66010": {
+      "type": "shop-image-text",
+      "blocks": {
+        "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Driving Directions",
+            "heading_type": "h2"
+          }
+        },
+        "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TBA</p>"
+          }
+        },
+        "5c9b6e78-ea19-45fb-8a14-b29f929bd96d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Parking Information",
+            "heading_type": "h2"
+          }
+        },
+        "53dfb156-69d4-478c-a327-c2f811bafa1d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TBA</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-0",
+        "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1",
+        "5c9b6e78-ea19-45fb-8a14-b29f929bd96d",
+        "53dfb156-69d4-478c-a327-c2f811bafa1d"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/flinders-tee_1.jpg",
+        "image_mobile": "shopify://shop_images/byron-beach.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "shop_image_text_ez6Jwd": {
+      "type": "shop-image-text",
+      "blocks": {
+        "heading_4kTG8M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wheel chair accessibility",
+            "heading_type": "h2"
+          }
+        },
+        "text_QJzDDW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TBA</p>"
+          }
+        },
+        "heading_zqhgf4": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are Pet Friendly",
+            "heading_type": "h2"
+          }
+        },
+        "text_LxtEa6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Good news for all the dog lovers out there - Our shop is dog-friendly! That's right, you can bring your pooch along as long as they're well-behaved and don't hassle the other customers. We all want to have a chilled shopping experience without any dramas. If your fur buddy is chill and just wants to hang out while you browse our range then bring 'em in, no worries!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4kTG8M",
+        "text_QJzDDW",
+        "heading_zqhgf4",
+        "text_LxtEa6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/flinders-hoodie-4_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "25c46024-1bb7-4607-8d0d-54e868c531f4": {
+      "type": "testimonials",
+      "blocks": {
+        "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Barry P",
+            "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool.",
+            "background_image": "shopify://shop_images/byron-hero.png"
+          }
+        },
+        "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Becky Keen",
+            "quote": "Gorgeous clothes!",
+            "background_image": "shopify://shop_images/noosa-hero.png"
+          }
+        },
+        "5d39b0f6-e3d3-43b0-8635-5323f195bf58": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Jason Howarth",
+            "quote": "A little not so hidden gem in Byron. I recently realised a lot of my clothes are from here!",
+            "background_image": "shopify://shop_images/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d",
+        "284c5a80-cb2c-4da8-86e3-08e24283e8de",
+        "5d39b0f6-e3d3-43b0-8635-5323f195bf58"
+      ],
+      "settings": {
+        "shopName": "Golden Breed Byron Bay",
+        "addressLocality": "Byron Bay",
+        "streetAddress": "10 Lawson Street, Byron Bay NSW 2481",
+        "tel": "02 6680 7944"
+      }
+    },
+    "7a575310-7f34-4910-8427-5e7100bbbae5": {
+      "type": "accordion",
+      "blocks": {
+        "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Do you offer surfboard rentals at your Flinders location?",
+            "accordion_content": "No, our Flinders store does not offer surfboard rentals. However, we provide a wide selection of premium surfboards for purchase, along with apparel and accessories. Our knowledgeable staff can help you choose the right gear and offer advice on the best local surf spots."
+          }
+        },
+        "cffc097b-c126-4ff2-845d-7dd4374810fc": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Can your staff provide advice on local surfing conditions and spots?",
+            "accordion_content": "Absolutely! Our friendly and experienced staff are well-versed in the local surf conditions and can provide expert advice on the best spots to surf in and around Flinders. Whether you're new to surfing or a seasoned pro, we're here to help you make the most of your surfing experience."
+          }
+        }
+      },
+      "block_order": [
+        "dba7340e-c2ba-4f41-8326-01ad6fad0885",
+        "cffc097b-c126-4ff2-845d-7dd4374810fc"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "sub_heading": "Our commonly asked questions..."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4d52c76-711e-4a98-80b4-445b3517398f",
+    "554dd024-c9a3-46c0-b76c-4665b0cc603d",
+    "172039901981c24038",
+    "48048996-d24c-4463-b513-cb5451d66010",
+    "shop_image_text_ez6Jwd",
+    "25c46024-1bb7-4607-8d0d-54e868c531f4",
+    "7a575310-7f34-4910-8427-5e7100bbbae5"
+  ]
+}
