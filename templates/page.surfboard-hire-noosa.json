@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "hero",
       "settings": {
         "heading_title": "Noosa Surfboard Hire",
-        "image": "shopify:\/\/shop_images\/noosa-hero.png",
+        "image": "shopify://shop_images/noosa-hero.png",
         "banner_alert_message": ""
       }
     },
@@ -30,7 +30,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Golden Breed’s Noosa surfboard hire shop is just footsteps away from Instagram famous, world-class breaks, golden sunsets and good times. Drop into our store and we’ll kit you out with your weapon to go and get salty with. Whether you’re a beginner wanting to rent a surfboard, or a traveler who didn’t come prepared, we’ve got an epic variety of boards to choose from. Aside from surf hire, our surf store stocks hats, wax, tees, shirts, sunscreen, boards to buy and everything a top surf shop should have.<\/p><p><\/p><p><\/p>"
+            "text": "<p>Golden Breed’s Noosa surfboard hire shop is just footsteps away from Instagram famous, world-class breaks, golden sunsets and good times. Drop into our store and we’ll kit you out with your weapon to go and get salty with. Whether you’re a beginner wanting to rent a surfboard, or a traveler who didn’t come prepared, we’ve got an epic variety of boards to choose from. Aside from surf hire, our surf store stocks hats, wax, tees, shirts, sunscreen, boards to buy and everything a top surf shop should have.</p><p></p><p></p>"
           }
         },
         "f3c3ee59-9726-490b-93f5-05dc4efd17b8": {
@@ -43,7 +43,7 @@
         "5a9b2554-ef0d-4c91-a645-6b7a02a2e98a": {
           "type": "text",
           "settings": {
-            "text": "<p>If chasing barrels is your thing, or even if you're just getting started, our Noosa surfboard hire shop is the place to be. Noosa beach and its surrounding breaks are renowned for its glassy mornings, creating the perfect conditions for bodyboarding. Rise and shine with the birds, grab a quick coffee, and head out for a thrilling session on the waves. On a flat day, you can still enjoy the serene beauty of the canals, spotting rays and soaking in the picturesque surroundings. We offer a wide range of bodyboards suitable for all ages, ensuring everyone can make unforgettable memories in the water and everything you need for a Queensland holiday.<\/p>"
+            "text": "<p>If chasing barrels is your thing, or even if you're just getting started, our Noosa surfboard hire shop is the place to be. Noosa beach and its surrounding breaks are renowned for its glassy mornings, creating the perfect conditions for bodyboarding. Rise and shine with the birds, grab a quick coffee, and head out for a thrilling session on the waves. On a flat day, you can still enjoy the serene beauty of the canals, spotting rays and soaking in the picturesque surroundings. We offer a wide range of bodyboards suitable for all ages, ensuring everyone can make unforgettable memories in the water and everything you need for a Queensland holiday.</p>"
           }
         },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-2": {
@@ -63,8 +63,8 @@
         "34298aca-507c-4e6a-8544-107244347bd1": {
           "type": "video_block",
           "settings": {
-            "overlay_image": "shopify:\/\/shop_images\/noosa-surf-spots.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=DCXqrjd7RTU"
+            "overlay_image": "shopify://shop_images/noosa-surf-spots.jpg",
+            "video_url": "https://www.youtube.com/watch?v=DCXqrjd7RTU"
           }
         }
       },
@@ -78,8 +78,8 @@
         "34298aca-507c-4e6a-8544-107244347bd1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/noosa-overlap.png",
-        "image_mobile": "shopify:\/\/shop_images\/noosa_shop.png",
+        "image": "shopify://shop_images/noosa-overlap.png",
+        "image_mobile": "shopify://shop_images/noosa_shop.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -90,10 +90,10 @@
       "settings": {
         "heading": "Rent A Surfboard",
         "description": "Book your Noosa surfboard hire with our friendly team",
-        "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"><\/iframe>",
+        "google_maps_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"></iframe>",
         "shop_name": "Golden Breed - Noosa",
         "address": "13 Noosa Drive, Noosa Heads QLD 4567",
-        "hours": "<p>8:30am - 5pm<\/p>",
+        "hours": "<p>8:30am - 5pm</p>",
         "phone": "07 5357 6053",
         "phoneLink": "tel:+6105356053",
         "whatsapp": "07 5357 6053",
@@ -117,8 +117,8 @@
           "type": "surfboard",
           "settings": {
             "heading": "SUPS( NOT AVAILABLE AT THIS TIME )",
-            "board_description": "<ul>\n<li>The stand up paddle board is a perfect way to cruise around  especially on flatter days when the waves are not happening.<\/li>\n<li>Most of the SUPS we have are for smaller conditions and cruising rather than surfing in bigger waves .<\/li>\n<li>There are many SUP riders out there that have definitely mastered the art ,and can surf on virtually anything extremely well.<\/li>\n<li>They can paddle into waves a lot quicker than regular surfboard riders.<\/li>\n<li>We generally recommend using the SUP option only in smaller conditions ,unless you are very experienced.<\/li>\n<\/ul>",
-            "board_image": "shopify:\/\/shop_images\/sup.svg",
+            "board_description": "<ul>\n<li>The stand up paddle board is a perfect way to cruise around  especially on flatter days when the waves are not happening.</li>\n<li>Most of the SUPS we have are for smaller conditions and cruising rather than surfing in bigger waves .</li>\n<li>There are many SUP riders out there that have definitely mastered the art ,and can surf on virtually anything extremely well.</li>\n<li>They can paddle into waves a lot quicker than regular surfboard riders.</li>\n<li>We generally recommend using the SUP option only in smaller conditions ,unless you are very experienced.</li>\n</ul>",
+            "board_image": "shopify://shop_images/sup.svg",
             "card_background_color": "#7da9a3"
           }
         },
@@ -126,8 +126,8 @@
           "type": "surfboard",
           "settings": {
             "heading": "LONGBOARDS",
-            "board_description": "<ul>\n<li>Longboards are the ‘go to” Surfboards for around the points breaks.<\/li>\n<li>Suitable for all standards of surfing.<\/li>\n<li>Best in waves small to Medium.<\/li>\n<li>Plenty of stability and buoyancy and they are wave catching machines!<\/li>\n<\/ul>",
-            "board_image": "shopify:\/\/shop_images\/Longboard.svg",
+            "board_description": "<ul>\n<li>Longboards are the ‘go to” Surfboards for around the points breaks.</li>\n<li>Suitable for all standards of surfing.</li>\n<li>Best in waves small to Medium.</li>\n<li>Plenty of stability and buoyancy and they are wave catching machines!</li>\n</ul>",
+            "board_image": "shopify://shop_images/Longboard.svg",
             "card_background_color": "#ebb967"
           }
         },
@@ -135,8 +135,8 @@
           "type": "surfboard",
           "settings": {
             "heading": "SHORTBOARDS",
-            "board_description": "<ul>\n<li>Shortboards are usually the domain of the more experienced surfer.<\/li>\n<li>They are less buoyant and highly manoeuvrable, so you need to have had a enough time on the water to get the best out of them.<\/li>\n<li>They really get going when the wave height is medium to big.<\/li>\n<\/ul>",
-            "board_image": "shopify:\/\/shop_images\/short.svg",
+            "board_description": "<ul>\n<li>Shortboards are usually the domain of the more experienced surfer.</li>\n<li>They are less buoyant and highly manoeuvrable, so you need to have had a enough time on the water to get the best out of them.</li>\n<li>They really get going when the wave height is medium to big.</li>\n</ul>",
+            "board_image": "shopify://shop_images/short.svg",
             "card_background_color": "#e78367"
           }
         },
@@ -144,8 +144,8 @@
           "type": "surfboard",
           "settings": {
             "heading": "FOAMIES",
-            "board_description": "<ul>\n<li>Foam boards are a great all-round starter board.<\/li>\n<li>Perfect for beginners getting the handle of what goes out in there in the waves.<\/li>\n<li>Being Foam they are very buoyant and reasonably stable and if you fall off and the board hits you it’s a lot less forgiving than a regular board!<\/li>\n<li>Most learners start on a FOAMIE for that reason.<\/li>\n<li>BTW there is also a lot of very experienced surfers that love to take out a Foamie on a smaller day and just have fun.<\/li>\n<li>Suitable for all levels and small to medium sized waves<\/li>\n<\/ul>",
-            "board_image": "shopify:\/\/shop_images\/foamy.svg",
+            "board_description": "<ul>\n<li>Foam boards are a great all-round starter board.</li>\n<li>Perfect for beginners getting the handle of what goes out in there in the waves.</li>\n<li>Being Foam they are very buoyant and reasonably stable and if you fall off and the board hits you it’s a lot less forgiving than a regular board!</li>\n<li>Most learners start on a FOAMIE for that reason.</li>\n<li>BTW there is also a lot of very experienced surfers that love to take out a Foamie on a smaller day and just have fun.</li>\n<li>Suitable for all levels and small to medium sized waves</li>\n</ul>",
+            "board_image": "shopify://shop_images/foamy.svg",
             "card_background_color": "#72a7c0"
           }
         },
@@ -153,8 +153,8 @@
           "type": "surfboard",
           "settings": {
             "heading": "BODYBOARDS",
-            "board_description": "<ul>\n<li>We have a great range of Bodyboards suitable for kids and adults alike.\n<\/li>\n<li>This is where, for most ,the first thrill of riding a wave kicked in.<\/li>\n<li>Once you get hooked on that thrill its hard to ignore it!<\/li>\n<li>We recommend staying between the flags and only venturing in in smaller conditions.<\/li>\n<li>Let’s have fun and not sign up for a survival mission<\/li>\n<li>Suitable for just about everyone who is a reasonably competent swimmer.<\/li>\n<\/ul>",
-            "board_image": "shopify:\/\/shop_images\/bodyboard.svg",
+            "board_description": "<ul>\n<li>We have a great range of Bodyboards suitable for kids and adults alike.\n</li>\n<li>This is where, for most ,the first thrill of riding a wave kicked in.</li>\n<li>Once you get hooked on that thrill its hard to ignore it!</li>\n<li>We recommend staying between the flags and only venturing in in smaller conditions.</li>\n<li>Let’s have fun and not sign up for a survival mission</li>\n<li>Suitable for just about everyone who is a reasonably competent swimmer.</li>\n</ul>",
+            "board_image": "shopify://shop_images/bodyboard.svg",
             "card_background_color": "#9fb1c6"
           }
         }
@@ -184,7 +184,7 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p> No stress, all staff at our Noosa surfboard hire shop have grown up in the ocean, so when it comes to the local breaks, and which boards are best for you, we can give you solid advice and tips to get started. Come on down, check out our range and we’ll get you in the ocean in this little slice of Sunshine Coast paradise that we call home.<\/p>"
+            "text": "<p> No stress, all staff at our Noosa surfboard hire shop have grown up in the ocean, so when it comes to the local breaks, and which boards are best for you, we can give you solid advice and tips to get started. Come on down, check out our range and we’ll get you in the ocean in this little slice of Sunshine Coast paradise that we call home.</p>"
           }
         },
         "455bcf1a-e01e-470b-9b61-b90d109fb64b": {
@@ -197,7 +197,7 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re a surf brand who honours the nostalgia of retro vibes, classic times and enjoying life for what it really is. Find us at the Golden Breed round-a-bout on Nooa Drive, Noosa Heads - You can’t miss us. <\/p><p>Bringing your board back is easy being just a few footsteps from Noosa’s main beach. We’ll organise eveything you need. Starting by prepping your boards with wax, we'll find the right leggy for you, suggest a rash guard, and recommend the right spot for your skill level and the waves on the day.<\/p>"
+            "text": "<p>We’re a surf brand who honours the nostalgia of retro vibes, classic times and enjoying life for what it really is. Find us at the Golden Breed round-a-bout on Nooa Drive, Noosa Heads - You can’t miss us. </p><p>Bringing your board back is easy being just a few footsteps from Noosa’s main beach. We’ll organise eveything you need. Starting by prepping your boards with wax, we'll find the right leggy for you, suggest a rash guard, and recommend the right spot for your skill level and the waves on the day.</p>"
           }
         },
         "8c3ce641-cbcd-4ace-8e03-5e45953d66b4": {
@@ -210,7 +210,7 @@
         "c9ebea79-4ee6-41d2-ade9-2e284f72dbdd": {
           "type": "text",
           "settings": {
-            "text": "<p>As a beginner, you can try your luck at Noosa main beach, but usually, there's a better wave if you walk north for 5 minutes and head towards the Noosa river mouth. It all depends on the swell direction and wind conditions, so if does look a little choppy, turn towards the national park from main beach and the first bay you'll find is called Little Cove. Another great spot for beginners. There are plenty of surf beaches here, but it's best to always get surf lessons if you're inexperienced. A learn to surf, surf school can show you the basics while keeping you safe. The surf schools are usually located by the river mouth and you can access them by car via Noosa Woods.<\/p>"
+            "text": "<p>As a beginner, you can try your luck at Noosa main beach, but usually, there's a better wave if you walk north for 5 minutes and head towards the Noosa river mouth. It all depends on the swell direction and wind conditions, so if does look a little choppy, turn towards the national park from main beach and the first bay you'll find is called Little Cove. Another great spot for beginners. There are plenty of surf beaches here, but it's best to always get surf lessons if you're inexperienced. A learn to surf, surf school can show you the basics while keeping you safe. The surf schools are usually located by the river mouth and you can access them by car via Noosa Woods.</p>"
           }
         }
       },
@@ -223,8 +223,8 @@
         "c9ebea79-4ee6-41d2-ade9-2e284f72dbdd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/surfboard-guy-in-nossa.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/noosa-storefront.png",
+        "image": "shopify://shop_images/surfboard-guy-in-nossa.jpg",
+        "image_mobile": "shopify://shop_images/noosa-storefront.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -235,8 +235,8 @@
       "settings": {
         "heading": "Put A Leash On It",
         "summary": "If you're hiring a board, or even buying one, we'll kit you out with a leggie, otherwise know as a leash, or leg rope that's going to keep you attached, and safe in the water. \n<br><br>\nOur Noosa surf store stocks stacks of gear, surf accessories and apparel. You'll be able to pick up wax, wax combs, sunscreen, bucket hats, rashie's, wet suits and everything you'll need before getting wet.  \n<br><br>\nIf you need advice on what size, what , what board, what leggie, or any technical question at all, our staff are knowledgeable and happy to assist.",
-        "main_image": "shopify:\/\/shop_images\/shop-girl.jpg",
-        "image_grid": "shopify:\/\/shop_images\/noosa-shop.png",
+        "main_image": "shopify://shop_images/shop-girl.jpg",
+        "image_grid": "shopify://shop_images/noosa-shop.png",
         "layout": "text_first"
       }
     },
@@ -332,7 +332,7 @@
         "9e341edb-a5f6-452a-8dd1-28ffc3cc0bcc": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "7 Days \/ 1 Week",
+            "column_1_data": "7 Days / 1 Week",
             "column_2_data": "$160",
             "header": false
           }
@@ -409,7 +409,7 @@
           "settings": {
             "name": "Nick Richards",
             "quote": "I recently had the pleasure of renting a surfboard from Golden Breed, and I have to say that I was thoroughly impressed with their service. From the moment I walked into their shop, I was greeted with warm and friendly staff who were eager to help me find the perfect surfboard for my needs.",
-            "background_image": "shopify:\/\/shop_images\/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
+            "background_image": "shopify://shop_images/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
           }
         },
         "d35410dd-23c3-4eb7-a5ad-8f15a45ef64d": {
@@ -417,7 +417,7 @@
           "settings": {
             "name": "Buddha",
             "quote": "Golden Breed is an iconic Australian Surf Brand. The Golden Breed Shop in Noosa Heads, whilst small, offers a good range of functional and purpose built surf wear at a competitive price.",
-            "background_image": "shopify:\/\/shop_images\/byron-hero.png"
+            "background_image": "shopify://shop_images/byron-hero.png"
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
@@ -425,7 +425,7 @@
           "settings": {
             "name": "MaiJPS",
             "quote": "The Best shop to get rental surfboard ! Highly recommended.\nI rented 9'0 hard longboard which was great and they offered me I can change the board as much as I want from the plenty of choice.\nDefinitely come back!\nBest part of the shop is all staff was very friendly and helpful!",
-            "background_image": "shopify:\/\/shop_images\/noosa-hero.png"
+            "background_image": "shopify://shop_images/noosa-hero.png"
           }
         }
       },
@@ -553,22 +553,22 @@
       "settings": {
         "heading": "Rent A Surfboard",
         "description": "Book your Noosa surfboard hire with our friendly team",
-        "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"><\/iframe>",
+        "google_maps_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.7795425585543!2d153.61229122354789!3d-28.642973930336595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90623a28d72431%3A0xb3eebd8653a10083!2sGolden%20Breed%20Byron%20Bay!5e0!3m2!1sen!2sth!4v1677559143274!5m2!1sen!2sth\" width=\"800\" height=\"800\" loading=\"lazy\" frameborder=\"0\" scrolling=\"no\"></iframe>",
         "shop_name": "Golden Breed - Noosa",
         "address": "13 Noosa Drive, Noosa Heads QLD 4567",
-        "hours": "<p>8:30am - 5pm<\/p>",
+        "hours": "<p>8:30am - 5pm</p>",
         "phone": "07 5357 6053",
         "phoneLink": "tel:+6107 5357 6053",
         "whatsapp": "02 6680 7944",
         "whatsappLink": "",
         "email": "",
-        "driving_directions": "<p>Find us at the Golden Breed round-about at 13, Noosa Drive, Noosa Heads.<\/p>\n\n<p>As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed round about. You can't miss us, we're smack bam in your direct line of site in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.<\/p>",
+        "driving_directions": "<p>Find us at the Golden Breed round-about at 13, Noosa Drive, Noosa Heads.</p>\n\n<p>As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed round about. You can't miss us, we're smack bam in your direct line of site in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.</p>",
         "driving_directions_heading": "How to find us!",
-        "parking_information": "<p>Find us at the Golden Breed roundabout at 13 Noosa Drive, Noosa Heads.As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed roundabout.<\/p>\n\n<p>You can't miss us. We're smack-bam in your direct line of sight in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.<\/p>",
+        "parking_information": "<p>Find us at the Golden Breed roundabout at 13 Noosa Drive, Noosa Heads.As you're heading up Noosa Parade, or coming down the hill from Junction towards Hastings Street, you'll hit the Golden Breed roundabout.</p>\n\n<p>You can't miss us. We're smack-bam in your direct line of sight in the retro green coloured shop-front. We're right next to Deus who serve up an epic coffee, and if you get to Grilled, you've gone too far.</p>",
         "parking_information_heading": "Where to park?",
-        "wheel_chair_accessibility_information": "<p>Our new Noosa surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out out surf fashion and we're happy to accommodate for all abilities.<\/p>",
-        "wheel_chair_accessibility_information_heading": "Wheel chair accessibility",
-        "pet_friendliness": "<p>Want to bring your pooch? Fur buddies are 100% welcome, providing their well behaved, chill and toilet trained. Just please be aware that some other customers may not love doggo's as much as you do, so please consider those in the shop.<\/p>",
+        "wheel_chair_accessibility_information": "<p>Our new Noosa surf store has been built with a wheelchair friendly ramp, and enough space to move between the isles. Come on down, check out our surf fashion and we're happy to accommodate for all abilities.</p>",
+        "wheel_chair_accessibility_information_heading": "Wheelchair accessibility",
+        "pet_friendliness": "<p>Want to bring your pooch? Fur buddies are 100% welcome, providing their well behaved, chill and toilet trained. Just please be aware that some other customers may not love doggo's as much as you do, so please consider those in the shop.</p>",
         "pet_friendliness_heading": "We are pet friendly!",
         "remove_bottom_border": true
       }
