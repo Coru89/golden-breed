@@ -58,18 +58,15 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df": {
           "type": "variant_picker",
@@ -79,8 +76,7 @@
         },
         "a5266312-7f96-4ec7-b97e-7e26bb86c518": {
           "type": "shopify://apps/smartsize/blocks/app-block/465a43e0-6a1a-4d30-b82e-fe6118568705",
-          "settings": {
-          }
+          "settings": {}
         },
         "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34": {
           "type": "freebie_message",
@@ -167,7 +163,7 @@
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": true
       }
     },
@@ -188,8 +184,7 @@
       "blocks": {
         "c73b87e0-67f0-4d81-8130-3110be90b135": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -201,8 +196,7 @@
     },
     "133b1ec4-866a-4d58-b91f-43793884ece4": {
       "type": "accordion-meta-object",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
