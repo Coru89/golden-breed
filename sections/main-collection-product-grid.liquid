@@ -33,30 +33,99 @@
     {%- else -%}
       <div class="collection page-width">
         <div class="loading-overlay gradient"></div>
+          <ul id="product-grid" data-id="{{ section.id }}" class="
+            grid grid--2-col negative-margin product-grid
+            {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
+              {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
+            {% endif %}">
 
-        <ul id="product-grid" data-id="{{ section.id }}" class="
-          grid grid--2-col negative-margin product-grid
-          {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
-            {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
-          {% endif %}">
-          {%- for product in collection.products -%}
-            <li class="grid__item">
-              {% render 'product-card',
-                product_card_product: product,
-                media_size: section.settings.image_ratio,
-                show_secondary_image: section.settings.show_secondary_image,
-                add_image_padding: section.settings.add_image_padding,
-                show_vendor: section.settings.show_vendor,
-                show_image_outline: section.settings.show_image_outline,
-                show_rating: section.settings.show_rating
-              %}
-            </li>
-          {%- endfor -%}
-        </ul>
+            {%- for product in collection.products -%}
 
-        {%- if paginate.pages > 1 -%}
-          {% render 'pagination', paginate: paginate, anchor: '' %}
-        {%- endif -%}
+              {% assign sizeOption = "" %}
+              {% assign colorOption = "" %}
+              
+              {% comment %} determine which variant.option1, variant.option2 is being used for color and size (instead of hardcoding) {% endcomment %}
+              {%- for option in product.options_with_values -%}
+                {% if option.name contains "Color" or
+                  option.name contains "color" or
+                  option.name contains "Colour" or
+                  option.name contains "colour"
+                %}
+                  {% assign colorOption = "option" | append: option.position %}
+                {% elsif option.name contains "Size" or
+                  option.name contains "size" or
+                  option.name contains "Sizes" or
+                  option.name contains "sizes"
+                %}
+                  {% assign sizeOption = "option" | append: option.position %}
+                {% endif %}
+              {%- endfor -%}
+
+              {% comment %} are there more than one color variant? {% endcomment %}
+              {% assign unique_colors = "" %}
+              {%- for variant in product.variants -%}
+                {% unless unique_colors contains variant[colorOption] %}
+                  {% assign unique_colors = unique_colors | append: variant[colorOption] | append: "," %}
+                {% endunless %}
+              {%- endfor -%}
+
+              {% assign unique_colors_count = unique_colors | split: "," | size | minus: 1 %}
+
+              {% comment %} if the product onnly has a single color variant, we will render the standard product-card, 
+               if the product has multiple color variants, we will render variant-card {% endcomment %}
+              {% if unique_colors_count > 1 and product.metafields.custom.dont_show_individual_variants != true %}
+                {% assign displayed_colors = "" %} <!-- Initialize displayed_colors -->
+                
+                {%- for variant in product.variants -%}
+                  {% comment %} build a list of available sizes for each color variant {% endcomment %}
+                  {% assign filtered_available_sizes = "" %}
+                  {%- for v in product.variants -%}
+                    {% if v[colorOption] == variant[colorOption] and v.inventory_quantity > 0 %}
+                      {% assign filtered_available_sizes = filtered_available_sizes| append: v[sizeOption] | append: "," %}
+                    {% endif %}
+                  {%- endfor -%}    
+
+                  {% comment %} make sure we only render a signle card for each color {% endcomment %}
+                  {% unless displayed_colors contains variant[colorOption] %}
+                    {% if filtered_available_sizes != blank or product.tags contains 'coming soon' %}
+                      {% assign variant_card_title = product.title | append: " (" | append: variant[colorOption] | append: ")"%}
+                      <li class="grid__item">
+                        {% render 'variant-card',
+                          variant_card_variant: variant,
+                          product_card_product: product,
+                          variant_card_title: variant_card_title,
+                          filtered_available_sizes: filtered_available_sizes,
+                          media_size: section.settings.image_ratio,
+                          show_secondary_image: section.settings.show_secondary_image,
+                          add_image_padding: section.settings.add_image_padding,
+                          show_vendor: section.settings.show_vendor,
+                          show_image_outline: section.settings.show_image_outline,
+                          show_rating: section.settings.show_rating
+                        %}
+                      </li>
+                      {% assign displayed_colors = displayed_colors | append: variant[colorOption] | append: "," %}
+                    {% endif %}
+                  {% endunless %}
+                {%- endfor -%}
+              {% else %}
+                <li class="grid__item">
+                  {% render 'product-card',
+                    product_card_product: product,
+                    media_size: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    add_image_padding: section.settings.add_image_padding,
+                    show_vendor: section.settings.show_vendor,
+                    show_image_outline: section.settings.show_image_outline,
+                    show_rating: section.settings.show_rating
+                  %}
+                </li>
+              {% endif %}
+
+            {%- endfor -%}
+          </ul>
+          {%- if paginate.pages > 1 -%}
+            {% render 'pagination', paginate: paginate, anchor: '' %}
+          {%- endif -%}
       </div>
     {%- endif -%}
   {%- endpaginate -%}
