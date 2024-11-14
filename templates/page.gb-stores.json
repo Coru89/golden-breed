@@ -75,13 +75,21 @@
           "settings": {
             "text": "<p>Monday - Thursday 9:00am - 5:30pm</p><p>Friday / Saturday 9:00am - 6:00pm</p><p>Sunday 9:00am - 5:00pm</p>"
           }
+        },
+        "button_GJcrWn": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Store Info",
+            "button_link": "#"
+          }
         }
       },
       "block_order": [
         "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-heading-1",
         "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-text-1",
         "70999e55-476c-456d-9bca-7d0b83db7c90",
-        "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0"
+        "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0",
+        "button_GJcrWn"
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; }}",
