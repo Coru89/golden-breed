@@ -41,7 +41,7 @@
         "featured_collection_Xbpfwk"
       ],
       "custom_css": [
-        "* {text-align: center;}"
+        "* {text-align: center!important;}"
       ],
       "settings": {
         "title": "Check out some of our popular collections",
