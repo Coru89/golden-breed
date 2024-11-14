@@ -80,7 +80,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Store Info",
-            "button_link": "#"
+            "button_link": "shopify://pages/byron-bay-store"
           }
         }
       },
@@ -142,7 +142,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Store info",
-            "button_link": "#"
+            "button_link": "shopify://pages/noosa-store"
           }
         }
       },
