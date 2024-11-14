@@ -1,10 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "pf-ec984a01": {
       "type": "pf-ec984a01",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "31b9e743-4b02-4123-9f61-f3eae288dd19": {
       "type": "hero",
@@ -26,7 +34,7 @@
         "template--16288741556423__e4d1f554-e9e2-4283-b16d-425be9512c26-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Head Office (for General & Social Media enquiries)<\/strong><\/p><p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>Ph<strong> <\/strong>- 1300 882 914 <\/p><p>Email - info@goldenbreed.com.au<\/p>"
+            "text": "<p><strong>Head Office (for General & Social Media enquiries)</strong></p><p>34 - 36 Cook Street, Flinders VIC 3929</p><p>Ph<strong> </strong>- 1300 882 914 </p><p>Email - info@goldenbreed.com.au</p>"
           }
         }
       },
@@ -52,7 +60,7 @@
         "template--16288741556423__2a9842b2-8b91-4bad-a3fa-173d71887377-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>10 Lawson Street, Byron Bay NSW 2481<\/p><p>1300 882 914<\/p><p>GBByronbay@goldenbreed.com.au <\/p><p><\/p>"
+            "text": "<p>10 Lawson Street, Byron Bay NSW 2481</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBByronbay@goldenbreed.com.au \" title=\"mailto:GBByronbay@goldenbreed.com.au \">GBByronbay@goldenbreed.com.au </a></p><p></p>"
           }
         },
         "70999e55-476c-456d-9bca-7d0b83db7c90": {
@@ -65,7 +73,7 @@
         "4a276a40-a8a3-4ccc-bd93-42bb5ac7a3b0": {
           "type": "text",
           "settings": {
-            "text": "<p>Monday - Thursday 9:00am - 5:30pm<\/p><p>Friday \/ Saturday 9:00am - 6:00pm<\/p><p>Sunday 9:00am - 5:00pm<\/p>"
+            "text": "<p>Monday - Thursday 9:00am - 5:30pm</p><p>Friday / Saturday 9:00am - 6:00pm</p><p>Sunday 9:00am - 5:00pm</p>"
           }
         }
       },
@@ -80,8 +88,8 @@
         "@media screen and (min-width: 750px) {.shop-image-with-text__content * {width: 100%; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/gbstorebyron.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/gbstorebyron.jpg",
+        "image": "shopify://shop_images/gbstorebyron.jpg",
+        "image_mobile": "shopify://shop_images/gbstorebyron.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -100,7 +108,7 @@
         "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567<\/p><p>1300 882 914<\/p><p>GBNoosa@goldenbreed.com.au <\/p><p><\/p>"
+            "text": "<p>13 Noosa Drive, Noosa Heads QLD 4567</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBNoosa@goldenbreed.com.au \" title=\"mailto:GBNoosa@goldenbreed.com.au \">GBNoosa@goldenbreed.com.au </a></p><p></p>"
           }
         },
         "495ffc2d-c154-4dca-b4ae-97cb2c482d9e": {
@@ -113,13 +121,13 @@
         "03681433-b925-40e5-8400-8700dcd74096": {
           "type": "text",
           "settings": {
-            "text": "<p>Monday - Sunday  8:30am - 5pm*<\/p>"
+            "text": "<p>Monday - Sunday  8:30am - 5pm*</p>"
           }
         },
         "f33566f5-5bfe-4347-8f16-552efddf8285": {
           "type": "text",
           "settings": {
-            "text": "<p>* Extended opening hours throughout Summer<br\/>months and school holidays.<\/p>"
+            "text": "<p>* Extended opening hours throughout Summer<br/>months and school holidays.</p>"
           }
         }
       },
@@ -131,8 +139,8 @@
         "f33566f5-5bfe-4347-8f16-552efddf8285"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/gbnoosastore.webp",
-        "image_mobile": "shopify:\/\/shop_images\/gbnoosastore.webp",
+        "image": "shopify://shop_images/gbnoosastore.webp",
+        "image_mobile": "shopify://shop_images/gbnoosastore.webp",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -151,7 +159,7 @@
         "template--16288741556423__f05e86f6-681b-411c-a1d7-5ac664d87cad-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>34 - 36 Cook Street, Flinders VIC 3929<\/p><p>1300 882 914<\/p><p>GBFlinders@goldenbreed.com.au<\/p><p><\/p>"
+            "text": "<p>34 - 36 Cook Street, Flinders VIC 3929</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBFlinders@goldenbreed.com.au\" title=\"mailto:GBFlinders@goldenbreed.com.au\">GBFlinders@goldenbreed.com.au</a></p><p></p>"
           }
         },
         "7955af37-e0ce-4674-b29d-a79159384842": {
@@ -164,7 +172,7 @@
         "f152f689-8e72-42b5-abb0-db53bb6d105e": {
           "type": "text",
           "settings": {
-            "text": "<p>Monday - Friday 10:00am - 4:00pm<\/p><p>Saturday 9:00am - 5:00pm<\/p><p>Sunday 9:00am - 4:00pm<\/p>"
+            "text": "<p>Monday - Friday 10:00am - 4:00pm</p><p>Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>"
           }
         }
       },
@@ -179,8 +187,8 @@
         "@media screen and (min-width: 750px) {.shop-image-with-text__content * {width: 100%; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/gbstoresflinders.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/gbstoresflinders.jpg",
+        "image": "shopify://shop_images/gbstoresflinders.jpg",
+        "image_mobile": "shopify://shop_images/gbstoresflinders.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
