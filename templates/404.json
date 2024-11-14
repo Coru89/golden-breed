@@ -9,8 +9,51 @@
  */
 {
   "sections": {
+    "rich_text_AycKLq": {
+      "type": "rich-text",
+      "blocks": {
+        "image_9AGLdt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/404.gif"
+          }
+        },
+        "heading_3GmBQW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Oops! You've Drifted Off Course",
+            "heading_size": "h1"
+          }
+        },
+        "text_xyP6aD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It seems this page has caught a riptide! Try heading back to our homepage or browse our latest collections.</p>"
+          }
+        },
+        "button_jkmxCx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Check out our new arrivals",
+            "button_link": "https://goldenbreed.com.au/collections/all-new-arrivals",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9AGLdt",
+        "heading_3GmBQW",
+        "text_xyP6aD",
+        "button_jkmxCx"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "main": {
       "type": "main-404",
+      "disabled": true,
       "settings": {}
     },
     "collection_list_MtGQtJ": {
@@ -41,7 +84,7 @@
         "featured_collection_Xbpfwk"
       ],
       "custom_css": [
-        "* {text-align: center!important;}"
+        "* {text-align: center !important;}"
       ],
       "settings": {
         "title": "Check out some of our popular collections",
@@ -54,6 +97,7 @@
     }
   },
   "order": [
+    "rich_text_AycKLq",
     "main",
     "collection_list_MtGQtJ"
   ]
