@@ -68,9 +68,11 @@
                 <div class="shop-image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
               {%- when 'button' -%}
                 {%- if block.settings.button_label != blank -%}
+                <div class="image-with-text__button">
                   <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="shop-image-with-text__button" {{ block.shopify_attributes }}>
                     {{ block.settings.button_label | escape }}
                   </a>
+                </div>
                 {%- endif -%}
               {%- when 'video_block' -%}
                 {%- if block.settings.video_url != blank -%}
