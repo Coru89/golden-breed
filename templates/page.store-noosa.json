@@ -280,21 +280,37 @@
         "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Do you offer surfboard rentals at your Flinders location?",
-            "accordion_content": "No, our Flinders store does not offer surfboard rentals. However, we provide a wide selection of premium surfboards for purchase, along with apparel and accessories. Our knowledgeable staff can help you choose the right gear and offer advice on the best local surf spots."
+            "accordion_label": "What types of products does Golden Breed Noosa Heads offer?",
+            "accordion_content": "Our store provides a wide range of beachwear, surf apparel, accessories, and lifestyle items. You'll find board shorts, swimwear, T-shirts, hats, and a curated selection of beach and surf gear. We also offer unique Noosa Heads souvenirs and exclusive Golden Breed branded merchandise."
           }
         },
         "cffc097b-c126-4ff2-845d-7dd4374810fc": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Can your staff provide advice on local surfing conditions and spots?",
-            "accordion_content": "Absolutely! Our friendly and experienced staff are well-versed in the local surf conditions and can provide expert advice on the best spots to surf in and around Flinders. Whether you're new to surfing or a seasoned pro, we're here to help you make the most of your surfing experience."
+            "accordion_label": "Can I find exclusive Golden Breed products at this location?",
+            "accordion_content": "Yes! Our Noosa Heads store features exclusive Golden Breed products and limited-edition items that may not be available at other locations or online. It's an excellent place to discover unique pieces that embody the Golden Breed lifestyle."
+          }
+        },
+        "accordion_item_7rC8yY": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Do you offer gift cards?",
+            "accordion_content": "Yes, we offer gift cards that can be used in-store, making them a perfect gift for any beach or surf enthusiast. Visit us to purchase one, and our staff will be happy to assist you with your selection."
+          }
+        },
+        "accordion_item_CFqLfY": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Are there any sales or discounts offered in-store?",
+            "accordion_content": "We occasionally offer in-store sales and seasonal discounts. Follow us on social media or subscribe to our newsletter for updates on exclusive promotions, special events, and sales."
           }
         }
       },
       "block_order": [
         "dba7340e-c2ba-4f41-8326-01ad6fad0885",
-        "cffc097b-c126-4ff2-845d-7dd4374810fc"
+        "cffc097b-c126-4ff2-845d-7dd4374810fc",
+        "accordion_item_7rC8yY",
+        "accordion_item_CFqLfY"
       ],
       "settings": {
         "heading": "FAQs",
