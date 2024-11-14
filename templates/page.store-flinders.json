@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "hero",
       "settings": {
         "heading_title": "Flinders Store",
-        "image": "shopify:\/\/shop_images\/byron-hero.png",
+        "image": "shopify://shop_images/byron-hero.png",
         "banner_alert_message": ""
       }
     },
@@ -30,7 +30,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Located in the charming town of Flinders, south of Melbourne, our store is your go-to destination for premium surfboards, apparel, and accessories. Whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help you find the perfect gear and provide expert advice on local surf spots. <\/p><p>Come on down and explore our latest collections and seasonal gear to stay updated with the best in surf culture. Get ready to hit the waves with style and confidence! <\/p>"
+            "text": "<p>Located in the charming town of Flinders, south of Melbourne, our store is your go-to destination for premium surfboards, apparel, and accessories. Whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help you find the perfect gear and provide expert advice on local surf spots. </p><p>Come on down and explore our latest collections and seasonal gear to stay updated with the best in surf culture. Get ready to hit the waves with style and confidence! </p>"
           }
         }
       },
@@ -39,8 +39,8 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/flinders.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/byron-interior.png",
+        "image": "shopify://shop_images/flinders.jpg",
+        "image_mobile": "shopify://shop_images/byron-interior.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -51,10 +51,10 @@
       "settings": {
         "heading": "Contact Us To Find Out More",
         "description": "",
-        "google_maps_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d12494.388711680545!2d145.0187856!3d-38.4738601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad5b8e579c0d605%3A0xaba6df8d3e6f49eb!2sGolden%20Breed%20Flinders!5e0!3m2!1sen!2snz!4v1720401467449!5m2!1sen!2snz\" width=\"620\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "google_maps_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12494.388711680545!2d145.0187856!3d-38.4738601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad5b8e579c0d605%3A0xaba6df8d3e6f49eb!2sGolden%20Breed%20Flinders!5e0!3m2!1sen!2snz!4v1720401467449!5m2!1sen!2snz\" width=\"620\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
         "shop_name": "Golden Breed Byron Bay",
         "address": "34-36 Cook St, Flinders VIC 3929",
-        "hours": "<p>Monday - Friday 10:00am - 4:00pm<\/p><p>Saturday 9:00am - 5:00pm<\/p><p>Sunday 9:00am - 4:00pm<\/p>",
+        "hours": "<p>Monday - Friday 10:00am - 4:00pm</p><p>Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>",
         "phone": "1300 882 914",
         "phoneLink": "tel:1300 882 914",
         "whatsapp": "1300 882 914",
@@ -75,7 +75,7 @@
       "type": "apps",
       "blocks": {
         "hulk_form_builder_form_block_iL8mfQ": {
-          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
           "settings": {
             "form_uuid": "0KCSmomEy0ufGPggnu9fgQ",
             "form_settings": false,
@@ -125,7 +125,7 @@
         "template--16138112467123__48048996-d24c-4463-b513-cb5451d66010-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>TBA<\/p>"
+            "text": "<p>TBA</p>"
           }
         },
         "5c9b6e78-ea19-45fb-8a14-b29f929bd96d": {
@@ -138,7 +138,7 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d": {
           "type": "text",
           "settings": {
-            "text": "<p>TBA<\/p>"
+            "text": "<p>TBA</p>"
           }
         }
       },
@@ -149,8 +149,8 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/flinders-tee_1.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/byron-beach.png",
+        "image": "shopify://shop_images/flinders-tee_1.jpg",
+        "image_mobile": "shopify://shop_images/byron-beach.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -169,7 +169,7 @@
         "text_QJzDDW": {
           "type": "text",
           "settings": {
-            "text": "<p>TBA<\/p>"
+            "text": "<p>TBA</p>"
           }
         },
         "heading_zqhgf4": {
@@ -182,7 +182,7 @@
         "text_LxtEa6": {
           "type": "text",
           "settings": {
-            "text": "<p>Good news for all the dog lovers out there - Our shop is dog-friendly! That's right, you can bring your pooch along as long as they're well-behaved and don't hassle the other customers. We all want to have a chilled shopping experience without any dramas. If your fur buddy is chill and just wants to hang out while you browse our range then bring 'em in, no worries!<\/p>"
+            "text": "<p>Good news for all the dog lovers out there - Our shop is dog-friendly! That's right, you can bring your pooch along as long as they're well-behaved and don't hassle the other customers. We all want to have a chilled shopping experience without any dramas. If your fur buddy is chill and just wants to hang out while you browse our range then bring 'em in, no worries!</p>"
           }
         }
       },
@@ -193,7 +193,7 @@
         "text_LxtEa6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/flinders-hoodie-4_1.jpg",
+        "image": "shopify://shop_images/flinders-hoodie-4_1.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -207,7 +207,7 @@
           "settings": {
             "name": "Barry P",
             "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool.",
-            "background_image": "shopify:\/\/shop_images\/byron-hero.png"
+            "background_image": "shopify://shop_images/byron-hero.png"
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
@@ -215,7 +215,7 @@
           "settings": {
             "name": "Becky Keen",
             "quote": "Gorgeous clothes!",
-            "background_image": "shopify:\/\/shop_images\/noosa-hero.png"
+            "background_image": "shopify://shop_images/noosa-hero.png"
           }
         },
         "5d39b0f6-e3d3-43b0-8635-5323f195bf58": {
@@ -223,7 +223,7 @@
           "settings": {
             "name": "Jason Howarth",
             "quote": "A little not so hidden gem in Byron. I recently realised a lot of my clothes are from here!",
-            "background_image": "shopify:\/\/shop_images\/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
+            "background_image": "shopify://shop_images/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
           }
         }
       },
@@ -262,7 +262,7 @@
         "cffc097b-c126-4ff2-845d-7dd4374810fc"
       ],
       "settings": {
-        "heading": "FAQs",
+        "heading": "Flinders Store FAQs",
         "sub_heading": "Our commonly asked questions..."
       }
     }
