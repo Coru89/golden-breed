@@ -39,11 +39,46 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/noosa-storefront.png",
+        "image": "shopify://shop_images/noosa.jpg",
         "image_mobile": "shopify://shop_images/byron-interior.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
+      }
+    },
+    "rich_text_fj6TyN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WGUL9r": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ride the Waves with our  Surfboard Hire",
+            "heading_size": "h1"
+          }
+        },
+        "text_pcNPiy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're a seasoned pro or just starting out, our surfboard hire service offers a wide range of high-quality boards to suit your needs. Conveniently located right by the beach, we make it easy for you to grab a board and hit the waves. Our friendly staff is here to help you choose the perfect board for your skill level and surfing style. Experience the thrill of surfing in Noosa with our hassle-free rental options.</p>"
+          }
+        },
+        "button_rz9QBj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https://goldenbreed.com.au/pages/noosa-heads-board-hire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WGUL9r",
+        "text_pcNPiy",
+        "button_rz9QBj"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "554dd024-c9a3-46c0-b76c-4665b0cc603d": {
@@ -197,41 +232,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
-      }
-    },
-    "rich_text_fj6TyN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WGUL9r": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ride the Waves with our  Surfboard Hire",
-            "heading_size": "h1"
-          }
-        },
-        "text_pcNPiy": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Whether you're a seasoned pro or just starting out, our surfboard hire service offers a wide range of high-quality boards to suit your needs. Conveniently located right by the beach, we make it easy for you to grab a board and hit the waves. Our friendly staff is here to help you choose the perfect board for your skill level and surfing style. Experience the thrill of surfing in Noosa with our hassle-free rental options.</p>"
-          }
-        },
-        "button_rz9QBj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "https://goldenbreed.com.au/pages/noosa-heads-board-hire",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_WGUL9r",
-        "text_pcNPiy",
-        "button_rz9QBj"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
       }
     },
     "25c46024-1bb7-4607-8d0d-54e868c531f4": {
