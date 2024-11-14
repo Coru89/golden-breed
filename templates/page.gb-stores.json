@@ -92,7 +92,7 @@
         "button_GJcrWn"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; } .shop-image-with-text__button {float: right; } .shop-image-with-text__heading, .shop-image-with-text__text {width: 100%; }}"
+        "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; } .shop-image-with-text__button {text-align:right!important; } .shop-image-with-text__heading, .shop-image-with-text__text {width: 100%; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/gbstorebyron.jpg",
