@@ -40,6 +40,9 @@
         "featured_collection_APhVGH",
         "featured_collection_Xbpfwk"
       ],
+      "custom_css": [
+        "* {text-align: center;}"
+      ],
       "settings": {
         "title": "Check out some of our popular collections",
         "image_ratio": "square",
