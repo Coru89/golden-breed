@@ -34,7 +34,7 @@
         "template--16288741556423__e4d1f554-e9e2-4283-b16d-425be9512c26-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Head Office (for General & Social Media enquiries)</strong></p><p>34 - 36 Cook Street, Flinders VIC 3929</p><p>Ph<strong> </strong>- 1300 882 914 </p><p>Email - info@goldenbreed.com.au</p>"
+            "text": "<p><strong>Head Office (for General & Social Media enquiries)</strong></p><p>34 - 36 Cook Street, Flinders VIC 3929</p><p>Ph<strong> </strong>- <a href=\"tel:1300 882 914 \" title=\"tel:1300 882 914 \">1300 882 914 </a></p><p>Email - <a href=\"mailto:info@goldenbreed.com.au\" title=\"mailto:info@goldenbreed.com.au\">info@goldenbreed.com.au</a></p>"
           }
         }
       },
