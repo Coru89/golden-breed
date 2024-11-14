@@ -39,7 +39,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/flinders.jpg",
+        "image": "shopify://shop_images/byron-bay-shop.png",
         "image_mobile": "shopify://shop_images/byron-interior.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -184,7 +184,7 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d"
       ],
       "settings": {
-        "image": "shopify://shop_images/flinders-tee_1.jpg",
+        "image": "shopify://shop_images/byron-interior.png",
         "image_mobile": "shopify://shop_images/byron-beach.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -228,7 +228,7 @@
         "text_LxtEa6"
       ],
       "settings": {
-        "image": "shopify://shop_images/flinders-hoodie-4_1.jpg",
+        "image": "shopify://shop_images/byron-bay-shop.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
