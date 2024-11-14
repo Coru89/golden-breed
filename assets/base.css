@@ -2771,7 +2771,7 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
 #marsello-widget-root > div > div > div > div > svg > path {color:#E78367;fill:#E78367;}
 #marsello-widget-root:hover > div > div > div > div > svg > path {color:#ffffff!important;}
 #marsello-widget-panel .cp-footer span {color:#3a3a3a!important;}
-.cp-footer {background:grey;}
+.cp-footer {background:grey;border:1px solid red;}
 #marsello-widget-panel > div > main > div > div.cp-footer > span {color:#3a3a3a!important;}
 /* gb stores page */
 #shopify-section-template--16298788028615__44705638-d49c-4954-bea1-47ad5e064715 > section {background:#f0f8fc;}
