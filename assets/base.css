@@ -2762,4 +2762,5 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
   height: 30px !important;
 }
 
-#marsello-portal-root .cp-launcher .cp-launcher-btn .cp-launcher-label, #marsello-widget-root .cp-launcher .cp-launcher-btn .cp-launcher-label {padding-top:3px;color:#3a3a3a!important;}
+#marsello-portal-root .cp-launcher-label {padding-top:3px;}
+#marsello-portal-root .cp-block {color:#3a3a3a!important;}
