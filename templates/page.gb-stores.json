@@ -129,6 +129,13 @@
           "settings": {
             "text": "<p>* Extended opening hours throughout Summer<br/>months and school holidays.</p>"
           }
+        },
+        "button_LJkgYA": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Store info",
+            "button_link": "#"
+          }
         }
       },
       "block_order": [
@@ -136,7 +143,8 @@
         "template--16288741556423__44705638-d49c-4954-bea1-47ad5e064715-text-1",
         "495ffc2d-c154-4dca-b4ae-97cb2c482d9e",
         "03681433-b925-40e5-8400-8700dcd74096",
-        "f33566f5-5bfe-4347-8f16-552efddf8285"
+        "f33566f5-5bfe-4347-8f16-552efddf8285",
+        "button_LJkgYA"
       ],
       "settings": {
         "image": "shopify://shop_images/gbnoosastore.webp",
@@ -174,13 +182,21 @@
           "settings": {
             "text": "<p>Monday - Friday 10:00am - 4:00pm</p><p>Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>"
           }
+        },
+        "button_UyFzaW": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Store Info",
+            "button_link": "https://goldenbreed.com.au/pages/flinders-store"
+          }
         }
       },
       "block_order": [
         "template--16288741556423__f05e86f6-681b-411c-a1d7-5ac664d87cad-heading-1",
         "template--16288741556423__f05e86f6-681b-411c-a1d7-5ac664d87cad-text-1",
         "7955af37-e0ce-4674-b29d-a79159384842",
-        "f152f689-8e72-42b5-abb0-db53bb6d105e"
+        "f152f689-8e72-42b5-abb0-db53bb6d105e",
+        "button_UyFzaW"
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; }}",
