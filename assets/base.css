@@ -2761,3 +2761,5 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
 .glider-container {
   height: 30px !important;
 }
+
+#marsello-portal-root .cp-launcher .cp-launcher-btn .cp-launcher-label, #marsello-widget-root .cp-launcher .cp-launcher-btn .cp-launcher-label {border:1px solid blue;}
