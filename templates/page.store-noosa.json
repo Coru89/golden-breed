@@ -149,7 +149,7 @@
         "53dfb156-69d4-478c-a327-c2f811bafa1d"
       ],
       "settings": {
-        "image": "shopify://shop_images/flinders-tee_1.jpg",
+        "image": "shopify://shop_images/noosa_shop.png",
         "image_mobile": "shopify://shop_images/byron-beach.png",
         "height": "adapt",
         "color_scheme": "background-1",
@@ -193,7 +193,7 @@
         "text_LxtEa6"
       ],
       "settings": {
-        "image": "shopify://shop_images/flinders-hoodie-4_1.jpg",
+        "image": "shopify://shop_images/noosaretro.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -305,11 +305,11 @@
   "order": [
     "main",
     "f4d52c76-711e-4a98-80b4-445b3517398f",
+    "rich_text_fj6TyN",
     "554dd024-c9a3-46c0-b76c-4665b0cc603d",
     "172039901981c24038",
     "48048996-d24c-4463-b513-cb5451d66010",
     "shop_image_text_ez6Jwd",
-    "rich_text_fj6TyN",
     "25c46024-1bb7-4607-8d0d-54e868c531f4",
     "7a575310-7f34-4910-8427-5e7100bbbae5"
   ]
