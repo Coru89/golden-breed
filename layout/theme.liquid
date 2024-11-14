@@ -41,14 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
-
+{% if template.name == 'customers/account' %}
+  <title>Account test</title>
+    {% else %}
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
       {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
       {% comment %}{%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}{% endcomment %}
     </title>
-
+{% endif %}
+    
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
