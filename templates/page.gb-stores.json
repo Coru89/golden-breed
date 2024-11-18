@@ -92,7 +92,7 @@
         "button_GJcrWn"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; } .shop-image-with-text__button {text-align: right !important; } .shop-image-with-text__heading, .shop-image-with-text__text {width: 100%; } .image-with-text__button {width:100%;text-align:right;}}"
+        "@media screen and (min-width: 750px) {.shop-image-with-text__content {text-align: right; } .shop-image-with-text__button {text-align: right !important; } .shop-image-with-text__heading, .shop-image-with-text__text {width: 100%; } .image-with-text__button {width: 100%; text-align: right; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/gbstorebyron.jpg",
@@ -154,7 +154,7 @@
         "button_LJkgYA"
       ],
       "settings": {
-        "image": "shopify://shop_images/gbnoosastore.webp",
+        "image": "shopify://shop_images/noosa_bd72e6b8-fd0f-4404-b8af-9088707ad261.jpg",
         "image_mobile": "shopify://shop_images/gbnoosastore.webp",
         "height": "adapt",
         "color_scheme": "background-1",
