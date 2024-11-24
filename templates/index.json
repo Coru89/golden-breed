@@ -20,7 +20,7 @@
       "type": "mobile-hp-banner",
       "settings": {
         "image": "shopify://shop_images/November_14_-_Mobile_Header_6fbe474a-88b9-4eb6-99f0-39187ab249bb.jpg",
-        "banner_url": "https://goldenbreed.com.au/collections/floyd-walkshorts",
+        "banner_url": "shopify://collections/floyd-walkshorts",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -38,7 +38,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "https://goldenbreed.com.au/collections/floyd-walkshorts",
+            "button_link_1": "shopify://collections/floyd-walkshorts",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
