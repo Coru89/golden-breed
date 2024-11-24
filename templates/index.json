@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/November_21_-_Mobile_Header.jpg",
-        "banner_url": "shopify://collections/all-new-arrivals",
+        "image": "shopify://shop_images/November_14_-_Mobile_Header_6fbe474a-88b9-4eb6-99f0-39187ab249bb.jpg",
+        "banner_url": "https://goldenbreed.com.au/collections/floyd-walkshorts",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
