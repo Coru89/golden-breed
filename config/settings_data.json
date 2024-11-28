@@ -176,11 +176,6 @@
           "account_param": "2429568"
         }
       },
-      "3322588378562147075": {
-        "type": "shopify://apps/marsello-omnichannel-loyalty/blocks/widget/2f8afca8-ebe2-41cc-a30f-c0ab7d4ac8be",
-        "disabled": false,
-        "settings": {}
-      },
       "18356332299842544250": {
         "type": "shopify://apps/b4b-variable-products/blocks/variable_init/4b5ec290-6de8-4c3d-b99f-b8721f30ea87",
         "disabled": true,
@@ -192,6 +187,11 @@
         "settings": {
           "allowed_templates": ""
         }
+      },
+      "3322588378562147075": {
+        "type": "shopify://apps/marsello-loyalty-email-sms/blocks/widget/2f8afca8-ebe2-41cc-a30f-c0ab7d4ac8be",
+        "disabled": true,
+        "settings": {}
       }
     }
   },
