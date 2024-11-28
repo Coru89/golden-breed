@@ -57,9 +57,9 @@ class CartItems extends HTMLElement {
 
   updateQuantity(line, quantity, name) {
     try {
-      document.querySelector('button[name="checkout"]').setAttribute("disabled", "");//.style.pointerEvents = "none";
+      document.querySelector('button[name="checkout"]').style.pointerEvents = "none";
       setTimeout(() => {
-        document.querySelector('button[name="checkout"]').removeAttribute("disabled");//.style.pointerEvents = "auto";
+        document.querySelector('button[name="checkout"]').style.pointerEvents = "auto";
       }, 3000)
     } catch (e) {} 
     this.enableLoading(line);
