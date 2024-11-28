@@ -37,12 +37,12 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "https://goldenbreed.com.au/collections/all-new-arrivals",
+            "button_label_1": "Shop Men's",
+            "button_link_1": "https://goldenbreed.com.au/collections/mens",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Shop Women's",
+            "button_link_2": "https://goldenbreed.com.au/collections/women",
             "button_style_secondary_2": false,
             "button_custom_link_attributes_2": ""
           }
