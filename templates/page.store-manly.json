@@ -242,20 +242,6 @@
     "7a575310-7f34-4910-8427-5e7100bbbae5": {
       "type": "accordion",
       "blocks": {
-        "accordion_item_mjbcEq": {
-          "type": "accordion_item",
-          "settings": {
-            "accordion_label": "",
-            "accordion_content": ""
-          }
-        },
-        "accordion_item_qJ4FGV": {
-          "type": "accordion_item",
-          "settings": {
-            "accordion_label": "",
-            "accordion_content": ""
-          }
-        },
         "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
           "type": "accordion_item",
           "settings": {
@@ -272,8 +258,6 @@
         }
       },
       "block_order": [
-        "accordion_item_mjbcEq",
-        "accordion_item_qJ4FGV",
         "dba7340e-c2ba-4f41-8326-01ad6fad0885",
         "cffc097b-c126-4ff2-845d-7dd4374810fc"
       ],
