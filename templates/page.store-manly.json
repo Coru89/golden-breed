@@ -242,22 +242,38 @@
     "7a575310-7f34-4910-8427-5e7100bbbae5": {
       "type": "accordion",
       "blocks": {
+        "accordion_item_mjbcEq": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "",
+            "accordion_content": ""
+          }
+        },
+        "accordion_item_qJ4FGV": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "",
+            "accordion_content": ""
+          }
+        },
         "dba7340e-c2ba-4f41-8326-01ad6fad0885": {
           "type": "accordion_item",
           "settings": {
-            "accordion_label": "Do you offer surfboard rentals at your Flinders location?",
-            "accordion_content": "No, our Flinders store does not offer surfboard rentals. However, we provide a wide selection of premium surfboards for purchase, along with apparel and accessories. Our knowledgeable staff can help you choose the right gear and offer advice on the best local surf spots."
+            "accordion_label": "Do you offer surfboard rentals at your Manly location?",
+            "accordion_content": "No, our Manly store doesn't offer surfboard rentals YET, but we will. However, we provide a wide selection of premium G&S surfboards for purchase, along with apparel and accessories. Our knowledgeable staff can help you choose the right gear and offer advice on the best local surf spots."
           }
         },
         "cffc097b-c126-4ff2-845d-7dd4374810fc": {
           "type": "accordion_item",
           "settings": {
             "accordion_label": "Can your staff provide advice on local surfing conditions and spots?",
-            "accordion_content": "Absolutely! Our friendly and experienced staff are well-versed in the local surf conditions and can provide expert advice on the best spots to surf in and around Flinders. Whether you're new to surfing or a seasoned pro, we're here to help you make the most of your surfing experience."
+            "accordion_content": "Absolutely! Our friendly and experienced staff are well-versed in the local surf conditions and can provide expert advice on the best spots to surf in and around the Manly area. Whether you're new to surfing or a seasoned pro, we're here to help you make the most of your surfing experience."
           }
         }
       },
       "block_order": [
+        "accordion_item_mjbcEq",
+        "accordion_item_qJ4FGV",
         "dba7340e-c2ba-4f41-8326-01ad6fad0885",
         "cffc097b-c126-4ff2-845d-7dd4374810fc"
       ],
