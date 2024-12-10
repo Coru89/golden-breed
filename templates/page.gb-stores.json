@@ -230,14 +230,14 @@
         "text_yp4MTk": {
           "type": "text",
           "settings": {
-            "text": "<p>34 - 36 Cook Street, Flinders VIC 3929</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBFlinders@goldenbreed.com.au\" title=\"mailto:GBFlinders@goldenbreed.com.au\">GBFlinders@goldenbreed.com.au</a></p><h2>Opening Hours</h2><p>Monday - Friday 10:00am - 4:00pm</p><p>Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>"
+            "text": "<p>47 The Corso, Manly NSW 2095</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBFlinders@goldenbreed.com.au\" title=\"mailto:GBFlinders@goldenbreed.com.au\">GBFlinders@goldenbreed.com.au</a></p><h2>Opening Hours</h2><p>Monday to Saturday - 9:00am - 6:00pm</p><p>Sunday  - Closed</p>"
           }
         },
         "button_dFNNqC": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View Store info",
+            "button_link": "https://goldenbreed.com.au/pages/manly-store"
           }
         }
       },
@@ -247,6 +247,7 @@
         "button_dFNNqC"
       ],
       "settings": {
+        "image": "shopify://shop_images/gb-manly.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
