@@ -216,6 +216,41 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "shop_image_text_cdgNnm": {
+      "type": "shop-image-text",
+      "blocks": {
+        "heading_LjYCmE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Manly",
+            "heading_type": "h2"
+          }
+        },
+        "text_yp4MTk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>34 - 36 Cook Street, Flinders VIC 3929</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBFlinders@goldenbreed.com.au\" title=\"mailto:GBFlinders@goldenbreed.com.au\">GBFlinders@goldenbreed.com.au</a></p><h2>Opening Hours</h2><p>Monday - Friday 10:00am - 4:00pm</p><p>Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>"
+          }
+        },
+        "button_dFNNqC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LjYCmE",
+        "text_yp4MTk",
+        "button_dFNNqC"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -224,6 +259,7 @@
     "e4d1f554-e9e2-4283-b16d-425be9512c26",
     "2a9842b2-8b91-4bad-a3fa-173d71887377",
     "44705638-d49c-4954-bea1-47ad5e064715",
-    "f05e86f6-681b-411c-a1d7-5ac664d87cad"
+    "f05e86f6-681b-411c-a1d7-5ac664d87cad",
+    "shop_image_text_cdgNnm"
   ]
 }
