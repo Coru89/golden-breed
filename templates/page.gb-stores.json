@@ -230,7 +230,20 @@
         "text_yp4MTk": {
           "type": "text",
           "settings": {
-            "text": "<p>47 The Corso, Manly NSW 2095</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBFlinders@goldenbreed.com.au\" title=\"mailto:GBFlinders@goldenbreed.com.au\">GBFlinders@goldenbreed.com.au</a></p><h2>Opening Hours</h2><p>Monday to Saturday - 9:00am - 6:00pm</p><p>Sunday  - Closed</p>"
+            "text": "<p>47 The Corso, Manly NSW 2095</p><p><a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p><a href=\"mailto:GBFlinders@goldenbreed.com.au\" title=\"mailto:GBFlinders@goldenbreed.com.au\">GBFlinders@goldenbreed.com.au</a></p>"
+          }
+        },
+        "heading_n6hyMy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Opening Hours",
+            "heading_type": "h2"
+          }
+        },
+        "text_xfHEbA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Monday to Saturday - 9:00am - 6:00pm</p><p>Sunday  - Closed</p>"
           }
         },
         "button_dFNNqC": {
@@ -244,6 +257,8 @@
       "block_order": [
         "heading_LjYCmE",
         "text_yp4MTk",
+        "heading_n6hyMy",
+        "text_xfHEbA",
         "button_dFNNqC"
       ],
       "settings": {
