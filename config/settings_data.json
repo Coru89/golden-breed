@@ -169,13 +169,6 @@
           "customCssGCW": ""
         }
       },
-      "8232999584494105511": {
-        "type": "shopify://apps/drip-email-marketing-popup/blocks/drip_shopify_snippet/0c4de56d-b2fa-4621-acea-6293bc16aba8",
-        "disabled": true,
-        "settings": {
-          "account_param": "2429568"
-        }
-      },
       "18356332299842544250": {
         "type": "shopify://apps/b4b-variable-products/blocks/variable_init/4b5ec290-6de8-4c3d-b99f-b8721f30ea87",
         "disabled": true,
