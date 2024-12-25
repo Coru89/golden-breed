@@ -37,7 +37,7 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the Gift Guide",
+            "button_label_1": "Shop the Sale!",
             "button_link_1": "shopify://collections/boxing-day-sale",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
