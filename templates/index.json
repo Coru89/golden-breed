@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/December_3_-_Website_Header_Mobile.jpg",
-        "banner_url": "https://goldenbreed.com.au/collections/christmas-gift-guide-2024",
+        "image": "shopify://shop_images/December_26_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify://collections/boxing-day-sale",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
