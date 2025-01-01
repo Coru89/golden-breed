@@ -18,6 +18,7 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/EB2_1332_resized.jpg",
         "banner_url": "https://goldenbreed.com.au/collections/all-new-arrivals",
