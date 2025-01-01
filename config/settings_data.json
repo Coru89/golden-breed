@@ -36,7 +36,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>Boxing Day Sale</b> 25% off Selected Items + Free Shipping Over $75",
+              "text": "<b>Free Shipping</b> Orders over $75",
               "color_scheme": "background-1",
               "link": "https://goldenbreed.com.au/collections/boxing-day-sale"
             }
