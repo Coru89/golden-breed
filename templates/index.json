@@ -19,7 +19,7 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/January_18_-_Mobile_Header.jpg",
+        "image": "shopify://shop_images/January-21---Mobile-Header.gif",
         "banner_url": "https://goldenbreed.com.au/collections/mens-restocked",
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -52,7 +52,7 @@
         "buttons_Lf63bB"
       ],
       "settings": {
-        "image": "shopify://shop_images/January_18_-_Website_Header_Desktop.jpg",
+        "image": "shopify://shop_images/January_21_-_Website_Header_Desktop.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
