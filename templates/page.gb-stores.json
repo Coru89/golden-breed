@@ -187,7 +187,7 @@
         "f152f689-8e72-42b5-abb0-db53bb6d105e": {
           "type": "text",
           "settings": {
-            "text": "<p>Monday - Friday 10:00am - 4:00pm</p><p>Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>"
+            "text": "<p>Monday - Saturday 9:00am - 5:00pm</p><p>Sunday 9:00am - 4:00pm</p>"
           }
         },
         "button_UyFzaW": {
