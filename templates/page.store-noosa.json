@@ -40,7 +40,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/noosa_bd72e6b8-fd0f-4404-b8af-9088707ad261.jpg",
-        "image_mobile": "shopify://shop_images/byron-interior.png",
+        "image_mobile": "shopify://shop_images/noosa.webp",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
