@@ -1,6 +1,6 @@
 .smartsizechart_content .smartsizechart_instruction table {
   width: 100% !important;
-  margin-top: 2rem !important;
+  margin-top: 5rem !important;
 }
 
 .smartsizechart_content {
@@ -131,7 +131,7 @@ table {
   table-layout: fixed;
   width: 100%; }
 
-  .smartsizechart_content .smartsizechart_instruction table tbody tr {
+  .smartsizechart_content .smartsizechart_instruction .chartsize-table tbody tr {
     display: table-row;
   }
   .smartsizechart_content .smartsizechart_instruction table tbody tr td {
