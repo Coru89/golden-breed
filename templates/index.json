@@ -38,8 +38,8 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "https://goldenbreed.com.au/collections/free-retro-cap",
+            "button_label_1": "Introducing Golden Breed Swim",
+            "button_link_1": "https://goldenbreed.com.au/collections/lazy-beach-swim",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
@@ -52,9 +52,8 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/January_21_-_Website_Header_Desktop.jpg",
+        "image": "shopify://shop_images/GBSwim.gif",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -83,6 +82,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
