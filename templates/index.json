@@ -18,10 +18,9 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/January-21---Mobile-Header.gif",
-        "banner_url": "https://goldenbreed.com.au/collections/free-retro-cap",
+        "image": "shopify://shop_images/February_4_-_Mobile_Header.jpg",
+        "banner_url": "https://goldenbreed.com.au/collections/2-for-150-shorts",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
