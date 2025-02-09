@@ -18,6 +18,7 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/February_4_-_Mobile_Header.jpg",
         "banner_url": "https://goldenbreed.com.au/collections/2-for-150-shorts",
@@ -51,6 +52,7 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/February_4_-_Website_Header_Desktop.jpg",
         "image_height": "medium",
@@ -81,7 +83,6 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
@@ -298,6 +299,57 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "accordion_9FxdTD": {
+      "type": "accordion",
+      "blocks": {
+        "accordion_item_fRtT3m": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What is your return and exchange policy?",
+            "accordion_content": "We accept returns and exchanges within 30 days of purchase, provided the item is unworn, in its original condition, and with tags attached. Please visit our Returns & Exchanges page for more details."
+          }
+        },
+        "accordion_item_VmNgCx": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How long does shipping take, and what are the costs?",
+            "accordion_content": "Standard shipping within Australia typically takes 3-7 business days, while express shipping takes 1-3 business days. Orders over $75 qualify for free standard shipping. International shipping rates and times vary."
+          }
+        },
+        "accordion_item_H7GLwk": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How do I track my order?",
+            "accordion_content": "Once your order is shipped, you will receive a tracking number via email. You can track your order directly on our website or through the shipping provider’s tracking system."
+          }
+        },
+        "accordion_item_LqkKre": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Do you offer in-store pickup?",
+            "accordion_content": "Yes! You can select “In-Store Pickup” at checkout if you’d like to collect your order from one of our store locations. You’ll receive an email notification when your order is ready for pickup."
+          }
+        },
+        "accordion_item_gDjYBx": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How do I know which size to order?",
+            "accordion_content": "We provide a detailed size guide on each product page. If you’re unsure, feel free to contact our support team, and we’d be happy to help you find the perfect fit."
+          }
+        }
+      },
+      "block_order": [
+        "accordion_item_fRtT3m",
+        "accordion_item_VmNgCx",
+        "accordion_item_H7GLwk",
+        "accordion_item_LqkKre",
+        "accordion_item_gDjYBx"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "sub_heading": "Our commonly asked questions"
+      }
     }
   },
   "order": [
@@ -310,6 +362,7 @@
     "163894817194625549",
     "1638926734988978b1",
     "16389384641b4e0b94",
-    "1638938467e517f824"
+    "1638938467e517f824",
+    "accordion_9FxdTD"
   ]
 }
