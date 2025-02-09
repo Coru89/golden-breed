@@ -259,6 +259,7 @@
         },
         "0a5595e1-8f54-4be9-81b1-cbaf76a3b698": {
           "type": "table_row",
+          "disabled": true,
           "settings": {
             "column_1_data": "2 Hours",
             "column_2_data": "$25",
@@ -269,7 +270,7 @@
           "type": "table_row",
           "settings": {
             "column_1_data": "4 Hours",
-            "column_2_data": "$40",
+            "column_2_data": "$30",
             "header": false
           }
         },
