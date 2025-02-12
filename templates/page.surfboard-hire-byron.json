@@ -344,19 +344,19 @@
             "header": true
           }
         },
-        "311fe5d9-5215-4890-ba29-80a04aadcfdc": {
+        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "24 Hours",
+            "column_1_data": "Half day",
             "column_2_data": "$15",
             "header": false
           }
         },
-        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7": {
+        "311fe5d9-5215-4890-ba29-80a04aadcfdc": {
           "type": "table_row",
           "settings": {
-            "column_1_data": "After 3 Days (per 24 hours)",
-            "column_2_data": "$5",
+            "column_1_data": "Full day",
+            "column_2_data": "$20 overnight",
             "header": false
           }
         }
@@ -377,8 +377,8 @@
         "90aca3c3-f359-4065-b4c3-a54c9ed20fc3",
         "144cdffa-870c-4be2-b4da-cd5ad44a7582",
         "a7ac5f76-1a61-4cb7-b587-3a072da4d7da",
-        "311fe5d9-5215-4890-ba29-80a04aadcfdc",
-        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7"
+        "200e2ac4-01e6-4edd-ab3b-14b00feafcf7",
+        "311fe5d9-5215-4890-ba29-80a04aadcfdc"
       ],
       "settings": {
         "heading": "Surf, Body Board Rates",
