@@ -82,9 +82,25 @@
 
       {%- if product_card_product.featured_media -%}
         <p style="margin-bottom:-5px; padding-right:10px; margin-top:-5px; text-transform: uppercase; font-size:14px;">
-          <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link" style="color:#265979;">
-            {{ product_card_product.title | split: '|' | first }}
+          {% assign base_url = product_card_product.url | split: '?' | first %}
+          {% assign query_string = product_card_product.url | split: '?' | last %} 
+          
+          {% comment %} implementing an onclick event to append the query string to the url. This is to hide the query sting from the html, so that Google doesn't index it. 
+            This is also *should* retain the learning of the product recommendations in Shopify 
+          {% endcomment %}
+          <a class="full-unstyled-link"
+             href="{{ base_url }}"
+             {% if product_card_product.url contains '?' %}
+               data-tail="{{ query_string }}"
+               onclick="window.location=this.href + '?' + this.dataset.tail; return false;"
+             {% endif %}
+          >
+            {{ product_card_product.title }}
           </a>
+
+          {% comment %} <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link" style="color:#265979;">
+            {{ product_card_product.title | split: '|' | first }}
+          </a> {% endcomment %}
         </p>
       {%- endif -%}
 
@@ -233,9 +249,23 @@
       {%- else -%}
         <div class="card__content">
           <p>
-            <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
+            {% assign base_url = product_card_product.url | split: '?' | first %}
+            {% assign query_string = product_card_product.url | split: '?' | last %} 
+            
+            <a class="full-unstyled-link"
+               href="{{ base_url }}"
+               {% if product_card_product.url contains '?' %}
+                 data-tail="{{ query_string }}"
+                 onclick="window.location=this.href + '?' + this.dataset.tail; return false;"
+               {% endif %}
+            >
               {{ product_card_product.title }}
             </a>
+            
+            {% comment %}             
+            <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
+              {{ product_card_product.title }}
+            </a> {% endcomment %}
           </p>
         </div>
       {%- endif -%}

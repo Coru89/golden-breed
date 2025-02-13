@@ -1,11 +1,24 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
   <head>
+
+    {% comment %} attempting to block indexing of pages with query strings {% endcomment %}
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.location.href.indexOf('?') > -1) {
+          var metaNoIndex = document.createElement('meta');
+          metaNoIndex.name = 'robots';
+          metaNoIndex.content = 'noindex';
+          document.getElementsByTagName('head')[0].appendChild(metaNoIndex);
+        }
+      });
+    </script>
+      
 	<!-- Added by AVADA SEO Suite -->
 	{% include 'avada-seo' %}
 	<!-- /Added by AVADA SEO Suite -->
