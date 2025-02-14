@@ -12,7 +12,7 @@
     "main": {
       "type": "hero",
       "settings": {
-        "heading_title": "Noosa Store",
+        "heading_title": "Noosa Surf Store",
         "image": "shopify://shop_images/byron-hero.png",
         "banner_alert_message": ""
       }
