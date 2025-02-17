@@ -27,15 +27,30 @@
             "heading_type": "h2"
           }
         },
+        "text_aXTRjm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Located right in the heart of Manly's most famous  and most favourite shopping strip - The new Golden Breed Surf store is now open - 47 The Corso. Everyday new goodies are arriving. Drop in and check out our range of retro  surfwear, sunnies, tees, hoodies, swimwear, gifts ideas and beach accessories. Our staff are knowledgeable about the local surf breaks, so if you're new to the area and need some advice, feel free to swing by and ask. </p>"
+          }
+        },
+        "heading_pM9hik": {
+          "type": "heading",
+          "settings": {
+            "heading": "Manly Beach",
+            "heading_type": "h3"
+          }
+        },
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Located right in the heart of Manly's most famous  and most favourite shopping strip - The new Golden Breed Surf store is now open - 47 The Corso. Everyday new goodies are arriving. Drop in and check out our range of retro  surfwear, sunnies, tees, hoodies, swimwear, gifts ideas and beach accessories. Our staff are knowledgeable about the local surf breaks, so if you're new to the area and need some advice, feel free to swing by and ask. </p><h2><strong>Manly Beach</strong></h2><p><br/>Manly Beach is one of Australia’s most renowned surf beaches, and it'd be wrong for Golden Breed not to be in the heart of it. Many is best known for being the site of the world’s first surfing contest in 1964. The beach stretches two kilometers from South Steyne to North Steyne and Queenscliff, offering golden sands lined with magnificent Norfolk pines and world class breaks. It’s a must-see destination for both locals and tourists, providing the epic waves and chilled beach vibes.</p>"
+            "text": "<p>Manly Beach is one of Australia’s most renowned surf beaches, and it'd be wrong for Golden Breed not to be in the heart of it. Many is best known for being the site of the world’s first surfing contest in 1964. The beach stretches two kilometers from South Steyne to North Steyne and Queenscliff, offering golden sands lined with magnificent Norfolk pines and world class breaks. It’s a must-see destination for both locals and tourists, providing the epic waves and chilled beach vibes.</p>"
           }
         }
       },
       "block_order": [
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-0",
+        "text_aXTRjm",
+        "heading_pM9hik",
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1"
       ],
       "settings": {
