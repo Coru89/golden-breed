@@ -141,7 +141,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Store info",
-            "button_link": "shopify://pages/noosa-store"
+            "button_link": "shopify://pages/noosa-surf-store"
           }
         }
       },
