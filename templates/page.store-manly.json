@@ -69,7 +69,7 @@
         "google_maps_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13262.270147200386!2d151.2865658!3d-33.7976643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ab7e211b9845%3A0x29b523d98dd8b963!2sGolden%20Breed%20Manly!5e0!3m2!1sen!2snz!4v1733184527674!5m2!1sen!2snz\" width=\"620\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
         "shop_name": "Golden Breed Manly",
         "address": "47 The Corso, Manly NSW 2095",
-        "hours": "<p>Monday to Sunday - 9:00am - 5:30pm</p><p>Sunday - Closed</p>",
+        "hours": "<p>Monday to Sunday - 9:00am - 5:30pm</p>",
         "phone": "1300 882 914",
         "phoneLink": "tel:1300 882 914",
         "whatsapp": "1300 882 914",
