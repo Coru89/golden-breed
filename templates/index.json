@@ -343,6 +343,13 @@
             "accordion_label": "What exactly is retro vintage surf clothing?",
             "accordion_content": "It's the essence of nostalgia! Golden Breed's Retro vintage surf clothing refers to the iconic styles from the 70s & 80s that capture the carefree spirit of beach vibes and surf lifestyles with a modern twist. These pieces often feature bold colors, unique patterns, and a vibe that's true to its roots."
           }
+        },
+        "accordion_item_ii6xm3": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "What size should I order for vintage surfwear?",
+            "accordion_content": "Typically, our vintage surfwear is a loose fit style. So if you're usually a size large, you might want to check the size chart and maybe size down to a medium. But remember, if it doesn't fit, you can always use our free returns policy."
+          }
         }
       },
       "block_order": [
@@ -351,7 +358,8 @@
         "accordion_item_H7GLwk",
         "accordion_item_LqkKre",
         "accordion_item_gDjYBx",
-        "accordion_item_nWXf3P"
+        "accordion_item_nWXf3P",
+        "accordion_item_ii6xm3"
       ],
       "settings": {
         "heading": "FAQs",
