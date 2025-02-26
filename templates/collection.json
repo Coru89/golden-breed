@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339": {
@@ -20,7 +29,7 @@
       "settings": {
         "products_per_page": 52,
         "image_ratio": "portrait",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
@@ -34,7 +43,7 @@
       "type": "collection-video-youtube",
       "settings": {
         "title": "{{ collection.metafields.custom.video_heading.value }}",
-        "description": "<p>{{ collection.metafields.custom.video_description | metafield_tag }}<\/p>",
+        "description": "<p>{{ collection.metafields.custom.video_description | metafield_tag }}</p>",
         "video_url": "{{ collection.metafields.custom.youtube_video_url.value }}",
         "image": "{{ collection.metafields.custom.video_poster_image.value }}"
       }
@@ -43,15 +52,14 @@
       "type": "collection-video",
       "settings": {
         "title": "{{ collection.metafields.custom.video_heading.value }}",
-        "description": "<p>{{ collection.metafields.custom.video_description | metafield_tag }}<\/p>",
+        "description": "<p>{{ collection.metafields.custom.video_description | metafield_tag }}</p>",
         "video_url": "{{ collection.metafields.custom.video_url.value }}",
         "image": "{{ collection.metafields.custom.video_poster_image.value }}"
       }
     },
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5": {
       "type": "accordion-meta-object",
-      "settings": {
-      }
+      "settings": {}
     },
     "ffc44b5b-3f32-4f29-8499-10049cac7a4f": {
       "type": "image-banner-4",
@@ -68,26 +76,26 @@
         "template--16193523712179__ffc44b5b-3f32-4f29-8499-10049cac7a4f-16856377430a55533a-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/accessories.png",
+        "image": "shopify://shop_images/accessories.png",
         "title-1": "Accessories",
         "text": "Check out our latest surf accessories defining iconic, retro vibes in today's chaotic 2023. Leave the rat-race behind while enjoying some ocean-side chill time and looking damn good while you're at it.Golden Breed is a following that's true to its roots, who honour the golden days - let that be your statement to the world.",
         "button-text-1": "Shop Now",
-        "link-1": "shopify:\/\/collections\/accessories",
-        "image_2": "shopify:\/\/shop_images\/mens.png",
+        "link-1": "shopify://collections/accessories",
+        "image_2": "shopify://shop_images/mens.png",
         "title-2": "Men's",
         "text-2": "Men's surf fashion with a twist of nostalgia. Our Men's clothing range merges modern cuts with a retro theme, honoring the good ol' days. The Golden era. We've got cords, beige, bucket hats, rag-tops and more. Everything you'd expect a retro surf shop to have.",
         "button-text-2": "Shop now",
-        "link-2": "shopify:\/\/collections\/mens",
-        "image_3": "shopify:\/\/shop_images\/womens.png",
+        "link-2": "shopify://collections/mens",
+        "image_3": "shopify://shop_images/womens.png",
         "title-3": "Women's",
         "text-3": "Browse our Women's surfwear designed right here in Australia. From bikinis to bucket hats. From beach dress vibes to rocking casual knits that scream \" I love fashion\" Buy online with the confidence of free delivery, and a returns policy for 45 days.",
         "button-text-3": "Shop now",
-        "link-3": "shopify:\/\/collections\/women",
-        "image_4": "shopify:\/\/shop_images\/g_s-collection.png",
+        "link-3": "shopify://collections/women",
+        "image_4": "shopify://shop_images/g_s-collection.png",
         "title-4": "G&S",
         "text-4": "Gordon & Smith surfboards are a classic range with a long history of authenticity and making quality gear. Licensed exclusive to Golden Breed here in Australia, we've got boards, hats, tee-shirts and more.",
         "button-text-4": "Shop now",
-        "link-4": "shopify:\/\/collections\/g-s-hats-and-caps",
+        "link-4": "shopify://collections/g-s-hats-and-caps",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -104,7 +112,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
-            "button_link_1": "shopify:\/\/collections\/accessories",
+            "button_link_1": "shopify://collections/accessories",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
@@ -117,14 +125,16 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/accessories_181eba77-fd8b-46fb-af8a-9ee3fc237f1c.jpg",
+        "image": "shopify://shop_images/accessories_181eba77-fd8b-46fb-af8a-9ee3fc237f1c.jpg",
         "title-1": "",
         "button-text-1": "Shop Now",
-        "link-1": "shopify:\/\/collections\/beach-lifestyle",
-        "image_2": "shopify:\/\/shop_images\/gns.jpg",
+        "link-1": "shopify://collections/beach-lifestyle",
+        "button_custom_link_attributes_1": "",
+        "image_2": "shopify://shop_images/gns.jpg",
         "title-2": "",
         "button-text-2": "Shop Now",
-        "link-2": "shopify:\/\/collections\/gordon-smith-1",
+        "link-2": "shopify://collections/gordon-smith-1",
+        "button_custom_link_attributes_2": "",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
