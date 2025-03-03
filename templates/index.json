@@ -18,10 +18,9 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/February_22_-_Website_Header_Mobile.jpg",
-        "banner_url": "https://goldenbreed.com.au/collections/end-of-summer-sale-2025",
+        "image": "shopify://shop_images/March_4_-_Website_Header_Mobile.jpg",
+        "banner_url": "https://goldenbreed.com.au/pages/manly-surf-store",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -38,7 +37,7 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "Visit our Manly Store!",
             "button_link_1": "https://goldenbreed.com.au/collections/end-of-summer-sale-2025",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
@@ -52,9 +51,8 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/February_22_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/March_4_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -83,6 +81,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
