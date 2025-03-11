@@ -13,6 +13,7 @@
       "type": "hero",
       "settings": {
         "heading_title": "Surfboard Hire Byron Bay",
+        "image": "shopify://shop_images/byron_bay_surf_store.png",
         "banner_alert_message": ""
       }
     },
