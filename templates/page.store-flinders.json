@@ -206,7 +206,7 @@
           "type": "testimonial",
           "settings": {
             "name": "Barry P",
-            "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool.",
+            "quote": "Loved this brand back in the day, and it’s awesome to see it making a comeback! The team at Flinders are fantastic—super friendly and helpful. They had a great sale when I visited, and I picked up a high-quality hoodie for my nephew. Love the Flinders branding, colours, and overall vibe—timeless and effortlessly cool!",
             "background_image": "shopify://shop_images/byron-hero.png"
           }
         },
@@ -222,7 +222,7 @@
           "type": "testimonial",
           "settings": {
             "name": "Jason Howarth",
-            "quote": "A little not so hidden gem in Byron. I recently realised a lot of my clothes are from here!",
+            "quote": "A little not-so-hidden gem! I just realized a lot of my favorite clothes are from Flinders—great quality, style, and always a go-to for me!",
             "background_image": "shopify://shop_images/2021-d_ac5d11ee-1b68-4767-8981-afbb669c48a6.jpg"
           }
         }
@@ -233,10 +233,10 @@
         "5d39b0f6-e3d3-43b0-8635-5323f195bf58"
       ],
       "settings": {
-        "shopName": "Golden Breed Byron Bay",
-        "addressLocality": "Byron Bay",
-        "streetAddress": "10 Lawson Street, Byron Bay NSW 2481",
-        "tel": "02 6680 7944"
+        "shopName": "Golden Breed Flinders",
+        "addressLocality": "Flinders",
+        "streetAddress": "34-36 Cook St, Flinders VIC 3929, Australia",
+        "tel": "+61 1300 882 914"
       }
     },
     "7a575310-7f34-4910-8427-5e7100bbbae5": {
