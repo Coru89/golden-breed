@@ -13,7 +13,6 @@
       "type": "hero",
       "settings": {
         "heading_title": "Surfboard Hire Byron Bay",
-        "image": "shopify://shop_images/byron-hero.png",
         "banner_alert_message": ""
       }
     },
@@ -393,8 +392,7 @@
           "type": "testimonial",
           "settings": {
             "name": "Barry P",
-            "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool.",
-            "background_image": "shopify://shop_images/byron-hero.png"
+            "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool."
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {

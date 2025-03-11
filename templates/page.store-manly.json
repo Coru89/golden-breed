@@ -13,7 +13,7 @@
       "type": "hero",
       "settings": {
         "heading_title": "Manly Surf Store",
-        "image": "shopify://shop_images/byron-hero.png",
+        "image": "shopify://shop_images/byron_bay_surf_store.png",
         "banner_alert_message": ""
       }
     },
@@ -221,8 +221,7 @@
           "type": "testimonial",
           "settings": {
             "name": "Barry P",
-            "quote": "Loved this brand back in the day, and it’s awesome to see it making a comeback! The team at Manly are fantastic—super friendly and helpful. They had a great sale when I visited, and I picked up a high-quality hoodie for my nephew. Love the Flinders branding, colours, and overall vibe—timeless and effortlessly cool!",
-            "background_image": "shopify://shop_images/byron-hero.png"
+            "quote": "Loved this brand back in the day, and it’s awesome to see it making a comeback! The team at Manly are fantastic—super friendly and helpful. They had a great sale when I visited, and I picked up a high-quality hoodie for my nephew. Love the Flinders branding, colours, and overall vibe—timeless and effortlessly cool!"
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
