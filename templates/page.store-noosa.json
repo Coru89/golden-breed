@@ -13,7 +13,7 @@
       "type": "hero",
       "settings": {
         "heading_title": "Noosa Surf Store",
-        "image": "shopify://shop_images/byron-hero.png",
+        "image": "shopify://shop_images/byron_bay_surf_store.png",
         "banner_alert_message": ""
       }
     },
@@ -241,8 +241,7 @@
           "type": "testimonial",
           "settings": {
             "name": "Barry P",
-            "quote": "I’ve always loved this brand, and it’s great to see it thriving again! The team at Noosa were awesome—super friendly and made the shopping experience even better. I was lucky to visit during a sale and picked up a top-notch hoodie for my nephew. The Flinders style, colours, and retro vibe are just unbeatable!",
-            "background_image": "shopify://shop_images/byron-hero.png"
+            "quote": "I’ve always loved this brand, and it’s great to see it thriving again! The team at Noosa were awesome—super friendly and made the shopping experience even better. I was lucky to visit during a sale and picked up a top-notch hoodie for my nephew. The Flinders style, colours, and retro vibe are just unbeatable!"
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
