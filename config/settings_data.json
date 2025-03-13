@@ -180,11 +180,6 @@
         "type": "shopify://apps/da-redirects/blocks/link_tracker/e7993789-f4e0-4d27-95f9-d952daf886fe",
         "disabled": false,
         "settings": {}
-      },
-      "14826766009936288847": {
-        "type": "shopify://apps/discounty/blocks/sdk/d65eb522-0d94-499f-9831-d4b3301f5340",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
