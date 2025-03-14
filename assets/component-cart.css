@@ -203,6 +203,7 @@ cart-items {
 
   .cart__ctas {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0 1rem;
   }
 }
