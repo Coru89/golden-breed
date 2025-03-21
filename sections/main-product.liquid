@@ -377,8 +377,9 @@
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
+                <div la-dn-product-banner></div>
               </div>
-<div la-dn-product-banner></div>
+
               <div style="order: {{ forloop.index }}" {{ block.shopify_attributes }}>
                 
                 {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
