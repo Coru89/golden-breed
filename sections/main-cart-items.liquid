@@ -44,7 +44,9 @@
 
             <tbody>
               {%- for item in cart.items -%}
-                <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
+                {% comment %}Added/Modified by Limoni Apps on 21/03/25 to support Discount Ninja{% endcomment %}
+
+                <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}" data-la-dn-cart-item-row data-la-dn-cart-item-key="{{ item.key }}">
                   <td class="cart-item__media">
                     {% if item.image %}
                       {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
