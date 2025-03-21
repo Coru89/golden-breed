@@ -37,10 +37,12 @@
             {%- when '@app' -%}
               {% render block %}
             {%- when 'subtotal' -%}
+            {% comment %}Added/Modified by Limoni Apps on 21/03/25 to support Discount Ninja{% endcomment %}
+
               <div class="js-contents" {{ block.shopify_attributes }}>
-                <div class="totals">
+                <div class="totals limoniapps-discountninja-cart-subtotal">
                   <h3 class="totals__subtotal">Total : </h3>
-                  <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
+                  <p class="totals__subtotal-value limoniapps-discountninja-cart-subtotal-price">{{ cart.total_price | money_with_currency }}</p>
                 </div>
                 
 
