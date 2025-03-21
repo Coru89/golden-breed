@@ -29,8 +29,9 @@
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
 -%}
+{% comment %}Added/Modified by Limoni Apps on 21/03/25 to support Discount Ninja{% endcomment %}
 
-<div class="price
+<div data-la-dn-price class="price
   {%- if price_class %} {{ price_class }}{% endif -%}
   {%- if available == false %} price--sold-out {% endif -%}
   {%- if compare_at_price > price %} price--on-sale {% endif -%}
