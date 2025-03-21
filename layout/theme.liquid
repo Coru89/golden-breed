@@ -6,7 +6,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
   <head>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
+
+ <script>
+  $(window).scroll(function() {
+    if (document.getElementById('limoniapps-discountninja-stickybar-wrapper')) {
+      var targetOffset = $('.announcement-bar-section').offset().top;
+      function toggleBodyClass() {
+        var scrollPosition = $(window).scrollTop();
+        if (scrollPosition > targetOffset) {
+          $('body').addClass('scrolled');
+        } else {
+          $('body').removeClass('scrolled');
+        }
+      }
+       
+      toggleBodyClass();
+
+      
+        
+            var elementHeight = $("#limoniapps-discountninja-stickybar-wrapper").height();
+            document.documentElement.style.setProperty('--limo-height', elementHeight + 'px');
+            toggleBodyClass();
+        
+       
+
+      };
+      });
+  </script>  
     {% comment %} attempting to block indexing of pages with query strings {% endcomment %}
     <script>
       document.addEventListener('DOMContentLoaded', function() {
