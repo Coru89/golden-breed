@@ -185,7 +185,8 @@
                         </svg>
                       </div>
                     </div>
-                    <div class="cart-item__price-wrapper">
+                    <span data-la-dn-cart-item-line-price></span>
+                    <div class="cart-item__price-wrapper" data-la-dn-cart-item-hide-if-dynamic-pricing-isshown>
                       {%- if item.original_line_price != item.final_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
@@ -274,8 +275,8 @@
                         </svg>
                       </div>
                     </div>
-
-                    <div class="cart-item__price-wrapper">
+<span data-la-dn-cart-item-line-price></span>
+                    <div class="cart-item__price-wrapper" data-la-dn-cart-item-hide-if-dynamic-pricing-isshown>
                       {%- if item.original_line_price != item.final_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
