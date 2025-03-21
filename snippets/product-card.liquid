@@ -154,7 +154,9 @@ class="card-wrapper">
           </span>
         </p>
       {%- endif -%}
-      {% render 'price', product: product_card_product, price_class: '' %}
+  {% comment %}Added/Modified by Limoni Apps on 21/03/25 to support Discount Ninja{% endcomment %}
+
+     <span data-la-dn-price> {% render 'price', product: product_card_product, price_class: '' %}</span>
 
       {% assign avai_size = '' %}
       {% for variant in product_card_product.variants %}
