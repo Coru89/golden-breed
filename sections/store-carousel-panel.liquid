@@ -1,6 +1,473 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<style>
+    :root {
+        --swiper-image-ratio: 33.3%; /* ratio 16:9 = 56.25% */
+      
+        --swiper-width: 50%;
+        --swiper-inactive-scale: .5; /* makes the other slide smaller */
+        
+        /* responsive settings */
+        --swiper-mobile-width: 90%;
+        --swiper-mobile-inactive-scale: .95;
+      }
+      
+      html, body { height: 100%; }
+      
+      
+      
+      .container {
+        position: relative;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 100vh; /* Ensure the container takes full viewport height */
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+      
+      .swiper-wrapper {
+        padding-bottom: 4rem;
+      }
+      
+      .swiper {
+          position: relative;
+          width: 100%;
+          height: calc(var(--swiper-width) * var(--swiper-image-ratio) / 100); /* Fix height calculation */
+          overflow: hidden;
+      }
+      
+      .swiper-slide {
+        visibility: hidden;
+        position: relative;
+        width: var(--swiper-width);
+        opacity: .5;
+        transition: all .2s ease-in-out;
+        overflow: hidden;
+        border-radius: 25px;
+        transform: scale(.6) translateZ(0);
+      }
+      
+      
+      .swiper-backface-hidden .swiper-slide {
+        transform: scale(.6) translateZ(0);
+      }
+      
+      .swiper-slide.next-2 {
+        visibility: hidden;
+      }
+      
+      .swiper-slide-active,
+      .swiper-slide.swiper-slide-next,
+      .swiper-slide.swiper-slide-prev,
+      .swiper-slide.prev-1,
+      .swiper-slide.prev-2,
+      .swiper-slide-active ~ .swiper-slide.next-2,
+      .swiper-slide-active ~ .swiper-slide.next-1 {
+        visibility: visible;
+      }
+              
+      .swiper-slide.swiper-slide-active {  
+        transform: scale(1) !important;
+        opacity: 1 !important;
+      }
+      
+        .swiper-slide.swiper-slide-next,
+        .swiper-slide.swiper-slide-prev {
+          transform: scale(0.8) !important;
+            opacity: .85;
+        }
+      
+      .swiper-backface-hidden .swiper-slide.swiper-slide-active {
+        transform: scale(1) translateZ(0) !important;
+      }
+      
+      .swiper-image {
+        position: relative;
+        width: 100%;
+        padding-top: var(--swiper-image-ratio);
+          border-radius: 25px;
+      }
+          
+      .swiper-image .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #929ec9;
+      }
+      
+      .swiper-button-next,
+      .swiper-button-prev {
+        padding: 8px;
+        width: 12px;
+        height: 12px;
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, .4);
+        border-radius: 50%;
+        top: calc(50% - 4rem / 2);
+      }
+      
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+        color: #fff;
+        font-size: 12px;
+      }
+      
+      .swiper-button-next {
+      
+        right: calc((100% - var(--swiper-width)) / 2);
+        right: 20px;
+      }
+      
+      .swiper-button-prev {
+      
+        left: calc((100% - var(--swiper-width)) / 2);
+        left: 20px;
+      }
+      
+      @media only screen and (max-width: 768px) {
+        .swiper {
+          height: calc(var(--swiper-mobile-width) * var(--swiper-image-ratio) / 100%);
+        }
+      
+        .swiper-slide {
+          width: var(--swiper-mobile-width);
+          transform: scale(var(--swiper-mobile-inactive-scale));
+        }
+        
+        .swiper-backface-hidden .swiper-slide.swiper-slide {
+          transform: scale(var(--swiper-mobile-inactive-scale)) translateZ(0);
+        }
+      
+        .swiper-button-next {
+          right: calc((100% - var(--swiper-mobile-width)) / 2);
+        }
+      
+        .swiper-button-prev {
+          left: calc((100% - var(--swiper-mobile-width)) / 2);
+        }
+      }
+      
+      
+      
+</style>
+
+
+
+<section>
+    {% if section.settings.include_store_menu %}
+        <div class="store-panel__menu">
+            <h4>Store Menu</h4>
+            <ul>
+                {% for link in linklists[section.settings.store_menu_navigation].links %}
+                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    <h2>
+        {{ section.settings.heading }}
+    </h2>
+
+    <div class="store-pnael__ carousel container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Loop through the blocks to create slides -->
+                {% for block in section.blocks %}
+                    {% if block.type == 'carousel_image' %}
+                        <div class="swiper-slide">
+                            <div class="swiper-image">
+                                <img src="{{ block.settings.image | img_url: 'master' }}" alt="Carousel Image">
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <!-- Swiper Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <div class="store-panel__content">
+        <div class="store-panel__text">
+            <h3>{{ section.settings.content_heading }}</h3>
+            <div class="store-panel__description">
+                {{ section.settings.content }}
+            </div>
+            <a href="{{ section.settings.button_url }}" class="shop-image-with-text__button">
+                {{ section.settings.button_text }}
+              </a>
+        </div>
+ 
+        <div class="store-panel__contact">
+            <h3>{{ section.settings.address_name }}</h3>
+            <div class="store-panel__address">
+                {{ section.settings.address_line_1 }}
+            </div>
+            <div class="store-panel__telephone">
+                {{ section.settings.telephone }}
+            </div>
+            <div class="store-panel__email">
+                {{ section.settings.email }}
+            </div>
+            <div class="store-panel__opening-hours">
+                <h4>{{ section.settings.opening_hours_title }}</h4>
+                {% for block in section.blocks %}
+                    {% if block.type == 'opening_hour' %}
+                        <div class="store-panel__opening-hour">
+                            {{ block.settings.hour }}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            
+        </div>
+
+    </div>
+</section>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+         slidesPerView: 5,
+         allowSlideNext: true,
+         allowSlidePrev: true,
+         speed: 500, // Smooth transitions
+         noSwiping: true,
+         freeMode: true,
+         centeredSlides: true,
+         centerInsufficientSlides: false,
+         navigation: {
+           nextEl: '.swiper-button-next',
+           prevEl: '.swiper-button-prev',
+         },
+       pagination: {
+               el: ".swiper-pagination",
+               dynamicBullets: true,
+             },
+         simulateTouch: true,
+         spaceBetween: -550, // Creates the overlapping effect
+         initialSlide: 2, // Start from slide 3 (index is 0-based)
+         on: {
+           slideChange: function () {
+             updateSlideClasses(this); // Run when slide changes
+           },
+           touchMove: function () {
+             updateSlideClasses(this); // Run when slide changes
+           },
+           init: function () {
+             ensureLoopConditions(this); // Run on initialization to add the classes
+           },
+           resize: function (swiper) {
+             ensureLoopConditions(swiper);
+           },
+         }
+       });
+       
+       // Function to add classes for next and previous slides
+       function updateSlideClasses(swiper) {
+         const slides = swiper.slides;
+         slides.forEach((slide, index) => {
+           slide.classList.remove(
+             'swiper-slide-active',
+             'swiper-slide-next',
+             'swiper-slide-prev',
+             'prev-1',
+             'prev-2',
+             'next-1',
+             'next-2'
+           );
+       
+           if (index === swiper.activeIndex) {
+             slide.classList.add('swiper-slide-active');
+           } else if (index === (swiper.activeIndex + 1) % slides.length) {
+             slide.classList.add('swiper-slide-next');
+           } else if (index === (swiper.activeIndex - 1 + slides.length) % slides.length) {
+             slide.classList.add('swiper-slide-prev');
+           } else if (index === (swiper.activeIndex + 2) % slides.length) {
+             slide.classList.add('next-1');
+           } else if (index === (swiper.activeIndex - 2 + slides.length) % slides.length) {
+             slide.classList.add('prev-1');
+           } else {
+             slide.classList.add('hidden'); // Hide all other slides
+           }
+         });
+       }
+       
+       
+       function ensureLoopConditions(swiper, callback = () => {}) {
+         const wrapper = swiper.wrapperEl;
+         const originalSlides = Array.from(wrapper.children).filter(slide => 
+           !slide.classList.contains('swiper-slide-duplicate')
+         );
+         
+         const originalCount = originalSlides.length;
+         const desiredCount = originalCount * 2; // Ensure we double it if less than 8
+       
+         if (originalCount < 8) {
+           duplicateSlides(swiper, originalSlides, desiredCount, callback);
+         }
+       }
+       
+       function duplicateSlides(swiper, originalSlides, desiredCount, callback = () => {}) {
+         const wrapper = swiper.wrapperEl;
+         const fragment = document.createDocumentFragment();
+         const totalSlides = originalSlides.length;
+       
+         for (let i = 0; i < desiredCount - totalSlides; i++) {
+           const clone = originalSlides[i % totalSlides].cloneNode(true);
+           fragment.appendChild(clone);
+         }
+       
+         wrapper.appendChild(fragment);
+         swiper.update();
+         updateSlideClasses(swiper);
+         callback();
+       }
+       
+</script>
+
+
+
+
+
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Store Carousel Panel",
+  "settings": [
+    {
+        "type": "text",
+        "id": "heading",
+        "label": "Main Heading",
+        "default": "Store Name"
+    },
+    {
+      "type": "text",
+      "id": "content_heading",
+      "label": "Content Heading",
+      "default": "About the store"
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content",
+      "default": "Enter your store description here."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "View Store Info"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "address_name",
+      "label": "Address Name"
+    },
+    {
+      "type": "text",
+      "id": "address_line_1",
+      "label": "Address Line 1"
+    },
+    {
+      "type": "text",
+      "id": "telephone",
+      "label": "Telephone"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email"
+    },
+    {
+      "type": "text",
+      "id": "opening_hours_title",
+      "label": "Opening Hours Title",
+      "default": "Opening Hours"
+    },
+    {
+      "type": "select",
+      "id": "background_style",
+      "label": "Background Style",
+      "options": [
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "orange",
+          "label": "Orange"
+        }
+      ],
+      "default": "white"
+    },
+    {
+      "type": "checkbox",
+      "id": "include_store_menu",
+      "label": "Include Store Menu",
+      "default": false
+    },
+    {
+      "type": "link_list",
+      "id": "store_menu_navigation",
+      "label": "Store Menu Navigation",
+      "info": "Select a navigation menu for the store menu"
+    },
+    {
+      "type": "checkbox",
+      "id": "include_top_border",
+      "label": "Include Top Border",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "carousel_image",
+      "name": "Carousel Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "opening_hour",
+      "name": "Opening Hour",
+      "settings": [
+        {
+          "type": "text",
+          "id": "hour",
+          "label": "Hour"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Store Carousel Panel",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}

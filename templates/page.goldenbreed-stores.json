@@ -7,14 +7,73 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "store_carousel_panel_AGW3ik": {
+      "type": "store-carousel-panel",
+      "blocks": {
+        "carousel_image_VBDPtt": {
+          "type": "carousel_image",
+          "settings": {
+            "image": "shopify://shop_images/unsplash_s3EjzLRA4Yw.png"
+          }
+        },
+        "carousel_image_Dccwxj": {
+          "type": "carousel_image",
+          "settings": {
+            "image": "shopify://shop_images/unsplash_xfngap_DToE.png"
+          }
+        },
+        "carousel_image_XUJ8jr": {
+          "type": "carousel_image",
+          "settings": {
+            "image": "shopify://shop_images/unsplash_g30P1zcOzXo.png"
+          }
+        },
+        "carousel_image_J4gGKG": {
+          "type": "carousel_image",
+          "settings": {
+            "image": "shopify://shop_images/unsplash_YFFGkE3y4F8.png"
+          }
+        },
+        "carousel_image_GNVyi7": {
+          "type": "carousel_image",
+          "settings": {
+            "image": "shopify://shop_images/unsplash_cqbLg3lZEpk.png"
+          }
+        }
+      },
+      "block_order": [
+        "carousel_image_VBDPtt",
+        "carousel_image_Dccwxj",
+        "carousel_image_XUJ8jr",
+        "carousel_image_J4gGKG",
+        "carousel_image_GNVyi7"
+      ],
+      "settings": {
+        "heading": "Store Name",
+        "content_heading": "About the store",
+        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Turpis mollis urna etiam malesuada est efficitur tempor erat. Hac nam habitant aenean malesuada potenti lacinia ac. Sagittis vitae natoque nisl justo, dapibus aliquet sodales. \n\n\nPharetra id nibh eleifend eleifend ad dictum natoque. Condimentum mollis maximus venenatis lobortis velit massa. Feugiat lorem cursus pretium aptent natoque maecenas massa scelerisque.\n\n\nSem interdum natoque aptent malesuada neque lectus magna habitant. Platea suspendisse nunc viverra dictum tellus morbi efficitur consequat dapibus. Elit est fermentum lobortis lorem erat rhoncus dictumst conubia et.",
+        "button_text": "Learn More",
+        "button_url": "shopify://pages/byron-surf-store",
+        "address_name": "Byron Bay",
+        "address_line_1": "10 Lawson Street, Byron Bay NSW 2481",
+        "telephone": "1300 882 914",
+        "email": "GBByronbay@goldenbreed.com.au",
+        "opening_hours_title": "Opening Hours",
+        "background_style": "white",
+        "include_store_menu": false,
+        "store_menu_navigation": "",
+        "include_top_border": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "store_carousel_panel_AGW3ik"
   ]
 }
