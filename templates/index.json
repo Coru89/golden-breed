@@ -300,13 +300,6 @@
             "accordion_content": "Yes! You can select “In-Store Pickup” at checkout if you’d like to collect your order from one of our store locations. You’ll receive an email notification when your order is ready for pickup."
           }
         },
-        "accordion_item_m9k7wV": {
-          "type": "accordion_item",
-          "settings": {
-            "accordion_label": "",
-            "accordion_content": ""
-          }
-        },
         "accordion_item_gDjYBx": {
           "type": "accordion_item",
           "settings": {
@@ -349,7 +342,6 @@
         "accordion_item_H7GLwk",
         "accordion_item_9d9EPt",
         "accordion_item_LqkKre",
-        "accordion_item_m9k7wV",
         "accordion_item_gDjYBx",
         "accordion_item_nWXf3P",
         "accordion_item_ii6xm3",
