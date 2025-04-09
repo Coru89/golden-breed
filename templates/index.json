@@ -334,6 +334,13 @@
             "accordion_label": "What is the history of vintage clothing in surf culture?",
             "accordion_content": "Vintage clothing has deep roots in surf culture, going back to the 1950s and ’60s when surfing first exploded in popularity in places like California, Hawaii, and Australia. Back then, surfers were known for their laid-back lifestyle and rebellious spirit - something that was reflected in their style. Think faded board shorts, sun-bleached tees, and worn-in flannel shirts.\n\nBy the 1970s and ’80s, surf fashion was being shaped by DIY attitudes and counterculture influences. Surfers would customise or repurpose clothes to suit life on the beach. Picture cut-off denim, oversized tees, old military jackets, and thrift'd pieces became staples. Surf apparel from labels like Hang Ten, Lightning Bolt, and Ocean Pacific began blending fashion and function, often inspired by the surfers’ own hand-me-down styles."
           }
+        },
+        "accordion_item_tbgQUq": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How long does delivery take?",
+            "accordion_content": "We dispatch your order on the same day you order, or within 24 hours. Usually you'll receive your items within 2-4 days, depending on where you're located in Australia."
+          }
         }
       },
       "block_order": [
@@ -346,7 +353,8 @@
         "accordion_item_nWXf3P",
         "accordion_item_ii6xm3",
         "accordion_item_9LkWfm",
-        "accordion_item_yT4B8U"
+        "accordion_item_yT4B8U",
+        "accordion_item_tbgQUq"
       ],
       "settings": {
         "heading": "FAQs",
