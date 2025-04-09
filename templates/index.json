@@ -313,6 +313,13 @@
             "accordion_label": "What size should I order for vintage surfwear?",
             "accordion_content": "Typically, our vintage surfwear is a loose fit style. So if you're usually a size large, you might want to check the size chart and maybe size down to a medium. But remember, if it doesn't fit, you can always use our free returns policy."
           }
+        },
+        "accordion_item_9LkWfm": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Which era is Golden Breed's vintage surf wear dedicated to?",
+            "accordion_content": "Great question, we combine the best of what's trending today with inspired surf vibes from the 70's, 80's and 90's for our vintage surf style clothing."
+          }
         }
       },
       "block_order": [
@@ -322,7 +329,8 @@
         "accordion_item_LqkKre",
         "accordion_item_gDjYBx",
         "accordion_item_nWXf3P",
-        "accordion_item_ii6xm3"
+        "accordion_item_ii6xm3",
+        "accordion_item_9LkWfm"
       ],
       "settings": {
         "heading": "FAQs",
