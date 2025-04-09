@@ -286,6 +286,13 @@
             "accordion_content": "Once your order is shipped, you will receive a tracking number via email. You can track your order directly on our website or through the shipping provider’s tracking system."
           }
         },
+        "accordion_item_9d9EPt": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "",
+            "accordion_content": ""
+          }
+        },
         "accordion_item_LqkKre": {
           "type": "accordion_item",
           "settings": {
@@ -311,7 +318,7 @@
           "type": "accordion_item",
           "settings": {
             "accordion_label": "What size should I order for vintage surfwear?",
-            "accordion_content": "Typically, our vintage surfwear is a loose fit style. So if you're usually a size large, you might want to check the size chart and maybe size down to a medium. But remember, if it doesn't fit, you can always use our free returns policy."
+            "accordion_content": "Typically, our quality vintage surfwear is a loose fit style. So if you're usually a size large, you might want to check the size chart and maybe size down to a medium. But remember, if it doesn't fit, you can always use our free returns policy."
           }
         },
         "accordion_item_9LkWfm": {
@@ -326,6 +333,7 @@
         "accordion_item_fRtT3m",
         "accordion_item_VmNgCx",
         "accordion_item_H7GLwk",
+        "accordion_item_9d9EPt",
         "accordion_item_LqkKre",
         "accordion_item_gDjYBx",
         "accordion_item_nWXf3P",
