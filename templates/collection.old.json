@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -35,7 +44,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
-            "button_link_1": "shopify:\/\/collections\/accessories",
+            "button_link_1": "shopify://collections/accessories",
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
@@ -47,14 +56,14 @@
         "3b509622-7b57-4601-84be-b4b5a749cba1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/accessories_181eba77-fd8b-46fb-af8a-9ee3fc237f1c.jpg",
+        "image": "shopify://shop_images/accessories_181eba77-fd8b-46fb-af8a-9ee3fc237f1c.jpg",
         "title-1": "",
         "button-text-1": "Shop Now",
-        "link-1": "shopify:\/\/collections\/beach-lifestyle",
-        "image_2": "shopify:\/\/shop_images\/gns.jpg",
+        "link-1": "shopify://collections/surf-accessories-online",
+        "image_2": "shopify://shop_images/gns.jpg",
         "title-2": "",
         "button-text-2": "Shop Now",
-        "link-2": "shopify:\/\/collections\/gordon-smith-1",
+        "link-2": "shopify://collections/gordon-smith-1",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
