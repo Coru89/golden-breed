@@ -1,82 +1,95 @@
 .hero {
   height: 234px;
   position: relative;
-  width: 100%;
-}
-@media screen and (min-width: 1320px) {
-  .hero {
-    background-position: unset;
-    height: 300px;
-  }
-}
-.hero__wrapper {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-@media screen and (min-width: 1320px) {
+  width: 100%; }
+  @media screen and (min-width: 1320px) {
+    .hero {
+      background-position: unset;
+      height: 300px; } }
   .hero__wrapper {
-    padding: 0 16rem;
-  }
-}
-.hero__media {
-  height: 234px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(rgba(0, 0, 0, 0.3)),
-    to(rgba(0, 0, 0, 0.3))
-  );
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-}
-@media screen and (min-width: 1320px) {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    @media screen and (min-width: 1320px) {
+      .hero__wrapper {
+        padding: 0 16rem; } }
+  .hero__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center; }
+  .hero__content p,
+  .hero__content a {
+    --color-foreground: rgb(255, 255, 255);
+    color: var(--color-foreground);
+    position: relative;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 1.4rem; }
   .hero__media {
-    height: 300px;
-  }
-}
-.hero__image {
-  z-index: -1;
-}
-.hero__heading {
-  text-align: center;
-  --color-foreground: rgb(255, 255, 255);
-  color: var(--color-foreground);
-  line-height: 1;
-  position: relative;
-}
-
-.hero__alert {
-  background-color: #f2f1f0;
-  color: #265979;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 14px;
-  padding: 5px 0 5px 0;
-  text-align: center;
-}
-.hero .placeholder + .hero__wrapper .hero__heading {
-  color: #1d5b78;
-}
-.hero .placeholder + .hero__wrapper .hero__heading::after {
-  background-color: #1d5b78;
-}
+    height: 234px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); }
+    @media screen and (min-width: 1320px) {
+      .hero__media {
+        height: 300px; } }
+  .hero__image {
+    z-index: -1; }
+  .hero__heading {
+    --color-foreground: rgb(255, 255, 255);
+    color: var(--color-foreground);
+    line-height: 1;
+    position: relative; }
+    .hero__heading::after {
+      background-color: var(--color-foreground);
+      bottom: 5px;
+      content: "";
+      display: block;
+      height: 1px;
+      left: 0;
+      width: 215px; }
+  .hero__subheading {
+    --color-foreground: rgb(255, 255, 255);
+    color: var(--color-foreground);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 1.3rem;
+    position: relative; }
+  .hero__alert {
+    background-color: #F2F1F0;
+    color: #265979;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    text-align: center; }
+  .hero .placeholder + .hero__wrapper .hero__heading {
+    color: #1d5b78; }
+    .hero .placeholder + .hero__wrapper .hero__heading::after {
+      background-color: #1d5b78; }
 
 .template-page-surfboard-hire-byron .hero {
-  margin-bottom: 3rem;
-}
-@media screen and (min-width: 1320px) {
-  .template-page-surfboard-hire-byron .hero {
-    margin-bottom: 7.5rem;
-  }
-}
+  margin-bottom: 3rem; }
+  @media screen and (min-width: 1320px) {
+    .template-page-surfboard-hire-byron .hero {
+      margin-bottom: 7.5rem; } }

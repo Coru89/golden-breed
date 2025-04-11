@@ -1,40 +1,62 @@
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.image != blank %}
-<section class="hero">
-  <div class="hero__media banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
-      <img
-        srcset="
-          {%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
-          {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
-          {%- if section.settings.image.width >= 1100 -%}{{ section.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
-          {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
-          {%- if section.settings.image.width >= 1780 -%}{{ section.settings.image | img_url: '1780x' }} 1780w,{%- endif -%}
-          {%- if section.settings.image.width >= 2000 -%}{{ section.settings.image | img_url: '2000x' }} 2000w,{%- endif -%}
-          {%- if section.settings.image.width >= 3000 -%}{{ section.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
-          {%- if section.settings.image.width >= 3840 -%}{{ section.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
-          {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w
-        "
-        sizes="100vw"
-        src="{{ section.settings.image | img_url: '1500x' }}"
-        loading="eager"
-        alt="{{ section.settings.image.alt | escape }}"
-        width="{{ section.settings.image.width }}"
-        height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
-        class="hero__image"
-      >
-  </div> 
-  <div class="hero__wrapper page-width page-width--desktop">
-    <h1 class="hero__heading main-page-title page-title h0">
-      {{ section.settings.heading_title | escape }}
-    </h1>
-  </div>
-  {% if section.settings.banner_alert_message !=blank %}
-    <div class="hero__alert">
-      {{ section.settings.banner_alert_message }}
+  <section class="hero">
+    {% if section.settings.image != blank %}
+      <div class="hero__media banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
+        <img
+          srcset="
+            {%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
+            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+            {%- if section.settings.image.width >= 1100 -%}{{ section.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
+            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+            {%- if section.settings.image.width >= 1780 -%}{{ section.settings.image | img_url: '1780x' }} 1780w,{%- endif -%}
+            {%- if section.settings.image.width >= 2000 -%}{{ section.settings.image | img_url: '2000x' }} 2000w,{%- endif -%}
+            {%- if section.settings.image.width >= 3000 -%}{{ section.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
+            {%- if section.settings.image.width >= 3840 -%}{{ section.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
+            {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w
+          "
+          sizes="100vw"
+          src="{{ section.settings.image | img_url: '1500x' }}"
+          loading="eager"
+          alt="{{ section.settings.image.alt | escape }}"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
+          class="hero__image"
+        >
+      </div>
+    {% endif %}
+  
+    <div class="hero__wrapper page-width page-width--desktop">
+      <div class="hero__content">
+        <h1 class="hero__heading main-page-title page-title h0">
+          {{ section.settings.heading_title | escape }}
+        </h1>
+    
+        {% if section.settings.title != blank %}
+          <h2 class="hero__subheading">{{ section.settings.title }}</h2>
+        {% endif %}
+    
+        {% if section.settings.address != blank %}
+          <p class="hero__address">{{ section.settings.address }}</p>
+        {% endif %}
+    
+        {% if section.settings.phone != blank %}
+          <p class="hero__phone">Ph - {{ section.settings.phone }}</p>
+        {% endif %}
+    
+        {% if section.settings.email != blank %}
+          <p class="hero__email">Email - <a href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a></p>
+        {% endif %}
+      </div>
     </div>
-  {% endif %}
-</section>
+  
+    {% if section.settings.banner_alert_message != blank %}
+      <div class="hero__alert">
+        {{ section.settings.banner_alert_message }}
+      </div>
+    {% endif %}
+  </section>
 {% endif %}
 
 
@@ -54,10 +76,30 @@
       "label": "Hero Image"
     },
     {
+      "type": "text",
+      "id": "title",
+      "label": "Secondary Title",
+    },
+    {
+      "type": "text",
+      "id": "address",
+      "label": "Address",
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone",
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email",
+    },
+    {
       "type": "html",
       "id": "banner_alert_message",
       "label": "Alert Banner Message"
-    }
+    },
   ],
   "presets": [
     {
