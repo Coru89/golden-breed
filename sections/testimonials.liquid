@@ -25,11 +25,13 @@
                 </div>
 
                 <div class="testimonials__image-container">
-                  {{
-                    background_image
-                    | image_url: width: background_image.width
-                    | image_tag: class: 'testimonials__image', loading: 'lazy'
-                  }}
+                  {% if background_image != blank %}
+                    {{
+                      background_image
+                      | image_url: width: background_image.width
+                      | image_tag: class: 'testimonials__image', loading: 'lazy'
+                    }}
+                  {% endif %}
                 </div>
             {%- endcase -%}
           </div>
