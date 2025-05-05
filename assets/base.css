@@ -2631,9 +2631,16 @@ details-disclosure > details {
 
 /* product category descriptions */
 .collection-desc {
-  margin-top: 30px;
+  margin-top: 20px;
   color: #265979;
   font-size: 16px;
+  line-height: 1.25;
+}
+@media screen and (min-width: 750px) {
+  .collection-desc {
+    margin-top: 30px;
+    line-height: unset;
+  }
 }
 
 .desc-desktop {

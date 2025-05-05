@@ -92,3 +92,39 @@
     min-height: 20rem;
   }
 }
+
+.collection-desc__content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  transition: max-height 0.3s ease;
+}
+
+.collection-desc__content.expanded {
+  -webkit-line-clamp: unset; /* Number of lines to show */
+  max-height: none; /* Remove height restriction when expanded */
+}
+
+.collection-desc__toggle {
+  display: block;
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .collection-desc__content {
+    max-height: none; /* Show full description on larger screens */
+    -webkit-line-clamp: unset;
+  }
+
+  .collection-desc__toggle {
+    display: none; /* Hide the button on larger screens */
+  }
+}
