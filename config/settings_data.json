@@ -36,9 +36,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "25% off Swim! <b>PLUS Free Shipping</b> Orders over $75",
+              "text": "<b>Free Shipping</b> Orders over $75",
               "color_scheme": "background-1",
-              "link": "shopify://collections/lazy-beach-swim"
+              "link": ""
             }
           }
         },
