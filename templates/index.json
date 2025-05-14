@@ -18,7 +18,6 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/May_9_-_Website_Header_Mobile.jpg",
         "banner_url": "shopify://collections/lazy-beach-swim",
@@ -39,7 +38,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop the Sale",
-            "button_link_1": "shopify://collections/lazy-beach-swim",
+            "button_link_1": "shopify://collections/floyd-walkshorts",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
@@ -52,9 +51,8 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/May_9_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/May_15_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -83,6 +81,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
