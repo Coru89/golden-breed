@@ -42,15 +42,15 @@
     line-height: 1;
     position: relative;
 
-    &::after {
-      background-color: var(--color-foreground);
-      bottom: 5px;
-      content: "";
-      display: block;
-      height: 1px;
-      left: 0;
-      width: 215px;
-    }
+    // &::after {
+    //   background-color: var(--color-foreground);
+    //   bottom: 5px;
+    //   content: "";
+    //   display: block;
+    //   height: 1px;
+    //   left: 0;
+    //   width: 215px;
+    // }
   }
 
   &__alert {
