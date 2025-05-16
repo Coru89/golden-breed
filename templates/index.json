@@ -219,9 +219,9 @@
           "settings": {
             "image": "shopify://shop_images/accessories2.jpg",
             "title": "Accessories",
-            "text": "<p></p>",
+            "text": "",
             "link_label": "Shop Now",
-            "link": "shopify://collections/golden-breed-hats-caps"
+            "link": "shopify://collections/accessories"
           }
         },
         "1638938464e1544931-0": {
