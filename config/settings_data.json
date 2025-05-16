@@ -171,11 +171,6 @@
           "allowed_templates": ""
         }
       },
-      "3322588378562147075": {
-        "type": "shopify://apps/marsello-loyalty-email-sms/blocks/widget/2f8afca8-ebe2-41cc-a30f-c0ab7d4ac8be",
-        "disabled": false,
-        "settings": {}
-      },
       "15870211849024486148": {
         "type": "shopify://apps/da-redirects/blocks/link_tracker/e7993789-f4e0-4d27-95f9-d952daf886fe",
         "disabled": false,
@@ -189,6 +184,11 @@
       "16273355016472601751": {
         "type": "shopify://apps/peek-better-replay-survey/blocks/app-embed/1f29cc96-61f9-4675-b0d8-7ada6610e575",
         "disabled": false,
+        "settings": {}
+      },
+      "3322588378562147075": {
+        "type": "shopify://apps/marsello-loyalty-email-sms/blocks/widget/2f8afca8-ebe2-41cc-a30f-c0ab7d4ac8be",
+        "disabled": true,
         "settings": {}
       }
     }
