@@ -36,9 +36,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>Free Shipping</b> Orders over $75",
+              "text": "25% Off Everything! <b>CREW ONLY SALE</b> Get the Code",
               "color_scheme": "background-1",
-              "link": ""
+              "link": "https://goldenbreed.com.au/pages/crew-only-sale"
             }
           }
         },
