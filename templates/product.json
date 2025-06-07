@@ -96,6 +96,24 @@
             "show_dynamic_checkout": false
           }
         },
+        "growave_loyalty_wishlist_block_product_earn_points_widget_4qz4Vg": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.earnPointsWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "show_icon": true,
+            "font_color": "#121212",
+            "icon_color": "#000000",
+            "background_color": "#f8f8f8",
+            "custom_css": ""
+          }
+        },
+        "growave_loyalty_wishlist_block_product_fave_button_ffqb3H": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_button_class": "",
+            "custom_css": "",
+            "shadow_root_options": "null"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -126,16 +144,6 @@
             "page": "",
             "icon": "none"
           }
-        },
-        "growave_loyalty_wishlist_block_product_earn_points_widget_4qz4Vg": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.earnPointsWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-            "show_icon": true,
-            "font_color": "#121212",
-            "icon_color": "#000000",
-            "background_color": "#f8f8f8",
-            "custom_css": ""
-          }
         }
       },
       "block_order": [
@@ -147,11 +155,12 @@
         "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34",
         "47e42ffd-787a-4f6f-8544-b47b352c018e",
         "buy_buttons",
+        "growave_loyalty_wishlist_block_product_earn_points_widget_4qz4Vg",
+        "growave_loyalty_wishlist_block_product_fave_button_ffqb3H",
         "description",
         "composition_tab_wCyaqA",
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
-        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da",
-        "growave_loyalty_wishlist_block_product_earn_points_widget_4qz4Vg"
+        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da"
       ],
       "custom_css": [
         ".spaced-section {margin-top: 3rem;}"
