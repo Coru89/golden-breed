@@ -46,35 +46,45 @@
     <h2 class="store-panel__heading--main">
       {{ section.settings.heading }}
     </h2>
+
+    {% assign has_carousel_images = false %}
+    {% for block in section.blocks %}
+      {% if block.type == 'carousel_image' %}
+        {% assign has_carousel_images = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
   
-    <div class="store-panel__slider container">
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Loop through the blocks to create slides -->
-          {% for block in section.blocks %}
-            {% if block.type == 'carousel_image' %}
-              <div class="swiper-slide">
-                <div class="swiper-image">
-                  <img src="{{ block.settings.image | img_url: 'master' }}" alt="Carousel Image">
+    {% if has_carousel_images %}
+      <div class="store-panel__slider container">
+        <div id="swiper-{{ section.id }}" class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Loop through the blocks to create slides -->
+            {% for block in section.blocks %}
+              {% if block.type == 'carousel_image' %}
+                <div class="swiper-slide">
+                  <div class="swiper-image">
+                    <img src="{{ block.settings.image | img_url: 'master' }}" alt="Carousel Image">
+                  </div>
                 </div>
-              </div>
-            {% endif %}
-          {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </div>
+    
+          <!-- Swiper Pagination -->
+          <div class="swiper-pagination"></div>
+    
+          <!-- Navigation Buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-  
-        <!-- Swiper Pagination -->
-        <div class="swiper-pagination"></div>
-  
-        <!-- Navigation Buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
       </div>
-    </div>
+    {% endif %}
   
     <div class="store-panel__content page-width">
       <div class="store-panel__text">
-        <h3 class="store-panel__heading">{{ section.settings.content_heading }}</h3>
+        <h3 class="store-panel__heading store-panel__heading--about">{{ section.settings.content_heading }}</h3>
         <div class="store-panel__description">
           {{ section.settings.content | newline_to_br }}
         </div>
@@ -95,28 +105,37 @@
         <div class="store-panel__email">
           {{ section.settings.email }}
         </div>
-        <div class="store-panel__opening-hours">
-          <h3 class="store-panel__heading">{{ section.settings.opening_hours_title }}</h4>
-          {% for block in section.blocks %}
-            {% if block.type == 'opening_hour' %}
-              <div class="store-panel__opening-hour">
-                {{ block.settings.hour }}
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div>
+
+        {% assign has_hours = false %}
+        {% for block in section.blocks %}
+          {% if block.type == 'opening_hour' %}
+            {% assign has_hours = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if has_hours %}
+          <div class="store-panel__opening-hours">
+            <h3 class="store-panel__heading">{{ section.settings.opening_hours_title }}</h4>
+            {% for block in section.blocks %}
+              {% if block.type == 'opening_hour' %}
+                <div class="store-panel__opening-hour">
+                  {{ block.settings.hour }}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </div>
-
-
   </div>
-
 </section>
 
 <script>
-  const swiper = new Swiper('.swiper', {
+  document.addEventListener('DOMContentLoaded', function () {
+  const swiper = new Swiper('#swiper-{{ section.id }}', {
     slidesPerView: 1.15,
-    spaceBetween: -50, // Creates the overlapping effect
+    spaceBetween: 5, // Creates the overlapping effect
     centeredSlides: true, // Center slides for smaller screens
     navigation: {
       nextEl: '.swiper-button-next',
@@ -139,10 +158,10 @@
     //spaceBetween: -550, // Creates the overlapping effect
     breakpoints: {
       // Add a breakpoint for 750px
-      750: {
+      {% comment %} 750: {
         slidesPerView: 3.8,
         spaceBetween: -400, // Creates the overlapping effect
-      },
+      }, {% endcomment %}
       900: {
         slidesPerView: 3.8,
         simulateTouch: true,
@@ -234,6 +253,7 @@
     updateSlideClasses(swiper);
     callback();
   }
+});
 </script>
 
 {% schema %}

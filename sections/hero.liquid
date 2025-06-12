@@ -42,7 +42,7 @@
         {% endif %}
     
         {% if section.settings.phone != blank %}
-          <p class="hero__phone">Ph - {{ section.settings.phone }}</p>
+          <p class="hero__phone">Ph - <a href="{{ section.settings.phone_link }}">{{ section.settings.phone }}</a></p>
         {% endif %}
     
         {% if section.settings.email != blank %}
@@ -88,7 +88,13 @@
     {
       "type": "text",
       "id": "phone",
-      "label": "Phone",
+      "label": "Phone Label",
+    },
+    {
+      "type": "text",
+      "id": "phone_link",
+      "label": "Phone Link",
+      "info": "Format: tel:+1234567890"
     },
     {
       "type": "text",
