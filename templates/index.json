@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/May_15_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify://collections/floyd-walkshorts",
+        "image": "shopify://shop_images/June_7_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify://collections/men-new-arrivals",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -37,8 +37,8 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the Sale",
-            "button_link_1": "shopify://collections/floyd-walkshorts",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify://collections/men-new-arrivals",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
@@ -52,7 +52,7 @@
         "buttons_Lf63bB"
       ],
       "settings": {
-        "image": "shopify://shop_images/May_15_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/June_7_-_Website_Desktop_Header.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
@@ -219,9 +219,9 @@
           "settings": {
             "image": "shopify://shop_images/accessories2.jpg",
             "title": "Accessories",
-            "text": "<p></p>",
+            "text": "",
             "link_label": "Shop Now",
-            "link": "shopify://collections/golden-breed-hats-caps"
+            "link": "shopify://collections/accessories"
           }
         },
         "1638938464e1544931-0": {

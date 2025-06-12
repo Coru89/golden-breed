@@ -13,7 +13,7 @@
       "type": "apps",
       "blocks": {
         "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3": {
-          "type": "shopify://apps/category-breadcrumbs/blocks/category-breadcrumbs/dba51573-4328-452d-90db-1ad2dc5be363",
+          "type": "shopify://apps/breadcrumbs/blocks/category-breadcrumbs/dba51573-4328-452d-90db-1ad2dc5be363",
           "settings": {
             "override_linktext_colour": false,
             "linktext_colour": "#0000ee",
@@ -96,6 +96,24 @@
             "show_dynamic_checkout": false
           }
         },
+        "growave_loyalty_wishlist_block_product_earn_points_widget_4qz4Vg": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.earnPointsWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "show_icon": true,
+            "font_color": "#121212",
+            "icon_color": "#000000",
+            "background_color": "#f8f8f8",
+            "custom_css": ""
+          }
+        },
+        "growave_loyalty_wishlist_block_product_fave_button_ffqb3H": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_button_class": "",
+            "custom_css": "",
+            "shadow_root_options": "null"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -137,6 +155,8 @@
         "0bdbdb89-f5cb-44f5-bbae-18e08aaaab34",
         "47e42ffd-787a-4f6f-8544-b47b352c018e",
         "buy_buttons",
+        "growave_loyalty_wishlist_block_product_earn_points_widget_4qz4Vg",
+        "growave_loyalty_wishlist_block_product_fave_button_ffqb3H",
         "description",
         "composition_tab_wCyaqA",
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
@@ -197,6 +217,63 @@
     "133b1ec4-866a-4d58-b91f-43793884ece4": {
       "type": "accordion-meta-object",
       "settings": {}
+    },
+    "17491048096a842d5d": {
+      "type": "apps",
+      "blocks": {
+        "growave_loyalty_wishlist_block_product_fave_button_mbJVDp": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_button_class": "",
+            "custom_css": "",
+            "shadow_root_options": "null"
+          }
+        }
+      },
+      "block_order": [
+        "growave_loyalty_wishlist_block_product_fave_button_mbJVDp"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1749105177c74fdad0": {
+      "type": "apps",
+      "blocks": {
+        "growave_loyalty_wishlist_block_product_fave_button_eGmb7B": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_button_class": "",
+            "custom_css": "",
+            "shadow_root_options": "null"
+          }
+        }
+      },
+      "block_order": [
+        "growave_loyalty_wishlist_block_product_fave_button_eGmb7B"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "174910540625a6f3f3": {
+      "type": "apps",
+      "blocks": {
+        "growave_loyalty_wishlist_block_product_fave_button_8QQcdR": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_button_class": "",
+            "custom_css": "",
+            "shadow_root_options": "null"
+          }
+        }
+      },
+      "block_order": [
+        "growave_loyalty_wishlist_block_product_fave_button_8QQcdR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -205,6 +282,9 @@
     "891ee324-8896-4021-9598-50458db48649",
     "product-recommendations",
     "16891011425aabffa8",
-    "133b1ec4-866a-4d58-b91f-43793884ece4"
+    "133b1ec4-866a-4d58-b91f-43793884ece4",
+    "17491048096a842d5d",
+    "1749105177c74fdad0",
+    "174910540625a6f3f3"
   ]
 }
