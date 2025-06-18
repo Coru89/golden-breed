@@ -38,11 +38,11 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "GET THE CODE",
-            "button_link_1": "shopify://pages/eofy-early-access",
+            "button_link_1": "https://goldenbreed.com.au/pages/eofy-early-access",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "SHOP NOW",
+            "button_link_2": "shopify://collections/eofy-sale",
             "button_style_secondary_2": false,
             "button_custom_link_attributes_2": ""
           }
