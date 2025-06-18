@@ -20,7 +20,7 @@
       "type": "mobile-hp-banner",
       "settings": {
         "image": "shopify://shop_images/June_19_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify://pages/eofy-early-access",
+        "banner_url": "https://goldenbreed.com.au/pages/eofy-early-access",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
