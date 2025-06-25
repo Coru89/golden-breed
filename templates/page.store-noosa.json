@@ -14,6 +14,11 @@
       "settings": {
         "heading_title": "Noosa Surf Store",
         "image": "shopify://shop_images/byron_bay_surf_store.png",
+        "title": "",
+        "address": "",
+        "phone": "",
+        "phone_link": "",
+        "email": "",
         "banner_alert_message": ""
       }
     },
@@ -30,7 +35,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to the Golden Breed Noosa Store, located in the heart of Noosa Heads, offering a curated selection of premium surfboards, apparel, and accessories. Catering to all levels of surfing enthusiasts, our knowledgeable staff is here to guide you in selecting the perfect gear and provide tips on the best local surf spots. The store is pet-friendly, so feel free to bring your well-behaved dog along while you shop. Visit us during our regular hours, and don't hesitate to reach out for any inquiries.</p>"
+            "text": "<p>You'll find Golden Breed Noosa in the heart of Noosa Heads, at 13 Noosa Drive, right next to Deus. </p><p>We're easy to find - we're on the roundabout as you come down the hill from Noosa Junction, or as you head into Noosa's main beach, we'll be directly in front of you as you enter the roundabout. </p><p>Come check out our selection of Gordon & Smith surfboards, surf apparel, gift ideas, swimwear and accessories. Catering to all levels of surfing enthusiasts, our knowledgeable staff is here to guide you in selecting the perfect gear and provide tips on the best local surf spots. </p><p>Golden Breed Noosa is pet-friendly, so feel free to bring your well-behaved dog along while you shop. Visit us during our regular hours, and don't hesitate to reach out for with any questions.</p>"
           }
         }
       },
