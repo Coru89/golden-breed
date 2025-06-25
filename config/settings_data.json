@@ -23,7 +23,7 @@
     "social_youtube_link": "https://www.youtube.com/@GoldenBreedAustralia",
     "favicon": "shopify://shop_images/favi.png",
     "show_free_shipping_notice": true,
-    "free_shipping_minimum": "AUD:75",
+    "free_shipping_minimum": "AUD:75\nUSD:75",
     "checkout_logo_image": "shopify://shop_images/logo_170x_2x_ad999fc2-d873-4552-8aaa-0cd233dd7384.png",
     "checkout_body_background_color": "#fefdf8",
     "checkout_input_background_color_mode": "transparent",
