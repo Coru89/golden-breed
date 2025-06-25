@@ -22,6 +22,7 @@
         "title": "Head Office (for General & Social Media enquiries)",
         "address": "34 - 36 Cook Street, Flinders VIC 3929",
         "phone": "1300 882 914",
+        "phone_link": "",
         "email": "info@goldenbreed.com.au",
         "banner_alert_message": ""
       }
@@ -91,7 +92,7 @@
       "settings": {
         "heading": "Byron Bay",
         "content_heading": "About the store",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Turpis mollis urna etiam malesuada est efficitur tempor erat. Hac nam habitant aenean malesuada potenti lacinia ac. Sagittis vitae natoque nisl justo, dapibus aliquet sodales. \n\nPharetra id nibh eleifend eleifend ad dictum natoque. Condimentum mollis maximus venenatis lobortis velit massa. Feugiat lorem cursus pretium aptent natoque maecenas massa scelerisque.\n\nSem interdum natoque aptent malesuada neque lectus magna habitant. Platea suspendisse nunc viverra dictum tellus morbi efficitur consequat dapibus. Elit est fermentum lobortis lorem erat rhoncus dictumst conubia et.",
+        "content": "Located in the heart of Byron, Golden Breed's surfwear store is loaded with retro surf apparel and accessories. \n\nYou'll find us at 10 Lawson St, Byron Bay and whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help and provide expert advice on the best local surf spots. \n\nVisit us in-store or browse online our latest collections and seasonal new arrivals.",
         "button_text": "Learn More",
         "button_url": "shopify://pages/byron-surf-store",
         "address_name": "Byron Bay",
@@ -245,7 +246,7 @@
       "settings": {
         "heading": "Flinders",
         "content_heading": "About the store",
-        "content": "Lorem ipsum odor amet, consectetuer adipiscing elit. Turpis mollis urna etiam malesuada est efficitur tempor erat. Hac nam habitant aenean malesuada potenti lacinia ac. Sagittis vitae natoque nisl justo, dapibus aliquet sodales. \n\nPharetra id nibh eleifend eleifend ad dictum natoque. Condimentum mollis maximus venenatis lobortis velit massa. Feugiat lorem cursus pretium aptent natoque maecenas massa scelerisque.\n\nSem interdum natoque aptent malesuada neque lectus magna habitant. Platea suspendisse nunc viverra dictum tellus morbi efficitur consequat dapibus. Elit est fermentum lobortis lorem erat rhoncus dictumst conubia et.",
+        "content": "Located in the heart of Byron, Golden Breed's surfwear store is loaded with retro surf apparel and accessories. \n\nYou'll find us at 10 Lawson St, Byron Bay and whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help and provide expert advice on the best local surf spots. \n\nVisit us in-store or browse online our latest collections and seasonal new arrivals.",
         "button_text": "View Store Info",
         "button_url": "shopify://pages/flinders-surf-store",
         "address_name": "Flinders",
