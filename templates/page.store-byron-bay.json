@@ -14,6 +14,11 @@
       "settings": {
         "heading_title": "Byron Bay Store",
         "image": "shopify://shop_images/byron_bay_surf_store.png",
+        "title": "",
+        "address": "",
+        "phone": "",
+        "phone_link": "",
+        "email": "",
         "banner_alert_message": ""
       }
     },
@@ -30,7 +35,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Located in the iconic Byron Bay, our store is your ultimate destination for premium surfboards, apparel, and accessories. Whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help you find the perfect gear and provide expert advice on the best local surf spots. Visit us and explore our latest collections and seasonal gear to stay in sync with the vibrant surf culture of Byron Bay.</p><p>Get ready to hit the waves with style and confidence!</p>"
+            "text": "<p>Located in the iconic Byron Bay, Golden Breed's surf store is your drop-in destination for premium Gordon & Smith surfboards, surfwear, hoodies, surf caps, cord pants and accessories. </p><p>Whether you're a beginner, intermediate, or an advanced surfer, our friendly and knowledgeable staff are here to help you find the perfect gear and provide advice on the best local surf spots, in case you're new to the area, and keen to get salty.</p><p>Feel free to visit us at 10 Lawson Street, in the heart of Byron, and browse our new arrivals.</p>"
           }
         }
       },
@@ -241,8 +246,7 @@
           "type": "testimonial",
           "settings": {
             "name": "Barry P",
-            "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool.",
-            "background_image": "shopify://shop_images/byron-hero.png"
+            "quote": "Loved this brand back in the 70s and great to see its reboot. Fantastic people working in the Byron Bay store with a great sale on when I was there. Got a high quality hoodie for my nephew. Love the Golden Breed branding, colours and vibe, 70s cool."
           }
         },
         "284c5a80-cb2c-4da8-86e3-08e24283e8de": {
