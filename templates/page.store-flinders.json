@@ -14,6 +14,11 @@
       "settings": {
         "heading_title": "Flinders Surf Store",
         "image": "shopify://shop_images/byron_bay_surf_store.png",
+        "title": "",
+        "address": "",
+        "phone": "",
+        "phone_link": "",
+        "email": "",
         "banner_alert_message": ""
       }
     },
@@ -30,7 +35,7 @@
         "template--16138112467123__f4d52c76-711e-4a98-80b4-445b3517398f-16781842288dbd83ee-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Located in the charming town of Flinders, south of Melbourne, our store is your go-to destination for premium surfboards, apparel, and accessories. Whether you're a beginner or an experienced surfer, our friendly and knowledgeable staff are here to help you find the perfect gear and provide expert advice on local surf spots. </p><p>Come on down and explore our latest collections and seasonal gear to stay updated with the best in surf culture. Get ready to hit the waves with style and confidence! </p>"
+            "text": "<p>Located south of Melbourne, in the little surf town of Flinders, our Golden breed store is your go-to drop-in destination for a range of surfboards, apparel, and accessories if you're chasing that gnarly southern swell.</p><p>Whether you're a beginner, intermediate, or an advanced surfer, our knowledgeable team are here to help you find the perfect gear and provide expert advice on local surf breaks. </p><p>If you're only into looking good, come on down and explore our latest collections and seasonal new arrivals with retro vibes & Aussie surf culture. From cord pants to hoodies, beanies and sherpa jackets. </p><p>Come check it out.</p>"
           }
         }
       },
