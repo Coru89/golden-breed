@@ -1,0 +1,75 @@
+{{ 'main-cart.css' | asset_url | stylesheet_tag }}
+{{ 'free-shipping-notice.css' | asset_url | stylesheet_tag }}
+
+
+<section class="main-cart{% if cart == empty %} is-empty{% endif %}" data-id="{{ section.id }}" id="main-cart">
+    <div class="main-cart__inner page-width page-width-desktop">
+      <div class="main-cart__row">
+          <div class="title-wrapper-with-link">
+            <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+            <a href="/" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
+        </div>
+      </div>
+      <div class="main-cart__row">
+        <div class="column">
+            <div class="cart__items">
+                {% render 'main-cart-items' %}
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="cart__price">
+              {% render 'cart-price' %}
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Main Cart",
+    "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_cart_note",
+      "default": false,
+      "label": "t:sections.main-cart-footer.settings.show_cart_note.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.main-cart-items.settings.show_vendor.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "subtotal",
+      "name": "t:sections.main-cart-footer.blocks.subtotal.name",
+      "limit": 1
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.main-cart-footer.blocks.buttons.name",
+      "limit": 1
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Main Cart",
+      "blocks": [
+        {
+          "type": "subtotal"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

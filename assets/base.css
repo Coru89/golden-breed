@@ -2789,3 +2789,24 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
 /* 404 */
 #shopify-section-template--16288740638919__rich_text_AycKLq > div > div > div > img {width:300px!important;}
 /*.announcement-bar__link {display:none!important;}*/
+
+/* discount ninja overrides */
+
+input[type='text'].limoniapps-discountninja-cartdiscountfield-input {
+  max-width: unset !important;
+  border-color: #265979 !important;
+  
+}
+
+input[type='text'].limoniapps-discountninja-cartdiscountfield-input::placeholder {
+  color: #265979 !important;
+}
+
+
+
+button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
+  margin-left: 0 !important;
+  background-color: #265979 !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}

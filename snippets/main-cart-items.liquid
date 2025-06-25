@@ -1,0 +1,171 @@
+{{ 'component-cart.css' | asset_url | stylesheet_tag }}
+{{ 'component-totals.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
+
+<cart-items class="{% if cart == empty %} is-empty{% endif %}">
+  {% comment %} <div class="title-wrapper-with-link">
+    <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+    <a href="/" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
+  </div> {% endcomment %}
+
+  <div class="cart__warnings" style="margin-bottom:100px;">
+    <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
+    <a href="/" class="underlined-link">
+      {{ 'general.continue_shopping' | t }}
+    </a>
+
+    {%- if shop.customer_accounts_enabled -%}
+      <h2 class="cart__login-title">{{ 'sections.cart.login.title' | t }}</h2>
+      <p class="cart__login-paragraph">
+        {{ 'sections.cart.login.paragraph_html' | t: link: routes.account_login_url }}
+      </p>
+    {%- endif -%}
+  </div>
+
+  <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
+    <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
+      <div class="js-contents">
+        {%- if cart != empty -%}
+          {%- if settings.show_free_shipping_notice and cart != empty -%}
+              {% render 'free-shipping-notice' %}
+          {%  endif %}
+          <div class="cart-items">
+            {%- for item in cart.items -%}
+              <div class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
+                <div class="cart-item__remove">
+                  <cart-remove-button
+                    id="Remove-{{ item.index | plus: 1 }}"
+                    data-index="{{ item.index | plus: 1 }}"
+                  >
+                    <a
+                      href="{{ item.url_to_remove }}"
+                      class=""
+                      aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}"
+                    >
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.9691 3.21895C11.1937 2.99439 11.5571 2.99439 11.7816 3.21895C12.0061 3.4435 12.0062 3.80693 11.7816 4.03145L8.3129 7.5002L11.7816 10.9689C12.0061 11.1935 12.0062 11.5569 11.7816 11.7814C11.5571 12.0059 11.1937 12.0059 10.9691 11.7814L7.5004 8.3127L4.03165 11.7814C3.80712 12.0059 3.44367 12.0059 3.21915 11.7814C2.99463 11.5569 2.99469 11.1935 3.21915 10.9689L6.6879 7.5002L3.21915 4.03145C2.99463 3.80693 2.99469 3.4435 3.21915 3.21895C3.4437 2.99439 3.80709 2.99439 4.03165 3.21895L7.5004 6.6877L10.9691 3.21895Z" fill="#265979"/>
+                      </svg>
+                      <span class="visually-hidden">
+                        {{ 'sections.cart.remove_title' | t: title: item.title }}
+                      </span>                   
+
+                    </a>
+                  </cart-remove-button>
+                </div>
+
+                <div class="cart-item__media">
+                  {% if item.image %}
+                    <a href="{{ item.url }}" class="cart-item__link" aria-hidden="true" tabindex="-1">
+                      <img
+                        class="cart-item__image"
+                        src="{{ item.image | img_url: '300x' }}"
+                        alt="{{ item.image.alt | escape }}"
+                        loading="lazy"
+                        width="150"
+                        height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
+                      >
+                    </a>
+                  {% endif %}
+                </div>
+
+                <div class="cart-item__details">
+                  <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
+
+                  <script>
+                    console.log("Cart Item: ", {{ item | json }});
+                    console.log("Cart Item Product: ", {{ item.product | json }});
+                  </script>
+
+                  {%- liquid
+                    if item.variant.compare_at_price > item.variant.price
+                      assign variant_price_reduced = true
+                    else
+                      assign variant_price_reduced = false
+                    endif
+                  -%}
+
+                  <div class="cart-item__prices">
+                    {%- if variant_price_reduced or item.original_price != item.final_price -%}
+                      <div class="cart-item__discounted-prices price--on-sale">
+                    
+                        {%- if variant_price_reduced -%}
+                          <s class="cart-item__old-price">{{ item.variant.compare_at_price | money }}</s>
+                        {%- else -%}
+                          <s class="cart-item__old-price">{{ item.original_price | money }}</s>
+                        {%- endif -%}
+                        <strong class="cart-item__final-price price__sale">&nbsp;{{ item.final_price | money }}</strong>
+                      </div>
+                    {%- else -%}
+                      <div class="cart-item__price">{{ item.original_price | money }}</div>
+                    {%- endif -%}
+                  </div>
+
+                  <dl class="cart-item__options">
+                    {%- for option in item.options_with_values -%}
+                      <div class="product-option">
+                        <dt>{{ option.name }}:</dt>
+                        <dd>{{ option.value }}</dd>
+                      </div>
+                    {%- endfor -%}
+
+                    {%- for property in item.properties -%}
+                      {%- if property.last != blank and property.first[0] != '_' -%}
+                        <div class="product-option">
+                          <dt>{{ property.first }}:</dt>
+                          <dd>{{ property.last }}</dd>
+                        </div>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </dl>
+
+                  <div class="cart-item__quantity">
+                    <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
+                      {{ 'products.product.quantity.label' | t }}
+                    </label>
+                    <quantity-input class="quantity">
+                      <button class="quantity__button" name="minus" type="button">
+                        {% render 'icon-minus' %}
+                      </button>
+                      <input
+                        class="quantity__input"
+                        type="number"
+                        name="updates[]"
+                        value="{{ item.quantity }}"
+                        min="0"
+                        id="Quantity-{{ item.index | plus: 1 }}"
+                        data-index="{{ item.index | plus: 1 }}"
+                      >
+                      <button class="quantity__button" name="plus" type="button">
+                        {% render 'icon-plus' %}
+                      </button>
+                    </quantity-input>
+                  </div>
+                </div>
+                <div class="cart-item__error" id="Line-item-error-{{ item.index | plus: 1 }}" role="alert">
+                  <small class="cart-item__error-text"></small>
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
+                    <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
+                    <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
+                    <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"/>
+                    <path d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z" fill="white" stroke="#EB001B" stroke-width="0.7">
+                  </svg>  
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+
+    <p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>
+    <p class="visually-hidden" id="shopping-cart-line-item-status" aria-live="polite" aria-hidden="true" role="status">
+      {{ 'accessibility.loading' | t }}
+    </p>
+  </form>
+</cart-items>
+
+

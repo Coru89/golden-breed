@@ -1,0 +1,217 @@
+{{ 'component-cart.css' | asset_url | stylesheet_tag }}
+{{ 'component-totals.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+
+<style>
+  {% comment %} .limoniapps-discountninja-cartsummary-row-discountedtotal {
+    display: none !important;
+  } {% endcomment %}
+
+  .limoniapps-discountninja-cart-promotionsummary *,
+  .cart-summary__final-price {
+    font-family: "Nunito Sans", sans-serif !important;
+  }
+
+  .cart-summary__final-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .cart-summary__percent-saved, .limoniapps-discountninja-shortcode-offer_total_discount_amount .limoniapps-discountninja-money {
+   color: #f6434b !important;
+  }
+
+  </style>
+
+<div class="{% if cart == empty %} is-empty{% endif %}">
+  <div>
+    <div class="cart__footer">
+   
+      {%- if section.settings.show_cart_note -%}
+        <cart-note class="cart__note field">
+          <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
+          <textarea class="text-area text-area--resize-vertical field__input" name="note" form="cart" id="Cart-note" placeholder="{{ 'sections.cart.note' | t }}">{{ cart.note }}</textarea>
+        </cart-note>
+      {%- endif -%}
+
+      {% assign total_saved_aggregated = 0 %}
+
+      <div class="cart__blocks">
+        <div data-la-dn-promocodefield-placeholder></div>
+        
+        <div>{{ cart.item_count }} items</div>
+        <div data-la-dn-promotion-summary-placeholder></div>
+
+        {%- assign total_compare_at = 0 -%}
+        {%- assign total_final = 0 -%}
+        {%- for item in cart.items -%}
+          {%- assign line_compare_at = item.variant.compare_at_price | times: item.quantity -%}
+
+          {%- assign line_final = item.final_price | times: item.quantity -%}
+
+          {% if item.variant.compare_at_price > item.variant.price %}
+            {%- assign line_original = item.variant.compare_at_price | times: item.quantity -%}
+          {% else %}
+            {%- assign line_original = line_final | times: item.quantity -%}
+          {% endif %}
+
+
+          {%- assign total_compare_at = total_compare_at | plus: line_compare_at -%}
+          {%- assign total_original = total_original | plus: line_original -%}
+          {%- assign total_final = total_final | plus: line_final -%}
+          {% if line_compare_at > line_final %}
+            {%- assign total_saved = line_compare_at | minus: line_final -%}
+            {% assign total_saved_aggregated = total_saved_aggregated | plus: total_saved %}
+
+          {% endif %}
+        {%- endfor -%}
+
+        {%- for discount in cart.cart_level_discount_applications -%}
+        {%- assign total_cart_level_discounts = total_cart_level_discounts | plus: discount.total_allocated_amount -%}
+        {%- endfor -%}
+
+        {% assign priceAfterDiscounts = total_final | minus: total_cart_level_discounts %}
+
+        {%- if total_saved > 0 or cart.total_discount > 0 -%}
+          {% assign total_saved_dicounts_and_sales = total_saved_aggregated | plus: cart.total_discount %}
+          {%- assign percent_saved = total_saved_dicounts_and_sales | times: 100.0 | divided_by: total_original -%}
+        {% endif %}
+
+
+          {% comment %} started to implement a custom cart summary here, but it's not fully functional yet. had issues with it working dynamically with quantity updates and discounts. {% endcomment %}
+          {% comment %} <div class="limoniapps-discountninja-subtotalcomment-summary-footer cart-summary__final-price">
+            <label><strong>Total:</strong></label>
+            <script>
+              console.log("Total Price: ", {{ cart | json }});
+            </script>
+          
+            <div>
+              <strong>{{ cart.total_price | money }}</strong>
+              {% comment %} <i>    dc<strong>{{ cart.total_discount | money }}</strong></i> {% endcomment %}
+              {%- if percent_saved > 0 -%}
+                &nbsp;|&nbsp;
+                <span class="cart-summary__percent-saved">
+                  {{ percent_saved | divided_by: 1.0 | round: 1 }}% OFF
+                </span>
+              {%- endif -%}
+            </div>
+          </div> {% endcomment %}
+
+        <div class="totals limoniapps-discountninja-whenactivepromotions-hide" style="">
+          <center>
+            {%- if cart.cart_level_discount_applications.size > 0 -%}
+              <ul style="" role="list" aria-label="{{ 'customer.order.discount' | t }}">
+                {%- for discount in cart.cart_level_discount_applications -%}
+                <span style="color:#c04353;  font-size:13px; margin-bottom:10px;">
+                  
+                  <center>  <b>DISCOUNT CODE APPLIED ✓</b></center>
+                  </span>
+                  <li class="discounts__discount" style="color:#c04353; font-size:15px;">
+                  
+                    {%- render 'icon-discount' -%}
+                    {{ discount.title }}
+                    SAVED : {{ discount.total_allocated_amount | money }}
+                  </li>
+                {%- endfor -%}
+              </ul>
+          {%- endif -%}
+          </center>
+        </div>
+
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+            {%- when '@app' -%}
+              {% render block %}
+            {%- when 'subtotal' -%}
+            {% comment %}Added/Modified by Limoni Apps on 21/03/25 to support Discount Ninja{% endcomment %}
+
+              <div class="js-contents" {{ block.shopify_attributes }}>
+                <div class="totals limoniapps-discountninja-cart-subtotal">
+                  <h3 class="totals__subtotal">Total: </h3>
+                  <p class="totals__subtotal-value ">{{ cart.total_price | money_with_currency }}</p>
+                </div>
+                
+
+                {% comment %} <small class="tax-note caption-large rte">
+                  Free Delivery On Orders Over $75<br>within Australia
+                </small> {% endcomment %}
+                
+                  
+              </div>
+            {%- else -%}
+              <div class="cart__ctas" {{ block.shopify_attributes }}>
+                <noscript>
+                  <button type="submit" class="cart__update-button button button--secondary" form="cart">
+                    {{ 'sections.cart.update' | t }}
+                  </button>
+                </noscript>
+
+                <div>
+                  <small class="tax-note caption-large rte">
+                    Free Delivery On Orders Over $75<br>within Australia
+                  </small>
+                  
+                </div>
+
+
+                <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
+              Proceed To Checkout →
+                </button>
+              </div>
+
+            <ul style="margin-top:20px;" class="list list-payment" role="list">
+              {%- for type in shop.enabled_payment_types -%}
+                <li class="list-payment__item">
+                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                </li>
+              {%- endfor -%}
+                    <li class="list-payment__item"><img style="width:100px;" src="https://static.afterpay.com/integration/product-page/logo-afterpay-colour@2x.png">
+            </ul>
+        
+          {%- endcase -%}
+        {% endfor %}
+
+        <div id="cart-errors"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% javascript %}
+  class CartNote extends HTMLElement {
+    constructor() {
+      super();
+
+      this.addEventListener('change', debounce((event) => {
+        const body = JSON.stringify({ note: event.target.value });
+        fetch(`${routes.cart_update_url}`, {...fetchConfig(), ...{ body }});
+      }, 300))
+    }
+  }
+
+  customElements.define('cart-note', CartNote);
+{% endjavascript %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    function isIE() {
+      const ua = window.navigator.userAgent;
+      const msie = ua.indexOf('MSIE ');
+      const trident = ua.indexOf('Trident/');
+
+      return (msie > 0 || trident > 0);
+    }
+
+    if (!isIE()) return;
+    const cartSubmitInput = document.createElement('input');
+    cartSubmitInput.setAttribute('name', 'checkout');
+    cartSubmitInput.setAttribute('type', 'hidden');
+    document.querySelector('#cart').appendChild(cartSubmitInput);
+    document.querySelector('#checkout').addEventListener('click', function(event) {
+      document.querySelector('#cart').submit();
+    });
+  });
+</script>

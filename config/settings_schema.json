@@ -336,5 +336,27 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Free shipping notice",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Free shipping notice"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_free_shipping_notice",
+        "label": "Show free shipping notice",
+        "default": false
+      },
+      {
+        "type": "textarea",
+        "id": "free_shipping_minimum",
+        "label": "Minimum order amount",
+        "placeholder": "EC:USD:100\nUSD:50\nCAD:80",
+        "info": "Enter minimum order amount(s) to qualify for free shipping (one per line). Format instructions and examples below."
+      }
+    ]
   }
 ]
