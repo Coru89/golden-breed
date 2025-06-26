@@ -348,19 +348,13 @@
         "opening_hour_M9rdi8": {
           "type": "opening_hour",
           "settings": {
-            "hour": "Lorem ipsum dolor sit amet"
+            "hour": "9:00am - 8pm, 7 days a week."
           }
         },
         "opening_hour_A6hT9D": {
           "type": "opening_hour",
           "settings": {
-            "hour": "Lorem ipsum dolor sit amet"
-          }
-        },
-        "opening_hour_TMmcQW": {
-          "type": "opening_hour",
-          "settings": {
-            "hour": "Lorem ipsum dolor sit amet"
+            "hour": "Please note, Balinese public holidays may affect these opening hours."
           }
         },
         "carousel_image_JxBNHV": {
@@ -397,7 +391,6 @@
       "block_order": [
         "opening_hour_M9rdi8",
         "opening_hour_A6hT9D",
-        "opening_hour_TMmcQW",
         "carousel_image_JxBNHV",
         "carousel_image_ieHpNV",
         "carousel_image_FHGPTd",
