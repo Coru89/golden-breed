@@ -48,6 +48,12 @@
             "hour": "Sunday 9:00am - 5:00pm"
           }
         },
+        "opening_hour_qiwbUE": {
+          "type": "opening_hour",
+          "settings": {
+            "hour": "Extended opening hours throughout Summer months and school holidays."
+          }
+        },
         "carousel_image_VBDPtt": {
           "type": "carousel_image",
           "settings": {
@@ -83,6 +89,7 @@
         "opening_hour_XiDUXB",
         "opening_hour_A3LnJh",
         "opening_hour_74qYmc",
+        "opening_hour_qiwbUE",
         "carousel_image_VBDPtt",
         "carousel_image_Dccwxj",
         "carousel_image_XUJ8jr",
