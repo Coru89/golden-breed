@@ -267,19 +267,7 @@
         "opening_hour_QPgB4d": {
           "type": "opening_hour",
           "settings": {
-            "hour": "9:30am to 5:30pm"
-          }
-        },
-        "opening_hour_bBVmPD": {
-          "type": "opening_hour",
-          "settings": {
-            "hour": "Lorem ipsum dolor sit amet"
-          }
-        },
-        "opening_hour_aJ9DeM": {
-          "type": "opening_hour",
-          "settings": {
-            "hour": "Lorem ipsum dolor sit amet"
+            "hour": "9:30am to 5:30pm, 7 days a week."
           }
         },
         "carousel_image_Ayq9rb": {
@@ -315,8 +303,6 @@
       },
       "block_order": [
         "opening_hour_QPgB4d",
-        "opening_hour_bBVmPD",
-        "opening_hour_aJ9DeM",
         "carousel_image_Ayq9rb",
         "carousel_image_PBixVR",
         "carousel_image_Bk3Rx3",
