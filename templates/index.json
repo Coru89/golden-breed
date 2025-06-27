@@ -368,6 +368,24 @@
         "sub_heading": "Commonly asked questions about Golden Breed's vintage surf clothing brand."
       }
     },
+    "175099518452a859e1": {
+      "type": "apps",
+      "blocks": {
+        "growave_loyalty_wishlist_block_index_instagram_8VtbFL": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.index.instagram/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "1"
+          }
+        }
+      },
+      "block_order": [
+        "growave_loyalty_wishlist_block_index_instagram_8VtbFL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1638938467e517f824": {
       "type": "image-banner",
       "blocks": {
@@ -404,24 +422,6 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": false
-      }
-    },
-    "175099518452a859e1": {
-      "type": "apps",
-      "blocks": {
-        "growave_loyalty_wishlist_block_index_instagram_8VtbFL": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.index.instagram/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-            "option_galleries_id": "1",
-            "option_galleries_layout": "0"
-          }
-        }
-      },
-      "block_order": [
-        "growave_loyalty_wishlist_block_index_instagram_8VtbFL"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
