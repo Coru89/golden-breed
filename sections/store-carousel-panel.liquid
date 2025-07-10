@@ -100,10 +100,10 @@
           {{ section.settings.address_line_1 }}
         </div>
         <div class="store-panel__telephone">
-          {{ section.settings.telephone }}
+          <a href="{{ section.settings.telephone }}">{{ section.settings.telephone }}</a>
         </div>
         <div class="store-panel__email">
-          {{ section.settings.email }}
+          <a href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a>
         </div>
 
         {% assign has_hours = false %}
