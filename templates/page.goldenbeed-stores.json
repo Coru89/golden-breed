@@ -22,7 +22,7 @@
         "title": "Head Office (for General & Social Media enquiries)",
         "address": "34 - 36 Cook Street, Flinders VIC 3929",
         "phone": "1300 882 914",
-        "phone_link": "",
+        "phone_link": "tel:1300 882 914",
         "email": "info@goldenbreed.com.au",
         "banner_alert_message": ""
       }
