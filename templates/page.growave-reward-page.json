@@ -67,7 +67,7 @@
         "column_4zEUkn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1_1406425f-bb77-4bf0-99c0-bebb57e2a98e.jpg",
+            "image": "shopify://shop_images/1.png",
             "title": "Log In",
             "text": "<p>LOG IN TO START EARNING POINTS</p>",
             "link_label": "",
@@ -77,7 +77,7 @@
         "column_qf8dCk": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2_db2db4f7-69fd-4d8e-a01e-cce06cc922b0.jpg",
+            "image": "shopify://shop_images/2.png",
             "title": "Earn Points",
             "text": "<p>SHOP TO EARN.<br/>$1 SPENT = 1 POINT.</p>",
             "link_label": "",
@@ -87,7 +87,7 @@
         "column_bG38KQ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3_298a6af1-286a-41b6-ab40-fe030d257e21.jpg",
+            "image": "shopify://shop_images/3.png",
             "title": "Get Perks",
             "text": "<p>free products + EXCLUSIVE OFFERS.</p>",
             "link_label": "",
