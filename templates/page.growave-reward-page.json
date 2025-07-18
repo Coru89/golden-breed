@@ -10,6 +10,88 @@
 {
   "wrapper": "div.gw-rd-page-wrapper",
   "sections": {
+    "image_banner_gjgU7K": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_eKbewe": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Sign Up",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "Sign In",
+            "button_link_2": "#",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "buttons_eKbewe"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Golden-Rewards-BG.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_gDafMp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4zEUkn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_1406425f-bb77-4bf0-99c0-bebb57e2a98e.jpg",
+            "title": "Log In",
+            "text": "<p>LOG IN TO START EARNING POINTS</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qf8dCk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_db2db4f7-69fd-4d8e-a01e-cce06cc922b0.jpg",
+            "title": "Earn Points",
+            "text": "<p>SHOP TO EARN.<br/>$1 SPENT = 1 POINT.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bG38KQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_298a6af1-286a-41b6-ab40-fe030d257e21.jpg",
+            "title": "Get Perks",
+            "text": "<p>free products + EXCLUSIVE OFFERS.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4zEUkn",
+        "column_qf8dCk",
+        "column_bG38KQ"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "How It Works",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "reward_page_content": {
       "type": "apps",
       "blocks": {
@@ -64,6 +146,8 @@
     }
   },
   "order": [
+    "image_banner_gjgU7K",
+    "multicolumn_gDafMp",
     "reward_page_content"
   ]
 }
