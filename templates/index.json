@@ -18,10 +18,9 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/July_19_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify://collections/free-retro-cap",
+        "image": "shopify://shop_images/July_26_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify://collections/2-for-140-shorts",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -52,7 +51,6 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/July_19_-_Website_Header_Desktop.jpg",
         "image_height": "medium",
@@ -83,6 +81,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
