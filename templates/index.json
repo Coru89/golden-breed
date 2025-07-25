@@ -53,8 +53,8 @@
       ],
       "settings": {
         "image": "shopify://shop_images/July_26_-_Website_Header_Desktop.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": true,
+        "image_height": "small",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
