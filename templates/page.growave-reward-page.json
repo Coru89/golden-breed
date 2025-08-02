@@ -68,8 +68,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/1.png",
-            "title": "Log In",
-            "text": "<p>LOG IN TO START EARNING POINTS</p>",
+            "title": "LOG IN",
+            "text": "<p>Start earning points</p>",
             "link_label": "",
             "link": ""
           }
@@ -78,8 +78,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2.png",
-            "title": "Earn Points",
-            "text": "<p>SHOP TO EARN.<br/>$1 SPENT = 1 POINT.</p>",
+            "title": "EARN POINTS",
+            "text": "<p>Shop to earn<br/>$1 spent = 1 point</p>",
             "link_label": "",
             "link": ""
           }
@@ -88,8 +88,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/3.png",
-            "title": "Get Perks",
-            "text": "<p>free products + EXCLUSIVE OFFERS.</p>",
+            "title": "GET PERKS",
+            "text": "<p>Free products </p><p>Exclusive offers</p>",
             "link_label": "",
             "link": ""
           }
