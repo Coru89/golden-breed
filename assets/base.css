@@ -1358,11 +1358,22 @@ deferred-media {
   display: flex;
 }
 
+
+
 /* Button - social share */
 
 .share-button {
-  display: block;
+  display: inline-block;
   position: relative;
+
+background-color: #F3F7FC !important;
+border-radius: 16px !important;
+  width: fit-content;
+  position: relative;
+  top: -57px;
+  right: -139px;
+  margin-bottom: -2.5rem !important;
+  padding: 7.5px 12px;;
 }
 
 .share-button details {
@@ -1376,7 +1387,7 @@ deferred-media {
   align-items: center;
   color: rgb(var(--color-link));
   margin-left: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 details[open] > .share-button__fallback {
@@ -1716,7 +1727,7 @@ input[type="checkbox"] {
 
 /* component-quantity */
 .quantity {
-  border: 0.1rem solid rgba(var(--color-base-text), 0.08);
+  border: 0.1rem solid #265979;
   position: relative;
   height: 4.5rem;
   width: 100%;
@@ -1750,6 +1761,25 @@ input[type="checkbox"] {
   justify-content: center;
   color: rgb(var(--color-foreground));
   padding: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .quantity__button {
+    display: none;
+  }
+
+  .quantity__input {
+    width: 100%;
+    flex-grow: 0;
+    text-align: left;
+    padding-left: 11px;
+  }
+
+  .quantity {
+    width: 82px;
+  }
+
+  
 }
 
 .quantity__button svg {
@@ -2634,7 +2664,6 @@ details-disclosure > details {
   margin-top: 20px;
   color: #265979;
   font-size: 16px;
-  line-height: 1.25;
 }
 @media screen and (min-width: 750px) {
   .collection-desc {
@@ -2705,7 +2734,7 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
 /* override for transparent swatches produced by the globo app */
 /* product page */
 .globo-swatch-product-detail {
-  order: 4;
+  order: 6;
 }
 .globo-swatch-product-detail
   .swatch--gl
@@ -2809,4 +2838,48 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
   background-color: #265979 !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
+}
+
+
+/* judge.me review widget overides */
+
+.jdgm-star:not(:last-of-type) {
+  display: none !important;
+}
+
+.jdgm-preview-badge {
+    background-color: #f3f7fc !important;
+    border-radius: 16px !important;
+    display: inline-block;
+    margin-bottom: -2.5rem !important;
+    min-width: 70px;
+    padding: 7.5px 12px;
+    position: relative;
+    right: 0;
+    top: 29px;
+    /* top: 54px; */
+    width: fit-content;
+}
+
+.jdgm-preview-badge .jdgm-star.jdgm-star {
+  color: #265979 !important;
+}
+
+.jdgm-prev-badge__text {
+  font-weight: 700 !important;
+  /* font-size: 34px; */
+}
+
+.jdgm-rev-widg__title {
+  font-family: 'Sooky70s', sans-serif;
+  font-size: 34px !important;
+}
+
+
+/* glowwave button position */
+
+[id*="fave_button"] {
+ width: fit-content !important;
+ position: relative;
+ right: -80px;
 }

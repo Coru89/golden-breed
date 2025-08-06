@@ -13,6 +13,8 @@ customElements.define('cart-remove-button', CartRemoveButton);
 class CartItems extends HTMLElement {
   constructor() {
     super();
+    // this.updateFreeShippingProgress = this.updateFreeShippingProgress.bind(this); // Bind `this` to the class instance
+    // this.updateQuantity = this.updateQuantity.bind(this); // Bind `this` to the class instance
 
     // price that factors in discount ninja discounts
     this.total_price = null;

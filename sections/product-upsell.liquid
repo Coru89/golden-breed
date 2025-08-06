@@ -1,0 +1,198 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+{%- liquid
+  assign products_to_display = section.settings.collection.all_products_count
+
+  if section.settings.collection.all_products_count > section.settings.products_to_show
+    assign products_to_display = section.settings.products_to_show
+    assign more_in_collection = true
+  endif
+-%}
+<div class="collection page-width">
+  <div class="title-wrapper-with-link{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
+    <h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
+
+    {%- if section.settings.show_view_all and more_in_collection -%}
+      <a href="{{ section.settings.collection.url }}" class="link underlined-link large-up-hide">{{ 'sections.featured_collection.view_all' | t }}</a>
+    {%- endif -%}
+  </div>
+
+  <div class="swiper upsell-swiper">
+    <div class="swiper-wrapper">
+      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+        <div class="swiper-slide">
+          {% render 'product-card',
+            product_card_product: product,
+            media_size: section.settings.image_ratio,
+            show_secondary_image: section.settings.show_secondary_image,
+            add_image_padding: section.settings.add_image_padding,
+            show_vendor: section.settings.show_vendor,
+            show_image_outline: section.settings.show_image_outline,
+            show_rating: section.settings.show_rating
+          %}
+        </div>
+      {%- else -%}
+        {%- for i in (1..4) -%}
+          <div class="swiper-slide">
+            {% render 'product-card-placeholder' %}
+          </div>
+        {%- endfor -%}
+      {%- endfor -%}
+    </div>
+    <!-- Swiper navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <!-- Swiper pagination (optional) -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  {%- if section.settings.show_view_all and more_in_collection -%}
+    <div class="center">
+      <a href="{{ section.settings.collection.url }}"
+        class="button"
+        aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
+      >
+        {{ 'sections.featured_collection.view_all' | t }}
+      </a>
+    </div>
+  {%- endif -%}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.Swiper) {
+    var upsellSwiper = new Swiper('.upsell-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 16,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: {{ section.settings.products_to_show | default: 4 }},
+        }
+      }
+    });
+  }
+});
+</script>
+
+{% schema %}
+{
+  "name": "Upsells",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "You may also like",
+      "label": "Heading"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Upsell Collection"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 12,
+      "step": 2,
+      "default": 4,
+      "label": "Number of products to show (max on desktop)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "default": true,
+      "label": "Show 'View all' link"
+    },
+    {
+      "type": "checkbox",
+      "id": "swipe_on_mobile",
+      "default": false,
+      "label": "Enable swipe on mobile"
+    },
+    {
+      "type": "header",
+      "content": "Product card options"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "portrait",
+          "label": "Portrait"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        }
+      ],
+      "default": "adapt",
+      "label": "Image ratio"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "Show secondary image"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_image_padding",
+      "default": false,
+      "label": "Add image padding"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_outline",
+      "default": true,
+      "label": "Show image outline"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "Show vendor"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "Show rating"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Upsells"
+    }
+  ]
+}
+{% endschema %}

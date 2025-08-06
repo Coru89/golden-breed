@@ -380,8 +380,11 @@
                 <div la-dn-product-banner></div>
               </div>
 
-              <div style="order: {{ forloop.index }}" {{ block.shopify_attributes }}>
-                
+              <div style="order: {{ forloop.index }}" {{ block.shopify_attributes }}></div>
+            {%- when 'installment' -%}
+              <div style="order: {{ forloop.index }}">
+                {% comment %} price class determined where the installment text renders{% endcomment %}
+                <div class="price"></div>
                 {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}
@@ -445,6 +448,72 @@
                   </details>
                 </div>
               {% endif %}
+            {%- when 'stats' -%}
+              {% comment %} <h1>Stats Section</h1> {% endcomment %}
+
+              {% comment %} note to self:
+               metafield made on product already,
+               shop metafield made for default value
+              {% endcomment %}
+
+              {% assign hide_stats = product.metafields.custom.hide_product_stats %}
+
+
+              {% if hide_stats != true %}
+                <style>
+
+                  .product-stats {
+                    display: grid;
+                    gap: 1.5rem;
+                    grid-template-columns: repeat(2, 1fr);
+                    justify-content: center;
+                    margin-top: 2rem;
+                    padding: 0;
+                  }
+                  .product-stat {
+                    display: flex;
+                    align-items: center;  
+                  }
+                  .stat-icon {
+                    flex-shrink: 0;
+                    margin-right: 6px;
+                  }
+                  .stat-icon svg {
+                    width: 51px;
+                    height: 51px;
+                  }
+                  .stat-value {
+                    font-size: 14px;
+                    color: #265979;
+                    text-transform: uppercase;
+                  }
+                </style>
+
+
+                {% assign stats_metaobjects = product.metafields.custom.product_stats.value %}
+                {% assign default_stats_metaobject = shop.metafields.custom.default_product_stats.value %}
+                <ul style="order: {{ forloop.index }};" class="product-stats">
+                  {% if stats_metaobjects %}
+                    {% for stat in stats_metaobjects %}
+                      <li class="product-stat">
+                        <span class="stat-icon">{{ stat.svg }}</span>
+                        <span class="stat-value">{{ stat.text }}</span>
+                      </li>
+                    {% endfor %}
+
+                    {% else %}
+                      {% for stat in default_stats_metaobject %}
+                        <li class="product-stat">
+                          <span class="stat-icon">{{ stat.svg }}</span>
+                          <span class="stat-value">{{ stat.text }}</span>
+                        </li>
+                    {% endfor %}
+                  {% endif %}
+                </ul>
+              {% endif %}
+
+
+
             {%- when 'freebie_message' -%}
               {% if product.metafields.custom.freebie == true %}
                 <div style="order: {{ forloop.index }}" class="product-message">
@@ -505,13 +574,28 @@
             {%- when 'share' -%}
               <share-button id="Share-{{ section.id }}" style="order: {{ forloop.index }}" class="share-button" {{ block.shopify_attributes }}>
                 <button class="share-button__button hidden">
-                  {% render 'icon-share' %}
-                  {{ block.settings.share_label | escape }}
+                  {% comment %} {% render 'icon-share' %} {% endcomment %}
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 15C7.65685 15 9 13.6569 9 12C9 10.3431 7.65685 9 6 9C4.34315 9 3 10.3431 3 12C3 13.6569 4.34315 15 6 15Z" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5 21.75C18.1569 21.75 19.5 20.4069 19.5 18.75C19.5 17.0931 18.1569 15.75 16.5 15.75C14.8431 15.75 13.5 17.0931 13.5 18.75C13.5 20.4069 14.8431 21.75 16.5 21.75Z" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5 8.25C18.1569 8.25 19.5 6.90685 19.5 5.25C19.5 3.59315 18.1569 2.25 16.5 2.25C14.8431 2.25 13.5 3.59315 13.5 5.25C13.5 6.90685 14.8431 8.25 16.5 8.25Z" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.977 6.87215L8.52344 10.378" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.52344 13.622L13.977 17.1278" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+
+                  {% comment %} {{ block.settings.share_label | escape }} {% endcomment %}
                 </button>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary class="share-button__button">
-                    {% render 'icon-share' %}
-                    {{ block.settings.share_label | escape }}
+                    {% comment %} {% render 'icon-share' %} {% endcomment %}
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6 15C7.65685 15 9 13.6569 9 12C9 10.3431 7.65685 9 6 9C4.34315 9 3 10.3431 3 12C3 13.6569 4.34315 15 6 15Z" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5 21.75C18.1569 21.75 19.5 20.4069 19.5 18.75C19.5 17.0931 18.1569 15.75 16.5 15.75C14.8431 15.75 13.5 17.0931 13.5 18.75C13.5 20.4069 14.8431 21.75 16.5 21.75Z" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5 8.25C18.1569 8.25 19.5 6.90685 19.5 5.25C19.5 3.59315 18.1569 2.25 16.5 2.25C14.8431 2.25 13.5 3.59315 13.5 5.25C13.5 6.90685 14.8431 8.25 16.5 8.25Z" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M13.977 6.87215L8.52344 10.378" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.52344 13.622L13.977 17.1278" stroke="#104363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    {% comment %} {{ block.settings.share_label | escape }} {% endcomment %}
                   </summary>
                   <div id="Product-share-{{ section.id }}" class="share-button__fallback motion-reduce">
                     <div class="field">
@@ -870,6 +954,18 @@
                         {{ form | payment_button }}
                       {%- endif -%}
                     </div>
+
+                    
+                  <ul style="margin-top:20px;" class="list list-payment" role="list">
+                    {%- for type in shop.enabled_payment_types -%}
+                      <li class="list-payment__item">
+                        {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                      </li>
+                    {%- endfor -%}
+                          <li class="list-payment__item"><img style="width:100px;" src="https://static.afterpay.com/integration/product-page/logo-afterpay-colour@2x.png"></li>
+                  </ul>
+
+                                    
                   {%- endform -%}
                 </product-form>
 
@@ -1090,6 +1186,99 @@
     });
   });
 </script>
+    {% assign hide_bullets = product.metafields.custom.hide_product_gallery_bullets %}
+    {% assign bullets_metaobjects = product.metafields.custom.media_gallery_bullets.value %}
+    {% assign default_bullets_metaobject = shop.metafields.custom.default_product_gallery_bullets.value %}
+
+
+    {% if hide_bullets != true %}
+
+      <style>
+        .pwzrswiper-slide--bullets {
+          background-color: #F7F6EF;
+        }
+
+        .media-gallery-bullets {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          max-width: 235px;
+          width: 100%;
+        }
+
+        .media-gallery-bullets ul {
+          list-style: none;
+          gap: 12px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .media-gallery-bullets li {
+          text-transform: uppercase;
+          font-size: 16px;
+        }
+      </style>
+
+      {% capture product_bullets %}
+        <div class="media-gallery-bullets">
+          <ul class="media-gallery-list default">
+            {% if bullets_metaobjects %}
+              {% for bullet in bullets_metaobjects %}
+                <li class="item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" fill="none"><g clip-path="url(#a)"><path fill="#265979" d="M.731 11.888c1.38 1.025 1.903 1.168 3.052 2.705 1.882 2.521 1.61 3.567 2.174 4.038.565.471 3.115.86 4.87-1.332 1.757-2.193 4.474-8.24 7.965-11.867 3.49-3.628 5.12-4.674 6.166-5.227 1.045-.553-2.278-.43-8.8 4.653-4.557 3.545-7.755 8.444-7.755 8.444s-.899-2.664-2.927-4.448C3.45 7.071-1.547 10.207.731 11.888Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.145 0h25v19h-25z"/></clipPath></defs></svg>
+                {{ bullet.bullet }}
+              </li>
+              {% endfor %}
+
+              {% else %}
+                {% for bullet in default_bullets_metaobject %}
+                  <li class="item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" fill="none"><g clip-path="url(#a)"><path fill="#265979" d="M.731 11.888c1.38 1.025 1.903 1.168 3.052 2.705 1.882 2.521 1.61 3.567 2.174 4.038.565.471 3.115.86 4.87-1.332 1.757-2.193 4.474-8.24 7.965-11.867 3.49-3.628 5.12-4.674 6.166-5.227 1.045-.553-2.278-.43-8.8 4.653-4.557 3.545-7.755 8.444-7.755 8.444s-.899-2.664-2.927-4.448C3.45 7.071-1.547 10.207.731 11.888Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.145 0h25v19h-25z"/></clipPath></defs></svg>
+                    {{ bullet.bullet }}
+                </li>
+              {% endfor %}
+            {% endif %}
+          </ul>
+        </div>
+      {% endcapture %}
+    {% endif %}
+
+    {% if hide_bullets != true %}
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const rioMediaGallery = document.querySelector('.rio-media-gallery .pwzrswiper-wrapper');
+          if (!rioMediaGallery) return;
+
+          // Get all slides
+          const slides = rioMediaGallery.querySelectorAll('.pwzrswiper-slide');
+          if (slides.length < 4) return;
+
+          // Clone the 4th slide (index 3)
+          const slideToClone = slides[3];
+          const duplicate = slideToClone.cloneNode(true);
+
+          // Remove the id from the duplicate
+          duplicate.removeAttribute('id');
+          duplicate.classList.add('pwzrswiper-slide--bullets');
+
+          duplicate.style.cursor = '';
+
+          // Remove the <img> tag from the duplicate
+          const img = duplicate.querySelector('img');
+          if (img) img.remove();
+
+          // Dummy HTML to inject (replace with your Liquid variable if needed)
+          var newHtml = `{{ product_bullets }}`
+
+          // Inject the new HTML
+          duplicate.insertAdjacentHTML('beforeend', newHtml);
+
+          // Insert the duplicate as the 4th slide (after index 2)
+          slides[2].after(duplicate);
+        });
+      </script>
+    {% endif %}
 
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
@@ -1196,6 +1385,11 @@
       "limit": 1
     },
     {
+      "type": "stats",
+      "name": "Product Stats",
+      "settings": []
+    },
+    {
       "type": "variant_picker",
       "name": "t:sections.main-product.blocks.variant_picker.name",
       "limit": 1,
@@ -1231,6 +1425,11 @@
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
         }
       ]
+    },
+    {
+      "type": "installment",
+      "name": "Installment",
+      "limit": 1,
     },
     {
       "type": "description",
