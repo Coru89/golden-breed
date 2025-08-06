@@ -10,37 +10,152 @@
 {
   "wrapper": "div.gw-rd-page-wrapper",
   "sections": {
-    "reward_page_content": {
-      "type": "apps",
+    "image_banner_gjgU7K": {
+      "type": "image-banner",
       "blocks": {
-        "rewards_ways_to_earn_page_widget": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/v2.rewards.waysToEarnPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {}
-        },
-        "rewards_available_rewards_page_widget": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.availableRewardsPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {}
-        },
-        "rewards_ways_to_spend_page_widget": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/v2.rewards.waysToSpendPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {}
-        },
-        "rewards_vip_tiers_page_widget": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.vipTiersPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {}
-        },
-        "rewards_referral_program_page_widget": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.referralProgramPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {}
-        },
-        "rewards_history_page_widget": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.historyPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {}
+        "buttons_eKbewe": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Sign Up",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "Sign In",
+            "button_link_2": "#",
+            "button_style_secondary_2": true
+          }
         }
       },
       "block_order": [
-        "rewards_ways_to_earn_page_widget",
+        "buttons_eKbewe"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Golden-Rewards-Header.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_ehNAnM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gJhNzK": {
+          "type": "heading",
+          "settings": {
+            "heading": "How it Works",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gJhNzK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "multicolumn_gDafMp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4zEUkn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "LOG IN",
+            "text": "<p>Start earning points</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qf8dCk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "EARN POINTS",
+            "text": "<p>Shop to earn<br/>$1 spent = 1 point</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bG38KQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "GET PERKS",
+            "text": "<p>Free products </p><p>Exclusive offers</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4zEUkn",
+        "column_qf8dCk",
+        "column_bG38KQ"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "reward_page_content": {
+      "type": "apps",
+      "blocks": {
+        "rewards_available_rewards_page_widget": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.availableRewardsPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "custom_css": ""
+          }
+        },
+        "rewards_ways_to_earn_page_widget": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/v2.rewards.waysToEarnPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "custom_css": ""
+          }
+        },
+        "rewards_ways_to_spend_page_widget": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/v2.rewards.waysToSpendPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "custom_css": ""
+          }
+        },
+        "rewards_vip_tiers_page_widget": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.vipTiersPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "custom_css": ""
+          }
+        },
+        "rewards_referral_program_page_widget": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.referralProgramPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "custom_css": ""
+          }
+        },
+        "rewards_history_page_widget": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.historyPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "disabled": true,
+          "settings": {
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
         "rewards_available_rewards_page_widget",
+        "rewards_ways_to_earn_page_widget",
         "rewards_ways_to_spend_page_widget",
         "rewards_vip_tiers_page_widget",
         "rewards_referral_program_page_widget",
@@ -52,6 +167,9 @@
     }
   },
   "order": [
+    "image_banner_gjgU7K",
+    "rich_text_ehNAnM",
+    "multicolumn_gDafMp",
     "reward_page_content"
   ]
 }

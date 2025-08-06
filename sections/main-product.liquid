@@ -1159,7 +1159,7 @@
 {% endjavascript %}
 
 {% if product.media.size > 0 %}
-  <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
+  {% comment %}<script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>{% endcomment %}
   <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
 {% endif %}
 
