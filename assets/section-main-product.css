@@ -1748,7 +1748,7 @@ a.product__text {
 
 .btn--out-of-stock {
   width: auto !important;
-  padding: 5px 42px 3px 42px !important;
+  padding: 5px 42px 4px 42px !important;
   height: auto !important;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   border-radius: 0 !important;
