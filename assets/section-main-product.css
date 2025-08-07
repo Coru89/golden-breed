@@ -303,8 +303,8 @@ fieldset.product-form__input .form__label {
 @media screen and (min-width: 900px) {
   .product-form__submit {
     display: inline-block;
-    /* width: calc(60% - 12px); */
-    width: calc(100% - 82px - 12px);
+    width: calc(60% - 12px);
+    /* width: calc(100% - 82px - 12px); */
 
   }
 }
@@ -503,7 +503,7 @@ a.product__text {
     display: inline-block;
     margin-bottom: 0;
     min-width: unset;
-    width: auto;
+    width: 40%;
   }
 }
 
