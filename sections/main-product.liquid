@@ -1236,7 +1236,11 @@
         .media-gallery-bullets li {
           text-transform: uppercase;
           font-size: 16px;
+          display: flex;
         }
+        .media-gallery-bullets li svg {
+          flex-shrink: 0;
+        } 
       </style>
 
       {% capture product_bullets %}
