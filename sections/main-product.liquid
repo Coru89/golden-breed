@@ -1254,20 +1254,20 @@
               </li>
               {% endfor %}
 
-              {% else %}
+              {% comment %} {% else %}
                 {% for bullet in default_bullets_metaobject %}
                   <li class="item">
                     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="19" fill="none"><g clip-path="url(#a)"><path fill="#265979" d="M.731 11.888c1.38 1.025 1.903 1.168 3.052 2.705 1.882 2.521 1.61 3.567 2.174 4.038.565.471 3.115.86 4.87-1.332 1.757-2.193 4.474-8.24 7.965-11.867 3.49-3.628 5.12-4.674 6.166-5.227 1.045-.553-2.278-.43-8.8 4.653-4.557 3.545-7.755 8.444-7.755 8.444s-.899-2.664-2.927-4.448C3.45 7.071-1.547 10.207.731 11.888Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M.145 0h25v19h-25z"/></clipPath></defs></svg>
                     {{ bullet.bullet }}
                 </li>
-              {% endfor %}
+              {% endfor %} {% endcomment %}
             {% endif %}
           </ul>
         </div>
       {% endcapture %}
     {% endif %}
 
-    {% if hide_bullets != true %}
+    {% if hide_bullets != true and bullets_metaobjects != blank %}
       <script>
         document.addEventListener('DOMContentLoaded', function () {
           const rioMediaGallery = document.querySelector('.rio-media-gallery .pwzrswiper-wrapper');
