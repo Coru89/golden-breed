@@ -1267,41 +1267,100 @@
       {% endcapture %}
     {% endif %}
 
-    {% if hide_bullets != true and bullets_metaobjects != blank %}
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          const rioMediaGallery = document.querySelector('.rio-media-gallery .pwzrswiper-wrapper');
-          if (!rioMediaGallery) return;
+{% if hide_bullets != true and bullets_metaobjects != blank %}
+  <script>
+    function executeSlideLogic() {
+      const rioMediaGallery = document.querySelector('.rio-media-gallery .pwzrswiper-wrapper');
+      if (!rioMediaGallery) return false;
 
-          // Get all slides
-          const slides = rioMediaGallery.querySelectorAll('.pwzrswiper-slide');
-          if (slides.length < 4) return;
+      // Get all slides
+      const slides = rioMediaGallery.querySelectorAll('.pwzrswiper-slide');
+      if (slides.length === 0) return false;
 
-          // Clone the 4th slide (index 3)
-          const slideToClone = slides[3];
-          const duplicate = slideToClone.cloneNode(true);
+      let slideToClone;
+      let insertPosition;
 
-          // Remove the id from the duplicate
-          duplicate.removeAttribute('id');
-          duplicate.classList.add('pwzrswiper-slide--bullets');
+      if (slides.length >= 4) {
+        // If 4 or more slides, clone the 4th slide (index 3) and insert as 4th
+        slideToClone = slides[3];
+        insertPosition = slides[2]; // Insert after index 2 (3rd slide)
+      } else if(slides.length >= 2) {
+        // If fewer than 4 slides, clone the first slide and insert as last
+        slideToClone = slides[1];
+        insertPosition = slides[0]; // Insert after index 1 (2nd slide)
+      } else {
+        return false; // Not enough slides to clone
+      }
 
-          duplicate.style.cursor = '';
+      const duplicate = slideToClone.cloneNode(true);
 
-          // Remove the <img> tag from the duplicate
-          const img = duplicate.querySelector('img');
-          if (img) img.remove();
+      // Remove the id from the duplicate
+      duplicate.removeAttribute('id');
+      duplicate.classList.add('pwzrswiper-slide--bullets');
 
-          // Dummy HTML to inject (replace with your Liquid variable if needed)
-          var newHtml = `{{ product_bullets }}`
+      duplicate.style.cursor = '';
 
-          // Inject the new HTML
-          duplicate.insertAdjacentHTML('beforeend', newHtml);
+      // Remove the <img> tag from the duplicate
+      const img = duplicate.querySelector('img');
+      if (img) img.remove();
 
-          // Insert the duplicate as the 4th slide (after index 2)
-          slides[2].after(duplicate);
+      // Dummy HTML to inject
+      var newHtml = `{{ product_bullets }}`;
+
+      // Inject the new HTML
+      duplicate.insertAdjacentHTML('beforeend', newHtml);
+
+      // Insert the duplicate in the appropriate position
+      insertPosition.after(duplicate);
+
+      return true; // Success
+    }
+    // Try executing immediately if DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        if (!executeSlideLogic()) {
+          setupObserver();
+        }
+      });
+    } else {
+      if (!executeSlideLogic()) {
+        setupObserver();
+      }
+    }
+
+    function setupObserver() {
+      const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          mutation.addedNodes.forEach(function(node) {
+            if (node.nodeType === 1) { // Element node
+              // Check if the added node contains our target or is our target
+              if (node.querySelector && node.querySelector('.pwzrswiper-container-wrapper')) {
+                if (executeSlideLogic()) {
+                  observer.disconnect(); // Stop observing once successful
+                }
+              } else if (node.classList && node.classList.contains('pwzrswiper-container-wrapper')) {
+                if (executeSlideLogic()) {
+                  observer.disconnect(); // Stop observing once successful
+                }
+              }
+            }
+          });
         });
-      </script>
-    {% endif %}
+      });
+
+      // Start observing
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+
+      // Fallback: stop observing after 10 seconds
+      setTimeout(() => {
+        observer.disconnect();
+      }, 10000);
+    }
+  </script>
+{% endif %}
 
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
