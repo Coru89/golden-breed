@@ -1365,14 +1365,13 @@ deferred-media {
 .share-button {
   display: inline-block;
   position: relative;
-
-background-color: #F3F7FC !important;
-border-radius: 16px !important;
+  background-color: #F3F7FC !important;
+  border-radius: 16px !important;
   width: fit-content;
   position: relative;
   top: -57px;
-  right: -139px;
-  margin-bottom: -2.5rem !important;
+  right: -58px;
+  margin-bottom: -4rem !important;
   padding: 7.5px 12px;;
 }
 
@@ -2843,7 +2842,7 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 
 /* judge.me review widget overides */
 
-.jdgm-star:not(:last-of-type) {
+/* .jdgm-star:not(:last-of-type) {
   display: none !important;
 }
 
@@ -2857,7 +2856,6 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
     position: relative;
     right: 0;
     top: 29px;
-    /* top: 54px; */
     width: fit-content;
 }
 
@@ -2867,13 +2865,12 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 
 .jdgm-prev-badge__text {
   font-weight: 700 !important;
-  /* font-size: 34px; */
 }
 
 .jdgm-rev-widg__title {
   font-family: 'Sooky70s', sans-serif;
   font-size: 34px !important;
-}
+} */
 
 
 /* glowwave button position */
@@ -2881,5 +2878,20 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 [id*="fave_button"] {
  width: fit-content !important;
  position: relative;
- right: -80px;
+ right: 0;
+}
+
+
+/* uncomplicated breadcrumb plugin overrides */
+
+@media screen and (max-width: 749px) {
+  #uncomplicated-breadcrumbs {
+    display: none;
+  }
+
+  #shopify-section-template--18824363180231__1694587350eaa68ccd.spaced-section,
+  #shopify-section-template--18824363180231__main.spaced-section  {
+    margin: 0 !important;
+  }
+
 }
