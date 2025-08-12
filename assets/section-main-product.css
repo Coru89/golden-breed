@@ -372,7 +372,8 @@ a.product__text {
 }
 
 .product__title {
-  font-family: Sooky70s, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  /*font-family: Sooky70s, sans-serif;*/
   word-break: break-word;
   margin-bottom: 1.5rem;
 }
