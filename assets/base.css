@@ -2881,22 +2881,8 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
  right: 0;
 }
 
-
 .breadcrumb span, .breadcrumb a {font-size: 12px!important;}
 
-
-/* main product section */
-  #shopify-section-template--16288741163207__main {
-  margin: 1rem 0 0 0!important;
-}
-#uncomplicated-breadcrumbs {
-  margin-top:0px!important;
-  margin-bottom:0px!important;
-}
-/* main breadcrumb section */
-#shopify-section-template--16288741163207__1694587350eaa68ccd.spaced-section {
-  margin: 1rem 0 0 0!important;
-  }
 /* uncomplicated breadcrumb plugin overrides */
 
 @media screen and (max-width: 749px) {
@@ -2911,6 +2897,18 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 .rio-media-gallery {
         padding-top: 0px!important;
 }
-
+/* main product section */
+  #shopify-section-template--16288741163207__main {
+  margin: 1rem 0 0 0!important;
+}
+#uncomplicated-breadcrumbs {
+  margin-top:0px!important;
+  margin-bottom:0px!important;
+}
+/* main breadcrumb section */
+#shopify-section-template--16288741163207__1694587350eaa68ccd.spaced-section {
+  margin: 1rem 0 0 0!important;
+  }
+}
 
 .product-stat {display:none!important;}
