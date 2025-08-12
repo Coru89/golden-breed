@@ -2885,14 +2885,14 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 /* uncomplicated breadcrumb plugin overrides */
 
 @media screen and (max-width: 749px) {
-  #uncomplicated-breadcrumbs {
+ /*  #uncomplicated-breadcrumbs {
     display: none;
   }
 
   #shopify-section-template--18824363180231__1694587350eaa68ccd.spaced-section,
   #shopify-section-template--18824363180231__main.spaced-section  {
     margin: 0 !important;
-  }
+  }*/
 
 }
 
