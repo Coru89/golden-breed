@@ -2884,9 +2884,14 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 
 .breadcrumb span, .breadcrumb a {font-size: 12px!important;}
 
+/* main breadcrumb section */
 #shopify-section-template--16288741163207__1694587350eaa68ccd.spaced-section {
-    margin: 1rem 0 0 0!important;
+  margin: 1rem 0 0 0!important;
   }
+/* main product section */
+  #shopify-section-template--16288741163207__main {
+  margin: 1rem 0 0 0!important;
+}
 #uncomplicated-breadcrumbs {
   margin-top:20px!important;
   margin-bottom:0px!important;
