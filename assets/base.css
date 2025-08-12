@@ -2885,8 +2885,8 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 .breadcrumb span, .breadcrumb a {font-size: 12px!important;}
 
 #shopify-section-template--16288741163207__1694587350eaa68ccd.spaced-section {
-    margin: 1rem 0 0 0;}
-    
+    margin: 1rem 0 0 0!important;}
+
 /* uncomplicated breadcrumb plugin overrides */
 
 @media screen and (max-width: 749px) {
