@@ -2882,6 +2882,7 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 }
 
 .breadcrumb span, .breadcrumb a {font-size: 12px!important;}
+.category-breadcrumbs .breadcrumb__sep.breadcrumb__sep_plus3 {margin:0px!important;}
 
 /* uncomplicated breadcrumb plugin overrides */
 
