@@ -33,7 +33,7 @@
             "show_finalbread_as_textonly": false,
             "insert_jsonld": true,
             "insert_shortlinkfix": false,
-            "prod_multicat_sel": "first",
+            "prod_multicat_sel": "leastprod",
             "link_catall": "/collections/all",
             "text_catall": "All Products",
             "show_product_title": true,
