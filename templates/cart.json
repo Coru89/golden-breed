@@ -29,6 +29,7 @@
         },
         "buttons_RMTt36": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop the Spooky Sale - 31% Off",
             "button_link_1": "shopify://collections/spooky-sale-31-off",
@@ -44,9 +45,8 @@
         "text_hRw9aV",
         "buttons_RMTt36"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Web_Banner.jpg",
+        "image": "shopify://shop_images/August_14_-_Website_Banner.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -76,6 +76,28 @@
         "full_width": true
       }
     },
+    "main_cart_y7MfJP": {
+      "type": "main-cart",
+      "blocks": {
+        "subtotal_DNyhzD": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons_PJXzUp": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subtotal_DNyhzD",
+        "buttons_PJXzUp"
+      ],
+      "name": "Main Cart",
+      "settings": {
+        "show_cart_note": false,
+        "show_vendor": false
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "disabled": true,
@@ -97,28 +119,6 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
-      }
-    },
-    "main_cart_y7MfJP": {
-      "type": "main-cart",
-      "blocks": {
-        "subtotal_DNyhzD": {
-          "type": "subtotal",
-          "settings": {}
-        },
-        "buttons_PJXzUp": {
-          "type": "buttons",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "subtotal_DNyhzD",
-        "buttons_PJXzUp"
-      ],
-      "name": "Main Cart",
-      "settings": {
-        "show_cart_note": false,
-        "show_vendor": false
       }
     }
   },
