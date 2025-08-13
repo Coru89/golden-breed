@@ -1417,6 +1417,30 @@
   endif
 -%}
 
+
+<script>
+  // Show size guide button if SmartSize is ready and has chart
+  document.addEventListener('DOMContentLoaded', function () {
+    // Wait for SmartSize to load
+    function waitForSmartSize(callback, maxAttempts = 10) {
+      if (window.smartsize) {
+        callback();
+      } else if (maxAttempts > 0) {
+        setTimeout(() => waitForSmartSize(callback, maxAttempts - 1), 500);
+      } else {
+        console.warn('SmartSize API failed to load');
+      }
+    }
+
+    waitForSmartSize(() => {
+      if (window.smartsize.hasChart()) {
+        // Show your custom button
+        document.querySelector('.btn-size-guide').style.display = 'block';
+      }
+    });
+  });
+</script>
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",

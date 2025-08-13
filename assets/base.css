@@ -2932,6 +2932,7 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 
 /* size guide button */
 .btn-size-guide {
+  display: none;
   border: 0;
   background-color: transparent;
   color: #104363;
