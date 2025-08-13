@@ -60,27 +60,13 @@
           "type": "title",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "growave_loyalty_wishlist_block_product_fave_button_4Q8BYF": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-            "option_button_class": "",
-            "custom_css": ".gw-wl-icon {\n--gw-wl-wishlistIconSettings-heartColor: #104363;\n}\n\n.gw-badge {\n  display: none !important;\n}\n\n.gw-badge + span {\n  display: none !important;\n}\n\n.gw-wl-add-to-wishlist-btn__inner span {\n  display: none;\n}\n\n.gw-btn--block {\n width: auto !important;\n}\n\n.gw-btn.gw-button {\nbackground-color: #F3F7FC !important;\nborder-radius: 16px !important;\n}\n\n.product .gw-wl-add-to-wishlist-product-page-widget.svelte-xc0fd8 .gw-btn.gw-button {\nborder-radius: 16px !important;\n}\n\n.gw-wl-add-to-wishlist-product-page-widget.svelte-xc0fd8 .gw-btn.gw-button.--outlined {\nbox-shadow: none !important;\nborder-radius: 16px !important;\n}",
-            "shadow_root_options": "null"
-          }
-        },
-        "share_PhGFNj": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
+        "price": {
+          "type": "price",
+          "settings": {}
         },
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df": {
           "type": "variant_picker",
@@ -100,6 +86,24 @@
             "show_dynamic_checkout": false
           }
         },
+        "installment_DPzmap": {
+          "type": "installment",
+          "settings": {}
+        },
+        "growave_loyalty_wishlist_block_product_fave_button_4Q8BYF": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_button_class": "",
+            "custom_css": ".gw-wl-icon {\n--gw-wl-wishlistIconSettings-heartColor: #104363;\n}\n\n.gw-badge {\n  display: none !important;\n}\n\n.gw-badge + span {\n  display: none !important;\n}\n\n.gw-wl-add-to-wishlist-btn__inner span {\n  display: none;\n}\n\n.gw-btn--block {\n width: auto !important;\n}\n\n.gw-btn.gw-button {\nbackground-color: #F3F7FC !important;\nborder-radius: 16px !important;\n}\n\n.product .gw-wl-add-to-wishlist-product-page-widget.svelte-xc0fd8 .gw-btn.gw-button {\nborder-radius: 16px !important;\n}\n\n.gw-wl-add-to-wishlist-product-page-widget.svelte-xc0fd8 .gw-btn.gw-button.--outlined {\nbox-shadow: none !important;\nborder-radius: 16px !important;\n}",
+            "shadow_root_options": "null"
+          }
+        },
+        "share_PhGFNj": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "growave_loyalty_wishlist_block_product_earn_points_widget_78wDYG": {
           "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.earnPointsWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
@@ -110,15 +114,23 @@
             "custom_css": ".gw-rd-earn-points-product-page-widget__image-wrapper.svelte-txhnx7 {\ndisplay: block !important;\n}"
           }
         },
-        "stats_eqN9yz": {
-          "type": "stats",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {
             "heading": "Details",
             "icon": "none"
+          }
+        },
+        "composition_tab_NxETbc": {
+          "type": "composition_tab",
+          "settings": {
+            "composition_heading": "Composition"
+          }
+        },
+        "size_fit_tab_aR7UgR": {
+          "type": "size_fit_tab",
+          "settings": {
+            "size_fit_heading": "Size & Fit"
           }
         },
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99": {
@@ -138,22 +150,29 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "stats_eqN9yz": {
+          "type": "stats",
+          "settings": {}
         }
       },
       "block_order": [
         "title",
-        "price",
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755",
-        "growave_loyalty_wishlist_block_product_fave_button_4Q8BYF",
-        "share_PhGFNj",
+        "price",
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df",
         "custom_liquid_qi9c8b",
         "buy_buttons",
+        "installment_DPzmap",
+        "growave_loyalty_wishlist_block_product_fave_button_4Q8BYF",
+        "share_PhGFNj",
         "growave_loyalty_wishlist_block_product_earn_points_widget_78wDYG",
-        "stats_eqN9yz",
         "description",
+        "composition_tab_NxETbc",
+        "size_fit_tab_aR7UgR",
         "9b5aa3b3-5826-4376-8f23-43f084cc5e99",
-        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da"
+        "f5a5e6b9-82b5-4aab-8fd1-ed18379477da",
+        "stats_eqN9yz"
       ],
       "custom_css": [
         ".spaced-section {margin-top: 3rem;}"
