@@ -9,6 +9,47 @@
  */
 {
   "sections": {
+    "rich_text_EXGMcf": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RdcWHX": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Mid Season Sale: All sales are final - no exchanges or refunds.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RdcWHX"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main_cart_y7MfJP": {
+      "type": "main-cart",
+      "blocks": {
+        "subtotal_DNyhzD": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons_PJXzUp": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subtotal_DNyhzD",
+        "buttons_PJXzUp"
+      ],
+      "name": "Main Cart",
+      "settings": {
+        "show_cart_note": false,
+        "show_vendor": false
+      }
+    },
     "image_banner_UWY4gb": {
       "type": "image-banner",
       "blocks": {
@@ -57,47 +98,6 @@
         "show_text_below": true
       }
     },
-    "rich_text_EXGMcf": {
-      "type": "rich-text",
-      "blocks": {
-        "text_RdcWHX": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>Mid Season Sale: All sales are final - no exchanges or refunds.</h5>"
-          }
-        }
-      },
-      "block_order": [
-        "text_RdcWHX"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "main_cart_y7MfJP": {
-      "type": "main-cart",
-      "blocks": {
-        "subtotal_DNyhzD": {
-          "type": "subtotal",
-          "settings": {}
-        },
-        "buttons_PJXzUp": {
-          "type": "buttons",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "subtotal_DNyhzD",
-        "buttons_PJXzUp"
-      ],
-      "name": "Main Cart",
-      "settings": {
-        "show_cart_note": false,
-        "show_vendor": false
-      }
-    },
     "cart-items": {
       "type": "main-cart-items",
       "disabled": true,
@@ -123,9 +123,9 @@
     }
   },
   "order": [
-    "image_banner_UWY4gb",
     "rich_text_EXGMcf",
     "main_cart_y7MfJP",
+    "image_banner_UWY4gb",
     "cart-items",
     "16404371506932ac6d"
   ]
