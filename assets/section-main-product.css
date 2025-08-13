@@ -337,7 +337,7 @@ fieldset.product-form__input .form__label {
 }
 
 .shopify-payment-button__button {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: 0.1rem;
 }
 
@@ -351,7 +351,6 @@ fieldset.product-form__input .form__label {
   max-width: 100%;
 }
 
-.product__info-container .product-form,
 .product__info-container .product__description,
 .product__info-container .icon-with-text {
   margin: 2rem 0 0;
@@ -1737,6 +1736,7 @@ a.product__text {
   text-transform: uppercase;
   display: flex;
   color: #335b74;
+  margin: 16px 0;
 }
 
 .product-message p {

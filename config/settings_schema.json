@@ -358,5 +358,26 @@
         "info": "Enter minimum order amount(s) to qualify for free shipping (one per line). Format instructions and examples below."
       }
     ]
+  },
+  {
+    "name": "Return Message",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Return Message"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_return_message",
+        "label": "Show return message",
+        "default": false
+      },
+      {
+        "type": "richtext",
+        "id": "return_message",
+        "label": "Return Message",
+        "default": "<p><strong>Returns</strong> within 45 days</p>"
+      }
+    ]
   }
 ]
