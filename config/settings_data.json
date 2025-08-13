@@ -137,13 +137,6 @@
         "disabled": false,
         "settings": {}
       },
-      "4293466245358296089": {
-        "type": "shopify://apps/smartsize/blocks/app-embed/465a43e0-6a1a-4d30-b82e-fe6118568705",
-        "disabled": false,
-        "settings": {
-          "button_horizontal_aligment": "left"
-        }
-      },
       "17550530943902319648": {
         "type": "shopify://apps/appikon-back-in-stock/blocks/subscribe_it_helper/eb949c69-b3e6-4216-a322-1cd63915d46d",
         "disabled": false,
@@ -204,6 +197,18 @@
         "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
         "settings": {}
+      },
+      "4293466245358296089": {
+        "type": "shopify://apps/smartsize/blocks/app-embed/465a43e0-6a1a-4d30-b82e-fe6118568705",
+        "disabled": false,
+        "settings": {
+          "button_horizontal_aligment": "left",
+          "button_horizontal_aligment_mobile": "left",
+          "smartsize_button_label": "--",
+          "smartsize_conversion_label_CM": "CM",
+          "smartsize_conversion_label_IN": "INCHES",
+          "hide_default_button": true
+        }
       }
     }
   },
