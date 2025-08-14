@@ -2945,6 +2945,10 @@ button[type='button'].limoniapps-discountninja-cartdiscountfield-apply {
 
 /*media gallery overides - to fix the image spacing */
 
+.pwzrswiper-slide--bullets {
+  display:none;
+}
+
 /* Even children (2nd, 4th, 6th, etc.) */
 .pwzrswiper-wrapper > div:nth-child(2n) {
   margin: 0 !important;

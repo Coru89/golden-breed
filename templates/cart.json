@@ -11,42 +11,8 @@
   "sections": {
     "image_banner_UWY4gb": {
       "type": "image-banner",
-      "blocks": {
-        "heading_RQQEXa": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "text_hRw9aV": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "buttons_RMTt36": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop the Spooky Sale - 31% Off",
-            "button_link_1": "shopify://collections/spooky-sale-31-off",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_RQQEXa",
-        "text_hRw9aV",
-        "buttons_RMTt36"
-      ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Web_Banner.jpg",
+        "image": "shopify://shop_images/August_14_-_Cart_Banner_c3bc10b4-4cf5-4363-8827-1e5b43104d98.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -76,6 +42,28 @@
         "full_width": true
       }
     },
+    "main_cart_y7MfJP": {
+      "type": "main-cart",
+      "blocks": {
+        "subtotal_DNyhzD": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons_PJXzUp": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subtotal_DNyhzD",
+        "buttons_PJXzUp"
+      ],
+      "name": "Main Cart",
+      "settings": {
+        "show_cart_note": false,
+        "show_vendor": false
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "disabled": true,
@@ -97,28 +85,6 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
-      }
-    },
-    "main_cart_y7MfJP": {
-      "type": "main-cart",
-      "blocks": {
-        "subtotal_DNyhzD": {
-          "type": "subtotal",
-          "settings": {}
-        },
-        "buttons_PJXzUp": {
-          "type": "buttons",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "subtotal_DNyhzD",
-        "buttons_PJXzUp"
-      ],
-      "name": "Main Cart",
-      "settings": {
-        "show_cart_note": false,
-        "show_vendor": false
       }
     }
   },

@@ -70,7 +70,6 @@
         },
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
