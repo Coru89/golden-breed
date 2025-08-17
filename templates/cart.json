@@ -11,6 +11,7 @@
   "sections": {
     "image_banner_UWY4gb": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/August_14_-_Cart_Banner_c3bc10b4-4cf5-4363-8827-1e5b43104d98.jpg",
         "image_height": "small",
