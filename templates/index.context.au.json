@@ -12,5 +12,13 @@
   "context": {
     "market": "au"
   },
-  "sections": {}
+  "sections": {
+    "16389277978b203bd3": {
+      "settings": {
+        "link-1": "https://goldenbreed.com.au/collections/mens",
+        "link-2": "https://goldenbreed.com.au/collections/women"
+      },
+      "blocks": {}
+    }
+  }
 }
