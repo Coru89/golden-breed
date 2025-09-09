@@ -133,9 +133,10 @@
             "custom_css": ""
           }
         },
-        "rewards_vip_tiers_page_widget": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.vipTiersPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+        "growave_loyalty_wishlist_block_index_custom_liquid_Xw7Knb": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.index.customLiquid/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
+            "custom_liquid": "<div class=\"gw-rd-vip-tiers-card-widget-placeholder\" data-gw-widget-shadow-root-enabled=\"true\" style=\"display: block\"></div>",
             "custom_css": ""
           }
         },
@@ -157,7 +158,7 @@
         "rewards_available_rewards_page_widget",
         "rewards_ways_to_earn_page_widget",
         "rewards_ways_to_spend_page_widget",
-        "rewards_vip_tiers_page_widget",
+        "growave_loyalty_wishlist_block_index_custom_liquid_Xw7Knb",
         "rewards_referral_program_page_widget",
         "rewards_history_page_widget"
       ],
