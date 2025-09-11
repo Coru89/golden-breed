@@ -93,6 +93,7 @@
       "block_order": [
         "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
