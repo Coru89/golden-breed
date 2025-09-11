@@ -41,6 +41,42 @@
         "show_text_below": true
       }
     },
+    "rich_text_ihBtHB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FiWBiL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Crew. Stack the perks.",
+            "heading_size": "h1"
+          }
+        },
+        "text_QgiDR3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Earn points for shopping the classics, sharing the vibe, and repping Golden Breed. The more you shop with us, the bigger the perks — from discounts to cult gear and exclusive VIP gifts.</p>"
+          }
+        },
+        "button_MPVJNV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join Now — It’s Free",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FiWBiL",
+        "text_QgiDR3",
+        "button_MPVJNV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "rich_text_ehNAnM": {
       "type": "rich-text",
       "blocks": {
@@ -50,14 +86,21 @@
             "heading": "How it Works",
             "heading_size": "h1"
           }
+        },
+        "text_Y9RFRx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s easy - just shop, share, or show us some love and you’ll be stacking points before you know it.</p>"
+          }
         }
       },
       "block_order": [
-        "heading_gJhNzK"
+        "heading_gJhNzK",
+        "text_Y9RFRx"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true
       }
     },
@@ -67,9 +110,9 @@
         "column_4zEUkn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1.png",
-            "title": "LOG IN",
-            "text": "<p>Start earning points</p>",
+            "image": "shopify://shop_images/1.svg",
+            "title": "Sign Up",
+            "text": "<p>JOIN THE CREW AND START EARNING POINTS</p>",
             "link_label": "",
             "link": ""
           }
@@ -77,9 +120,9 @@
         "column_qf8dCk": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2.png",
-            "title": "EARN POINTS",
-            "text": "<p>Shop to earn<br/>$1 spent = 1 point</p>",
+            "image": "shopify://shop_images/2.svg",
+            "title": "Earn Points",
+            "text": "<p>SHOP TO EARN.<br/>$1 SPENT = 1 POINT.</p>",
             "link_label": "",
             "link": ""
           }
@@ -87,9 +130,9 @@
         "column_bG38KQ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3.png",
-            "title": "GET PERKS",
-            "text": "<p>Free products </p><p>Exclusive offers</p>",
+            "image": "shopify://shop_images/3.svg",
+            "title": "Get Perks",
+            "text": "<p>FREE PRODUCTS + EXCLUSIVE OFFERS.</p>",
             "link_label": "",
             "link": ""
           }
@@ -106,7 +149,7 @@
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
@@ -170,6 +213,7 @@
   },
   "order": [
     "image_banner_gjgU7K",
+    "rich_text_ihBtHB",
     "rich_text_ehNAnM",
     "multicolumn_gDafMp",
     "reward_page_content"
