@@ -17,10 +17,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Sign Up",
-            "button_link_1": "shopify://collections",
+            "button_link_1": "https://goldenbreed.com.au/account/register",
             "button_style_secondary_1": false,
             "button_label_2": "Sign In",
-            "button_link_2": "#",
+            "button_link_2": "https://goldenbreed.com.au/account/login",
             "button_style_secondary_2": true
           }
         }
@@ -30,9 +30,9 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Golden-Rewards-Header.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
+        "image": "shopify://shop_images/GoldenRewards.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
