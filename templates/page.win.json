@@ -15,7 +15,7 @@
         "heading_nJqBam": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Win $1000 in Prizes!",
             "heading_size": "medium"
           }
         },
@@ -45,7 +45,8 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image_height": "medium",
+        "image": "shopify://shop_images/September_20_-_Story.jpg",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
@@ -62,36 +63,16 @@
     "0471e7a0-b09a-4d40-917a-407deba17fa9": {
       "type": "rich-text",
       "blocks": {
-        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
         "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Head Office (for General & Social Media enquiries)</strong></p><p>34 - 36 Cook Street, Flinders VIC 3929</p><p>Ph - <a href=\"tel:1300 882 914\" title=\"tel:1300 882 914\">1300 882 914</a></p><p>Email - <a href=\"mailto:info@goldenbreed.com.au\" title=\"mailto:info@goldenbreed.com.au\">info@goldenbreed.com.au</a></p><p></p><p></p><p><em><strong>or fill out the form below and we will be in touch</strong></em></p>"
-          }
-        },
-        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "text": "<h6><strong>Terms & Conditions:</strong>Entries close 11:59pm AEST, 12 October 2025. Open to Australian residents aged 18 years and over. To enter, complete the form on this page; bonus entries are available by tagging friends on the official Golden Breed x Archies competition post on Instagram. One winner will be selected at random to receive one $750 Golden Breed gift voucher and four pairs of Archies footwear of their choice (subject to availability). The prize is not transferable or redeemable for cash. The winner will be notified via email or Instagram within 48 hours of the competition ending. By entering, you agree to join the Golden Breed mailing list (you can unsubscribe at any time). This competition is not sponsored, endorsed or administered by, or associated with Instagram. Full terms and conditions are available at goldenbreed.com.au.</h6>"
           }
         }
       },
       "block_order": [
-        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-0",
-        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1",
-        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-2"
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
