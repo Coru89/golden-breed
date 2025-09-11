@@ -61,7 +61,7 @@
           "type": "button",
           "settings": {
             "button_label": "Join Now — It’s Free",
-            "button_link": "",
+            "button_link": "https://goldenbreed.com.au/account/register",
             "button_style_secondary": false
           }
         }
@@ -209,6 +209,64 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "image_banner_9X3Fcx": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Divider-Footer.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_LwDqxt": {
+      "type": "rich-text",
+      "blocks": {
+        "image_y9Axk6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JoinTheCrew.png"
+          }
+        },
+        "heading_xRGQDC": {
+          "type": "heading",
+          "settings": {
+            "heading": "What are you waiting for?",
+            "heading_size": "h1"
+          }
+        },
+        "text_DyDVKA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up free today and start stacking points on every shop. Rewards, gear, and perks are all yours - no strings attached.</p>"
+          }
+        },
+        "button_dVqHF7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join Now- Free to Sign Up",
+            "button_link": "https://goldenbreed.com.au/account/register",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_y9Axk6",
+        "heading_xRGQDC",
+        "text_DyDVKA",
+        "button_dVqHF7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -216,6 +274,8 @@
     "rich_text_ihBtHB",
     "rich_text_ehNAnM",
     "multicolumn_gDafMp",
-    "reward_page_content"
+    "reward_page_content",
+    "image_banner_9X3Fcx",
+    "rich_text_LwDqxt"
   ]
 }
