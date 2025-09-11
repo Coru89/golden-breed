@@ -12,19 +12,6 @@
     "image_banner_iPLe4n": {
       "type": "image-banner",
       "blocks": {
-        "heading_nJqBam": {
-          "type": "heading",
-          "settings": {
-            "heading": "Win $1000 in Prizes!",
-            "heading_size": "medium"
-          }
-        },
-        "text_dre7tn": {
-          "type": "text",
-          "settings": {
-            "text": "We’ve teamed up with Archies to bring you our biggest prize pack ever!  One lucky winner will score a $750 Golden Breed gift voucher plus four pairs of Archies(slides or thongs, your pick). That’s $1000 worth of gear to get you kitted out ready for summer."
-          }
-        },
         "buttons_KtkqFC": {
           "type": "buttons",
           "disabled": true,
@@ -39,15 +26,13 @@
         }
       },
       "block_order": [
-        "heading_nJqBam",
-        "text_dre7tn",
         "buttons_KtkqFC"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/September_20_-_Story.jpg",
-        "image_height": "small",
-        "adapt_height_first_image": false,
+        "image": "shopify://shop_images/September_20_-_Website_Desktop_Header.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
