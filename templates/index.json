@@ -20,8 +20,8 @@
       "type": "mobile-hp-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/September_4_-_Website_Header_Mobile.jpg",
-        "banner_url": "shopify://collections/end-of-winter-sale-up-to-50-off",
+        "image": "shopify://shop_images/September_13_-_Website_Header_Mobile.jpg",
+        "banner_url": "shopify://collections/mens-restocked",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
