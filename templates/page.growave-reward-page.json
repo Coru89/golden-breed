@@ -226,7 +226,7 @@
     "image_banner_9X3Fcx": {
       "type": "image-banner",
       "custom_css": [
-        ".banner__media {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0px !important; padding-bottom: 0px !important;}"
+        ".spaced-section.spaced-section--full-width {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0px !important; padding-bottom: 0px !important;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
