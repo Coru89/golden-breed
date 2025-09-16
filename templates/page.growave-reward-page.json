@@ -262,6 +262,9 @@
         "text_DyDVKA",
         "button_dVqHF7"
       ],
+      "custom_css": [
+        ".rich-text.color-background-1.gradient.rich-text--full-width {background-color: #EBB967 !important;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "background-1",
