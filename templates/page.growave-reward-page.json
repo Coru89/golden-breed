@@ -264,7 +264,7 @@
       ],
       "custom_css": [
         ".rich-text.color-background-1.gradient.rich-text--full-width {background-color: #ebb967 !important;}",
-        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 100px !important; padding-bottom: 100px !important;}"
+        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 150px !important; padding-bottom: 100px !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
