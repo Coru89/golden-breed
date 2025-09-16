@@ -30,7 +30,8 @@
       ],
       "custom_css": [
         ".button--primary {background-color: #265979 !important; border-color: #265979 !important; color: #ffffff !important;}",
-        ".button--secondary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}"
+        ".button--secondary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}",
+        ".banner__box {padding:12rem; }"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
