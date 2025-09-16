@@ -149,6 +149,10 @@
         "column_qf8dCk",
         "column_bG38KQ"
       ],
+      "custom_css": [
+        ".multicolumn {background-color: #FCF6EA !important;}",
+        ".multicolumn {margin-top: 0 !important; margin-bottom: 0 !important; padding-bottom: 100px !important;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
