@@ -105,7 +105,7 @@
         "text_Y9RFRx"
       ],
       "custom_css": [
-        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-bottom: 10px !important;}"
+        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-bottom: 20px !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
