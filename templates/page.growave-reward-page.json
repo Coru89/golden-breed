@@ -200,7 +200,7 @@
           "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.referralProgramPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
             "image": "shopify://shop_images/738fac108d93e82a00227ee24c4791ddd57533ae.jpg",
-            "custom_css": ".gw-full-width {\n  background-color: #E5EBED !important;\n  padding: 20px;\n}"
+            "custom_css": ".gw-rd-referral-program-page-widget {\n  background-color: #E5EBED !important;\n}"
           }
         },
         "rewards_history_page_widget": {
@@ -280,7 +280,9 @@
       ],
       "custom_css": [
         ".rich-text.color-background-1.gradient.rich-text--full-width {background-color: #ebb967 !important;}",
-        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 150px !important; padding-bottom: 100px !important;}"
+        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 150px !important; padding-bottom: 100px !important;}",
+        ".rich-text h2,.rich-text p {color: #ffffff !important;}",
+        ".button.button--primary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
