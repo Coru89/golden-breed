@@ -28,6 +28,9 @@
       "block_order": [
         "buttons_eKbewe"
       ],
+      "custom_css": [
+        ".button--primary {background-color: #ebb967 !important; border-color: #ebb967 !important; color: #000 !important;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/GoldenRewards.jpg",
@@ -70,6 +73,9 @@
         "heading_FiWBiL",
         "text_QgiDR3",
         "button_MPVJNV"
+      ],
+      "custom_css": [
+        ".button--primary {background-color: #ebb967 !important; border-color: #ebb967 !important; color: #fff !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
