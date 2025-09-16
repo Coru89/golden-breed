@@ -200,7 +200,7 @@
           "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.rewards.referralProgramPageWidget/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
           "settings": {
             "image": "shopify://shop_images/738fac108d93e82a00227ee24c4791ddd57533ae.jpg",
-            "custom_css": ""
+            "custom_css": "gw-rd-referral-program-page-widget {\n  margin-top: 0 !important;\n  margin-bottom: 0 !important;\n  padding-bottom: 0px !important;\n}"
           }
         },
         "rewards_history_page_widget": {
@@ -225,7 +225,9 @@
     },
     "image_banner_9X3Fcx": {
       "type": "image-banner",
-      "custom_css": [],
+      "custom_css": [
+        ".banner__media {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0px !important; padding-bottom: 0px !important;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Divider-Footer.jpg",
