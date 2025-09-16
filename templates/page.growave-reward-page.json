@@ -29,7 +29,8 @@
         "buttons_eKbewe"
       ],
       "custom_css": [
-        ".button--primary {background-color: #ebb967 !important; border-color: #ebb967 !important; color: #000 !important;}"
+        ".button--primary {background-color: #265979 !important; border-color: #265979 !important; color: #ffffff !important;}",
+        ".button--secondary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -282,8 +283,7 @@
         ".rich-text.color-background-1.gradient.rich-text--full-width {background-color: #ebb967 !important;}",
         ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 150px !important; padding-bottom: 100px !important;}",
         ".rich-text h2,.rich-text p {color: #ffffff !important;}",
-        ".button.button--primary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}",
-        ".button.button--primary:hover {border-color: #ffffff !important;}"
+        ".button.button--primary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
