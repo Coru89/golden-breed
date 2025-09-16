@@ -121,7 +121,7 @@
           "settings": {
             "image": "shopify://shop_images/1.svg",
             "title": "Sign Up",
-            "text": "<p>JOIN THE CREW AND START EARNING POINTS</p>",
+            "text": "<p>JOIN THE CREW AND <br/>START EARNING POINTS</p>",
             "link_label": "",
             "link": ""
           }
@@ -141,7 +141,7 @@
           "settings": {
             "image": "shopify://shop_images/3.svg",
             "title": "Get Perks",
-            "text": "<p>FREE PRODUCTS + EXCLUSIVE OFFERS.</p>",
+            "text": "<p>FREE PRODUCTS + <br/>EXCLUSIVE OFFERS.</p>",
             "link_label": "",
             "link": ""
           }
