@@ -78,7 +78,7 @@
       ],
       "custom_css": [
         ".button--primary {background-color: #ebb967 !important; border-color: #ebb967 !important; color: #fff !important;}",
-        ".button.button--primary:hover,.button.button--primary:focus,.button.button--primary:focus-visible {box-shadow: 0 0 0 2px #EBB967 !important; outline: none !important; background-color: #ebb967 !important; border: 1px solid #ebb967 !important; color: #ffffff !important;}"
+        ".button.button--primary:hover {box-shadow: 0 0 0 2px #ebb967 !important; outline: none !important; background-color: #ebb967 !important; border: 1px solid #ebb967 !important; color: #ffffff !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
