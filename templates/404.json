@@ -68,13 +68,13 @@
         "featured_collection_APhVGH": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bestsellers"
+            "collection": "el-solito-el-shortos"
           }
         },
         "featured_collection_Xbpfwk": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "cult-classic-retro-ringer"
           }
         }
       },
