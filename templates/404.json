@@ -14,8 +14,9 @@
       "blocks": {
         "image_9AGLdt": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Sad_Emoji_2.gif"
+            "image": "shopify://shop_images/EB2_3935_resized.jpg"
           }
         },
         "heading_3GmBQW": {
@@ -68,13 +69,13 @@
         "featured_collection_APhVGH": {
           "type": "featured_collection",
           "settings": {
-            "collection": "el-solito-el-shortos"
+            "collection": "mens-restocked"
           }
         },
         "featured_collection_Xbpfwk": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cult-classic-retro-ringer"
+            "collection": "mens"
           }
         }
       },
@@ -87,7 +88,7 @@
         "* {text-align: center !important;}"
       ],
       "settings": {
-        "title": "Check out some of our popular collections",
+        "title": "",
         "image_ratio": "square",
         "color_scheme": "background-1",
         "swipe_on_mobile": false,
