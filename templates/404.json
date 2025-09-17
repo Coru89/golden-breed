@@ -21,20 +21,20 @@
         "heading_3GmBQW": {
           "type": "heading",
           "settings": {
-            "heading": "404<br>Oops! You've Drifted Off Course",
+            "heading": "You’ve missed the wave.",
             "heading_size": "h1"
           }
         },
         "text_xyP6aD": {
           "type": "text",
           "settings": {
-            "text": "<p>It seems this page has caught a riptide! Try heading back to our homepage or browse our latest collections.</p>"
+            "text": "<p>This page might be lost, but our cult classics and fresh arrivals are always easy to find.</p>"
           }
         },
         "button_jkmxCx": {
           "type": "button",
           "settings": {
-            "button_label": "Check out our new arrivals",
+            "button_label": "Shop New Arrivals",
             "button_link": "https://goldenbreed.com.au/collections/all-new-arrivals",
             "button_style_secondary": false
           }
