@@ -38,7 +38,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/mens-restocked",
+            "button_link_1": "shopify://collections/men-new-arrivals",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
@@ -53,7 +53,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/September_13_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/September_18_-_Website_Desktop_Header.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
