@@ -37,8 +37,8 @@
         "buttons_Lf63bB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/men-new-arrivals",
+            "button_label_1": "ENTER NOW",
+            "button_link_1": "shopify://pages/win",
             "button_style_secondary_1": false,
             "button_custom_link_attributes_1": "rel=\"me\" target=\"_parent\"",
             "button_label_2": "",
@@ -53,7 +53,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/September_18_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/September_20_-_Website_Banner_89d2e182-0cc3-4e00-8242-c693168a361d.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
