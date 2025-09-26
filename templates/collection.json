@@ -9,22 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_aBBXwz": {
-      "type": "image-banner",
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/September_4_-_Cart_Banner_1.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339": {
       "type": "hero",
       "settings": {
@@ -58,6 +42,37 @@
         "enable_filtering": true,
         "enable_sorting": true,
         "collapse_on_larger_devices": false
+      }
+    },
+    "image_banner_aBBXwz": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_k8Thpg": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ENTER TO WIN",
+            "button_link_1": "shopify://pages/win",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_k8Thpg"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/September_20_-_Website_Banner_89d2e182-0cc3-4e00-8242-c693168a361d.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "collection_video_youtube_4BQHXB": {
@@ -168,10 +183,10 @@
     }
   },
   "order": [
-    "image_banner_aBBXwz",
     "6cff1819-7f2d-48f0-a6bc-e0d16b5bd339",
     "banner",
     "product-grid",
+    "image_banner_aBBXwz",
     "collection_video_youtube_4BQHXB",
     "1a64566a-3c48-4946-812a-6f7fb5550574",
     "c6cc63e0-facc-44b2-bf99-f32e3449fcc5",
