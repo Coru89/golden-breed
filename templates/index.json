@@ -355,13 +355,6 @@
             "accordion_content": "We provide a detailed size guide on each product page. If you’re unsure, feel free to contact our support team, and we’d be happy to help you find the perfect fit."
           }
         },
-        "accordion_item_9LkWfm": {
-          "type": "accordion_item",
-          "settings": {
-            "accordion_label": "Which era is Golden Breed's vintage surf wear dedicated to?",
-            "accordion_content": "Great question. We combine the best of what's trending today with inspired surf vibes from the 70's, 80's and 90's for our vintage surf style clothing."
-          }
-        },
         "accordion_item_tbgQUq": {
           "type": "accordion_item",
           "settings": {
@@ -384,7 +377,6 @@
         "accordion_item_9d9EPt",
         "accordion_item_LqkKre",
         "accordion_item_gDjYBx",
-        "accordion_item_9LkWfm",
         "accordion_item_tbgQUq",
         "accordion_item_RVaJmp"
       ],
