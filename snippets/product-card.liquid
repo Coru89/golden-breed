@@ -17,7 +17,20 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {% comment %}Added/Modified by Limoni Apps on 21/03/25 to support Discount Ninja{% endcomment %}
 
+              {% assign has_video = false %}
+
+              {% for media in product_card_product.media %}
+                {% if media.media_type == 'video' %}
+                  {% assign has_video = true %}
+                  {% assign video_src = media.sources[1].url %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+
 <div 
+{% if has_video == true and video_src != blank %}
+  data-la-dn-product-video="{{ video_src }}"
+{% endif %}
 data-la-dn-product-handle="{{ product_card_product.handle }}" 
 data-la-dn-product-id="{{ product_card_product.id }}" 
 data-la-dn-product-collection-handles="{{ product_card_product.collections | map: 'handle' | join: ',' | default: '[[--NONE--]]' }}" 
@@ -239,7 +252,21 @@ class="card-wrapper">
               height="{{ product_card_product.featured_media.height }}"
             >
 
-            {%- if product_card_product.media[1] != null and show_secondary_image -%}
+            {% if has_video == true %}
+              <video
+                class="motion-reduce"
+                data-src="{{ video_src }}"
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="metadata"
+                width="{{ media.width }}"
+                height="{{ media.height }}"
+              ></video>
+            {% endif %}
+      
+            {%- if product_card_product.media[1] != null and show_secondary_image and has_video == false -%}
               <img
                 srcset="
                   {%- if product_card_product.media[1].width >= 165 -%}{{ product_card_product.media[1] | img_url: '165x' }} 165w,{%- endif -%}
@@ -298,9 +325,13 @@ class="card-wrapper">
           {% else %}
               <span
                 style="background:{{ settings.sold_out_badge_color_scheme }};"
-                class="badge badge--bottom-left"
+                class="badge badge--bottom-left{% if product_card_product.type == "Surf Board" %} badge--wrap{% endif %}"
               >
-                {{- 'products.product.sold_out' | t -}}
+                {% if product_card_product.type == "Surf Board" %}
+                {{- 'products.product.sold_out_surf' | t -}} 
+                {% else %}
+                {{- 'products.product.sold_out' | t -}} 
+                {% endif %}
               </span>
           {% endif %}
  
@@ -337,3 +368,29 @@ class="card-wrapper">
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-la-dn-product-video]').forEach(function(card) {
+      card.addEventListener('mouseenter', function() {
+        const videoSrc = card.getAttribute('data-la-dn-product-video');
+        const video = card.querySelector('video');
+        if (video) {
+          // Only set src if not already set
+          if (!video.getAttribute('src')) {
+            video.setAttribute('src', videoSrc);
+            video.load();
+          }
+          video.play().catch(() => {});
+        }
+      });
+      // Pause video on mouseleave, but do not reset currentTime
+      card.addEventListener('mouseleave', function() {
+        const video = card.querySelector('video');
+        if (video) {
+          video.pause();
+        }
+      });
+    });
+  });
+</script>

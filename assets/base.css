@@ -2623,6 +2623,14 @@ details-disclosure > details {
   word-break: break-word;
 }
 
+.badge--wrap {
+  white-space: wrap;
+}
+
+.badge--constrained {
+  max-width: 200px;
+}
+
 .gradient {
   background: var(--color-background);
   background: var(--gradient-background);

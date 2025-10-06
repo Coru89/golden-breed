@@ -192,6 +192,8 @@
       },
       "share": "Share this Product",
       "sold_out": "Sold Out",
+      "sold_out_surf": "This one’s sold but we can custom another",
+      "sold_out_surf_short": "sold - we can custom another",
       "unavailable": "Unavailable",
       "vendor": "Vendor",
       "video_exit_message": "{{ title }} opens full screen video in same window.",

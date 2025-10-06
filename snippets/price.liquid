@@ -100,9 +100,13 @@
         {% else %}
             <span
               style="background:{{ settings.sold_out_badge_color_scheme }};"
-              class="badge badge--bottom-left"
+              class="badge badge--bottom-left{% if product.type == "Surf Board" %} badge--wrap badge--constrained{% endif %}"
             >
-              {{- 'products.product.sold_out' | t -}}
+              {% if product.type == "Surf Board" %}
+              {{- 'products.product.sold_out_surf' | t -}} 
+              {% else %}
+              {{- 'products.product.sold_out' | t -}} 
+              {% endif %}
             </span>
         {% endif %}
       {%- elsif product.compare_at_price > product.price
