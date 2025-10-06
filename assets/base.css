@@ -2765,7 +2765,7 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
 }
 
 /* collection page */
-.globo-swatch-list
+/* .globo-swatch-list
   .swatch--gl
   ul.g-variant-color
   li
@@ -2776,7 +2776,7 @@ section#shopify-section-template--16164438474951__16631201915756bdaa {
   border-radius: 0px !important;
   text-transform: uppercase;
   height: auto !important;
-}
+} */
 
 .swatches-globo .swatch--gl .ul-swatches-list li:not(ul.ul-globo-dropdown-option li) {
     min-width: unset;
