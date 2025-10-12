@@ -41,6 +41,42 @@
         "show_text_below": true
       }
     },
+    "rich_text_hQfECP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GphGaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "This competition has now closed.",
+            "heading_size": "h1"
+          }
+        },
+        "text_UEyAJD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Follow us on Instagram to be the first to know about future competitions. </p>"
+          }
+        },
+        "button_UdwGjR": {
+          "type": "button",
+          "settings": {
+            "button_label": "FOLLOW US ON INSTA",
+            "button_link": "https://www.instagram.com/goldenbreedsurfAll New Arrivals",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GphGaD",
+        "text_UEyAJD",
+        "button_UdwGjR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "rich_text_tNg8Lr": {
       "type": "rich-text",
       "blocks": {
@@ -62,6 +98,7 @@
         "heading_HejP7t",
         "text_ENWnY7"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "background-1",
@@ -75,6 +112,7 @@
     },
     "custom_liquid_8apCec": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div id=\"omnisend-embedded-v2-68c22ec95b0ed73b09357980\"></div>"
@@ -102,6 +140,7 @@
   },
   "order": [
     "image_banner_iPLe4n",
+    "rich_text_hQfECP",
     "rich_text_tNg8Lr",
     "main",
     "custom_liquid_8apCec",
