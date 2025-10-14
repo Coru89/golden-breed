@@ -18,6 +18,7 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/October_11_-_Website_Header_Mobile.jpg",
         "banner_url": "shopify://collections/men-new-arrivals",
@@ -51,6 +52,7 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/October_11_-_Website_Desktop_Header.jpg",
@@ -82,7 +84,6 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/GB-HOME-HEADER-MEN.jpg",
         "title-1": "",
