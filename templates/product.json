@@ -62,7 +62,16 @@
         },
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
+        },
+        "growave_loyalty_wishlist_block_product_review_avg_profile_yAnbUj": {
+          "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.reviewAvgProfile/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "custom_css": "",
+            "element_to_scroll_id": "",
+            "element_to_click_id": ""
+          }
         },
         "price": {
           "type": "price",
@@ -164,6 +173,7 @@
       "block_order": [
         "title",
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755",
+        "growave_loyalty_wishlist_block_product_review_avg_profile_yAnbUj",
         "price",
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df",
         "a5266312-7f96-4ec7-b97e-7e26bb86c518",
