@@ -228,6 +228,11 @@
         "type": "shopify://apps/discounty/blocks/sdk/d65eb522-0d94-499f-9831-d4b3301f5340",
         "disabled": false,
         "settings": {}
+      },
+      "9601484282230443226": {
+        "type": "shopify://apps/unicorn/blocks/global-script/2d90b062-ef63-46b3-a57e-aa139cf3a1ef",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
