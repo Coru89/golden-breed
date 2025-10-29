@@ -39,7 +39,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>FREE CAP when you spend $200</b> + Free Shipping Over $75",
+              "text": "<b>FREE CAP when you spend $150</b> + Free Shipping Over $75",
               "color_scheme": "background-1",
               "link": "shopify://collections/all-new-arrivals"
             }
