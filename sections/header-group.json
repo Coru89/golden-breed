@@ -7,13 +7,27 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
-/* {% sections 'header-group' %} */
-
 {
   "type": "header",
   "name": "Header",
-  "sections": {},
-  "order": []
+  "sections": {
+    "17617114509163efdb": {
+      "type": "apps",
+      "blocks": {
+        "unicorn_cart_7dRd7Q": {
+          "type": "shopify://apps/unicorn/blocks/cart/2d90b062-ef63-46b3-a57e-aa139cf3a1ef",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "unicorn_cart_7dRd7Q"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "17617114509163efdb"
+  ]
 }
-
