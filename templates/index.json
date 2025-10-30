@@ -173,6 +173,16 @@
             "link": "shopify://collections/mens-boardies"
           }
         },
+        "column_aXGLKR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/floyd-offwhite_1.jpg",
+            "title": "Walkshorts",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_pbegHC": {
           "type": "column",
           "settings": {
@@ -181,6 +191,15 @@
             "text": "",
             "link_label": "",
             "link": "shopify://collections/classic-tees-tanks"
+          }
+        },
+        "column_GDxJhC": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column_gzpLmX": {
@@ -196,14 +215,16 @@
       },
       "block_order": [
         "column_iN8qe4",
+        "column_aXGLKR",
         "column_pbegHC",
+        "column_GDxJhC",
         "column_gzpLmX"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
