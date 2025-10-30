@@ -177,7 +177,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/floyd-offwhite_1.jpg",
-            "title": "Walkshorts",
+            "title": "Shorts",
             "text": "",
             "link_label": "",
             "link": ""
@@ -232,6 +232,16 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_QHMi6A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EB2_7729_c1bc750b-f452-4551-815f-ebb3fca7ea5b.jpg",
+            "title": "Swim",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -241,11 +251,12 @@
         "column_GDxJhC",
         "column_gzpLmX",
         "column_xMfLQx",
-        "column_qr8hUJ"
+        "column_qr8hUJ",
+        "column_QHMi6A"
       ],
       "custom_css": [
         ".multicolumn-list {flex-wrap: wrap !important;}",
-        ".multicolumn-list__item {max-width: 10% !important; flex: 0 0 10% !important;}"
+        ".multicolumn-list__item {max-width: 25% !important; flex: 0 0 10% !important;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
