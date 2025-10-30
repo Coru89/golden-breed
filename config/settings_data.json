@@ -204,9 +204,19 @@
         "disabled": false,
         "settings": {}
       },
+      "14826766009936288847": {
+        "type": "shopify://apps/discounty/blocks/sdk/d65eb522-0d94-499f-9831-d4b3301f5340",
+        "disabled": false,
+        "settings": {}
+      },
+      "9601484282230443226": {
+        "type": "shopify://apps/unicorn/blocks/global-script/2d90b062-ef63-46b3-a57e-aa139cf3a1ef",
+        "disabled": false,
+        "settings": {}
+      },
       "6810535121229352664": {
         "type": "shopify://apps/monster-cart-upsell-free-gifts/blocks/app-embed/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "markets_rounding": false,
           "send_gtag_atc": false,
@@ -223,16 +233,6 @@
           "beta_version": false,
           "custom_code": "<script>\n    // custom code here\n</script>"
         }
-      },
-      "14826766009936288847": {
-        "type": "shopify://apps/discounty/blocks/sdk/d65eb522-0d94-499f-9831-d4b3301f5340",
-        "disabled": false,
-        "settings": {}
-      },
-      "9601484282230443226": {
-        "type": "shopify://apps/unicorn/blocks/global-script/2d90b062-ef63-46b3-a57e-aa139cf3a1ef",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
