@@ -142,7 +142,7 @@
         "button-text-2": "SHOP WOMEN",
         "link-2": "https://goldenbreed.com.au/collections/women",
         "button_custom_link_attributes_2": "",
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
