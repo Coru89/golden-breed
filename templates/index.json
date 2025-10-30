@@ -196,6 +196,7 @@
         "column_GDxJhC": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/EB2_8434_resized.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -211,6 +212,26 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_xMfLQx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EB2_8122_resized.jpg",
+            "title": "Caps",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qr8hUJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EB2_4281_resized_ae0dfd10-f8a9-4229-a088-39ea581477b9.jpg",
+            "title": "Stay Golden Tees",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -218,7 +239,9 @@
         "column_aXGLKR",
         "column_pbegHC",
         "column_GDxJhC",
-        "column_gzpLmX"
+        "column_gzpLmX",
+        "column_xMfLQx",
+        "column_qr8hUJ"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
