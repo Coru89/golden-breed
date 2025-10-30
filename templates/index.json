@@ -66,6 +66,52 @@
         "show_text_below": true
       }
     },
+    "image_banner_4_tYwVdB": {
+      "type": "image-banner-4",
+      "blocks": {
+        "heading_MxMnfT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MxMnfT"
+      ],
+      "disabled": true,
+      "name": "4 Column Banner",
+      "settings": {
+        "image": "shopify://shop_images/Boardies-5.jpg",
+        "title-1": "Men's",
+        "text": "",
+        "button-text-1": "Shop now",
+        "link-1": "shopify://pages/about-us",
+        "image_2": "shopify://shop_images/EB2_8032resized.jpg",
+        "title-2": "Women's",
+        "text-2": "",
+        "button-text-2": "Shop now",
+        "link-2": "",
+        "image_3": "shopify://shop_images/EB2_7998.jpg",
+        "title-3": "Hats",
+        "text-3": "",
+        "button-text-3": "Shop now",
+        "link-3": "",
+        "image_4": "shopify://shop_images/Boardies-6.jpg",
+        "title-4": "Boardies",
+        "text-4": "",
+        "button-text-4": "Shop now",
+        "link-4": "",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "16389277978b203bd3": {
       "type": "image-banner-2",
       "blocks": {
@@ -84,6 +130,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Golden-Breed-Mens-Retro-Surf-Clothing.jpg",
         "title-1": "",
@@ -103,6 +150,52 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "custom_liquid_6z4PzY": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .gb-countdown {\n    background: #000;\n    padding: 20px 0;\n    text-align: center;\n    color: #fff;              /* makes text white */\n    font-weight: 600;         /* optional: makes it bolder */\n    letter-spacing: 0.5px;    /* optional: adds a bit of spacing */\n  }\n\n  .gb-countdown img {\n    max-width: 100%;\n    height: auto;\n    display: inline-block;\n  }\n\n  .shopify-section:has(.gb-countdown) {\n    margin: 0 !important;\n    padding: 0 !important;\n  }\n</style>\n\n<div class=\"gb-countdown\" role=\"timer\" aria-live=\"polite\">\n  31% OFF FOR 3 HOURS ENDS IN:<br>\n  <img\n    src=\"https://gen.sendtric.com/countdown/niel3r7o14\"\n    alt=\"Countdown timer\"\n    loading=\"lazy\"\n    decoding=\"async\"\n  >\n</div>"
+      }
+    },
+    "collection_list_ygXgB6": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_N3pVDk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-new-arrivals"
+          }
+        },
+        "featured_collection_WtQaWp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-boardies"
+          }
+        },
+        "featured_collection_iifwyz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-tops"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_N3pVDk",
+        "featured_collection_WtQaWp",
+        "featured_collection_iifwyz"
+      ],
+      "custom_css": [],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     },
     "rich_text": {
@@ -430,7 +523,10 @@
     "1639955343e58290b6",
     "mobile_hp_banner_LmaiVx",
     "desktop_hp_banner_VAREeW",
+    "image_banner_4_tYwVdB",
     "16389277978b203bd3",
+    "custom_liquid_6z4PzY",
+    "collection_list_ygXgB6",
     "rich_text",
     "163893815304badf40",
     "163894817194625549",
