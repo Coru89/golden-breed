@@ -254,6 +254,7 @@
         "column_qr8hUJ",
         "column_QHMi6A"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-list {flex-wrap: wrap !important;}",
         ".multicolumn-list__item {max-width: 25% !important; flex: 0 0 10% !important;}"
