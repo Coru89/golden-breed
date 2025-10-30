@@ -14,6 +14,7 @@
       "blocks": {
         "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3": {
           "type": "shopify://apps/breadcrumbs/blocks/category-breadcrumbs/dba51573-4328-452d-90db-1ad2dc5be363",
+          "disabled": true,
           "settings": {
             "override_linktext_colour": false,
             "linktext_colour": "#0000ee",
@@ -46,6 +47,7 @@
       "block_order": [
         "5c669555-1c7b-4939-9ee2-2d7b4ddf1fc3"
       ],
+      "disabled": true,
       "custom_css": [
         ".spaced-section {margin: 3rem 0 0 0;}"
       ],
@@ -56,13 +58,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
           "settings": {}
         },
         "growave_loyalty_wishlist_block_product_review_avg_profile_yAnbUj": {
@@ -106,6 +108,7 @@
         },
         "growave_loyalty_wishlist_block_product_fave_button_ffqb3H": {
           "type": "shopify://apps/growave-loyalty-wishlist/blocks/block.product.faveButton/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "disabled": true,
           "settings": {
             "option_button_class": "",
             "custom_css": ".gw-wl-icon {\n--gw-wl-wishlistIconSettings-heartColor: #104363;\n}\n\n.gw-badge {\n  display: none !important;\n}\n\n.gw-badge + span {\n  display: none !important;\n}\n\n.gw-wl-add-to-wishlist-btn__inner span {\n  display: none;\n}\n\n.gw-btn--block {\n width: auto !important;\n}\n\n.gw-btn.gw-button {\nbackground-color: #F3F7FC !important;\nborder-radius: 16px !important;\n}\n\n.product .gw-wl-add-to-wishlist-product-page-widget.svelte-xc0fd8 .gw-btn.gw-button {\nborder-radius: 16px !important;\n}\n\n.gw-wl-add-to-wishlist-product-page-widget.svelte-xc0fd8 .gw-btn.gw-button.--outlined {\nbox-shadow: none !important;\nborder-radius: 16px !important;\n}",
@@ -114,6 +117,7 @@
         },
         "share_cXBgB4": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -171,8 +175,8 @@
         }
       },
       "block_order": [
-        "title",
         "d60f2b04-bb82-46fa-b9ab-c4f45d9b7755",
+        "title",
         "growave_loyalty_wishlist_block_product_review_avg_profile_yAnbUj",
         "price",
         "a2fd6274-9fbf-492d-bb0f-5655e2feb9df",
@@ -201,6 +205,54 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "enable_quantity_selector": true
+      }
+    },
+    "multicolumn_fECbxL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_riHB7P": {
+          "type": "column",
+          "settings": {
+            "title": "FREE SHIPPING",
+            "text": "<p>with every order over $75</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GjAhjh": {
+          "type": "column",
+          "settings": {
+            "title": "FREE CAP",
+            "text": "<p>free when you spend $150</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9JitPm": {
+          "type": "column",
+          "settings": {
+            "title": "FREE $25 GIFT CARD",
+            "text": "<p>free when you spend $150</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_riHB7P",
+        "column_GjAhjh",
+        "column_9JitPm"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "891ee324-8896-4021-9598-50458db48649": {
@@ -254,6 +306,7 @@
   "order": [
     "1694587350eaa68ccd",
     "main",
+    "multicolumn_fECbxL",
     "891ee324-8896-4021-9598-50458db48649",
     "17612143153d48c379",
     "product-recommendations",
