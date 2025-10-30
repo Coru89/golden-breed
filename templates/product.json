@@ -237,6 +237,7 @@
         "column_GjAhjh",
         "column_9JitPm"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
