@@ -197,8 +197,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/EB2_8434_resized.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "El Solito",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -218,7 +218,7 @@
           "settings": {
             "image": "shopify://shop_images/EB2_8122_resized.jpg",
             "title": "Caps",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -228,7 +228,7 @@
           "settings": {
             "image": "shopify://shop_images/EB2_4281_resized_ae0dfd10-f8a9-4229-a088-39ea581477b9.jpg",
             "title": "Stay Golden Tees",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -242,6 +242,10 @@
         "column_gzpLmX",
         "column_xMfLQx",
         "column_qr8hUJ"
+      ],
+      "custom_css": [
+        ".multicolumn-list {flex-wrap: wrap !important;}",
+        ".multicolumn-list__item {max-width: 10% !important; flex: 0 0 10% !important;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
