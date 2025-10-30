@@ -160,42 +160,55 @@
         "custom_liquid": "<style>\n  .gb-countdown {\n    background: #000;\n    padding: 20px 0;\n    text-align: center;\n    color: #fff;              /* makes text white */\n    font-weight: 600;         /* optional: makes it bolder */\n    letter-spacing: 0.5px;    /* optional: adds a bit of spacing */\n  }\n\n  .gb-countdown img {\n    max-width: 100%;\n    height: auto;\n    display: inline-block;\n  }\n\n  .shopify-section:has(.gb-countdown) {\n    margin: 0 !important;\n    padding: 0 !important;\n  }\n</style>\n\n<div class=\"gb-countdown\" role=\"timer\" aria-live=\"polite\">\n  31% OFF FOR 3 HOURS ENDS IN:<br>\n  <img\n    src=\"https://gen.sendtric.com/countdown/niel3r7o14\"\n    alt=\"Countdown timer\"\n    loading=\"lazy\"\n    decoding=\"async\"\n  >\n</div>"
       }
     },
-    "collection_list_ygXgB6": {
-      "type": "collection-list",
+    "multicolumn_Ym3C4K": {
+      "type": "multicolumn",
       "blocks": {
-        "featured_collection_N3pVDk": {
-          "type": "featured_collection",
+        "column_iN8qe4": {
+          "type": "column",
           "settings": {
-            "collection": "all-new-arrivals"
+            "image": "shopify://shop_images/Boardies-5.jpg",
+            "title": "Boardies",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/mens-boardies"
           }
         },
-        "featured_collection_WtQaWp": {
-          "type": "featured_collection",
+        "column_pbegHC": {
+          "type": "column",
           "settings": {
-            "collection": "mens-boardies"
+            "image": "shopify://shop_images/EB2_7998.jpg",
+            "title": "Tees",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/classic-tees-tanks"
           }
         },
-        "featured_collection_iifwyz": {
-          "type": "featured_collection",
+        "column_gzpLmX": {
+          "type": "column",
           "settings": {
-            "collection": "mens-tops"
+            "image": "shopify://shop_images/Retro-Blue_5cd80188-b9f1-4560-911a-a0ab2b142489.jpg",
+            "title": "Bucket Hats",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_N3pVDk",
-        "featured_collection_WtQaWp",
-        "featured_collection_iifwyz"
+        "column_iN8qe4",
+        "column_pbegHC",
+        "column_gzpLmX"
       ],
-      "custom_css": [],
-      "name": "t:sections.collection-list.presets.name",
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "rich_text": {
@@ -526,7 +539,7 @@
     "image_banner_4_tYwVdB",
     "16389277978b203bd3",
     "custom_liquid_6z4PzY",
-    "collection_list_ygXgB6",
+    "multicolumn_Ym3C4K",
     "rich_text",
     "163893815304badf40",
     "163894817194625549",
