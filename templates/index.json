@@ -18,7 +18,6 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/October_31_-_Website_Header_Mobile_8cbd6896-4772-43c0-ab3f-e65df3690bda.jpg",
         "banner_url": "https://goldenbreed.com.au/collections/all-new-arrivals",
@@ -52,7 +51,6 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/October_31_-_Website_Desktop_Header_0f209197-66e5-4820-afcc-b22af385b19e.jpg",
@@ -130,6 +128,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Golden-Breed-Mens-Retro-Surf-Clothing.jpg",
@@ -154,7 +153,6 @@
     },
     "custom_liquid_6z4PzY": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n  .gb-countdown {\n    background: #000;\n    padding: 20px 0;\n    text-align: center;\n    color: #fff;              /* makes text white */\n    font-weight: 600;         /* optional: makes it bolder */\n    letter-spacing: 0.5px;    /* optional: adds a bit of spacing */\n  }\n\n  .gb-countdown img {\n    max-width: 100%;\n    height: auto;\n    display: inline-block;\n  }\n\n  .shopify-section:has(.gb-countdown) {\n    margin: 0 !important;\n    padding: 0 !important;\n  }\n</style>\n\n<div class=\"gb-countdown\" role=\"timer\" aria-live=\"polite\">\n  31% OFF FOR 3 HOURS ENDS IN:<br>\n  <img\n    src=\"https://gen.sendtric.com/countdown/niel3r7o14\"\n    alt=\"Countdown timer\"\n    loading=\"lazy\"\n    decoding=\"async\"\n  >\n</div>"
