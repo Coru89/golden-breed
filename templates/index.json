@@ -167,7 +167,7 @@
           "type": "Image",
           "settings": {
             "bubble_img": "shopify://shop_images/EB2_7998.jpg",
-            "bubble_text": "Surf Tees",
+            "bubble_text": "Men's Tees",
             "bubble_link": "https://goldenbreed.com.au/collections/mens-tees"
           }
         },
@@ -190,9 +190,9 @@
         "image_qbkbTf": {
           "type": "Image",
           "settings": {
-            "bubble_img": "shopify://shop_images/EB2_8434_resized.jpg",
-            "bubble_text": "El Solito & El Shorto",
-            "bubble_link": "shopify://collections/el-solito-el-shortos"
+            "bubble_img": "shopify://shop_images/EB2_5588-2resized.jpg",
+            "bubble_text": "Hawaiian Shirts",
+            "bubble_link": "shopify://collections/golden-breed-hawaiian-shirts"
           }
         },
         "image_MrVBLj": {
@@ -211,20 +211,20 @@
             "bubble_link": "shopify://collections/golden-breed-hats-caps"
           }
         },
-        "image_Ht9bbA": {
-          "type": "Image",
-          "settings": {
-            "bubble_img": "shopify://shop_images/EB2_8032resized.jpg",
-            "bubble_text": "Tanks",
-            "bubble_link": "shopify://collections/womens-tanks"
-          }
-        },
         "image_cTbiUa": {
           "type": "Image",
           "settings": {
             "bubble_img": "shopify://shop_images/EB2_4281_resized_ae0dfd10-f8a9-4229-a088-39ea581477b9.jpg",
             "bubble_text": "Women's Tees",
             "bubble_link": ""
+          }
+        },
+        "image_Ht9bbA": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_8032resized.jpg",
+            "bubble_text": "Women's Tanks",
+            "bubble_link": "shopify://collections/womens-tanks"
           }
         }
       },
@@ -235,8 +235,8 @@
         "image_qbkbTf",
         "image_MrVBLj",
         "image_B9phfh",
-        "image_Ht9bbA",
-        "image_cTbiUa"
+        "image_cTbiUa",
+        "image_Ht9bbA"
       ],
       "name": "SS - Circle Menu",
       "settings": {
@@ -245,12 +245,12 @@
         "slider_gap_mobile": 16,
         "icon_size": 108,
         "icon_size_mobile": 74,
-        "icon_space": 0,
+        "icon_space": 3,
         "icon_space_mobile": 4,
         "icon_border_thickness": 2,
         "icon_square": false,
         "use_hover": true,
-        "text_custom": true,
+        "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 12,
         "text_size_mobile": 10,
