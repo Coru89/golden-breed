@@ -25,9 +25,48 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "ss_scrolling_announcement_bar_wWzP9G": {
+      "type": "ss-scrolling-announcement-bar",
+      "blocks": {
+        "text_KfJ4nz": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping Over $75"
+          }
+        },
+        "text_8UFkBg": {
+          "type": "text",
+          "settings": {
+            "text": "Free Cap Over $150"
+          }
+        }
+      },
+      "block_order": [
+        "text_KfJ4nz",
+        "text_8UFkBg"
+      ],
+      "disabled": true,
+      "name": "SS - Scrolling announcement bar",
+      "settings": {
+        "insert_css_class_target": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper",
+        "text_custom": false,
+        "ss_font_family": "montserrat_n4",
+        "text_size": 12,
+        "link": "",
+        "animation_duration": 44,
+        "animation_direction": "right",
+        "pause_hover": false,
+        "text_color": "#FFFFFF",
+        "bg": "#000000",
+        "hover_opacity": 90,
+        "padding_vertical": 1.5,
+        "padding_horizontal": 0
+      }
     }
   },
   "order": [
-    "17617114509163efdb"
+    "17617114509163efdb",
+    "ss_scrolling_announcement_bar_wWzP9G"
   ]
 }
