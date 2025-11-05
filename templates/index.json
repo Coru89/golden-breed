@@ -160,6 +160,123 @@
         "custom_liquid": "<style>\n  .gb-countdown {\n    background: #000;\n    padding: 20px 0;\n    text-align: center;\n    color: #fff;              /* makes text white */\n    font-weight: 600;         /* optional: makes it bolder */\n    letter-spacing: 0.5px;    /* optional: adds a bit of spacing */\n  }\n\n  .gb-countdown img {\n    max-width: 100%;\n    height: auto;\n    display: inline-block;\n  }\n\n  .shopify-section:has(.gb-countdown) {\n    margin: 0 !important;\n    padding: 0 !important;\n  }\n</style>\n\n<div class=\"gb-countdown\" role=\"timer\" aria-live=\"polite\">\n  31% OFF FOR 3 HOURS ENDS IN:<br>\n  <img\n    src=\"https://gen.sendtric.com/countdown/niel3r7o14\"\n    alt=\"Countdown timer\"\n    loading=\"lazy\"\n    decoding=\"async\"\n  >\n</div>"
       }
     },
+    "ss_circle_menu_3Kc9Mc": {
+      "type": "ss-circle-menu",
+      "blocks": {
+        "image_V7NzxG": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_7998.jpg",
+            "bubble_text": "Surf Tees",
+            "bubble_link": "https://goldenbreed.com.au/collections/mens-tees"
+          }
+        },
+        "image_exRGmt": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_8637_resized_a823ea48-cd73-4a83-93b8-7235c2157f95.jpg",
+            "bubble_text": "Boardies",
+            "bubble_link": "https://goldenbreed.com.au/collections/mens-boardies"
+          }
+        },
+        "image_MjUWLA": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/floyd-offwhite_1.jpg",
+            "bubble_text": "Floyd's",
+            "bubble_link": "shopify://collections/floyd-walkshorts"
+          }
+        },
+        "image_qbkbTf": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_8434_resized.jpg",
+            "bubble_text": "El Solito & El Shorto",
+            "bubble_link": "shopify://collections/el-solito-el-shortos"
+          }
+        },
+        "image_MrVBLj": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/37A0192resized_c9c77b18-ac08-452a-a84c-8326c1cf1bb0.jpg",
+            "bubble_text": "Bucket Hats",
+            "bubble_link": "shopify://collections/bucket-hats"
+          }
+        },
+        "image_B9phfh": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_4404resized_fb127cdc-c79d-444e-8866-ff9acef88edf.jpg",
+            "bubble_text": "Caps",
+            "bubble_link": "shopify://collections/golden-breed-hats-caps"
+          }
+        },
+        "image_Ht9bbA": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_8032resized.jpg",
+            "bubble_text": "Tanks",
+            "bubble_link": "shopify://collections/womens-tanks"
+          }
+        },
+        "image_cTbiUa": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_4281_resized_ae0dfd10-f8a9-4229-a088-39ea581477b9.jpg",
+            "bubble_text": "Women's Tees",
+            "bubble_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_V7NzxG",
+        "image_exRGmt",
+        "image_MjUWLA",
+        "image_qbkbTf",
+        "image_MrVBLj",
+        "image_B9phfh",
+        "image_Ht9bbA",
+        "image_cTbiUa"
+      ],
+      "name": "SS - Circle Menu",
+      "settings": {
+        "slider_width": 100,
+        "slider_gap": 24,
+        "slider_gap_mobile": 16,
+        "icon_size": 108,
+        "icon_size_mobile": 74,
+        "icon_space": 4,
+        "icon_space_mobile": 4,
+        "icon_border_thickness": 2,
+        "icon_square": false,
+        "use_hover": true,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#121212",
+        "icon_border_gradient": "",
+        "text_color": "#121212",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1500,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
+    },
     "multicolumn_Ym3C4K": {
       "type": "multicolumn",
       "blocks": {
@@ -599,6 +716,7 @@
     "image_banner_4_tYwVdB",
     "16389277978b203bd3",
     "custom_liquid_6z4PzY",
+    "ss_circle_menu_3Kc9Mc",
     "multicolumn_Ym3C4K",
     "rich_text",
     "163893815304badf40",
