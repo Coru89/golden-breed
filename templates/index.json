@@ -167,8 +167,16 @@
           "type": "Image",
           "settings": {
             "bubble_img": "shopify://shop_images/EB2_7998.jpg",
-            "bubble_text": "Men's Tees",
+            "bubble_text": "Tees",
             "bubble_link": "https://goldenbreed.com.au/collections/mens-tees"
+          }
+        },
+        "image_MjUWLA": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/floyd-offwhite_1.jpg",
+            "bubble_text": "Shorts",
+            "bubble_link": "https://goldenbreed.com.au/collections/mens-shorts"
           }
         },
         "image_exRGmt": {
@@ -179,14 +187,6 @@
             "bubble_link": "https://goldenbreed.com.au/collections/mens-boardies"
           }
         },
-        "image_MjUWLA": {
-          "type": "Image",
-          "settings": {
-            "bubble_img": "shopify://shop_images/floyd-offwhite_1.jpg",
-            "bubble_text": "Floyd's",
-            "bubble_link": "shopify://collections/floyd-walkshorts"
-          }
-        },
         "image_qbkbTf": {
           "type": "Image",
           "settings": {
@@ -195,20 +195,20 @@
             "bubble_link": "shopify://collections/golden-breed-hawaiian-shirts"
           }
         },
-        "image_MrVBLj": {
-          "type": "Image",
-          "settings": {
-            "bubble_img": "shopify://shop_images/37A0192resized_c9c77b18-ac08-452a-a84c-8326c1cf1bb0.jpg",
-            "bubble_text": "Bucket Hats",
-            "bubble_link": "shopify://collections/bucket-hats"
-          }
-        },
         "image_B9phfh": {
           "type": "Image",
           "settings": {
             "bubble_img": "shopify://shop_images/EB2_4404resized_fb127cdc-c79d-444e-8866-ff9acef88edf.jpg",
             "bubble_text": "Caps",
             "bubble_link": "shopify://collections/golden-breed-hats-caps"
+          }
+        },
+        "image_MrVBLj": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_8175.jpg",
+            "bubble_text": "Swim",
+            "bubble_link": "shopify://collections/lazy-beach-swim"
           }
         },
         "image_cTbiUa": {
@@ -230,11 +230,11 @@
       },
       "block_order": [
         "image_V7NzxG",
-        "image_exRGmt",
         "image_MjUWLA",
+        "image_exRGmt",
         "image_qbkbTf",
-        "image_MrVBLj",
         "image_B9phfh",
+        "image_MrVBLj",
         "image_cTbiUa",
         "image_Ht9bbA"
       ],
@@ -259,7 +259,7 @@
         "icon_border_color": "#e6dbc5",
         "icon_border_gradient": "",
         "text_color": "#21597a",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#121212",
         "border_gradient": "",
