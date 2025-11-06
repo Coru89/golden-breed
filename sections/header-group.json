@@ -32,13 +32,13 @@
         "text_KfJ4nz": {
           "type": "text",
           "settings": {
-            "text": "Free Shipping Over $75"
+            "text": "<b>Free Shipping</b> Orders Over $75"
           }
         },
         "text_8UFkBg": {
           "type": "text",
           "settings": {
-            "text": "Free Retro Trucker Cap Over $150"
+            "text": "<b>FREE Retro Trucker Cap</b> - Orders Over $150"
           }
         }
       },
