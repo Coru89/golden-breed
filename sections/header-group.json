@@ -38,7 +38,7 @@
         "text_8UFkBg": {
           "type": "text",
           "settings": {
-            "text": "Free Cap Over $150"
+            "text": "Free Retro Trucker Cap Over $150"
           }
         }
       },
@@ -46,7 +46,6 @@
         "text_KfJ4nz",
         "text_8UFkBg"
       ],
-      "disabled": true,
       "name": "SS - Scrolling announcement bar",
       "settings": {
         "insert_css_class_target": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper",
@@ -57,7 +56,7 @@
         "animation_duration": 44,
         "animation_direction": "right",
         "pause_hover": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg": "#000000",
         "hover_opacity": 90,
         "padding_vertical": 1.5,
