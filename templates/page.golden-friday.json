@@ -13,7 +13,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Web_Banner_1.jpg",
+        "image": "shopify://shop_images/Web_Banner_83e76da1-c8b3-4121-9744-1ded3bf3c094.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
