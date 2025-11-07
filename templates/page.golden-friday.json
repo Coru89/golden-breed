@@ -30,7 +30,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/September_20_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/Web_Banner_1.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
