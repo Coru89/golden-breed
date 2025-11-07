@@ -24,56 +24,20 @@
         "show_text_below": true
       }
     },
-    "rich_text_hQfECP": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GphGaD": {
-          "type": "heading",
-          "settings": {
-            "heading": "This competition has now closed.",
-            "heading_size": "h1"
-          }
-        },
-        "text_UEyAJD": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Follow us on Instagram to be the first to know about future competitions. </p>"
-          }
-        },
-        "button_UdwGjR": {
-          "type": "button",
-          "settings": {
-            "button_label": "FOLLOW US ON INSTA",
-            "button_link": "https://www.instagram.com/goldenbreedsurf",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_GphGaD",
-        "text_UEyAJD",
-        "button_UdwGjR"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "rich_text_tNg8Lr": {
       "type": "rich-text",
       "blocks": {
         "heading_HejP7t": {
           "type": "heading",
           "settings": {
-            "heading": "We’ve teamed up with Archies to bring you our biggest prize pack ever! ",
+            "heading": "GET READY FOR GOLDEN FRIDAY",
             "heading_size": "h1"
           }
         },
         "text_ENWnY7": {
           "type": "text",
           "settings": {
-            "text": "<p>One lucky winner will score a <strong>$750 Golden Breed gift voucher </strong><em>plus </em><strong>four pairs of Archies </strong>(slides or thongs, your pick). That’s $1000 worth of gear to get you kitted out ready for summer. </p>"
+            "text": "<h2>Up to <strong>60% off + free caps </strong>on the way.</h2><p><br/>Join the list for early access to the biggest sale of the year - no retrievers, just golden deals.</p>"
           }
         }
       },
@@ -81,7 +45,6 @@
         "heading_HejP7t",
         "text_ENWnY7"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "background-1",
@@ -122,7 +85,6 @@
   },
   "order": [
     "image_banner_iPLe4n",
-    "rich_text_hQfECP",
     "rich_text_tNg8Lr",
     "main",
     "custom_liquid_8apCec",
