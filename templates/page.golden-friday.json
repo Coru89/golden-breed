@@ -11,23 +11,6 @@
   "sections": {
     "image_banner_iPLe4n": {
       "type": "image-banner",
-      "blocks": {
-        "buttons_KtkqFC": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_KtkqFC"
-      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Web_Banner_1.jpg",
@@ -112,10 +95,9 @@
     },
     "custom_liquid_8apCec": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div id=\"omnisend-embedded-v2-68c22ec95b0ed73b09357980\"></div>"
+        "custom_liquid": "<div id=\"omnisend-embedded-v2-690dbaffb127c51a5d21ee4f\"></div>"
       }
     },
     "0471e7a0-b09a-4d40-917a-407deba17fa9": {
