@@ -13,7 +13,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Web_Banner_83e76da1-c8b3-4121-9744-1ded3bf3c094.jpg",
+        "image": "shopify://shop_images/Web_Banner_-_2.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -30,14 +30,14 @@
         "heading_HejP7t": {
           "type": "heading",
           "settings": {
-            "heading": "GET READY FOR GOLDEN FRIDAY",
+            "heading": "Up to 60% Off Storewide",
             "heading_size": "h1"
           }
         },
         "text_ENWnY7": {
           "type": "text",
           "settings": {
-            "text": "<h2>Up to <strong>60% off + free caps </strong>on the way.</h2><p><br/>Join the list for early access to the biggest sale of the year - no retrievers, just golden deals.</p>"
+            "text": "<p>Join the list for early access to the biggest sale of the year - no retrievers, just golden deals.</p>"
           }
         }
       },
