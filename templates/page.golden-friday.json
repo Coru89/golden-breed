@@ -1,0 +1,149 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_iPLe4n": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_KtkqFC": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_KtkqFC"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/September_20_-_Website_Desktop_Header.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_hQfECP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GphGaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "This competition has now closed.",
+            "heading_size": "h1"
+          }
+        },
+        "text_UEyAJD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Follow us on Instagram to be the first to know about future competitions. </p>"
+          }
+        },
+        "button_UdwGjR": {
+          "type": "button",
+          "settings": {
+            "button_label": "FOLLOW US ON INSTA",
+            "button_link": "https://www.instagram.com/goldenbreedsurf",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GphGaD",
+        "text_UEyAJD",
+        "button_UdwGjR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "rich_text_tNg8Lr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HejP7t": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’ve teamed up with Archies to bring you our biggest prize pack ever! ",
+            "heading_size": "h1"
+          }
+        },
+        "text_ENWnY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One lucky winner will score a <strong>$750 Golden Breed gift voucher </strong><em>plus </em><strong>four pairs of Archies </strong>(slides or thongs, your pick). That’s $1000 worth of gear to get you kitted out ready for summer. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HejP7t",
+        "text_ENWnY7"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_8apCec": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"omnisend-embedded-v2-68c22ec95b0ed73b09357980\"></div>"
+      }
+    },
+    "0471e7a0-b09a-4d40-917a-407deba17fa9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Terms & Conditions: </strong>Entries close 11:59pm AEST, 12 October 2025. Open to Australian residents aged 18 years and over. To enter, complete the form on this page; bonus entries are available by tagging friends on the official Golden Breed x Archies competition post on Instagram. One winner will be selected at random to receive one $750 Golden Breed gift voucher and four pairs of Archies footwear of their choice (subject to availability). The prize is not transferable or redeemable for cash. The winner will be notified via email or Instagram within 48 hours of the competition ending. By entering, you agree to join the Golden Breed mailing list (you can unsubscribe at any time). This competition is not sponsored, endorsed or administered by, or associated with Instagram. Full terms and conditions are available at goldenbreed.com.au.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "image_banner_iPLe4n",
+    "rich_text_hQfECP",
+    "rich_text_tNg8Lr",
+    "main",
+    "custom_liquid_8apCec",
+    "0471e7a0-b09a-4d40-917a-407deba17fa9"
+  ]
+}
