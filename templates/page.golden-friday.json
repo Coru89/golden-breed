@@ -37,7 +37,7 @@
         "text_ENWnY7": {
           "type": "text",
           "settings": {
-            "text": "<p>Join the list to get early access when Golden Friday kicks off. </p><p>Stock’s low and it won’t be restocked before Christmas.</p>"
+            "text": "<p>Join the list to get early access when Golden Friday kicks off.</p>"
           }
         }
       },
@@ -92,9 +92,9 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/BG.jpg",
-            "sub_heading": "UP TO",
-            "heading": "60% OFF SITEWIDE",
+            "image": "shopify://shop_images/BG-YELLOW.jpg",
+            "sub_heading": "",
+            "heading": "UP TO 60% OFF SITEWIDE",
             "button": ""
           }
         },
@@ -102,16 +102,27 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/BG.jpg",
-            "sub_heading": "SPEND $120 & GET",
-            "heading": "FREE PALM CAP",
+            "image": "shopify://shop_images/BG-YELLOW.jpg",
+            "sub_heading": "",
+            "heading": "FREE GIFTS WHEN YOU SPEND $120",
             "button": ""
+          }
+        },
+        "collection_bDN9TT": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "sub_heading": "60% OFF",
+            "heading": "",
+            "button": "SHOP NOW"
           }
         }
       },
       "block_order": [
         "collection_7AHYia",
-        "collection_LAkRtg"
+        "collection_LAkRtg",
+        "collection_bDN9TT"
       ],
       "name": "SS - Collection #5",
       "settings": {
@@ -153,7 +164,7 @@
         "card_padding_horizontal_mobile": 20,
         "card_radius": 0,
         "card_border_thickness": 0,
-        "card_overlay": 0.2,
+        "card_overlay": 0,
         "card_ratio": "square",
         "card_ratio_mobile": "portrait",
         "card_shadow": false,
@@ -209,21 +220,21 @@
         "button_border_color": "#121212",
         "button_border_hover_color": "#121212",
         "sub_heading_color": "#FFFFFF",
-        "title_color": "#FFFFFF",
+        "title_color": "#121212",
         "card_bg_color": "#DDDDDD",
         "card_border_color": "#121212",
         "card_overlay_color": "#121212",
         "card_shadow_color": "#121212",
         "icon_color": "#858585",
-        "heading_color": "#121212",
-        "text_color": "#121212",
-        "background_color": "#FFFFFF",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "background_color": "#121212",
         "background_gradient": "",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 100,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
         "full_width": false,
