@@ -91,38 +91,49 @@
         "collection_7AHYia": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "best-sellers",
             "image": "shopify://shop_images/BG-YELLOW.jpg",
-            "sub_heading": "",
-            "heading": "UP TO 60% OFF SITEWIDE",
-            "button": ""
+            "sub_heading": "BEST SELLERS",
+            "heading": "20% OFF",
+            "button": "BROWSE"
           }
         },
         "collection_LAkRtg": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "all-new-arrivals",
             "image": "shopify://shop_images/BG-YELLOW.jpg",
-            "sub_heading": "",
-            "heading": "FREE GIFTS WHEN YOU SPEND $120",
-            "button": ""
+            "sub_heading": "WHEN YOU SPEND $120",
+            "heading": "FREE CAP",
+            "button": "PREP YOUR CART"
           }
         },
         "collection_bDN9TT": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
-            "sub_heading": "60% OFF",
-            "heading": "",
-            "button": "SHOP NOW"
+            "image": "shopify://shop_images/BG-YELLOW.jpg",
+            "sub_heading": "SALE ITEMS",
+            "heading": "UP TO 60% OFF",
+            "button": "BROWSE"
+          }
+        },
+        "collection_kaqWmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-restocked",
+            "image": "shopify://shop_images/BG-YELLOW.jpg",
+            "sub_heading": "RESTOCKED STYLES",
+            "heading": "20% OFF",
+            "button": "BROWSE"
           }
         }
       },
       "block_order": [
         "collection_7AHYia",
         "collection_LAkRtg",
-        "collection_bDN9TT"
+        "collection_bDN9TT",
+        "collection_kaqWmf"
       ],
       "custom_css": [
         ".collections-heading-template--19809341112519__ss_collection_5_w4iAPf p {font-family: \"Special Elite\", cursive !important;}"
@@ -223,7 +234,7 @@
         "button_border_color": "#121212",
         "button_border_hover_color": "#121212",
         "sub_heading_color": "#FFFFFF",
-        "title_color": "#121212",
+        "title_color": "#ffffff",
         "card_bg_color": "#DDDDDD",
         "card_border_color": "#121212",
         "card_overlay_color": "#121212",
