@@ -319,6 +319,13 @@
             "accordion_label": "How will I receive my free gift?",
             "accordion_content": "If you spend $120 or more in one transaction, you’ll score a FREE Palm Cap (colour selected at random). Your free gift will be packed straight into your order - while stocks last. Once they’re gone, they’re gone."
           }
+        },
+        "accordion_item_Rr6cha": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "When does the sale end?",
+            "accordion_content": "Golden Friday wraps up midnight (AEDT) Sunday 23rd November - unless we sell out sooner. Once it’s gone, it’s gone."
+          }
         }
       },
       "block_order": [
@@ -326,7 +333,8 @@
         "accordion_item_8p3hgC",
         "accordion_item_9CUxGF",
         "accordion_item_BH7T6w",
-        "accordion_item_UnPiJ3"
+        "accordion_item_UnPiJ3",
+        "accordion_item_Rr6cha"
       ],
       "name": "Accordion",
       "settings": {
