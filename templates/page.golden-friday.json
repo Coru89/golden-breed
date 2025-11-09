@@ -82,6 +82,58 @@
         "full_width": true
       }
     },
+    "accordion_HYfym6": {
+      "type": "accordion",
+      "blocks": {
+        "accordion_item_YwXi7m": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "When does the sale start?",
+            "accordion_content": "Golden Friday kicks off 8am (AEDT) Wednesday 13th November and runs through to 11:59pm (AEDT)."
+          }
+        },
+        "accordion_item_8p3hgC": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Will I need a discount code?",
+            "accordion_content": "Nope - all discounts are automatically applied. Just add to cart and you’re good to go"
+          }
+        },
+        "accordion_item_9CUxGF": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Can I use another discount code?",
+            "accordion_content": "Sorry, legends - no extra codes can be used during the sale. The prices you’ll see are the best we’ll offer all year."
+          }
+        },
+        "accordion_item_BH7T6w": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "Shipping times",
+            "accordion_content": "We’ll be working around the clock to get your gear out the door, but please allow a little extra time during the sale period - the posties are flat out too."
+          }
+        },
+        "accordion_item_UnPiJ3": {
+          "type": "accordion_item",
+          "settings": {
+            "accordion_label": "How will I receive my free gift?",
+            "accordion_content": "If you spend $120 or more in one transaction, you’ll score a FREE Palm Cap (colour selected at random). Your free gift will be packed straight into your order - while stocks last. Once they’re gone, they’re gone."
+          }
+        }
+      },
+      "block_order": [
+        "accordion_item_YwXi7m",
+        "accordion_item_8p3hgC",
+        "accordion_item_9CUxGF",
+        "accordion_item_BH7T6w",
+        "accordion_item_UnPiJ3"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "heading": "Frequently asked questions",
+        "sub_heading": ""
+      }
+    },
     "featured_collection_N7Cqkp": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -106,6 +158,7 @@
     "main",
     "custom_liquid_8apCec",
     "0471e7a0-b09a-4d40-917a-407deba17fa9",
+    "accordion_HYfym6",
     "featured_collection_N7Cqkp"
   ]
 }
