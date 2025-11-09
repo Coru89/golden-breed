@@ -30,7 +30,7 @@
         "heading_HejP7t": {
           "type": "heading",
           "settings": {
-            "heading": "Golden Friday’s Nearly Here.",
+            "heading": "Golden Friday’s Nearly Here",
             "heading_size": "h1"
           }
         },
@@ -88,13 +88,23 @@
     "ss_collection_5_w4iAPf": {
       "type": "ss-collection-5",
       "blocks": {
+        "collection_bDN9TT": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-new-arrivals",
+            "image": "shopify://shop_images/BG-YELLOW.jpg",
+            "sub_heading": "",
+            "heading": "UP TO 60% OFF STOREWIDE",
+            "button": "BROWSE"
+          }
+        },
         "collection_7AHYia": {
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
             "image": "shopify://shop_images/BG-YELLOW.jpg",
-            "sub_heading": "BEST SELLERS",
-            "heading": "20% OFF",
+            "sub_heading": "",
+            "heading": "20% OFF BEST SELLERS",
             "button": "BROWSE"
           }
         },
@@ -103,23 +113,14 @@
           "settings": {
             "collection": "all-new-arrivals",
             "image": "shopify://shop_images/BG-YELLOW.jpg",
-            "sub_heading": "WHEN YOU SPEND $120",
-            "heading": "FREE CAP",
+            "sub_heading": "",
+            "heading": "FREE CAP WHEN YOU SPEND $120",
             "button": "PREP YOUR CART"
-          }
-        },
-        "collection_bDN9TT": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/BG-YELLOW.jpg",
-            "sub_heading": "SALE ITEMS",
-            "heading": "UP TO 60% OFF",
-            "button": "BROWSE"
           }
         },
         "collection_kaqWmf": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "mens-restocked",
             "image": "shopify://shop_images/BG-YELLOW.jpg",
@@ -130,9 +131,9 @@
         }
       },
       "block_order": [
+        "collection_bDN9TT",
         "collection_7AHYia",
         "collection_LAkRtg",
-        "collection_bDN9TT",
         "collection_kaqWmf"
       ],
       "custom_css": [
@@ -337,7 +338,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Get your cart ready",
+        "title": "Get Your Cart Ready",
         "collection": "all-new-arrivals",
         "products_to_show": 4,
         "show_view_all": true,
