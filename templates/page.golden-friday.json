@@ -56,7 +56,9 @@
     },
     "custom_liquid_8apCec": {
       "type": "custom-liquid",
-      "custom_css": [],
+      "custom_css": [
+        ".spaced-section {padding-top: 0 !important; margin-top: 0 !important;}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div id=\"omnisend-embedded-v2-690dbaffb127c51a5d21ee4f\"></div>"
