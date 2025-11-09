@@ -124,6 +124,9 @@
         "collection_LAkRtg",
         "collection_bDN9TT"
       ],
+      "custom_css": [
+        ".collections-heading-template--19809341112519__ss_collection_5_w4iAPf p {font-family: \"Special Elite\", cursive !important;}"
+      ],
       "name": "SS - Collection #5",
       "settings": {
         "icon": "shopify://shop_images/BG.jpg",
