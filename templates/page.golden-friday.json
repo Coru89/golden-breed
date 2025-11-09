@@ -46,7 +46,7 @@
         "text_ENWnY7"
       ],
       "custom_css": [
-        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 150px !important; padding-bottom: 0px !important;}"
+        ".rich-text {margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 80px !important; padding-bottom: 0px !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
