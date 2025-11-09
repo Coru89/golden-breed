@@ -95,7 +95,7 @@
             "image": "shopify://shop_images/BG-YELLOW.jpg",
             "sub_heading": "",
             "heading": "UP TO 60% OFF STOREWIDE",
-            "button": "BROWSE"
+            "button": "BROWSE NOW"
           }
         },
         "collection_7AHYia": {
@@ -105,7 +105,7 @@
             "image": "shopify://shop_images/BG-YELLOW.jpg",
             "sub_heading": "",
             "heading": "20% OFF BEST SELLERS",
-            "button": "BROWSE"
+            "button": "BROWSE NOW"
           }
         },
         "collection_LAkRtg": {
@@ -115,7 +115,7 @@
             "image": "shopify://shop_images/BG-YELLOW.jpg",
             "sub_heading": "",
             "heading": "FREE CAP WHEN YOU SPEND $120",
-            "button": "PREP YOUR CART"
+            "button": "BROWSE NOW"
           }
         },
         "collection_kaqWmf": {
@@ -124,9 +124,9 @@
           "settings": {
             "collection": "mens-restocked",
             "image": "shopify://shop_images/BG-YELLOW.jpg",
-            "sub_heading": "RESTOCKED STYLES",
-            "heading": "20% OFF",
-            "button": "BROWSE"
+            "sub_heading": "",
+            "heading": "20% OFF RESTOCKED STYLES",
+            "button": "BROWSE NOW"
           }
         }
       },
@@ -171,7 +171,7 @@
         "slider_gap": 24,
         "slider_gap_mobile": 16,
         "slider_mt": 36,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_delay": 4,
         "card_padding_vertical": 20,
         "card_padding_vertical_mobile": 20,
@@ -217,17 +217,17 @@
         "arrow_border_thickness": 0,
         "arrow_show_desktop": false,
         "arrow_show_mobile": false,
-        "dots_size": 12,
+        "dots_size": 9,
         "dots_size_mobile": 12,
-        "dots_show_desktop": false,
-        "dots_show_mobile": false,
+        "dots_show_desktop": true,
+        "dots_show_mobile": true,
         "arrow_color": "#121212",
         "arrow_hover_color": "#121212",
         "arrow_bg_color": "#FFFFFF",
         "arrow_bg_hover_color": "#FFFFFF",
         "arrow_border_color": "#FFFFFF",
         "arrow_border_hover_color": "#FFFFFF",
-        "dots_color": "#121212",
+        "dots_color": "#ffffff",
         "button_color": "#121212",
         "button_hover_color": "#FFFFFF",
         "button_bg_color": "#FFFFFF",
