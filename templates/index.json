@@ -18,7 +18,6 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/October_31_-_Website_Header_Mobile_8cbd6896-4772-43c0-ab3f-e65df3690bda.jpg",
         "banner_url": "https://goldenbreed.com.au/collections/all-new-arrivals",
@@ -45,69 +44,22 @@
             "button_label_2": "SHOP WOMEN'S",
             "button_link_2": "https://goldenbreed.com.au/collections/women",
             "button_style_secondary_2": false,
-            "button_custom_link_attributes_2": ""
+            "button_custom_link_attributes_2": "rel=\"me\" target=\"_parent\""
           }
         }
       },
       "block_order": [
         "buttons_Lf63bB"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/October_31_-_Website_Desktop_Header_0f209197-66e5-4820-afcc-b22af385b19e.jpg",
+        "image": "shopify://shop_images/November_12_-_Desktop_Header_a098d7a7-5528-4310-83fa-fa75765c4a61.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_4_tYwVdB": {
-      "type": "image-banner-4",
-      "blocks": {
-        "heading_MxMnfT": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MxMnfT"
-      ],
-      "disabled": true,
-      "name": "4 Column Banner",
-      "settings": {
-        "image": "shopify://shop_images/Boardies-5.jpg",
-        "title-1": "Men's",
-        "text": "",
-        "button-text-1": "Shop now",
-        "link-1": "shopify://pages/about-us",
-        "image_2": "shopify://shop_images/EB2_8032resized.jpg",
-        "title-2": "Women's",
-        "text-2": "",
-        "button-text-2": "Shop now",
-        "link-2": "",
-        "image_3": "shopify://shop_images/EB2_7998.jpg",
-        "title-3": "Hats",
-        "text-3": "",
-        "button-text-3": "Shop now",
-        "link-3": "",
-        "image_4": "shopify://shop_images/Boardies-6.jpg",
-        "title-4": "Boardies",
-        "text-4": "",
-        "button-text-4": "Shop now",
-        "link-4": "",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -130,6 +82,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Golden-Breed-Mens-Retro-Surf-Clothing.jpg",
@@ -238,6 +191,7 @@
         "image_cTbiUa",
         "image_Ht9bbA"
       ],
+      "disabled": true,
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
@@ -277,115 +231,283 @@
         "hide_desktop": false
       }
     },
-    "multicolumn_Ym3C4K": {
-      "type": "multicolumn",
+    "ss_circle_menu_g8eJJb": {
+      "type": "ss-circle-menu",
       "blocks": {
-        "column_iN8qe4": {
-          "type": "column",
+        "image_kLhaXr": {
+          "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/Boardies-5.jpg",
-            "title": "Boardies",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/mens-boardies"
+            "bubble_img": "shopify://shop_images/AllSale.jpg",
+            "bubble_text": "All Sale",
+            "bubble_link": "https://goldenbreed.com.au/collections/mens-tees"
           }
         },
-        "column_aXGLKR": {
-          "type": "column",
+        "image_8PdA89": {
+          "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/floyd-offwhite_1.jpg",
-            "title": "Shorts",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "bubble_img": "shopify://shop_images/20.jpg",
+            "bubble_text": "20% Off",
+            "bubble_link": "https://goldenbreed.com.au/collections/mens-shorts"
           }
         },
-        "column_pbegHC": {
-          "type": "column",
+        "image_rQhVNc": {
+          "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/EB2_7998.jpg",
-            "title": "Tees",
-            "text": "",
-            "link_label": "",
-            "link": "shopify://collections/classic-tees-tanks"
+            "bubble_img": "shopify://shop_images/20-60.jpg",
+            "bubble_text": "20-60% Off",
+            "bubble_link": "https://goldenbreed.com.au/collections/mens-boardies"
           }
         },
-        "column_GDxJhC": {
-          "type": "column",
+        "image_K6mJbH": {
+          "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/EB2_8434_resized.jpg",
-            "title": "El Solito",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "bubble_img": "shopify://shop_images/Boardies-5.jpg",
+            "bubble_text": "Men's Sale",
+            "bubble_link": "shopify://collections/golden-breed-hawaiian-shirts"
           }
         },
-        "column_gzpLmX": {
-          "type": "column",
+        "image_VK8WDp": {
+          "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/Retro-Blue_5cd80188-b9f1-4560-911a-a0ab2b142489.jpg",
-            "title": "Bucket Hats",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "bubble_img": "shopify://shop_images/EB2_8032resized.jpg",
+            "bubble_text": "Women's Sale",
+            "bubble_link": "shopify://collections/golden-breed-hats-caps"
           }
         },
-        "column_xMfLQx": {
-          "type": "column",
+        "image_pEwA3h": {
+          "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/EB2_8122_resized.jpg",
-            "title": "Caps",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "bubble_img": "shopify://shop_images/EB2_6855.jpg",
+            "bubble_text": "Swim Sale",
+            "bubble_link": "shopify://collections/lazy-beach-swim"
           }
         },
-        "column_qr8hUJ": {
-          "type": "column",
+        "image_XyFRFm": {
+          "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/EB2_4281_resized_ae0dfd10-f8a9-4229-a088-39ea581477b9.jpg",
-            "title": "Stay Golden Tees",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_QHMi6A": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/EB2_7729_c1bc750b-f452-4551-815f-ebb3fca7ea5b.jpg",
-            "title": "Swim",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "bubble_img": "shopify://shop_images/EB2_4452_resized.jpg",
+            "bubble_text": "Accessories Sale",
+            "bubble_link": ""
           }
         }
       },
       "block_order": [
-        "column_iN8qe4",
-        "column_aXGLKR",
-        "column_pbegHC",
-        "column_GDxJhC",
-        "column_gzpLmX",
-        "column_xMfLQx",
-        "column_qr8hUJ",
-        "column_QHMi6A"
+        "image_kLhaXr",
+        "image_8PdA89",
+        "image_rQhVNc",
+        "image_K6mJbH",
+        "image_VK8WDp",
+        "image_pEwA3h",
+        "image_XyFRFm"
       ],
-      "disabled": true,
-      "custom_css": [
-        ".multicolumn-list {flex-wrap: wrap !important;}",
-        ".multicolumn-list__item {max-width: 25% !important; flex: 0 0 10% !important;}"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "SS - Circle Menu",
       "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "slider_width": 100,
+        "slider_gap": 24,
+        "slider_gap_mobile": 16,
+        "icon_size": 128,
+        "icon_size_mobile": 74,
+        "icon_space": 3,
+        "icon_space_mobile": 4,
+        "icon_border_thickness": 2,
+        "icon_square": false,
+        "use_hover": true,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#e6dbc5",
+        "icon_border_gradient": "",
+        "text_color": "#21597a",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "padding_horizontal": 3,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1500,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
+    },
+    "image_banner_mMXHz7": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/GoldenFridayFeatures.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ss_collection_5_yKQxyK": {
+      "type": "ss-collection-5",
+      "blocks": {
+        "collection_miBEgR": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-new-arrivals",
+            "image": "shopify://shop_images/AllSale_10c12fe0-fe98-41ea-82a1-e17003f1a182.jpg",
+            "sub_heading": "",
+            "heading": "",
+            "button": "SHOP NOW"
+          }
+        },
+        "collection_4WBnnJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "full-price",
+            "image": "shopify://shop_images/20.jpg",
+            "sub_heading": "",
+            "heading": "",
+            "button": "SHOP NOW"
+          }
+        },
+        "collection_tCmpqH": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale",
+            "sub_heading": "",
+            "heading": "20-60% OFF",
+            "button": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "collection_miBEgR",
+        "collection_4WBnnJ",
+        "collection_tCmpqH"
+      ],
+      "name": "SS - Collection #5",
+      "settings": {
+        "icon_size": 30,
+        "icon_size_mobile": 30,
+        "icon_align": "center",
+        "icon_align_mobile": "center",
+        "hide_icon": true,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_mt": 16,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "text_height": 150,
+        "text_mt": 20,
+        "text_width": 80,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_gap": 24,
+        "slider_gap_mobile": 16,
+        "slider_mt": 36,
+        "autoplay": false,
+        "autoplay_delay": 4,
+        "card_padding_vertical": 22,
+        "card_padding_vertical_mobile": 20,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 20,
+        "card_radius": 0,
+        "card_border_thickness": 0,
+        "card_overlay": 0,
+        "card_ratio": "portrait",
+        "card_ratio_mobile": "portrait",
+        "card_shadow": false,
+        "content_vertical_position": "end",
+        "content_vertical_position_mobile": "end",
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 12,
+        "sub_heading_size_mobile": 12,
+        "sub_heading_height": 130,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 32,
+        "title_size_mobile": 28,
+        "title_height": 130,
+        "title_mt": 20,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 13,
+        "button_size_mobile": 13,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 24,
+        "button_padding_horizontal_mobile": 24,
+        "button_radius": 4,
+        "button_border_thickness": 0,
+        "button_mt": 18,
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_icon_size": 28,
+        "arrow_icon_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": false,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "arrow_color": "#121212",
+        "arrow_hover_color": "#121212",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#FFFFFF",
+        "arrow_border_hover_color": "#FFFFFF",
+        "dots_color": "#121212",
+        "button_color": "#121212",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#FFFFFF",
+        "button_bg_hover_color": "#121212",
+        "button_border_color": "#121212",
+        "button_border_hover_color": "#121212",
+        "sub_heading_color": "#FFFFFF",
+        "title_color": "#FFFFFF",
+        "card_bg_color": "#DDDDDD",
+        "card_border_color": "#121212",
+        "card_overlay_color": "#121212",
+        "card_shadow_color": "#121212",
+        "icon_color": "#858585",
+        "heading_color": "#121212",
+        "text_color": "#121212",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 24,
+        "padding_bottom": 28,
+        "padding_horizontal": 7,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "rich_text": {
@@ -428,6 +550,21 @@
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false
+      }
+    },
+    "image_banner_4J4mqQ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/GoldenFriday-ThinBanner.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "163894817194625549": {
@@ -713,13 +850,15 @@
     "1639955343e58290b6",
     "mobile_hp_banner_LmaiVx",
     "desktop_hp_banner_VAREeW",
-    "image_banner_4_tYwVdB",
     "16389277978b203bd3",
     "custom_liquid_6z4PzY",
     "ss_circle_menu_3Kc9Mc",
-    "multicolumn_Ym3C4K",
+    "ss_circle_menu_g8eJJb",
+    "image_banner_mMXHz7",
+    "ss_collection_5_yKQxyK",
     "rich_text",
     "163893815304badf40",
+    "image_banner_4J4mqQ",
     "163894817194625549",
     "1638926734988978b1",
     "16389384641b4e0b94",

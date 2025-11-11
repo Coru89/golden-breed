@@ -39,7 +39,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>FREE Shipping</b> Orders Over $75",
+              "text": "<b>GOLDEN FRIDAY</b> Up to 60% Off + Free Palm Cap Over $120",
               "color_scheme": "background-1",
               "link": "shopify://collections/all-new-arrivals"
             }
@@ -47,6 +47,9 @@
         },
         "block_order": [
           "announcement-bar-0"
+        ],
+        "custom_css": [
+          ".announcement-bar {background-color: #000;}"
         ],
         "settings": {
           "color_scheme": "background-1",
