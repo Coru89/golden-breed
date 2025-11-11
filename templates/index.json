@@ -19,7 +19,7 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/October_31_-_Website_Header_Mobile_8cbd6896-4772-43c0-ab3f-e65df3690bda.jpg",
+        "image": "shopify://shop_images/November_11_-_Website_Header_Mobile_3df3e476-4e33-456a-8b1f-fa6b8bb44b91.jpg",
         "banner_url": "https://goldenbreed.com.au/collections/all-new-arrivals",
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -484,7 +484,7 @@
         "button_color": "#121212",
         "button_hover_color": "#ffffff",
         "button_bg_color": "#ffffff",
-        "button_bg_hover_color": "#F49600",
+        "button_bg_hover_color": "#f49600",
         "button_border_color": "#121212",
         "button_border_hover_color": "#121212",
         "sub_heading_color": "#ffffff",
