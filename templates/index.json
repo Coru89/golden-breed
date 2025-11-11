@@ -354,21 +354,6 @@
         "show_text_below": true
       }
     },
-    "image_banner_rLyg3c": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/GoldenFridayFeatures.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "ss_collection_5_yKQxyK": {
       "type": "ss-collection-5",
       "blocks": {
@@ -572,7 +557,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GoldenFriday-ThinBanner.jpg",
+        "image": "shopify://shop_images/GoldenFriday-ThinBanner_c082d68f-da6c-471f-8852-a51989627b23.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -859,6 +844,21 @@
       "settings": {
         "color_scheme": "accent-2",
         "full_width": true
+      }
+    },
+    "image_banner_rLyg3c": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/GoldenFridayFeatures.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },

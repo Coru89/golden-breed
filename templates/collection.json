@@ -47,7 +47,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GoldenFriday-ThinBanner.jpg",
+        "image": "shopify://shop_images/GoldenFriday-ThinBanner_c082d68f-da6c-471f-8852-a51989627b23.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
