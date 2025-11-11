@@ -263,7 +263,7 @@
           "settings": {
             "bubble_img": "shopify://shop_images/Boardies-5.jpg",
             "bubble_text": "Men's Sale",
-            "bubble_link": "shopify://collections/golden-breed-hawaiian-shirts"
+            "bubble_link": "https://goldenbreed.com.au/collections/mens"
           }
         },
         "image_VK8WDp": {
@@ -271,7 +271,7 @@
           "settings": {
             "bubble_img": "shopify://shop_images/EB2_8032resized.jpg",
             "bubble_text": "Women's Sale",
-            "bubble_link": "shopify://collections/golden-breed-hats-caps"
+            "bubble_link": "https://goldenbreed.com.au/collections/women"
           }
         },
         "image_pEwA3h": {
