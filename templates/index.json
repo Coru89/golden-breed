@@ -361,7 +361,7 @@
           "type": "collection",
           "settings": {
             "collection": "all-new-arrivals",
-            "image": "shopify://shop_images/AllSale_10c12fe0-fe98-41ea-82a1-e17003f1a182.jpg",
+            "image": "shopify://shop_images/AllSale-Large.jpg",
             "sub_heading": "",
             "heading": "",
             "button": "SHOP NOW"
@@ -371,7 +371,7 @@
           "type": "collection",
           "settings": {
             "collection": "full-price",
-            "image": "shopify://shop_images/20.jpg",
+            "image": "shopify://shop_images/20PercentOff.jpg",
             "sub_heading": "",
             "heading": "",
             "button": "SHOP NOW"
@@ -381,6 +381,7 @@
           "type": "collection",
           "settings": {
             "collection": "sale",
+            "image": "shopify://shop_images/UpTo60.jpg",
             "sub_heading": "",
             "heading": "20-60% OFF",
             "button": "SHOP NOW"
@@ -392,7 +393,6 @@
         "collection_4WBnnJ",
         "collection_tCmpqH"
       ],
-      "disabled": true,
       "name": "SS - Collection #5",
       "settings": {
         "icon_size": 30,
@@ -484,11 +484,11 @@
         "button_color": "#121212",
         "button_hover_color": "#ffffff",
         "button_bg_color": "#ffffff",
-        "button_bg_hover_color": "#121212",
+        "button_bg_hover_color": "#F49600",
         "button_border_color": "#121212",
         "button_border_hover_color": "#121212",
         "sub_heading_color": "#ffffff",
-        "title_color": "#ffffff",
+        "title_color": "rgba(0,0,0,0)",
         "card_bg_color": "#dddddd",
         "card_border_color": "#121212",
         "card_overlay_color": "#121212",
