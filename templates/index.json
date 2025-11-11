@@ -239,7 +239,7 @@
           "settings": {
             "bubble_img": "shopify://shop_images/AllSale.jpg",
             "bubble_text": "All Sale",
-            "bubble_link": "https://goldenbreed.com.au/collections/mens-tees"
+            "bubble_link": "shopify://collections/full-price"
           }
         },
         "image_8PdA89": {
@@ -247,7 +247,7 @@
           "settings": {
             "bubble_img": "shopify://shop_images/20.jpg",
             "bubble_text": "20% Off",
-            "bubble_link": "https://goldenbreed.com.au/collections/mens-shorts"
+            "bubble_link": "https://goldenbreed.com.au/collections/all-new-arrivals"
           }
         },
         "image_rQhVNc": {
@@ -255,7 +255,7 @@
           "settings": {
             "bubble_img": "shopify://shop_images/20-60.jpg",
             "bubble_text": "20-60% Off",
-            "bubble_link": "https://goldenbreed.com.au/collections/mens-boardies"
+            "bubble_link": "https://goldenbreed.com.au/collections/sale"
           }
         },
         "image_K6mJbH": {
