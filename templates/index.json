@@ -247,7 +247,7 @@
           "settings": {
             "bubble_img": "shopify://shop_images/20.jpg",
             "bubble_text": "20% Off",
-            "bubble_link": "https://goldenbreed.com.au/collections/all-new-arrivals"
+            "bubble_link": "shopify://collections/best-sellers"
           }
         },
         "image_rQhVNc": {
@@ -370,7 +370,7 @@
         "collection_4WBnnJ": {
           "type": "collection",
           "settings": {
-            "collection": "full-price",
+            "collection": "best-sellers",
             "image": "shopify://shop_images/20PercentOff.jpg",
             "sub_heading": "",
             "heading": "",
