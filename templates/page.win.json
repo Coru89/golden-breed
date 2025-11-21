@@ -47,30 +47,60 @@
         "heading_GphGaD": {
           "type": "heading",
           "settings": {
-            "heading": "This competition has now closed.",
+            "heading": "Order today and enter the draw to win a $50 Golden Breed gift voucher. 10 winners drawn at random.",
             "heading_size": "h1"
-          }
-        },
-        "text_UEyAJD": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Follow us on Instagram to be the first to know about future competitions. </p>"
           }
         },
         "button_UdwGjR": {
           "type": "button",
           "settings": {
-            "button_label": "FOLLOW US ON INSTA",
-            "button_link": "https://www.instagram.com/goldenbreedsurf",
+            "button_label": "START SHOPPING",
+            "button_link": "shopify://collections/all-new-arrivals",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_GphGaD",
-        "text_UEyAJD",
         "button_UdwGjR"
       ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "rich_text_KcMX4d": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Na4kKj": {
+          "type": "heading",
+          "settings": {
+            "heading": "This competition has now closed.",
+            "heading_size": "h1"
+          }
+        },
+        "text_QbnCGi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Follow us on Instagram to be the first to know about future competitions. </p>"
+          }
+        },
+        "button_yFk3zz": {
+          "type": "button",
+          "settings": {
+            "button_label": "START SHOPPING",
+            "button_link": "shopify://collections/all-new-arrivals",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Na4kKj",
+        "text_QbnCGi",
+        "button_yFk3zz"
+      ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "background-1",
@@ -124,14 +154,13 @@
         "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1": {
           "type": "text",
           "settings": {
-            "text": "<h6><strong>Terms & Conditions: </strong>Entries close 11:59pm AEST, 12 October 2025. Open to Australian residents aged 18 years and over. To enter, complete the form on this page; bonus entries are available by tagging friends on the official Golden Breed x Archies competition post on Instagram. One winner will be selected at random to receive one $750 Golden Breed gift voucher and four pairs of Archies footwear of their choice (subject to availability). The prize is not transferable or redeemable for cash. The winner will be notified via email or Instagram within 48 hours of the competition ending. By entering, you agree to join the Golden Breed mailing list (you can unsubscribe at any time). This competition is not sponsored, endorsed or administered by, or associated with Instagram. Full terms and conditions are available at goldenbreed.com.au.</h6>"
+            "text": "<h6><strong>Terms & Conditions: </strong>Entries close 11:59pm AEST, 22 November 2025. Open to Australian residents aged 18 years and over. To enter, place an order on goldenbreed.com.au during the promotional period. One entry per order placed. Ten (10) winners will be selected at random to each receive one $50 Golden Breed gift voucher. The prize is not transferable or redeemable for cash. Winners will be notified via email within 7 days of the competition ending. Gift vouchers are valid for 12 months from date of issue and can be used online at goldenbreed.com.au. By entering, you agree to join the Golden Breed mailing list (you can unsubscribe at any time).</h6>"
           }
         }
       },
       "block_order": [
         "template--15333544788167__0471e7a0-b09a-4d40-917a-407deba17fa9-1688619428cf73fabd-1"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -141,6 +170,7 @@
   "order": [
     "image_banner_iPLe4n",
     "rich_text_hQfECP",
+    "rich_text_KcMX4d",
     "rich_text_tNg8Lr",
     "main",
     "custom_liquid_8apCec",
