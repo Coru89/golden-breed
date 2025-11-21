@@ -30,7 +30,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/September_20_-_Website_Desktop_Header.jpg",
+        "image": "shopify://shop_images/November_23_-_Page_Banner.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -148,6 +148,23 @@
         "custom_liquid": "<div id=\"omnisend-embedded-v2-68c22ec95b0ed73b09357980\"></div>"
       }
     },
+    "featured_collection_LDB4Fb": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Shop now to get your entry",
+        "collection": "best-sellers",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "0471e7a0-b09a-4d40-917a-407deba17fa9": {
       "type": "rich-text",
       "blocks": {
@@ -165,23 +182,6 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "featured_collection_LDB4Fb": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "title": "Shop now to get your entry",
-        "collection": "best-sellers",
-        "products_to_show": 8,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
     }
   },
   "order": [
@@ -191,7 +191,7 @@
     "rich_text_tNg8Lr",
     "main",
     "custom_liquid_8apCec",
-    "0471e7a0-b09a-4d40-917a-407deba17fa9",
-    "featured_collection_LDB4Fb"
+    "featured_collection_LDB4Fb",
+    "0471e7a0-b09a-4d40-917a-407deba17fa9"
   ]
 }
