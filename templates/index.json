@@ -107,6 +107,7 @@
     },
     "custom_liquid_6z4PzY": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n  .gb-countdown {\n    background: #000;\n    padding: 20px 0;\n    text-align: center;\n    color: #fff;              /* makes text white */\n    font-weight: 600;         /* optional: makes it bolder */\n    letter-spacing: 0.5px;    /* optional: adds a bit of spacing */\n  }\n\n  .gb-countdown img {\n    max-width: 100%;\n    height: auto;\n    display: inline-block;\n  }\n\n  .shopify-section:has(.gb-countdown) {\n    margin: 0 !important;\n    padding: 0 !important;\n  }\n</style>\n\n<div class=\"gb-countdown\" role=\"timer\" aria-live=\"polite\">\n  FREE SHIPPING ENDS IN:<br>\n  <img\n    src=\"https://gen.sendtric.com/countdown/ysj5rgfbo0\"\n    alt=\"Countdown timer\"\n    loading=\"lazy\"\n    decoding=\"async\"\n  >\n</div>"
