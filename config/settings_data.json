@@ -48,9 +48,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "custom_css": [
-          ".announcement-bar {background-color: #000;}"
-        ],
+        "custom_css": [],
         "settings": {
           "color_scheme": "background-1",
           "menu": "announcement-bar-menu"
