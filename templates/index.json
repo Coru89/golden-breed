@@ -18,6 +18,7 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/November_23_-_Website_Header_Mobile.jpg",
         "banner_url": "https://goldenbreed.com.au/collections/all-new-arrivals",
@@ -51,6 +52,7 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/November_23_-_Desktop_Header_1.jpg",
@@ -82,7 +84,6 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Golden-Breed-Mens-Retro-Surf-Clothing.jpg",
@@ -191,7 +192,6 @@
         "image_cTbiUa",
         "image_Ht9bbA"
       ],
-      "disabled": true,
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
@@ -300,6 +300,7 @@
         "image_pEwA3h",
         "image_XyFRFm"
       ],
+      "disabled": true,
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
@@ -341,6 +342,7 @@
     },
     "image_banner_mMXHz7": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/GoldenFridayFeatures.jpg",
@@ -393,6 +395,7 @@
         "collection_4WBnnJ",
         "collection_tCmpqH"
       ],
+      "disabled": true,
       "name": "SS - Collection #5",
       "settings": {
         "icon_size": 30,
