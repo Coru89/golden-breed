@@ -39,7 +39,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>FREE CAP</b> Orders Over $150 + Free Shipping Over $75",
+              "text": "<b>20% OFF</b> Selected Styles 4 Days Only + Free Shipping Over $75",
               "color_scheme": "background-1",
               "link": "shopify://collections/all-new-arrivals"
             }
@@ -48,7 +48,9 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "custom_css": [],
+        "custom_css": [
+          ".announcement-bar {background-color: #000;}"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "menu": "announcement-bar-menu"
@@ -214,26 +216,6 @@
         "type": "shopify://apps/unicorn/blocks/global-script/2d90b062-ef63-46b3-a57e-aa139cf3a1ef",
         "disabled": false,
         "settings": {}
-      },
-      "6810535121229352664": {
-        "type": "shopify://apps/monster-cart-upsell-free-gifts/blocks/app-embed/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
-        "disabled": true,
-        "settings": {
-          "markets_rounding": false,
-          "send_gtag_atc": false,
-          "disable_tiktok_tracking": false,
-          "disable_klaviyo_tracking": false,
-          "stop_cart_page": false,
-          "apply_discount_before_checkout": false,
-          "bag_selector": "",
-          "hide_when_opened": "",
-          "show_item_properties": false,
-          "stop_shopify_rate": true,
-          "dev_mode": false,
-          "force_v1_scripts": false,
-          "beta_version": false,
-          "custom_code": "<script>\n    // custom code here\n</script>"
-        }
       },
       "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
         "type": "shopify://apps/back-in-stock-restock-alerts/blocks/main/4bb73be2-b7c2-4870-949f-c528145452a3",
