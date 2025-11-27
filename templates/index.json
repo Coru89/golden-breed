@@ -191,7 +191,6 @@
         "image_cTbiUa",
         "image_Ht9bbA"
       ],
-      "disabled": true,
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
@@ -300,6 +299,7 @@
         "image_pEwA3h",
         "image_XyFRFm"
       ],
+      "disabled": true,
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
