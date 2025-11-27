@@ -45,10 +45,9 @@
         "text_M83X69",
         "buttons_aLgALh"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/GoldenFriday-ThinBanner_e5068e96-0299-4ae2-8373-d4c47b798263.jpg",
+        "image": "shopify://shop_images/GoldenFriday-ThinBanner_2.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",

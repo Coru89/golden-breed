@@ -191,6 +191,7 @@
         "image_cTbiUa",
         "image_Ht9bbA"
       ],
+      "disabled": true,
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
@@ -233,20 +234,20 @@
     "ss_circle_menu_g8eJJb": {
       "type": "ss-circle-menu",
       "blocks": {
+        "image_8PdA89": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/20.jpg",
+            "bubble_text": "20% Off",
+            "bubble_link": "shopify://collections/bfcm"
+          }
+        },
         "image_kLhaXr": {
           "type": "Image",
           "settings": {
             "bubble_img": "shopify://shop_images/AllSale.jpg",
             "bubble_text": "All Sale",
             "bubble_link": "shopify://collections/all-new-arrivals"
-          }
-        },
-        "image_8PdA89": {
-          "type": "Image",
-          "settings": {
-            "bubble_img": "shopify://shop_images/20.jpg",
-            "bubble_text": "20% Off",
-            "bubble_link": "shopify://collections/best-sellers"
           }
         },
         "image_rQhVNc": {
@@ -261,7 +262,7 @@
           "type": "Image",
           "settings": {
             "bubble_img": "shopify://shop_images/Boardies-5.jpg",
-            "bubble_text": "Men's Sale",
+            "bubble_text": "Shop Men's",
             "bubble_link": "https://goldenbreed.com.au/collections/mens"
           }
         },
@@ -291,15 +292,14 @@
         }
       },
       "block_order": [
-        "image_kLhaXr",
         "image_8PdA89",
+        "image_kLhaXr",
         "image_rQhVNc",
         "image_K6mJbH",
         "image_VK8WDp",
         "image_pEwA3h",
         "image_XyFRFm"
       ],
-      "disabled": true,
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
