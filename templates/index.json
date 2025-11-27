@@ -19,7 +19,7 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/November_28_-_Desktop_Header.jpg",
+        "image": "shopify://shop_images/November_28_-_Website_Header_Mobile.jpg",
         "banner_url": "shopify://collections/bfcm",
         "image_height": "medium",
         "adapt_height_first_image": true,
