@@ -52,11 +52,11 @@
         "buttons_Lf63bB"
       ],
       "custom_css": [
-        ".button--primary {background-color: #FFB03D !important; border-color: #FFB03D !important; color: #fff !important;}",
-        ".button.button--primary:hover {box-shadow: 0 0 0 2px #FFB03D !important; outline: none !important; background-color: #FFB03D !important; border: 1px solid #FFB03D !important; color: #ffffff !important;}"
+        ".button--primary {background-color: #ffb03d !important; border-color: #ffb03d !important; color: #fff !important;}",
+        ".button.button--primary:hover {box-shadow: 0 0 0 2px #ffb03d !important; outline: none !important; background-color: #ffb03d !important; border: 1px solid #ffb03d !important; color: #ffffff !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/November_28_-_Desktop_Header.jpg",
+        "image": "shopify://shop_images/November_28_-_Desktop_Header_1.jpg",
         "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
