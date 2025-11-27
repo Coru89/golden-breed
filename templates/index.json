@@ -19,8 +19,8 @@
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
       "settings": {
-        "image": "shopify://shop_images/November_23_-_Website_Header_Mobile.jpg",
-        "banner_url": "https://goldenbreed.com.au/collections/all-new-arrivals",
+        "image": "shopify://shop_images/November_28_-_Desktop_Header.jpg",
+        "banner_url": "shopify://collections/bfcm",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
