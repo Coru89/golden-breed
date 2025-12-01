@@ -18,6 +18,7 @@
     },
     "mobile_hp_banner_LmaiVx": {
       "type": "mobile-hp-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/November_28_-_Website_Header_Mobile.jpg",
         "banner_url": "shopify://collections/bfcm",
@@ -51,6 +52,7 @@
       "block_order": [
         "buttons_Lf63bB"
       ],
+      "disabled": true,
       "custom_css": [
         ".button--primary {background-color: #ffb03d !important; border-color: #ffb03d !important; color: #fff !important;}",
         ".button.button--primary:hover {box-shadow: 0 0 0 2px #ffb03d !important; outline: none !important; background-color: #ffb03d !important; border: 1px solid #ffb03d !important; color: #ffffff !important;}"
@@ -85,7 +87,6 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Golden-Breed-Mens-Retro-Surf-Clothing.jpg",
@@ -119,14 +120,6 @@
     "ss_circle_menu_3Kc9Mc": {
       "type": "ss-circle-menu",
       "blocks": {
-        "image_qbkbTf": {
-          "type": "Image",
-          "settings": {
-            "bubble_img": "shopify://shop_images/20.jpg",
-            "bubble_text": "20% Off Sale",
-            "bubble_link": "shopify://collections/bfcm"
-          }
-        },
         "image_V7NzxG": {
           "type": "Image",
           "settings": {
@@ -149,6 +142,14 @@
             "bubble_img": "shopify://shop_images/EB2_8637_resized_a823ea48-cd73-4a83-93b8-7235c2157f95.jpg",
             "bubble_text": "Boardies",
             "bubble_link": "https://goldenbreed.com.au/collections/mens-boardies"
+          }
+        },
+        "image_qbkbTf": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/EB2_9659.jpg",
+            "bubble_text": "Hawaiian Shirts",
+            "bubble_link": "shopify://collections/golden-breed-hawaiian-shirts"
           }
         },
         "image_B9phfh": {
@@ -185,10 +186,10 @@
         }
       },
       "block_order": [
-        "image_qbkbTf",
         "image_V7NzxG",
         "image_MjUWLA",
         "image_exRGmt",
+        "image_qbkbTf",
         "image_B9phfh",
         "image_MrVBLj",
         "image_cTbiUa",
@@ -344,6 +345,7 @@
     },
     "image_banner_mMXHz7": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/GoldenFriday-ThinBanner_2.jpg",
