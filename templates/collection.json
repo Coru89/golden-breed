@@ -45,6 +45,7 @@
         "text_M83X69",
         "buttons_aLgALh"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/GoldenFriday-ThinBanner_2.jpg",
