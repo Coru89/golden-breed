@@ -39,18 +39,16 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>20% OFF</b> Selected Styles 4 Days Only + Free Shipping Over $75",
+              "text": "<b>FREE cap orders over $150</b> + Free Shipping Over $75",
               "color_scheme": "background-1",
-              "link": "shopify://collections/all-new-arrivals"
+              "link": "shopify://collections/bfcm"
             }
           }
         },
         "block_order": [
           "announcement-bar-0"
         ],
-        "custom_css": [
-          ".announcement-bar {background-color: #000;}"
-        ],
+        "custom_css": [],
         "settings": {
           "color_scheme": "background-1",
           "menu": "announcement-bar-menu"
