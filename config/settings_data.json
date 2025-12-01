@@ -39,7 +39,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<b>FREE cap orders over $150</b> + Free Shipping Over $75",
+              "text": "<b>FREE Cap Orders Over $150</b> + Free Shipping Over $75",
               "color_scheme": "background-1",
               "link": "shopify://collections/bfcm"
             }
