@@ -75,7 +75,7 @@
         "16389277979e6dee71-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP THE GIFT GUIDE",
+            "button_label_1": "SHOP GIFTS",
             "button_link_1": "https://goldenbreed.com.au/collections/all-gifts-1",
             "button_style_secondary_1": false,
             "button_label_2": "SHOP NEW ARRIVALS",
@@ -87,16 +87,19 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".button--primary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}",
+        ".banner__box {padding: 8rem;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Christmas-DesktopHeader.jpg",
         "title-1": "",
-        "button-text-1": "SHOP THE GIFT GUIDE",
+        "button-text-1": "SHOP GIFTS",
         "link-1": "https://goldenbreed.com.au/collections/all-gifts-1",
         "button_custom_link_attributes_1": "",
         "image_2": "shopify://shop_images/NewArrivals-DesktopHeader_1.jpg",
         "title-2": "",
-        "button-text-2": "SHOP NEW ARRIVALS",
+        "button-text-2": "NEW ARRIVALS",
         "link-2": "shopify://collections/all-new-arrivals",
         "button_custom_link_attributes_2": "",
         "image_height": "small",
