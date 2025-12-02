@@ -87,10 +87,7 @@
       "block_order": [
         "16389277979e6dee71-2"
       ],
-      "custom_css": [
-        ".button--primary {background-color: #ffffff !important; border-color: #ffffff !important; color: #265979 !important;}",
-        ".banner__box {padding: 8rem;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Christmas-DesktopHeader.jpg",
         "title-1": "",
