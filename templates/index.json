@@ -75,8 +75,8 @@
         "16389277979e6dee71-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Men's",
-            "button_link_1": "shopify://collections/father-s-day-gift-guide",
+            "button_label_1": "SHOP THE GIFT GUIDE",
+            "button_link_1": "https://goldenbreed.com.au/collections/all-gifts-1",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
