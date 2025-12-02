@@ -101,7 +101,7 @@
         "title-2": "",
         "button-text-2": "SHOP NEW ARRIVALS",
         "link-2": "shopify://collections/all-new-arrivals",
-        "button_custom_link_attributes_2": "",
+        "button_custom_link_attributes_2": "https://goldenbreed.com.au/collections/all-new-arrivals",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
