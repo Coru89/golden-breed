@@ -368,8 +368,8 @@
         "collection_miBEgR": {
           "type": "collection",
           "settings": {
-            "collection": "all-new-arrivals",
-            "image": "shopify://shop_images/AllSale-Large.jpg",
+            "collection": "gifts-under-50",
+            "image": "shopify://shop_images/Under50.png",
             "sub_heading": "",
             "heading": "",
             "button": "SHOP NOW"
@@ -378,8 +378,8 @@
         "collection_4WBnnJ": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
-            "image": "shopify://shop_images/20PercentOff.jpg",
+            "collection": "gifts-under-100",
+            "image": "shopify://shop_images/Under100.png",
             "sub_heading": "",
             "heading": "",
             "button": "SHOP NOW"
@@ -388,8 +388,8 @@
         "collection_tCmpqH": {
           "type": "collection",
           "settings": {
-            "collection": "sale",
-            "image": "shopify://shop_images/UpTo60.jpg",
+            "collection": "all-gifts-1",
+            "image": "shopify://shop_images/AllGifts.png",
             "sub_heading": "",
             "heading": "20-60% OFF",
             "button": "SHOP NOW"
@@ -401,7 +401,6 @@
         "collection_4WBnnJ",
         "collection_tCmpqH"
       ],
-      "disabled": true,
       "name": "SS - Collection #5",
       "settings": {
         "icon_size": 30,
