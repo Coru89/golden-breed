@@ -857,6 +857,7 @@
     },
     "image_banner_rLyg3c": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/GF-Banner.jpg",
