@@ -105,7 +105,10 @@
             "text": "Men's",
             "url": "",
             "submenu": "mens",
-            "collections": [],
+            "collections": [
+              "mens-restocked",
+              "men-new-arrivals"
+            ],
             "collection_title": true,
             "title": "",
             "first_url": "",
