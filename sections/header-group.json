@@ -46,6 +46,7 @@
         "text_KfJ4nz",
         "text_8UFkBg"
       ],
+      "disabled": true,
       "name": "SS - Scrolling announcement bar",
       "settings": {
         "insert_css_class_target": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper",
