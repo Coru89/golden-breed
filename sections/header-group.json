@@ -75,10 +75,12 @@
             "submenu": "gift-guide",
             "collections": [],
             "collection_title": true,
-            "title": "",
-            "first_url": "",
-            "second_title": "",
-            "second_url": "",
+            "image": "shopify://shop_images/EB2_0004.jpg",
+            "title": "Gifts for Him",
+            "first_url": "shopify://collections/gifts-for-him",
+            "second_image": "shopify://shop_images/EB2_9668.jpg",
+            "second_title": "Gifts for Her",
+            "second_url": "shopify://collections/gifts-for-her",
             "third_title": "",
             "third_url": ""
           }
@@ -158,7 +160,7 @@
           "settings": {
             "text": "Surfboards",
             "url": "",
-            "submenu": "",
+            "submenu": "surfboards",
             "collections": [],
             "collection_title": true,
             "image": "shopify://shop_images/EB2_7725_resized.jpg",
@@ -178,10 +180,12 @@
             "submenu": "sale",
             "collections": [],
             "collection_title": true,
-            "title": "",
-            "first_url": "",
-            "second_title": "",
-            "second_url": "",
+            "image": "shopify://shop_images/EB2_5984_resized.jpg",
+            "title": "Shop Men's Sale",
+            "first_url": "shopify://collections/sale-men",
+            "second_image": "shopify://shop_images/EB2_8217resized.jpg",
+            "second_title": "Shop Women's Sale",
+            "second_url": "shopify://collections/women-sale",
             "third_title": "",
             "third_url": ""
           }
