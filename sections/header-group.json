@@ -126,10 +126,12 @@
             "submenu": "womens",
             "collections": [],
             "collection_title": true,
-            "title": "",
-            "first_url": "",
-            "second_title": "",
-            "second_url": "",
+            "image": "shopify://shop_images/EB2_9749.jpg",
+            "title": "Shop New Arrivals",
+            "first_url": "shopify://collections/women-new-arrivals",
+            "second_image": "shopify://shop_images/EB2_7729_c1bc750b-f452-4551-815f-ebb3fca7ea5b.jpg",
+            "second_title": "Shop Swim",
+            "second_url": "shopify://collections/lazy-beach-swim",
             "third_title": "",
             "third_url": ""
           }
