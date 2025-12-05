@@ -105,15 +105,14 @@
             "text": "Men's",
             "url": "",
             "submenu": "mens",
-            "collections": [
-              "mens-restocked",
-              "men-new-arrivals"
-            ],
+            "collections": [],
             "collection_title": true,
-            "title": "",
-            "first_url": "",
-            "second_title": "",
-            "second_url": "",
+            "image": "shopify://shop_images/EB2_9655_e651f7bd-baa1-4e92-a4f7-96b569205cb2.jpg",
+            "title": "Shop New Arrivals",
+            "first_url": "shopify://collections/men-new-arrivals",
+            "second_image": "shopify://shop_images/EB2_0101.jpg",
+            "second_title": "Shop Best Sellers",
+            "second_url": "shopify://collections/mens-best-sellers",
             "third_title": "",
             "third_url": ""
           }
